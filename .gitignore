@@ -62,3 +62,6 @@
 /aspnet-core/services/ZQH.MicroService.AuthServer.HttpApi.Host/appsettings.json
 /aspnet-core/services/ZQH.MicroService.AuthServer.HttpApi.Host/obj/Debug/net8.0/ZQH.MicroService.AuthServer.HttpApi.Host.AssemblyInfo.cs
 /aspnet-core/services/ZQH.MicroService.AuthServer.HttpApi.Host/obj/Debug/net8.0/ZQH.MicroService.AuthServer.HttpApi.Host.AssemblyInfoInputs.cache
+/aspnet-core/services/ZQH.MicroService.AuthServer.HttpApi.Host/appsettings.Development.json
+/aspnet-core/services/ZQH.MicroService.AuthServer.HttpApi.Host/AuthServerHttpApiHostModule.Configure.cs
+/aspnet-core/services/ZQH.MicroService.AuthServer.HttpApi.Host/AuthServerHttpApiHostModule.Seeder.cs
