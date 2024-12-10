@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZQH.MicroService.AuthServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bcccc5ab13a84e2c0c23a49c7193fc69eb75e477")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a10a55ec0659b370cc51a4595e09978fe74b855b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZQH.MicroService.AuthServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZQH.MicroService.AuthServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

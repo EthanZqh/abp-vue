@@ -757,11 +757,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZQH.Microservices.Product.D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZQH.Microservices.Product.EntityFrameworkCore", "migrations\ZQH.Microservices.Product.EntityFrameworkCore\ZQH.Microservices.Product.EntityFrameworkCore.csproj", "{FFD05186-61CB-4BF3-BDD2-FE85AC74C790}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test git", "test git", "{CD9B6964-AE90-47B6-AF06-1B8C3C4A929C}"
-	ProjectSection(SolutionItems) = preProject
-		TextFile2.txt = TextFile2.txt
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2317,7 +2312,6 @@ Global
 		{3A44ACA9-335E-44A3-86F6-78D48E0A5409} = {C90A505F-000E-4AE4-8CCD-AB5FE5092B5C}
 		{DFB9EA5B-A9A2-4AE9-ACBA-2144B59116E2} = {3A44ACA9-335E-44A3-86F6-78D48E0A5409}
 		{FFD05186-61CB-4BF3-BDD2-FE85AC74C790} = {3A44ACA9-335E-44A3-86F6-78D48E0A5409}
-		{CD9B6964-AE90-47B6-AF06-1B8C3C4A929C} = {C5CAD011-DF84-4914-939C-0C029DCEF26F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C95FDF91-16F2-4A8B-A4BE-0E62D1B66718}
