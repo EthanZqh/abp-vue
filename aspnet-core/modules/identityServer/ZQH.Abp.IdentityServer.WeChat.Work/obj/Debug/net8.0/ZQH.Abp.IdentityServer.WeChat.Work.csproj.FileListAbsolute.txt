@@ -1,0 +1,16 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.IdentityServer.WeChat.Work.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.IdentityServer.WeChat.Work.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.IdentityServer.WeChat.Work.pdb
+E:\abp-vue\aspnet-core\modules\identityServer\ZQH.Abp.IdentityServer.WeChat.Work\obj\Debug\net8.0\ZQH.Abp.IdentityServer.WeChat.Work.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\identityServer\ZQH.Abp.IdentityServer.WeChat.Work\obj\Debug\net8.0\ZQH.Abp.IdentityServer.WeChat.Work.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\identityServer\ZQH.Abp.IdentityServer.WeChat.Work\obj\Debug\net8.0\ZQH.Abp.IdentityServer.WeChat.Work.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\identityServer\ZQH.Abp.IdentityServer.WeChat.Work\obj\Debug\net8.0\ZQH.Abp.IdentityServer.WeChat.Work.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\identityServer\ZQH.Abp.IdentityServer.WeChat.Work\obj\Debug\net8.0\ZQH.Abp.IdentityServer.WeChat.Work.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\identityServer\ZQH.Abp.IdentityServer.WeChat.Work\obj\Debug\net8.0\ZQH.Abp.IdentityServer.WeChat.Work.sourcelink.json
+E:\abp-vue\aspnet-core\modules\identityServer\ZQH.Abp.IdentityServer.WeChat.Work\obj\Debug\net8.0\ZQH.Abp.IdentityServer.WeChat.Work.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\identityServer\ZQH.Abp.IdentityServer.WeChat.Work\obj\Debug\net8.0\ZQH.Abp.IdentityServer.WeChat.Work.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\identityServer\ZQH.Abp.IdentityServer.WeChat.Work\obj\Debug\net8.0\ZQH.Abp.IdentityServer.WeChat.Work.csproj.CopyComplete
+E:\abp-vue\aspnet-core\modules\identityServer\ZQH.Abp.IdentityServer.WeChat.Work\obj\Debug\net8.0\ZQH.Abp.IdentityServer.WeChat.Work.dll
+E:\abp-vue\aspnet-core\modules\identityServer\ZQH.Abp.IdentityServer.WeChat.Work\obj\Debug\net8.0\refint\ZQH.Abp.IdentityServer.WeChat.Work.dll
+E:\abp-vue\aspnet-core\modules\identityServer\ZQH.Abp.IdentityServer.WeChat.Work\obj\Debug\net8.0\ZQH.Abp.IdentityServer.WeChat.Work.pdb
+E:\abp-vue\aspnet-core\modules\identityServer\ZQH.Abp.IdentityServer.WeChat.Work\obj\Debug\net8.0\ref\ZQH.Abp.IdentityServer.WeChat.Work.dll

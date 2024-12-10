@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "DyEP3AD6WhDeBfEp1uFmQa459Vmy7PKgXC7Y1Zbusbk=",
+  "Source": "ZQH.MicroService.Workflows.ElsaHttpApi.Host",
+  "BasePath": "_content/ZQH.MicroService.Workflows.ElsaHttpApi.Host",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

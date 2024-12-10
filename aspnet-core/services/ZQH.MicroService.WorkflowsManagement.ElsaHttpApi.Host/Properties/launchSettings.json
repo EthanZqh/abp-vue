@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "ElsaHttpApiHost": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://127.0.0.1:5002;http://127.0.0.1:61973"
+    }
+  }
+
+}

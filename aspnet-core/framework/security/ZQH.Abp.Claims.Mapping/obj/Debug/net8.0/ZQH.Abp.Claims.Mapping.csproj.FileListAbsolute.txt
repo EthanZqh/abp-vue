@@ -1,0 +1,15 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Claims.Mapping.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Claims.Mapping.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Claims.Mapping.pdb
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Claims.Mapping\obj\Debug\net8.0\ZQH.Abp.Claims.Mapping.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Claims.Mapping\obj\Debug\net8.0\ZQH.Abp.Claims.Mapping.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Claims.Mapping\obj\Debug\net8.0\ZQH.Abp.Claims.Mapping.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Claims.Mapping\obj\Debug\net8.0\ZQH.Abp.Claims.Mapping.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Claims.Mapping\obj\Debug\net8.0\ZQH.Abp.Claims.Mapping.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Claims.Mapping\obj\Debug\net8.0\ZQH.Abp.Claims.Mapping.sourcelink.json
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Claims.Mapping\obj\Debug\net8.0\ZQH.Abp.Claims.Mapping.dll
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Claims.Mapping\obj\Debug\net8.0\refint\ZQH.Abp.Claims.Mapping.dll
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Claims.Mapping\obj\Debug\net8.0\ZQH.Abp.Claims.Mapping.pdb
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Claims.Mapping\obj\Debug\net8.0\ref\ZQH.Abp.Claims.Mapping.dll
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Claims.Mapping\obj\Debug\net8.0\ZQH.Abp.Claims.Mapping.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Claims.Mapping\obj\Debug\net8.0\ZQH.Abp.Claims.Mapping.csproj.Fody.RuntimeCopyLocal.cache

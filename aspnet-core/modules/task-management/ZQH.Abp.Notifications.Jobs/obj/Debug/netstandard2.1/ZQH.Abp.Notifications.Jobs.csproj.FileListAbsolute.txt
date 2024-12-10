@@ -1,0 +1,14 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Notifications.Jobs.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Notifications.Jobs.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Notifications.Jobs.pdb
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Notifications.Jobs\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Jobs.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Notifications.Jobs\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Jobs.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Notifications.Jobs\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Jobs.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Notifications.Jobs\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Jobs.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Notifications.Jobs\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Jobs.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Notifications.Jobs\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Jobs.sourcelink.json
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Notifications.Jobs\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Jobs.csproj.CopyComplete
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Notifications.Jobs\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Jobs.dll
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Notifications.Jobs\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Jobs.pdb
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Notifications.Jobs\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Jobs.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Notifications.Jobs\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Jobs.csproj.Fody.RuntimeCopyLocal.cache

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ZQH.MicroService.Workflows.ElsaHttpApi.Host.props" />
+</Project>

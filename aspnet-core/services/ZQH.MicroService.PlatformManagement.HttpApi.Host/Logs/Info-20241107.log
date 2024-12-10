@@ -1,0 +1,51 @@
+2024-11-07 04:59:11 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [67] - RabbitMQ consumer cancelled. --> amq.ctag-xyo9C48TTSEuT3Xjcn_p2g
+2024-11-07 04:59:11 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [67] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-07 04:59:11 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [67] - RabbitMQ consumer cancelled. --> amq.ctag-eSirBpdOuxOSoGjziR_KrA
+2024-11-07 04:59:11 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [67] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-07 04:59:16 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [93] - RabbitMQ consumer registered. --> amq.ctag-xyo9C48TTSEuT3Xjcn_p2g
+2024-11-07 04:59:16 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [69] - RabbitMQ consumer registered. --> amq.ctag-eSirBpdOuxOSoGjziR_KrA
+2024-11-07 12:12:05 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [92] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-07 12:12:05 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [92] - Start cleanup.
+2024-11-07 12:12:05 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [92] - Start cleanup host temp objects.
+2024-11-07 12:12:05 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [48] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-07 14:49:14 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [135] - RabbitMQ consumer cancelled. --> amq.ctag-xyo9C48TTSEuT3Xjcn_p2g
+2024-11-07 14:49:15 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [135] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-07 14:49:15 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [135] - RabbitMQ consumer cancelled. --> amq.ctag-eSirBpdOuxOSoGjziR_KrA
+2024-11-07 14:49:15 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [135] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-07 14:49:19 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [99] - RabbitMQ consumer registered. --> amq.ctag-xyo9C48TTSEuT3Xjcn_p2g
+2024-11-07 14:49:19 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [136] - RabbitMQ consumer registered. --> amq.ctag-eSirBpdOuxOSoGjziR_KrA
+2024-11-07 15:20:36 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [137] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-07 15:20:36 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [137] - Start cleanup.
+2024-11-07 15:20:36 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [137] - Start cleanup host temp objects.
+2024-11-07 15:20:36 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [71] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-07 16:20:36 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [22] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-07 16:20:36 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [22] - Start cleanup.
+2024-11-07 16:20:36 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [22] - Start cleanup host temp objects.
+2024-11-07 16:20:36 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [22] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-07 17:20:36 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [51] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-07 17:20:36 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [51] - Start cleanup.
+2024-11-07 17:20:36 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [51] - Start cleanup host temp objects.
+2024-11-07 17:20:36 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [106] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-07 18:13:32 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [43] - RabbitMQ consumer cancelled. --> amq.ctag-xyo9C48TTSEuT3Xjcn_p2g
+2024-11-07 18:13:40 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [43] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-07 18:23:21 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [43] - RabbitMQ consumer cancelled. --> amq.ctag-eSirBpdOuxOSoGjziR_KrA
+2024-11-07 18:23:22 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [43] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-07 18:23:22 [WRN] [DotNetCore.CAP.Processor.TransportCheckProcessor] [15700] [81] - Transport connection is unhealthy, reconnection...
+2024-11-07 18:23:23 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [43] - RabbitMQ consumer registered. --> amq.ctag-VmRtM3fkXCb_gim0gCZ3AQ
+2024-11-07 18:23:23 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [89] - RabbitMQ consumer registered. --> amq.ctag-B3UJBg2fS90D2DhUrTpa7w
+2024-11-07 19:08:51 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [22] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-07 19:08:51 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [22] - Start cleanup.
+2024-11-07 19:08:51 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [22] - Start cleanup host temp objects.
+2024-11-07 19:08:51 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [22] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-07 21:02:10 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [32] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-07 21:02:10 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [32] - Start cleanup.
+2024-11-07 21:02:10 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [32] - Start cleanup host temp objects.
+2024-11-07 21:02:10 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [32] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-07 22:02:10 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [115] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-07 22:02:10 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [115] - Start cleanup.
+2024-11-07 22:02:10 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [115] - Start cleanup host temp objects.
+2024-11-07 22:02:10 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [100] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-07 23:17:23 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [88] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-07 23:17:23 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [88] - Start cleanup.
+2024-11-07 23:17:23 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [88] - Start cleanup host temp objects.
+2024-11-07 23:17:23 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [61] - Lock is released for OssObjectTempCleanupBackgroundWorker

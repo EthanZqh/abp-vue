@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;netstandard2.1;net8.0</TargetFrameworks>
+		<AssemblyName>ZQH.Abp.BackgroundTasks.Notifications</AssemblyName>
+		<PackageId>ZQH.Abp.BackgroundTasks.Notifications</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="LINGYUN\**" />
+	  <EmbeddedResource Remove="LINGYUN\**" />
+	  <None Remove="LINGYUN\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\realtime-notifications\ZQH.Abp.Notifications\ZQH.Abp.Notifications.csproj" />
+		<ProjectReference Include="..\ZQH.Abp.BackgroundTasks.Activities\ZQH.Abp.BackgroundTasks.Activities.csproj" />
+	</ItemGroup>
+
+</Project>

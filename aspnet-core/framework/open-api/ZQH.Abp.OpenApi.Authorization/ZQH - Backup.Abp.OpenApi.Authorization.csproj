@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>ZQH.Abp.OpenApi.Authorization</AssemblyName>
+		<PackageId>ZQH.Abp.OpenApi.Authorization</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Volo.Abp.AspNetCore" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\common\ZQH.Abp.Wrapper\ZQH.Abp.Wrapper.csproj" />
+	  <ProjectReference Include="..\ZQH.Abp.OpenApi\ZQH.Abp.OpenApi.csproj" />
+	</ItemGroup>
+
+</Project>

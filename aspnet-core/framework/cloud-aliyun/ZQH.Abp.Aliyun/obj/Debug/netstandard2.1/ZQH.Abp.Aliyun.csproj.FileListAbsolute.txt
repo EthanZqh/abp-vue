@@ -1,0 +1,14 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Aliyun.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Aliyun.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Aliyun.pdb
+E:\abp-vue\aspnet-core\framework\cloud-aliyun\ZQH.Abp.Aliyun\obj\Debug\netstandard2.1\ZQH.Abp.Aliyun.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\cloud-aliyun\ZQH.Abp.Aliyun\obj\Debug\netstandard2.1\ZQH.Abp.Aliyun.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\cloud-aliyun\ZQH.Abp.Aliyun\obj\Debug\netstandard2.1\ZQH.Abp.Aliyun.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\cloud-aliyun\ZQH.Abp.Aliyun\obj\Debug\netstandard2.1\ZQH.Abp.Aliyun.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\cloud-aliyun\ZQH.Abp.Aliyun\obj\Debug\netstandard2.1\ZQH.Abp.Aliyun.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\cloud-aliyun\ZQH.Abp.Aliyun\obj\Debug\netstandard2.1\ZQH.Abp.Aliyun.sourcelink.json
+E:\abp-vue\aspnet-core\framework\cloud-aliyun\ZQH.Abp.Aliyun\obj\Debug\netstandard2.1\ZQH.Abp.Aliyun.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\cloud-aliyun\ZQH.Abp.Aliyun\obj\Debug\netstandard2.1\ZQH.Abp.Aliyun.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\cloud-aliyun\ZQH.Abp.Aliyun\obj\Debug\netstandard2.1\ZQH.Abp.Aliyun.csproj.CopyComplete
+E:\abp-vue\aspnet-core\framework\cloud-aliyun\ZQH.Abp.Aliyun\obj\Debug\netstandard2.1\ZQH.Abp.Aliyun.dll
+E:\abp-vue\aspnet-core\framework\cloud-aliyun\ZQH.Abp.Aliyun\obj\Debug\netstandard2.1\ZQH.Abp.Aliyun.pdb

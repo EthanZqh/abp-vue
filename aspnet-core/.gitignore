@@ -1,0 +1,8 @@
+.vs
+LocalNuget
+Publish
+*.DotSettings.user
+**/*.csproj.user
+nupkg
+consoles
+*.configs.cache

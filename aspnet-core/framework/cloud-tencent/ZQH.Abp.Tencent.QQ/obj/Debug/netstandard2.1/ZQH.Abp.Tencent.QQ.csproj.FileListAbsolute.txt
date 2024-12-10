@@ -1,0 +1,14 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Tencent.QQ.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Tencent.QQ.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Tencent.QQ.pdb
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Tencent.QQ\obj\Debug\netstandard2.1\ZQH.Abp.Tencent.QQ.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Tencent.QQ\obj\Debug\netstandard2.1\ZQH.Abp.Tencent.QQ.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Tencent.QQ\obj\Debug\netstandard2.1\ZQH.Abp.Tencent.QQ.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Tencent.QQ\obj\Debug\netstandard2.1\ZQH.Abp.Tencent.QQ.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Tencent.QQ\obj\Debug\netstandard2.1\ZQH.Abp.Tencent.QQ.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Tencent.QQ\obj\Debug\netstandard2.1\ZQH.Abp.Tencent.QQ.sourcelink.json
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Tencent.QQ\obj\Debug\netstandard2.1\ZQH.Abp.Tencent.QQ.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Tencent.QQ\obj\Debug\netstandard2.1\ZQH.Abp.Tencent.QQ.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Tencent.QQ\obj\Debug\netstandard2.1\ZQH.Abp.Tencent.QQ.csproj.CopyComplete
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Tencent.QQ\obj\Debug\netstandard2.1\ZQH.Abp.Tencent.QQ.dll
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Tencent.QQ\obj\Debug\netstandard2.1\ZQH.Abp.Tencent.QQ.pdb

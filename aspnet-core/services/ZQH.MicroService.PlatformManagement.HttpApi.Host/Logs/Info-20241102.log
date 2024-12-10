@@ -1,0 +1,20 @@
+2024-11-02 02:05:17 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [92] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-02 02:05:18 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [92] - Start cleanup.
+2024-11-02 02:05:18 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [92] - Start cleanup host temp objects.
+2024-11-02 02:05:18 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [92] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-02 03:05:18 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [91] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-02 03:05:18 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [91] - Start cleanup.
+2024-11-02 03:05:18 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [91] - Start cleanup host temp objects.
+2024-11-02 03:05:18 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [80] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-02 10:20:48 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [39] - RabbitMQ consumer cancelled. --> amq.ctag-synJKmYNIZAjlQyb0jBvTw
+2024-11-02 10:20:59 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [39] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-02 10:20:59 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [39] - RabbitMQ consumer cancelled. --> amq.ctag-yHYbX6WyGT1_UKqx_-MZfg
+2024-11-02 10:20:59 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [39] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-02 10:20:59 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [115] - RabbitMQ consumer registered. --> amq.ctag-synJKmYNIZAjlQyb0jBvTw
+2024-11-02 10:20:59 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [22] - RabbitMQ consumer registered. --> amq.ctag-yHYbX6WyGT1_UKqx_-MZfg
+2024-11-02 14:37:08 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [24] - RabbitMQ consumer cancelled. --> amq.ctag-synJKmYNIZAjlQyb0jBvTw
+2024-11-02 14:37:08 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [24] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-02 14:37:11 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [24] - RabbitMQ consumer cancelled. --> amq.ctag-yHYbX6WyGT1_UKqx_-MZfg
+2024-11-02 14:37:11 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [24] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-02 14:37:14 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [24] - RabbitMQ consumer registered. --> amq.ctag-synJKmYNIZAjlQyb0jBvTw
+2024-11-02 14:37:14 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [115] - RabbitMQ consumer registered. --> amq.ctag-yHYbX6WyGT1_UKqx_-MZfg

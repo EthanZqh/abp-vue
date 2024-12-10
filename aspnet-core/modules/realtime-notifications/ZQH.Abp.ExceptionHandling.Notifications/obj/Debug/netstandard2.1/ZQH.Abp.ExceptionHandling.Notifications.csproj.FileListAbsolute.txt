@@ -1,0 +1,14 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.ExceptionHandling.Notifications.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.ExceptionHandling.Notifications.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.ExceptionHandling.Notifications.pdb
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.ExceptionHandling.Notifications\obj\Debug\netstandard2.1\ZQH.Abp.ExceptionHandling.Notifications.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.ExceptionHandling.Notifications\obj\Debug\netstandard2.1\ZQH.Abp.ExceptionHandling.Notifications.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.ExceptionHandling.Notifications\obj\Debug\netstandard2.1\ZQH.Abp.ExceptionHandling.Notifications.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.ExceptionHandling.Notifications\obj\Debug\netstandard2.1\ZQH.Abp.ExceptionHandling.Notifications.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.ExceptionHandling.Notifications\obj\Debug\netstandard2.1\ZQH.Abp.ExceptionHandling.Notifications.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.ExceptionHandling.Notifications\obj\Debug\netstandard2.1\ZQH.Abp.ExceptionHandling.Notifications.sourcelink.json
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.ExceptionHandling.Notifications\obj\Debug\netstandard2.1\ZQH.Abp.ExceptionHandling.Notifications.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.ExceptionHandling.Notifications\obj\Debug\netstandard2.1\ZQH.Abp.ExceptionHandling.Notifications.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.ExceptionHandling.Notifications\obj\Debug\netstandard2.1\ZQH.Abp.ExceptionHandling.Notifications.csproj.CopyComplete
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.ExceptionHandling.Notifications\obj\Debug\netstandard2.1\ZQH.Abp.ExceptionHandling.Notifications.dll
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.ExceptionHandling.Notifications\obj\Debug\netstandard2.1\ZQH.Abp.ExceptionHandling.Notifications.pdb

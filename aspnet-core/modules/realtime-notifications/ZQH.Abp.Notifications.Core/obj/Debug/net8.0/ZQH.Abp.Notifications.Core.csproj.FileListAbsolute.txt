@@ -1,0 +1,16 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Notifications.Core.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Notifications.Core.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Notifications.Core.pdb
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Core\obj\Debug\net8.0\ZQH.Abp.Notifications.Core.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Core\obj\Debug\net8.0\ZQH.Abp.Notifications.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Core\obj\Debug\net8.0\ZQH.Abp.Notifications.Core.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Core\obj\Debug\net8.0\ZQH.Abp.Notifications.Core.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Core\obj\Debug\net8.0\ZQH.Abp.Notifications.Core.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Core\obj\Debug\net8.0\ZQH.Abp.Notifications.Core.sourcelink.json
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Core\obj\Debug\net8.0\ZQH.Abp.Notifications.Core.csproj.CopyComplete
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Core\obj\Debug\net8.0\ZQH.Abp.Notifications.Core.dll
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Core\obj\Debug\net8.0\refint\ZQH.Abp.Notifications.Core.dll
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Core\obj\Debug\net8.0\ZQH.Abp.Notifications.Core.pdb
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Core\obj\Debug\net8.0\ref\ZQH.Abp.Notifications.Core.dll
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Core\obj\Debug\net8.0\ZQH.Abp.Notifications.Core.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Core\obj\Debug\net8.0\ZQH.Abp.Notifications.Core.csproj.Fody.RuntimeCopyLocal.cache

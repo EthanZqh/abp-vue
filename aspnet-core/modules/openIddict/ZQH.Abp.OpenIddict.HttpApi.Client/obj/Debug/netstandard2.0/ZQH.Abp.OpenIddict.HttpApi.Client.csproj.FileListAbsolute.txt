@@ -1,0 +1,14 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.OpenIddict.HttpApi.Client.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.OpenIddict.HttpApi.Client.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.OpenIddict.HttpApi.Client.pdb
+E:\abp-vue\aspnet-core\modules\openIddict\ZQH.Abp.OpenIddict.HttpApi.Client\obj\Debug\netstandard2.0\ZQH.Abp.OpenIddict.HttpApi.Client.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\openIddict\ZQH.Abp.OpenIddict.HttpApi.Client\obj\Debug\netstandard2.0\ZQH.Abp.OpenIddict.HttpApi.Client.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\openIddict\ZQH.Abp.OpenIddict.HttpApi.Client\obj\Debug\netstandard2.0\ZQH.Abp.OpenIddict.HttpApi.Client.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\openIddict\ZQH.Abp.OpenIddict.HttpApi.Client\obj\Debug\netstandard2.0\ZQH.Abp.OpenIddict.HttpApi.Client.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\openIddict\ZQH.Abp.OpenIddict.HttpApi.Client\obj\Debug\netstandard2.0\ZQH.Abp.OpenIddict.HttpApi.Client.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\openIddict\ZQH.Abp.OpenIddict.HttpApi.Client\obj\Debug\netstandard2.0\ZQH.Abp.OpenIddict.HttpApi.Client.sourcelink.json
+E:\abp-vue\aspnet-core\modules\openIddict\ZQH.Abp.OpenIddict.HttpApi.Client\obj\Debug\netstandard2.0\ZQH.Abp.OpenIddict.HttpApi.Client.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\openIddict\ZQH.Abp.OpenIddict.HttpApi.Client\obj\Debug\netstandard2.0\ZQH.Abp.OpenIddict.HttpApi.Client.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\openIddict\ZQH.Abp.OpenIddict.HttpApi.Client\obj\Debug\netstandard2.0\ZQH.Abp.OpenIddict.HttpApi.Client.csproj.CopyComplete
+E:\abp-vue\aspnet-core\modules\openIddict\ZQH.Abp.OpenIddict.HttpApi.Client\obj\Debug\netstandard2.0\ZQH.Abp.OpenIddict.HttpApi.Client.dll
+E:\abp-vue\aspnet-core\modules\openIddict\ZQH.Abp.OpenIddict.HttpApi.Client\obj\Debug\netstandard2.0\ZQH.Abp.OpenIddict.HttpApi.Client.pdb

@@ -1,0 +1,14 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Notifications.Sms.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Notifications.Sms.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Notifications.Sms.pdb
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Sms\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Sms.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Sms\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Sms.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Sms\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Sms.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Sms\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Sms.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Sms\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Sms.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Sms\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Sms.sourcelink.json
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Sms\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Sms.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Sms\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Sms.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Sms\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Sms.csproj.CopyComplete
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Sms\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Sms.dll
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Sms\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Sms.pdb

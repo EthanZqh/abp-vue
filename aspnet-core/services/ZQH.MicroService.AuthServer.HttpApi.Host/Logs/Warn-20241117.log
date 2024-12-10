@@ -1,0 +1,6 @@
+2024-11-17 00:21:21 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [10] - RabbitMQ consumer cancelled. --> amq.ctag-8yilrnLxK0mfUJJ7Z26cjQ
+2024-11-17 00:21:21 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [10] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-17 00:21:22 [WRN] [DotNetCore.CAP.Processor.TransportCheckProcessor] [13556] [10] - Transport connection is unhealthy, reconnection...
+2024-11-17 10:17:46 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [22] - RabbitMQ consumer cancelled. --> amq.ctag-WbeiSmfKgRvgNAdfcrK48g
+2024-11-17 10:17:47 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [22] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-17 10:17:49 [WRN] [DotNetCore.CAP.Processor.TransportCheckProcessor] [13556] [22] - Transport connection is unhealthy, reconnection...

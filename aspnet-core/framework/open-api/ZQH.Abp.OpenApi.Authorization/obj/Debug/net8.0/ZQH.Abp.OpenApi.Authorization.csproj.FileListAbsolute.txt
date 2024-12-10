@@ -1,0 +1,16 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.OpenApi.Authorization.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.OpenApi.Authorization.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.OpenApi.Authorization.pdb
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.Authorization\obj\Debug\net8.0\ZQH.Abp.OpenApi.Authorization.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.Authorization\obj\Debug\net8.0\ZQH.Abp.OpenApi.Authorization.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.Authorization\obj\Debug\net8.0\ZQH.Abp.OpenApi.Authorization.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.Authorization\obj\Debug\net8.0\ZQH.Abp.OpenApi.Authorization.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.Authorization\obj\Debug\net8.0\ZQH.Abp.OpenApi.Authorization.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.Authorization\obj\Debug\net8.0\ZQH.Abp.OpenApi.Authorization.sourcelink.json
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.Authorization\obj\Debug\net8.0\ZQH.Abp.OpenApi.Authorization.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.Authorization\obj\Debug\net8.0\ZQH.Abp.OpenApi.Authorization.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.Authorization\obj\Debug\net8.0\ZQH.Abp.OpenApi.Authorization.csproj.CopyComplete
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.Authorization\obj\Debug\net8.0\ZQH.Abp.OpenApi.Authorization.dll
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.Authorization\obj\Debug\net8.0\refint\ZQH.Abp.OpenApi.Authorization.dll
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.Authorization\obj\Debug\net8.0\ZQH.Abp.OpenApi.Authorization.pdb
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.Authorization\obj\Debug\net8.0\ref\ZQH.Abp.OpenApi.Authorization.dll

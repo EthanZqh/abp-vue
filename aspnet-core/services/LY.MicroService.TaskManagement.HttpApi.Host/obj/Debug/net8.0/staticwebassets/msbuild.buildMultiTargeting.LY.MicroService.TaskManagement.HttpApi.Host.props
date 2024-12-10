@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LY.MicroService.TaskManagement.HttpApi.Host.props" />
+</Project>

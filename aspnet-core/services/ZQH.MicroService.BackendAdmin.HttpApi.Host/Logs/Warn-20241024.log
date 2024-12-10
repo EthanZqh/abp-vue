@@ -1,0 +1,448 @@
+2024-10-24 00:13:29 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [18964] [79] - RabbitMQ consumer cancelled. --> amq.ctag-GBvEM6UlZI5b5SI3Fl3g-g
+2024-10-24 00:13:29 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [18964] [79] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 00:13:29 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [18964] [79] - RabbitMQ consumer cancelled. --> amq.ctag-7ueTGCPw-2_P4HdwW4xe9g
+2024-10-24 00:13:30 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [18964] [79] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 00:35:20 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] [18964] [25] - Failed executing DbCommand (5ms) [Parameters=[@__maxExpirationDate_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `i`
+FROM `IdentityServerPersistedGrants` AS `i`
+WHERE `i`.`Expiration` IS NOT NULL AND (`i`.`Expiration` < @__maxExpirationDate_0)
+2024-10-24 00:35:20 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [18964] [25] - Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+MySqlConnector.MySqlException (0x80004005): Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 309
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.DeleteDirectAsync(Expression`1 predicate, CancellationToken cancellationToken)
+   at Volo.Abp.IdentityServer.Grants.PersistentGrantRepository.DeleteExpirationAsync(DateTime maxExpirationDate, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.RemoveGrantsAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.CleanAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2024-10-24 00:35:20 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [18964] [25] - ---------- Exception Data ----------
+Server Error Code = 1146
+SqlState = 42S02
+
+2024-10-24 02:23:41 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] [18964] [113] - Failed executing DbCommand (4ms) [Parameters=[@__maxExpirationDate_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `i`
+FROM `IdentityServerPersistedGrants` AS `i`
+WHERE `i`.`Expiration` IS NOT NULL AND (`i`.`Expiration` < @__maxExpirationDate_0)
+2024-10-24 02:23:41 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [18964] [113] - Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+MySqlConnector.MySqlException (0x80004005): Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 309
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.DeleteDirectAsync(Expression`1 predicate, CancellationToken cancellationToken)
+   at Volo.Abp.IdentityServer.Grants.PersistentGrantRepository.DeleteExpirationAsync(DateTime maxExpirationDate, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.RemoveGrantsAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.CleanAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2024-10-24 02:23:41 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [18964] [113] - ---------- Exception Data ----------
+Server Error Code = 1146
+SqlState = 42S02
+
+2024-10-24 03:23:41 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] [18964] [87] - Failed executing DbCommand (2ms) [Parameters=[@__maxExpirationDate_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `i`
+FROM `IdentityServerPersistedGrants` AS `i`
+WHERE `i`.`Expiration` IS NOT NULL AND (`i`.`Expiration` < @__maxExpirationDate_0)
+2024-10-24 03:23:41 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [18964] [87] - Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+MySqlConnector.MySqlException (0x80004005): Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 309
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.DeleteDirectAsync(Expression`1 predicate, CancellationToken cancellationToken)
+   at Volo.Abp.IdentityServer.Grants.PersistentGrantRepository.DeleteExpirationAsync(DateTime maxExpirationDate, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.RemoveGrantsAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.CleanAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2024-10-24 03:23:41 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [18964] [87] - ---------- Exception Data ----------
+Server Error Code = 1146
+SqlState = 42S02
+
+2024-10-24 05:49:56 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [18964] [84] - RabbitMQ consumer cancelled. --> amq.ctag-GBvEM6UlZI5b5SI3Fl3g-g
+2024-10-24 05:49:56 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [18964] [84] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 05:49:56 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [18964] [84] - RabbitMQ consumer cancelled. --> amq.ctag-7ueTGCPw-2_P4HdwW4xe9g
+2024-10-24 05:49:56 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [18964] [84] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 06:01:30 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] [18964] [101] - Failed executing DbCommand (6ms) [Parameters=[@__maxExpirationDate_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `i`
+FROM `IdentityServerPersistedGrants` AS `i`
+WHERE `i`.`Expiration` IS NOT NULL AND (`i`.`Expiration` < @__maxExpirationDate_0)
+2024-10-24 06:01:30 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [18964] [101] - Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+MySqlConnector.MySqlException (0x80004005): Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 309
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.DeleteDirectAsync(Expression`1 predicate, CancellationToken cancellationToken)
+   at Volo.Abp.IdentityServer.Grants.PersistentGrantRepository.DeleteExpirationAsync(DateTime maxExpirationDate, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.RemoveGrantsAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.CleanAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2024-10-24 06:01:30 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [18964] [101] - ---------- Exception Data ----------
+Server Error Code = 1146
+SqlState = 42S02
+
+2024-10-24 07:01:30 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] [18964] [74] - Failed executing DbCommand (4ms) [Parameters=[@__maxExpirationDate_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `i`
+FROM `IdentityServerPersistedGrants` AS `i`
+WHERE `i`.`Expiration` IS NOT NULL AND (`i`.`Expiration` < @__maxExpirationDate_0)
+2024-10-24 07:01:30 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [18964] [74] - Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+MySqlConnector.MySqlException (0x80004005): Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 309
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.DeleteDirectAsync(Expression`1 predicate, CancellationToken cancellationToken)
+   at Volo.Abp.IdentityServer.Grants.PersistentGrantRepository.DeleteExpirationAsync(DateTime maxExpirationDate, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.RemoveGrantsAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.CleanAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2024-10-24 07:01:30 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [18964] [74] - ---------- Exception Data ----------
+Server Error Code = 1146
+SqlState = 42S02
+
+2024-10-24 08:01:30 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] [18964] [35] - Failed executing DbCommand (12ms) [Parameters=[@__maxExpirationDate_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `i`
+FROM `IdentityServerPersistedGrants` AS `i`
+WHERE `i`.`Expiration` IS NOT NULL AND (`i`.`Expiration` < @__maxExpirationDate_0)
+2024-10-24 08:01:30 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [18964] [35] - Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+MySqlConnector.MySqlException (0x80004005): Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 309
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.DeleteDirectAsync(Expression`1 predicate, CancellationToken cancellationToken)
+   at Volo.Abp.IdentityServer.Grants.PersistentGrantRepository.DeleteExpirationAsync(DateTime maxExpirationDate, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.RemoveGrantsAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.CleanAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2024-10-24 08:01:30 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [18964] [35] - ---------- Exception Data ----------
+Server Error Code = 1146
+SqlState = 42S02
+
+2024-10-24 09:01:30 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] [18964] [37] - Failed executing DbCommand (2ms) [Parameters=[@__maxExpirationDate_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `i`
+FROM `IdentityServerPersistedGrants` AS `i`
+WHERE `i`.`Expiration` IS NOT NULL AND (`i`.`Expiration` < @__maxExpirationDate_0)
+2024-10-24 09:01:30 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [18964] [37] - Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+MySqlConnector.MySqlException (0x80004005): Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 309
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.DeleteDirectAsync(Expression`1 predicate, CancellationToken cancellationToken)
+   at Volo.Abp.IdentityServer.Grants.PersistentGrantRepository.DeleteExpirationAsync(DateTime maxExpirationDate, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.RemoveGrantsAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.CleanAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2024-10-24 09:01:30 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [18964] [37] - ---------- Exception Data ----------
+Server Error Code = 1146
+SqlState = 42S02
+
+2024-10-24 10:01:30 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] [18964] [46] - Failed executing DbCommand (2ms) [Parameters=[@__maxExpirationDate_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `i`
+FROM `IdentityServerPersistedGrants` AS `i`
+WHERE `i`.`Expiration` IS NOT NULL AND (`i`.`Expiration` < @__maxExpirationDate_0)
+2024-10-24 10:01:30 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [18964] [46] - Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+MySqlConnector.MySqlException (0x80004005): Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 309
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.DeleteDirectAsync(Expression`1 predicate, CancellationToken cancellationToken)
+   at Volo.Abp.IdentityServer.Grants.PersistentGrantRepository.DeleteExpirationAsync(DateTime maxExpirationDate, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.RemoveGrantsAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.CleanAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2024-10-24 10:01:30 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [18964] [46] - ---------- Exception Data ----------
+Server Error Code = 1146
+SqlState = 42S02
+
+2024-10-24 11:01:30 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] [18964] [117] - Failed executing DbCommand (4ms) [Parameters=[@__maxExpirationDate_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `i`
+FROM `IdentityServerPersistedGrants` AS `i`
+WHERE `i`.`Expiration` IS NOT NULL AND (`i`.`Expiration` < @__maxExpirationDate_0)
+2024-10-24 11:01:30 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [18964] [117] - Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+MySqlConnector.MySqlException (0x80004005): Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 309
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.DeleteDirectAsync(Expression`1 predicate, CancellationToken cancellationToken)
+   at Volo.Abp.IdentityServer.Grants.PersistentGrantRepository.DeleteExpirationAsync(DateTime maxExpirationDate, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.RemoveGrantsAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.CleanAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2024-10-24 11:01:30 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [18964] [117] - ---------- Exception Data ----------
+Server Error Code = 1146
+SqlState = 42S02
+
+2024-10-24 12:01:30 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] [18964] [77] - Failed executing DbCommand (1ms) [Parameters=[@__maxExpirationDate_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `i`
+FROM `IdentityServerPersistedGrants` AS `i`
+WHERE `i`.`Expiration` IS NOT NULL AND (`i`.`Expiration` < @__maxExpirationDate_0)
+2024-10-24 12:01:30 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [18964] [77] - Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+MySqlConnector.MySqlException (0x80004005): Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 309
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.DeleteDirectAsync(Expression`1 predicate, CancellationToken cancellationToken)
+   at Volo.Abp.IdentityServer.Grants.PersistentGrantRepository.DeleteExpirationAsync(DateTime maxExpirationDate, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.RemoveGrantsAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.CleanAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2024-10-24 12:01:30 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [18964] [77] - ---------- Exception Data ----------
+Server Error Code = 1146
+SqlState = 42S02
+
+2024-10-24 13:59:18 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [18964] [34] - RabbitMQ consumer cancelled. --> amq.ctag-GBvEM6UlZI5b5SI3Fl3g-g
+2024-10-24 13:59:18 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [18964] [34] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 13:59:18 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [18964] [34] - RabbitMQ consumer cancelled. --> amq.ctag-7ueTGCPw-2_P4HdwW4xe9g
+2024-10-24 13:59:18 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [18964] [34] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 16:35:32 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [18964] [10] - RabbitMQ consumer cancelled. --> amq.ctag-GBvEM6UlZI5b5SI3Fl3g-g
+2024-10-24 16:35:32 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [18964] [10] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 16:35:32 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [18964] [10] - RabbitMQ consumer cancelled. --> amq.ctag-7ueTGCPw-2_P4HdwW4xe9g
+2024-10-24 16:35:32 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [18964] [10] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 16:35:36 [WRN] [DotNetCore.CAP.Processor.TransportCheckProcessor] [18964] [34] - Transport connection is unhealthy, reconnection...
+2024-10-24 22:33:53 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] [18964] [45] - Failed executing DbCommand (7ms) [Parameters=[@__maxExpirationDate_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `i`
+FROM `IdentityServerPersistedGrants` AS `i`
+WHERE `i`.`Expiration` IS NOT NULL AND (`i`.`Expiration` < @__maxExpirationDate_0)
+2024-10-24 22:33:53 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [18964] [45] - Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+MySqlConnector.MySqlException (0x80004005): Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 309
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.DeleteDirectAsync(Expression`1 predicate, CancellationToken cancellationToken)
+   at Volo.Abp.IdentityServer.Grants.PersistentGrantRepository.DeleteExpirationAsync(DateTime maxExpirationDate, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.RemoveGrantsAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.CleanAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2024-10-24 22:33:53 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [18964] [45] - ---------- Exception Data ----------
+Server Error Code = 1146
+SqlState = 42S02
+
+2024-10-24 23:08:31 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [18964] [109] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:08:38 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [18964] [93] - Controller 'TextTemplateContent' contains more than one action with name 'GetAsyncByInput' for module 'text-templating'. Ignored: System.Threading.Tasks.Task`1[ZQH.Abp.TextTemplating.TextTemplateContentDto] GetAsync(ZQH.Abp.TextTemplating.TextTemplateContentGetInput)
+2024-10-24 23:15:05 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [18964] [106] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:15:10 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [18964] [98] - Controller 'TextTemplateContent' contains more than one action with name 'GetAsyncByInput' for module 'text-templating'. Ignored: System.Threading.Tasks.Task`1[ZQH.Abp.TextTemplating.TextTemplateContentDto] GetAsync(ZQH.Abp.TextTemplating.TextTemplateContentGetInput)
+2024-10-24 23:20:23 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [18964] [109] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:21:53 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [18964] [83] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:22:01 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [18964] [56] - Controller 'TextTemplateContent' contains more than one action with name 'GetAsyncByInput' for module 'text-templating'. Ignored: System.Threading.Tasks.Task`1[ZQH.Abp.TextTemplating.TextTemplateContentDto] GetAsync(ZQH.Abp.TextTemplating.TextTemplateContentGetInput)
+2024-10-24 23:25:14 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [18964] [94] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:25:17 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [18964] [94] - Controller 'TextTemplateContent' contains more than one action with name 'GetAsyncByInput' for module 'text-templating'. Ignored: System.Threading.Tasks.Task`1[ZQH.Abp.TextTemplating.TextTemplateContentDto] GetAsync(ZQH.Abp.TextTemplating.TextTemplateContentGetInput)
+2024-10-24 23:26:47 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [18964] [29] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:26:50 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [18964] [29] - Controller 'TextTemplateContent' contains more than one action with name 'GetAsyncByInput' for module 'text-templating'. Ignored: System.Threading.Tasks.Task`1[ZQH.Abp.TextTemplating.TextTemplateContentDto] GetAsync(ZQH.Abp.TextTemplating.TextTemplateContentGetInput)
+2024-10-24 23:29:16 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [18964] [45] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:29:19 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [18964] [62] - Controller 'TextTemplateContent' contains more than one action with name 'GetAsyncByInput' for module 'text-templating'. Ignored: System.Threading.Tasks.Task`1[ZQH.Abp.TextTemplating.TextTemplateContentDto] GetAsync(ZQH.Abp.TextTemplating.TextTemplateContentGetInput)

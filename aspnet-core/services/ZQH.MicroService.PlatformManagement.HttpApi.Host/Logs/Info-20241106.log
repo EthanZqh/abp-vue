@@ -1,0 +1,40 @@
+2024-11-06 00:01:31 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [28] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-06 00:01:31 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [28] - Start cleanup.
+2024-11-06 00:01:31 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [28] - Start cleanup host temp objects.
+2024-11-06 00:01:31 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [28] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-06 01:01:31 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [40] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-06 01:01:31 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [40] - Start cleanup.
+2024-11-06 01:01:31 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [40] - Start cleanup host temp objects.
+2024-11-06 01:01:31 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [40] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-06 02:01:31 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [89] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-06 02:01:31 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [89] - Start cleanup.
+2024-11-06 02:01:31 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [89] - Start cleanup host temp objects.
+2024-11-06 02:01:31 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [87] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-06 16:22:38 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [46] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-06 16:22:38 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [46] - Start cleanup.
+2024-11-06 16:22:38 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [46] - Start cleanup host temp objects.
+2024-11-06 16:22:38 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [56] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-06 17:22:38 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [104] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-06 17:22:38 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [104] - Start cleanup.
+2024-11-06 17:22:38 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [104] - Start cleanup host temp objects.
+2024-11-06 17:22:38 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [104] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-06 18:22:38 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [30] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-06 18:22:38 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [30] - Start cleanup.
+2024-11-06 18:22:38 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [30] - Start cleanup host temp objects.
+2024-11-06 18:22:38 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [92] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-06 19:22:38 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [64] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-06 19:22:38 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [64] - Start cleanup.
+2024-11-06 19:22:38 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [64] - Start cleanup host temp objects.
+2024-11-06 19:22:38 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [64] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-06 21:13:52 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [138] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-06 21:13:52 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [138] - Start cleanup.
+2024-11-06 21:13:52 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [138] - Start cleanup host temp objects.
+2024-11-06 21:13:52 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [138] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-06 22:18:25 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [116] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-06 22:18:25 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [116] - Start cleanup.
+2024-11-06 22:18:25 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [116] - Start cleanup host temp objects.
+2024-11-06 22:18:25 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [105] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-06 23:52:16 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [100] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-06 23:52:16 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [100] - Start cleanup.
+2024-11-06 23:52:16 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [100] - Start cleanup host temp objects.
+2024-11-06 23:52:16 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [100] - Lock is released for OssObjectTempCleanupBackgroundWorker

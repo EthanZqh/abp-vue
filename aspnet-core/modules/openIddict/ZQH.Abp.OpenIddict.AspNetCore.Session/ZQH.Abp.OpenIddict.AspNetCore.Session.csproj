@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>ZQH.Abp.OpenIddict.AspNetCore.Session</AssemblyName>
+		<PackageId>ZQH.Abp.OpenIddict.AspNetCore.Session</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Volo.Abp.OpenIddict.AspNetCore" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\identity\ZQH.Abp.Identity.Domain\ZQH.Abp.Identity.Domain.csproj" />
+		<ProjectReference Include="..\..\identity\ZQH.Abp.Identity.Session.AspNetCore\ZQH.Abp.Identity.Session.AspNetCore.csproj" />
+	</ItemGroup>
+
+</Project>

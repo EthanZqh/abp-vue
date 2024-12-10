@@ -1,0 +1,15 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Identity.Session.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Identity.Session.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Identity.Session.pdb
+E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Session\obj\Debug\net8.0\ZQH.Abp.Identity.Session.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Session\obj\Debug\net8.0\ZQH.Abp.Identity.Session.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Session\obj\Debug\net8.0\ZQH.Abp.Identity.Session.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Session\obj\Debug\net8.0\ZQH.Abp.Identity.Session.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Session\obj\Debug\net8.0\ZQH.Abp.Identity.Session.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Session\obj\Debug\net8.0\ZQH.Abp.Identity.Session.sourcelink.json
+E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Session\obj\Debug\net8.0\ZQH.Abp.Identity.Session.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Session\obj\Debug\net8.0\ZQH.Abp.Identity.Session.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Session\obj\Debug\net8.0\ZQH.Abp.Identity.Session.dll
+E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Session\obj\Debug\net8.0\refint\ZQH.Abp.Identity.Session.dll
+E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Session\obj\Debug\net8.0\ZQH.Abp.Identity.Session.pdb
+E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Session\obj\Debug\net8.0\ref\ZQH.Abp.Identity.Session.dll

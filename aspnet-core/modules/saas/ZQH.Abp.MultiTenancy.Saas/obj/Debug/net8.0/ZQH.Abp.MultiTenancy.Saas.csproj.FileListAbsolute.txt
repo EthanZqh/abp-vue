@@ -1,0 +1,16 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.MultiTenancy.Saas.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.MultiTenancy.Saas.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.MultiTenancy.Saas.pdb
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.MultiTenancy.Saas\obj\Debug\net8.0\ZQH.Abp.MultiTenancy.Saas.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.MultiTenancy.Saas\obj\Debug\net8.0\ZQH.Abp.MultiTenancy.Saas.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.MultiTenancy.Saas\obj\Debug\net8.0\ZQH.Abp.MultiTenancy.Saas.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.MultiTenancy.Saas\obj\Debug\net8.0\ZQH.Abp.MultiTenancy.Saas.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.MultiTenancy.Saas\obj\Debug\net8.0\ZQH.Abp.MultiTenancy.Saas.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.MultiTenancy.Saas\obj\Debug\net8.0\ZQH.Abp.MultiTenancy.Saas.sourcelink.json
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.MultiTenancy.Saas\obj\Debug\net8.0\ZQH.Abp.MultiTenancy.Saas.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.MultiTenancy.Saas\obj\Debug\net8.0\ZQH.Abp.MultiTenancy.Saas.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.MultiTenancy.Saas\obj\Debug\net8.0\ZQH.Abp.MultiTenancy.Saas.csproj.CopyComplete
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.MultiTenancy.Saas\obj\Debug\net8.0\ZQH.Abp.MultiTenancy.Saas.dll
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.MultiTenancy.Saas\obj\Debug\net8.0\refint\ZQH.Abp.MultiTenancy.Saas.dll
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.MultiTenancy.Saas\obj\Debug\net8.0\ZQH.Abp.MultiTenancy.Saas.pdb
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.MultiTenancy.Saas\obj\Debug\net8.0\ref\ZQH.Abp.MultiTenancy.Saas.dll

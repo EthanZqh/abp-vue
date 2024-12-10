@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "ZQH.MicroService.BackendAdmin.DbMigrator": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

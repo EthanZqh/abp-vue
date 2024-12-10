@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace />
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="ProductManagement\Localization\ApplicationContracts\cs.json" />
+      <None Remove="ProductManagement\Localization\ApplicationContracts\en.json" />
+      <None Remove="ProductManagement\Localization\ApplicationContracts\pl-PL.json" />
+      <None Remove="ProductManagement\Localization\ApplicationContracts\tr.json" />
+      <None Remove="ProductManagement\Localization\ApplicationContracts\vi.json" />
+      <None Remove="ProductManagement\Localization\ApplicationContracts\zh-Hans.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Include="ProductManagement\Localization\ApplicationContracts\cs.json" />
+      <EmbeddedResource Include="ProductManagement\Localization\ApplicationContracts\en.json" />
+      <EmbeddedResource Include="ProductManagement\Localization\ApplicationContracts\pl-PL.json" />
+      <EmbeddedResource Include="ProductManagement\Localization\ApplicationContracts\tr.json" />
+      <EmbeddedResource Include="ProductManagement\Localization\ApplicationContracts\vi.json" />
+      <EmbeddedResource Include="ProductManagement\Localization\ApplicationContracts\zh-Hans.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Volo.Abp.AspNetCore.Mvc" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\ProductManagement.Application.Contracts\ProductManagement.Application.Contracts.csproj" />
+        <ProjectReference Include="..\ProductManagement.HttpApi.Client\ProductManagement.HttpApi.Client.csproj" />
+    </ItemGroup>
+
+</Project>

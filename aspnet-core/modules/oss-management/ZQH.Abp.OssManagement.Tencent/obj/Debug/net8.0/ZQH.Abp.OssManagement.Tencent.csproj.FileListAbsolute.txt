@@ -1,0 +1,16 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.OssManagement.Tencent.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.OssManagement.Tencent.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.OssManagement.Tencent.pdb
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Tencent\obj\Debug\net8.0\ZQH.Abp.OssManagement.Tencent.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Tencent\obj\Debug\net8.0\ZQH.Abp.OssManagement.Tencent.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Tencent\obj\Debug\net8.0\ZQH.Abp.OssManagement.Tencent.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Tencent\obj\Debug\net8.0\ZQH.Abp.OssManagement.Tencent.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Tencent\obj\Debug\net8.0\ZQH.Abp.OssManagement.Tencent.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Tencent\obj\Debug\net8.0\ZQH.Abp.OssManagement.Tencent.sourcelink.json
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Tencent\obj\Debug\net8.0\ZQH.Abp.OssManagement.Tencent.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Tencent\obj\Debug\net8.0\ZQH.Abp.OssManagement.Tencent.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Tencent\obj\Debug\net8.0\ZQH.Abp.OssManagement.Tencent.csproj.CopyComplete
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Tencent\obj\Debug\net8.0\ZQH.Abp.OssManagement.Tencent.dll
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Tencent\obj\Debug\net8.0\refint\ZQH.Abp.OssManagement.Tencent.dll
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Tencent\obj\Debug\net8.0\ZQH.Abp.OssManagement.Tencent.pdb
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Tencent\obj\Debug\net8.0\ref\ZQH.Abp.OssManagement.Tencent.dll

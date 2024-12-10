@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ZQH.Abp.AspNetCore.Mvc.Client.props" />
+</Project>

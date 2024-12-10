@@ -1,0 +1,16 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.DataProtection.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.DataProtection.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.DataProtection.pdb
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection\obj\Debug\net8.0\ZQH.Abp.DataProtection.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection\obj\Debug\net8.0\ZQH.Abp.DataProtection.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection\obj\Debug\net8.0\ZQH.Abp.DataProtection.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection\obj\Debug\net8.0\ZQH.Abp.DataProtection.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection\obj\Debug\net8.0\ZQH.Abp.DataProtection.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection\obj\Debug\net8.0\ZQH.Abp.DataProtection.sourcelink.json
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection\obj\Debug\net8.0\ZQH.Abp.DataProtection.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection\obj\Debug\net8.0\ZQH.Abp.DataProtection.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection\obj\Debug\net8.0\ZQH.Abp.DataProtection.csproj.CopyComplete
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection\obj\Debug\net8.0\ZQH.Abp.DataProtection.dll
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection\obj\Debug\net8.0\refint\ZQH.Abp.DataProtection.dll
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection\obj\Debug\net8.0\ZQH.Abp.DataProtection.pdb
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection\obj\Debug\net8.0\ref\ZQH.Abp.DataProtection.dll

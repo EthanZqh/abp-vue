@@ -1,0 +1,13 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Features.Client.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Features.Client.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Features.Client.pdb
+E:\abp-vue\aspnet-core\framework\features\ZQH.Abp.Features.Client\obj\Debug\netstandard2.1\ZQH.Abp.Features.Client.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\features\ZQH.Abp.Features.Client\obj\Debug\netstandard2.1\ZQH.Abp.Features.Client.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\features\ZQH.Abp.Features.Client\obj\Debug\netstandard2.1\ZQH.Abp.Features.Client.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\features\ZQH.Abp.Features.Client\obj\Debug\netstandard2.1\ZQH.Abp.Features.Client.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\features\ZQH.Abp.Features.Client\obj\Debug\netstandard2.1\ZQH.Abp.Features.Client.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\features\ZQH.Abp.Features.Client\obj\Debug\netstandard2.1\ZQH.Abp.Features.Client.sourcelink.json
+E:\abp-vue\aspnet-core\framework\features\ZQH.Abp.Features.Client\obj\Debug\netstandard2.1\ZQH.Abp.Features.Client.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\features\ZQH.Abp.Features.Client\obj\Debug\netstandard2.1\ZQH.Abp.Features.Client.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\features\ZQH.Abp.Features.Client\obj\Debug\netstandard2.1\ZQH.Abp.Features.Client.dll
+E:\abp-vue\aspnet-core\framework\features\ZQH.Abp.Features.Client\obj\Debug\netstandard2.1\ZQH.Abp.Features.Client.pdb

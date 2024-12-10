@@ -1,0 +1,13 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Hangfire.Storage.MySql.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Hangfire.Storage.MySql.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Hangfire.Storage.MySql.pdb
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.Hangfire.MySqlStorage\obj\Debug\netstandard2.1\ZQH.Abp.Hangfire.Storage.MySql.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.Hangfire.MySqlStorage\obj\Debug\netstandard2.1\ZQH.Abp.Hangfire.Storage.MySql.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.Hangfire.MySqlStorage\obj\Debug\netstandard2.1\ZQH.Abp.Hangfire.Storage.MySql.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.Hangfire.MySqlStorage\obj\Debug\netstandard2.1\ZQH.Abp.Hangfire.Storage.MySql.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.Hangfire.MySqlStorage\obj\Debug\netstandard2.1\ZQH.Abp.Hangfire.Storage.MySql.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.Hangfire.MySqlStorage\obj\Debug\netstandard2.1\ZQH.Abp.Hangfire.Storage.MySql.sourcelink.json
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.Hangfire.MySqlStorage\obj\Debug\netstandard2.1\ZQH.Abp.Hangfire.Storage.MySql.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.Hangfire.MySqlStorage\obj\Debug\netstandard2.1\ZQH.Abp.Hangfire.Storage.MySql.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.Hangfire.MySqlStorage\obj\Debug\netstandard2.1\ZQH.Abp.Hangfire.Storage.MySql.dll
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.Hangfire.MySqlStorage\obj\Debug\netstandard2.1\ZQH.Abp.Hangfire.Storage.MySql.pdb

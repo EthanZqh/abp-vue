@@ -1,0 +1,3 @@
+2023-04-22 00:08:41 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [2404] [72] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2023-04-22 00:09:29 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [2404] [73] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2023-04-22 00:13:19 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [2404] [118] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.

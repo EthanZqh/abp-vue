@@ -1,0 +1,246 @@
+2024-10-22 00:57:49 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [42856] [27] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-10-22 00:57:49 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [42856] [27] - Start cleanup.
+2024-10-22 00:57:49 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [42856] [27] - Start cleanup host temp objects.
+2024-10-22 00:57:49 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [42856] [78] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-10-22 01:57:49 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [42856] [105] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-10-22 01:57:49 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [42856] [105] - Start cleanup.
+2024-10-22 01:57:49 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [42856] [105] - Start cleanup host temp objects.
+2024-10-22 01:57:49 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [42856] [105] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-10-22 02:57:49 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [42856] [66] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-10-22 02:57:49 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [42856] [66] - Start cleanup.
+2024-10-22 02:57:49 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [42856] [66] - Start cleanup host temp objects.
+2024-10-22 02:57:49 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [42856] [68] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-10-22 03:57:49 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [42856] [86] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-10-22 03:57:49 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [42856] [86] - Start cleanup.
+2024-10-22 03:57:49 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [42856] [86] - Start cleanup host temp objects.
+2024-10-22 03:57:49 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [42856] [86] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-10-22 04:57:49 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [42856] [72] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-10-22 04:57:49 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [42856] [72] - Start cleanup.
+2024-10-22 04:57:49 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [42856] [72] - Start cleanup host temp objects.
+2024-10-22 04:57:49 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [42856] [86] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-10-22 05:57:49 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [42856] [35] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-10-22 05:57:49 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [42856] [35] - Start cleanup.
+2024-10-22 05:57:49 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [42856] [35] - Start cleanup host temp objects.
+2024-10-22 05:57:49 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [42856] [35] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] - Loaded ABP modules:
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] - - ZQH.MicroService.PlatformManagement.PlatformManagementHttpApiHostModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Abp.Serilog.Enrichers.Application.AbpSerilogEnrichersApplicationModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Abp.Serilog.Enrichers.UniqueId.AbpSerilogEnrichersUniqueIdModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - ZQH.Abp.IdGenerator.AbpIdGeneratorModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.Data.AbpDataModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -         - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.Security.AbpSecurityModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.Settings.AbpSettingsModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -         - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -         - Volo.Abp.Localization.AbpLocalizationModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -           - Volo.Abp.Threading.AbpThreadingModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.Auditing.AbpAuditingModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -         - Volo.Abp.Json.AbpJsonModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -           - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -             - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -             - Volo.Abp.Timing.AbpTimingModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.Http.AbpHttpModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -         - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -         - Volo.Abp.Minify.AbpMinifyModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.Validation.AbpValidationModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.AspNetCore.AbpAspNetCoreAbstractionsModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Abp.AuditLogging.Elasticsearch.AbpAuditLoggingElasticsearchModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - ZQH.Abp.AuditLogging.AbpAuditLoggingModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.Guids.AbpGuidsModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - ZQH.Abp.Elasticsearch.AbpElasticsearchModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Abp.AspNetCore.Mvc.Localization.AbpAspNetCoreMvcLocalizationModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -         - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -         - Volo.Abp.UI.AbpUiModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.Application.AbpDddApplicationModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -         - Volo.Abp.Domain.AbpDddDomainModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -           - Volo.Abp.EventBus.AbpEventBusModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -           - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -           - Volo.Abp.Caching.AbpCachingModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -             - Volo.Abp.Serialization.AbpSerializationModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -           - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -         - Volo.Abp.Features.AbpFeaturesModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Abp.UI.Navigation.VueVbenAdmin.AbpUINavigationVueVbenAdminModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - ZQH.Abp.UI.Navigation.AbpUINavigationModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - ZQH.Platform.PlatformDomainModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - ZQH.Platform.PlatformDomainSharedModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Platform.Theme.VueVbenAdmin.PlatformThemeVueVbenAdminModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - ZQH.Platform.Settings.VueVbenAdmin.PlatformSettingsVueVbenAdminModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - ZQH.Platform.PlatformApplicationContractModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Abp.OssManagement.FileSystem.AbpOssManagementFileSystemModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - Volo.Abp.BlobStoring.FileSystem.AbpBlobStoringFileSystemModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - ZQH.Abp.OssManagement.AbpOssManagementDomainModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - ZQH.Abp.OssManagement.AbpOssManagementDomainSharedModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - ZQH.Abp.Features.LimitValidation.AbpFeaturesLimitValidationModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Abp.OssManagement.FileSystem.ImageSharp.AbpOssManagementFileSystemImageSharpModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Abp.OssManagement.AbpOssManagementApplicationModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - ZQH.Abp.OssManagement.AbpOssManagementApplicationContractsModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Abp.OssManagement.AbpOssManagementHttpApiModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Abp.OssManagement.SettingManagement.AbpOssManagementSettingManagementModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Platform.PlatformApplicationModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Platform.HttpApi.PlatformHttpApiModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Platform.EntityFrameworkCore.PlatformEntityFrameworkCoreModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -         - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - Volo.Abp.Http.Client.AbpHttpClientModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.Castle.AbpCastleCoreModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - Volo.Abp.Http.Client.IdentityModel.Web.AbpHttpClientIdentityModelWebModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Abp.Saas.EntityFrameworkCore.AbpSaasEntityFrameworkCoreModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - ZQH.Abp.Saas.AbpSaasDomainModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - ZQH.Abp.Saas.AbpSaasDomainSharedModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - ZQH.Abp.MultiTenancy.Editions.AbpMultiTenancyEditionsModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Abp.LocalizationManagement.EntityFrameworkCore.AbpLocalizationManagementEntityFrameworkCoreModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - ZQH.Abp.LocalizationManagement.AbpLocalizationManagementDomainModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - ZQH.Abp.Localization.Persistence.AbpLocalizationPersistenceModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - ZQH.Abp.LocalizationManagement.AbpLocalizationManagementDomainSharedModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.MicroService.Platform.EntityFrameworkCore.PlatformMigrationsEntityFrameworkCoreModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - ZQH.Abp.Data.DbMigrator.AbpDataDbMigratorModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Abp.Authorization.OrganizationUnits.AbpAuthorizationOrganizationUnitsModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Abp.Notifications.AbpNotificationsModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - ZQH.Abp.Notifications.AbpNotificationsCoreModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - ZQH.Abp.RealTime.AbpRealTimeModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Abp.ExceptionHandling.Emailing.AbpEmailingExceptionHandlingModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - ZQH.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - Volo.Abp.Emailing.AbpEmailingModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -       - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -         - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Abp.EventBus.CAP.AbpCAPEventBusModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Abp.Features.LimitValidation.Redis.AbpFeaturesValidationRedisModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Abp.Localization.CultureMap.AbpLocalizationCultureMapModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Abp.Identity.Session.AspNetCore.AbpIdentitySessionAspNetCoreModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - ZQH.Abp.Identity.Session.AbpIdentitySessionModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Abp.AspNetCore.Mvc.Wrapper.AbpAspNetCoreMvcWrapperModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - ZQH.Abp.Wrapper.AbpWrapperModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -     - ZQH.Abp.AspNetCore.Wrapper.AbpAspNetCoreWrapperModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Abp.Claims.Mapping.AbpClaimsMappingModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - ZQH.Abp.AspNetCore.HttpOverrides.AbpAspNetCoreHttpOverridesModule
+2024-10-22 06:06:23 [INF] [Volo.Abp.AbpApplicationBase] [12540] [1] -   - Volo.Abp.Autofac.AbpAutofacModule
+2024-10-22 06:06:24 [INF] [Volo.Abp.Modularity.ModuleManager] [12540] [1] - Initialized all ABP modules.
+2024-10-22 06:06:29 [INF] [DotNetCore.CAP.Processor.Dispatcher] [12540] [4] - Starting default Dispatcher
+2024-10-22 06:06:29 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [12540] [26] - Failed to initialize index and audit log may not be retrieved.
+2024-10-22 06:06:29 [WRN] [ZQH.Abp.EventBus.CAP.AbpCAPConsumerServiceSelector] [12540] [4] - We detected that you have duplicate subscribers (abp.multi_tenancy.tenant.connection_string.updated) in same group (Platform.v1), this will cause diversity behavior.
+2024-10-22 06:06:29 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [12540] [26] - Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET /
+ ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product.
+ ---> System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9200)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Elasticsearch.Net.HttpConnection.RequestAsync[TResponse](RequestData requestData, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure()
+   at Elasticsearch.Net.RequestPipeline.PingAsync(Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.PingAsync(IRequestPipeline pipeline, Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.RequestAsync[TResponse](HttpMethod method, String path, CancellationToken cancellationToken, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2024-10-22 06:06:30 [INF] [DotNetCore.CAP.Processor.CapProcessingServer] [12540] [4] - Starting the processing server.
+2024-10-22 06:06:30 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [12540] [10] - RabbitMQ consumer registered. --> amq.ctag-OdCOx9gXf7S5Pfffnc4lLQ
+2024-10-22 06:06:30 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [12540] [7] - RabbitMQ consumer registered. --> amq.ctag-xDK6PK9WyJs-CPUZvpChhw
+2024-10-22 06:06:30 [INF] [DotNetCore.CAP.Internal.Bootstrapper] [12540] [4] - ### CAP started!
+2024-10-22 06:06:31 [WRN] [Microsoft.EntityFrameworkCore.Model.Validation] [12540] [1] - Entity 'Package' has a global query filter defined and is the required end of a relationship with the entity 'PackageBlob'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2024-10-22 06:06:33 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [12540] [7] - Failed to initialize index and security log may not be retrieved.
+2024-10-22 06:06:33 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [12540] [7] - Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET /
+ ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product.
+ ---> System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9200)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Elasticsearch.Net.HttpConnection.RequestAsync[TResponse](RequestData requestData, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure()
+   at Elasticsearch.Net.RequestPipeline.PingAsync(Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.PingAsync(IRequestPipeline pipeline, Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.RequestAsync[TResponse](HttpMethod method, String path, CancellationToken cancellationToken, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2024-10-22 07:06:24 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [12540] [40] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-10-22 07:06:24 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [12540] [40] - Start cleanup.
+2024-10-22 07:06:24 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [12540] [40] - Start cleanup host temp objects.
+2024-10-22 07:06:24 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [12540] [39] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-10-22 08:08:51 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [12540] [45] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-10-22 08:08:51 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [12540] [45] - Start cleanup.
+2024-10-22 08:08:51 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [12540] [45] - Start cleanup host temp objects.
+2024-10-22 08:08:51 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [12540] [37] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-10-22 11:19:07 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [12540] [53] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-10-22 11:19:07 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [12540] [53] - Start cleanup.
+2024-10-22 11:19:07 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [12540] [53] - Start cleanup host temp objects.
+2024-10-22 11:19:07 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [12540] [49] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-10-22 12:19:07 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [12540] [87] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-10-22 12:19:07 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [12540] [87] - Start cleanup.
+2024-10-22 12:19:07 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [12540] [87] - Start cleanup host temp objects.
+2024-10-22 12:19:07 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [12540] [97] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-10-22 13:19:07 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [12540] [27] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-10-22 13:19:07 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [12540] [27] - Start cleanup.
+2024-10-22 13:19:07 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [12540] [27] - Start cleanup host temp objects.
+2024-10-22 13:19:07 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [12540] [27] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-10-22 18:37:05 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [12540] [69] - RabbitMQ consumer cancelled. --> amq.ctag-xDK6PK9WyJs-CPUZvpChhw
+2024-10-22 18:37:06 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [12540] [69] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-22 18:37:07 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [12540] [69] - RabbitMQ consumer cancelled. --> amq.ctag-OdCOx9gXf7S5Pfffnc4lLQ
+2024-10-22 18:37:07 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [12540] [69] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-22 18:37:10 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [12540] [69] - RabbitMQ consumer registered. --> amq.ctag-xDK6PK9WyJs-CPUZvpChhw
+2024-10-22 18:37:10 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [12540] [30] - RabbitMQ consumer registered. --> amq.ctag-OdCOx9gXf7S5Pfffnc4lLQ

@@ -1,0 +1,16 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.OssManagement.Nexus.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.OssManagement.Nexus.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.OssManagement.Nexus.pdb
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Nexus\obj\Debug\net8.0\ZQH.Abp.OssManagement.Nexus.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Nexus\obj\Debug\net8.0\ZQH.Abp.OssManagement.Nexus.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Nexus\obj\Debug\net8.0\ZQH.Abp.OssManagement.Nexus.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Nexus\obj\Debug\net8.0\ZQH.Abp.OssManagement.Nexus.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Nexus\obj\Debug\net8.0\ZQH.Abp.OssManagement.Nexus.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Nexus\obj\Debug\net8.0\ZQH.Abp.OssManagement.Nexus.sourcelink.json
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Nexus\obj\Debug\net8.0\ZQH.Abp.OssManagement.Nexus.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Nexus\obj\Debug\net8.0\ZQH.Abp.OssManagement.Nexus.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Nexus\obj\Debug\net8.0\ZQH.Abp.OssManagement.Nexus.csproj.CopyComplete
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Nexus\obj\Debug\net8.0\ZQH.Abp.OssManagement.Nexus.dll
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Nexus\obj\Debug\net8.0\refint\ZQH.Abp.OssManagement.Nexus.dll
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Nexus\obj\Debug\net8.0\ZQH.Abp.OssManagement.Nexus.pdb
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Nexus\obj\Debug\net8.0\ref\ZQH.Abp.OssManagement.Nexus.dll

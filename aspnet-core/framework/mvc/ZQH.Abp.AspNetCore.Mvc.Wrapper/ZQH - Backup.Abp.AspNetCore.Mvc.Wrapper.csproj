@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>ZQH.Abp.AspNetCore.Mvc.Wrapper</AssemblyName>
+		<PackageId>ZQH.Abp.AspNetCore.Mvc.Wrapper</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="ZQH.Abp\AspNetCore\Mvc\Wrapper\Localization\Resources\*.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="ZQH.Abp\AspNetCore\Mvc\Wrapper\Localization\Resources\*.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Volo.Abp.AspNetCore.Mvc" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\common\ZQH.Abp.AspNetCore.Wrapper\ZQH.Abp.AspNetCore.Wrapper.csproj" />
+	  <ProjectReference Include="..\..\common\ZQH.Abp.Wrapper\ZQH.Abp.Wrapper.csproj" />
+	</ItemGroup>
+
+</Project>

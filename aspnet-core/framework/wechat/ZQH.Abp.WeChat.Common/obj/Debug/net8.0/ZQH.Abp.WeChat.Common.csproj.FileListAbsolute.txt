@@ -1,0 +1,15 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.WeChat.Common.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.WeChat.Common.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.WeChat.Common.pdb
+E:\abp-vue\aspnet-core\framework\wechat\ZQH.Abp.WeChat.Common\obj\Debug\net8.0\ZQH.Abp.WeChat.Common.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\wechat\ZQH.Abp.WeChat.Common\obj\Debug\net8.0\ZQH.Abp.WeChat.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\wechat\ZQH.Abp.WeChat.Common\obj\Debug\net8.0\ZQH.Abp.WeChat.Common.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\wechat\ZQH.Abp.WeChat.Common\obj\Debug\net8.0\ZQH.Abp.WeChat.Common.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\wechat\ZQH.Abp.WeChat.Common\obj\Debug\net8.0\ZQH.Abp.WeChat.Common.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\wechat\ZQH.Abp.WeChat.Common\obj\Debug\net8.0\ZQH.Abp.WeChat.Common.sourcelink.json
+E:\abp-vue\aspnet-core\framework\wechat\ZQH.Abp.WeChat.Common\obj\Debug\net8.0\ZQH.Abp.WeChat.Common.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\wechat\ZQH.Abp.WeChat.Common\obj\Debug\net8.0\ZQH.Abp.WeChat.Common.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\wechat\ZQH.Abp.WeChat.Common\obj\Debug\net8.0\ZQH.Abp.WeChat.Common.dll
+E:\abp-vue\aspnet-core\framework\wechat\ZQH.Abp.WeChat.Common\obj\Debug\net8.0\refint\ZQH.Abp.WeChat.Common.dll
+E:\abp-vue\aspnet-core\framework\wechat\ZQH.Abp.WeChat.Common\obj\Debug\net8.0\ZQH.Abp.WeChat.Common.pdb
+E:\abp-vue\aspnet-core\framework\wechat\ZQH.Abp.WeChat.Common\obj\Debug\net8.0\ref\ZQH.Abp.WeChat.Common.dll

@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;netstandard2.1;net8.0</TargetFrameworks>
+		<AssemblyName>ZQH.Abp.RulesEngineManagement.Domain</AssemblyName>
+		<PackageId>ZQH.Abp.RulesEngineManagement.Domain</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Volo.Abp.Ddd.Domain" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\..\framework\rules\ZQH.Abp.Rules.RulesEngine\ZQH.Abp.Rules.RulesEngine.csproj" />
+		<ProjectReference Include="..\ZQH.Abp.RulesEngineManagement.Domain.Shared\ZQH.Abp.RulesEngineManagement.Domain.Shared.csproj" />
+	</ItemGroup>
+
+</Project>

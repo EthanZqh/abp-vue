@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>ZQH.Abp.IdentityServer.Session</AssemblyName>
+		<PackageId>ZQH.Abp.IdentityServer.Session</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\identity\ZQH.Abp.Identity.Domain\ZQH.Abp.Identity.Domain.csproj" />
+	  <ProjectReference Include="..\..\identity\ZQH.Abp.Identity.Session\ZQH.Abp.Identity.Session.csproj" />
+	  <ProjectReference Include="..\ZQH.Abp.IdentityServer.Domain\ZQH.Abp.IdentityServer.Domain.csproj" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "64O1Zz5bFlHOTr/bEfDHFhwIIiqSUJ7FkidERFvfmqPma0dUG9DuMVFMIFBdLi9ia45hgosyNq9Hn2+JR/o5zA==",
+  "success": true,
+  "projectFilePath": "E:\\abp-vue\\aspnet-core\\framework\\dynamic-queryable\\ZQH.Linq.Dynamic.Queryable\\ZQH.Linq.Dynamic.Queryable.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ZQH\\.nuget\\packages\\configureawait.fody\\3.3.2\\configureawait.fody.3.3.2.nupkg.sha512",
+    "C:\\Users\\ZQH\\.nuget\\packages\\fody\\6.8.1\\fody.6.8.1.nupkg.sha512",
+    "C:\\Users\\ZQH\\.nuget\\packages\\jetbrains.annotations\\2023.3.0\\jetbrains.annotations.2023.3.0.nupkg.sha512",
+    "C:\\Users\\ZQH\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ZQH\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ZQH\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

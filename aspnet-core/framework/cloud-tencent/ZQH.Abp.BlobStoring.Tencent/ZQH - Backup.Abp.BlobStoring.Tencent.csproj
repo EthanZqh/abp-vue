@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;netstandard2.1;net8.0</TargetFrameworks>
+		<AssemblyName>ZQH.Abp.BlobStoring.Tencent</AssemblyName>
+		<PackageId>ZQH.Abp.BlobStoring.Tencent</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+		<Description>腾讯云Oss对象存储Abp集成</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="ZQH.Abp\BlobStoring\Tencent\Localization\*.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="ZQH.Abp\BlobStoring\Tencent\Localization\*.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Volo.Abp.BlobStoring" />
+		<PackageReference Include="Tencent.QCloud.Cos.Sdk" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\ZQH.Abp.Tencent\ZQH.Abp.Tencent.csproj" />
+	</ItemGroup>
+
+</Project>

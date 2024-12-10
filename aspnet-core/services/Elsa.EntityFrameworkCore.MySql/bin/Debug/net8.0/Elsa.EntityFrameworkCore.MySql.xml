@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Elsa.EntityFrameworkCore.MySql</name>
+    </assembly>
+    <members>
+        <member name="T:Elsa.EntityFrameworkCore.MySql.Migrations.Alterations.Initial">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Alterations.Initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Alterations.Initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Alterations.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Elsa.EntityFrameworkCore.MySql.Migrations.Alterations.V3_1">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Alterations.V3_1.#ctor(Elsa.EntityFrameworkCore.Common.Contracts.IElsaDbContextSchema)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Alterations.V3_1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Alterations.V3_1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Alterations.V3_1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Elsa.EntityFrameworkCore.MySql.Migrations.Identity.Initial">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Identity.Initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Identity.Initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Identity.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Elsa.EntityFrameworkCore.MySql.Migrations.Identity.V3_1">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Identity.V3_1.#ctor(Elsa.EntityFrameworkCore.Common.Contracts.IElsaDbContextSchema)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Identity.V3_1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Identity.V3_1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Identity.V3_1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Elsa.EntityFrameworkCore.MySql.Migrations.Labels.Initial">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Labels.Initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Labels.Initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Labels.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Elsa.EntityFrameworkCore.MySql.Migrations.Labels.V3_1">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Labels.V3_1.#ctor(Elsa.EntityFrameworkCore.Common.Contracts.IElsaDbContextSchema)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Labels.V3_1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Labels.V3_1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Labels.V3_1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Elsa.EntityFrameworkCore.MySql.Migrations.Management.Initial">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Management.Initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Management.Initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Management.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Elsa.EntityFrameworkCore.MySql.Migrations.Management.V3_1">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Management.V3_1.#ctor(Elsa.EntityFrameworkCore.Common.Contracts.IElsaDbContextSchema)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Management.V3_1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Management.V3_1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Management.V3_1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Elsa.EntityFrameworkCore.MySql.Migrations.Runtime.Initial">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Runtime.Initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Runtime.Initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Runtime.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Elsa.EntityFrameworkCore.MySql.Migrations.Runtime.V3_1">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Runtime.V3_1.#ctor(Elsa.EntityFrameworkCore.Common.Contracts.IElsaDbContextSchema)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Runtime.V3_1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Runtime.V3_1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.MySql.Migrations.Runtime.V3_1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Elsa.EntityFrameworkCore.Extensions.DbContextOptionsBuilderExtensions">
+            <summary>
+            Contains extension methods for <see cref="T:Microsoft.EntityFrameworkCore.DbContextOptionsBuilder"/>.
+            </summary>
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.Extensions.DbContextOptionsBuilderExtensions.UseElsaMySql(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.Reflection.Assembly,System.String,Elsa.EntityFrameworkCore.Common.ElsaDbContextOptions,System.Action{Microsoft.EntityFrameworkCore.Infrastructure.MySqlDbContextOptionsBuilder})">
+            <summary>
+            Configures Entity Framework Core with MySQL.
+            </summary>
+        </member>
+        <member name="T:Elsa.EntityFrameworkCore.Extensions.MySqlProvidersExtensions">
+            <summary>
+            Provides extensions to configure EF Core to use MySQL.
+            </summary>
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.Extensions.MySqlProvidersExtensions.UseMySql(Elsa.EntityFrameworkCore.Modules.Identity.EFCoreIdentityPersistenceFeature,System.String,Elsa.EntityFrameworkCore.Common.ElsaDbContextOptions)">
+            <summary>
+            Configures the <see cref="T:Elsa.EntityFrameworkCore.Modules.Identity.EFCoreIdentityPersistenceFeature"/> to use MySql.
+            </summary>
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.Extensions.MySqlProvidersExtensions.UseMySql(Elsa.EntityFrameworkCore.Modules.Alterations.EFCoreAlterationsPersistenceFeature,System.String,Elsa.EntityFrameworkCore.Common.ElsaDbContextOptions)">
+            <summary>
+            Configures the <see cref="T:Elsa.EntityFrameworkCore.Modules.Alterations.EFCoreAlterationsPersistenceFeature"/> to use MySql.
+            </summary>
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.Extensions.MySqlProvidersExtensions.UseMySql(Elsa.EntityFrameworkCore.Modules.Labels.EFCoreLabelPersistenceFeature,System.String,Elsa.EntityFrameworkCore.Common.ElsaDbContextOptions)">
+            <summary>
+            Configures the <see cref="T:Elsa.EntityFrameworkCore.Modules.Labels.EFCoreLabelPersistenceFeature"/> to use MySql.
+            </summary>
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.Extensions.MySqlProvidersExtensions.UseMySql(Elsa.EntityFrameworkCore.Modules.Management.EFCoreWorkflowDefinitionPersistenceFeature,System.String,Elsa.EntityFrameworkCore.Common.ElsaDbContextOptions)">
+            <summary>
+            Configures the <see cref="T:Elsa.EntityFrameworkCore.Modules.Management.EFCoreWorkflowDefinitionPersistenceFeature"/> to use MySql.
+            </summary>
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.Extensions.MySqlProvidersExtensions.UseMySql(Elsa.EntityFrameworkCore.Modules.Management.EFCoreWorkflowInstancePersistenceFeature,System.String,Elsa.EntityFrameworkCore.Common.ElsaDbContextOptions)">
+            <summary>
+            Configures the <see cref="T:Elsa.EntityFrameworkCore.Modules.Management.EFCoreWorkflowInstancePersistenceFeature"/> to use MySql.
+            </summary>
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.Extensions.MySqlProvidersExtensions.UseMySql(Elsa.EntityFrameworkCore.Modules.Management.WorkflowManagementPersistenceFeature,System.String,Elsa.EntityFrameworkCore.Common.ElsaDbContextOptions)">
+            <summary>
+            Configures the <see cref="T:Elsa.EntityFrameworkCore.Modules.Management.WorkflowManagementPersistenceFeature"/> to use MySql.
+            </summary>
+        </member>
+        <member name="M:Elsa.EntityFrameworkCore.Extensions.MySqlProvidersExtensions.UseMySql(Elsa.EntityFrameworkCore.Modules.Runtime.EFCoreWorkflowRuntimePersistenceFeature,System.String,Elsa.EntityFrameworkCore.Common.ElsaDbContextOptions)">
+            <summary>
+            Configures the <see cref="T:Elsa.EntityFrameworkCore.Modules.Runtime.EFCoreWorkflowRuntimePersistenceFeature"/> to use MySql.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,14 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Notifications.Domain.Shared.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Notifications.Domain.Shared.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Notifications.Domain.Shared.pdb
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Domain.Shared\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Domain.Shared.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Domain.Shared\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Domain.Shared\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Domain.Shared.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Domain.Shared\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Domain.Shared.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Domain.Shared\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Domain.Shared.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Domain.Shared\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Domain.Shared.sourcelink.json
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Domain.Shared\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Domain.Shared.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Domain.Shared\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Domain.Shared.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Domain.Shared\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Domain.Shared.csproj.CopyComplete
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Domain.Shared\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Domain.Shared.dll
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.Domain.Shared\obj\Debug\netstandard2.1\ZQH.Abp.Notifications.Domain.Shared.pdb

@@ -1,0 +1,36 @@
+2024-11-15 00:11:16 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [161] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-15 00:11:16 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [161] - Start cleanup.
+2024-11-15 00:11:16 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [161] - Start cleanup host temp objects.
+2024-11-15 00:11:16 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [84] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-15 01:11:16 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [94] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-15 01:11:16 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [94] - Start cleanup.
+2024-11-15 01:11:16 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [94] - Start cleanup host temp objects.
+2024-11-15 01:11:16 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [157] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-15 02:11:16 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [140] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-15 02:11:16 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [140] - Start cleanup.
+2024-11-15 02:11:16 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [140] - Start cleanup host temp objects.
+2024-11-15 02:11:16 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [40] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-15 03:11:16 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [68] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-15 03:11:16 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [68] - Start cleanup.
+2024-11-15 03:11:16 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [68] - Start cleanup host temp objects.
+2024-11-15 03:11:16 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [68] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-15 04:11:16 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [115] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-15 04:11:16 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [115] - Start cleanup.
+2024-11-15 04:11:16 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [115] - Start cleanup host temp objects.
+2024-11-15 04:11:16 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [115] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-15 11:48:06 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [73] - RabbitMQ consumer cancelled. --> amq.ctag-vUF4Tc7T_gigUr9ajq-aTQ
+2024-11-15 11:48:07 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [73] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-15 11:48:07 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [73] - RabbitMQ consumer cancelled. --> amq.ctag-RCphvmBMTHE9Q7YF5Lzmvw
+2024-11-15 11:48:07 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [73] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-15 11:48:12 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [54] - RabbitMQ consumer registered. --> amq.ctag-vUF4Tc7T_gigUr9ajq-aTQ
+2024-11-15 11:48:12 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [73] - RabbitMQ consumer registered. --> amq.ctag-RCphvmBMTHE9Q7YF5Lzmvw
+2024-11-15 16:02:40 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [54] - RabbitMQ consumer cancelled. --> amq.ctag-vUF4Tc7T_gigUr9ajq-aTQ
+2024-11-15 16:02:42 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [54] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-15 16:02:42 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [54] - RabbitMQ consumer cancelled. --> amq.ctag-RCphvmBMTHE9Q7YF5Lzmvw
+2024-11-15 16:02:42 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [54] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-15 16:02:45 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [54] - RabbitMQ consumer registered. --> amq.ctag-vUF4Tc7T_gigUr9ajq-aTQ
+2024-11-15 16:02:45 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [166] - RabbitMQ consumer registered. --> amq.ctag-RCphvmBMTHE9Q7YF5Lzmvw
+2024-11-15 20:55:13 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [88] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-15 20:55:14 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [88] - Start cleanup.
+2024-11-15 20:55:14 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [88] - Start cleanup host temp objects.
+2024-11-15 20:55:14 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [106] - Lock is released for OssObjectTempCleanupBackgroundWorker

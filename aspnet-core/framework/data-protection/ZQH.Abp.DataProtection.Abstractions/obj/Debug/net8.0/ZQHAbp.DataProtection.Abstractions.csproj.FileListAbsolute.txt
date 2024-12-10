@@ -1,0 +1,15 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\LINGYUN.Abp.DataProtection.Abstractions.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\LINGYUN.Abp.DataProtection.Abstractions.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\LINGYUN.Abp.DataProtection.Abstractions.pdb
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection.Abstractions\obj\Debug\net8.0\ZQHAbp.DataProtection.Abstractions.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection.Abstractions\obj\Debug\net8.0\ZQHAbp.DataProtection.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection.Abstractions\obj\Debug\net8.0\ZQHAbp.DataProtection.Abstractions.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection.Abstractions\obj\Debug\net8.0\ZQHAbp.DataProtection.Abstractions.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection.Abstractions\obj\Debug\net8.0\ZQHAbp.DataProtection.Abstractions.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection.Abstractions\obj\Debug\net8.0\ZQHAbp.DataProtection.Abstractions.sourcelink.json
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection.Abstractions\obj\Debug\net8.0\ZQHAbp.DataProtection.Abstractions.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection.Abstractions\obj\Debug\net8.0\ZQHAbp.DataProtection.Abstractions.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection.Abstractions\obj\Debug\net8.0\LINGYUN.Abp.DataProtection.Abstractions.dll
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection.Abstractions\obj\Debug\net8.0\refint\LINGYUN.Abp.DataProtection.Abstractions.dll
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection.Abstractions\obj\Debug\net8.0\LINGYUN.Abp.DataProtection.Abstractions.pdb
+E:\abp-vue\aspnet-core\framework\data-protection\ZQH.Abp.DataProtection.Abstractions\obj\Debug\net8.0\ref\LINGYUN.Abp.DataProtection.Abstractions.dll

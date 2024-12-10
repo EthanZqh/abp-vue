@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>ZQH.Abp.TaskManagement.Application</AssemblyName>
+		<PackageId>ZQH.Abp.TaskManagement.Application</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Volo.Abp.Ddd.Application" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\framework\dynamic-queryable\ZQH.Abp.Dynamic.Queryable.Application\ZQH.Abp.Dynamic.Queryable.Application.csproj" />
+	  <ProjectReference Include="..\ZQH.Abp.TaskManagement.Application.Contracts\ZQH.Abp.TaskManagement.Application.Contracts.csproj" />
+	  <ProjectReference Include="..\ZQH.Abp.TaskManagement.Domain\ZQH.Abp.TaskManagement.Domain.csproj" />
+	</ItemGroup>
+
+</Project>

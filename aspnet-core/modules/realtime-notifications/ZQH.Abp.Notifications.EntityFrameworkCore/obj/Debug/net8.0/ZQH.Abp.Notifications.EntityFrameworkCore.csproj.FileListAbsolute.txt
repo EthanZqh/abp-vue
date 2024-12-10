@@ -1,0 +1,16 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Notifications.EntityFrameworkCore.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Notifications.EntityFrameworkCore.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Notifications.EntityFrameworkCore.pdb
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.Notifications.EntityFrameworkCore.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.Notifications.EntityFrameworkCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.Notifications.EntityFrameworkCore.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.Notifications.EntityFrameworkCore.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.Notifications.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.Notifications.EntityFrameworkCore.sourcelink.json
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.Notifications.EntityFrameworkCore.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.Notifications.EntityFrameworkCore.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.Notifications.EntityFrameworkCore.csproj.CopyComplete
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.Notifications.EntityFrameworkCore.dll
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.EntityFrameworkCore\obj\Debug\net8.0\refint\ZQH.Abp.Notifications.EntityFrameworkCore.dll
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.Notifications.EntityFrameworkCore.pdb
+E:\abp-vue\aspnet-core\modules\realtime-notifications\ZQH.Abp.Notifications.EntityFrameworkCore\obj\Debug\net8.0\ref\ZQH.Abp.Notifications.EntityFrameworkCore.dll

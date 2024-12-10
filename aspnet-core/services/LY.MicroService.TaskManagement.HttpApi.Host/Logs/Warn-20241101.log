@@ -1,0 +1,65 @@
+2024-11-01 14:38:44 [WRN] [ZQH.Abp.BackgroundTasks.Quartz.QuartzJobListener] [1976] [181] - The task BackgroundPollingJob could not be performed, Because it is being scheduled by another job scheduler
+2024-11-01 14:38:49 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [231] - Cannot process job change event because job with key Cleaning could not be found!
+2024-11-01 14:38:49 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [173] - Cannot process job change event because job with key Checking could not be found!
+2024-11-01 14:38:49 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [261] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:38:51 [WRN] [DotNetCore.CAP.Processor.TransportCheckProcessor] [1976] [231] - Transport connection is unhealthy, reconnection...
+2024-11-01 14:38:53 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [1976] [261] - RabbitMQ consumer cancelled. --> amq.ctag-edPjh2UZyqC7FSm96nDuxg
+2024-11-01 14:38:55 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [1976] [261] - RabbitMQ consumer shutdown. --> Goodbye
+2024-11-01 14:39:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [173] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:39:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [277] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:40:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [76] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:40:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [277] - Cannot process job change event because job with key Cleaning could not be found!
+2024-11-01 14:40:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [277] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:41:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [267] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:41:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [178] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:42:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [244] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:42:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [277] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:43:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [206] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:43:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [224] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:44:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [277] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:44:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [277] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:45:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [180] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:45:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [189] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:46:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [273] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:46:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [273] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:47:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [180] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:47:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [180] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:48:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [288] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:48:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [206] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:49:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [205] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:49:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [288] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:50:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [224] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:50:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [205] - Cannot process job change event because job with key Cleaning could not be found!
+2024-11-01 14:50:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [205] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:51:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [231] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:51:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [224] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:52:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [231] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:52:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [256] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:53:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [256] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:53:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [214] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:54:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [262] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:54:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [262] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:55:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [186] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:55:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [262] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:56:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [188] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:56:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [22] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:57:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [22] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:57:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [22] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:58:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [286] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:59:05 [WRN] [ZQH.Abp.BackgroundTasks.Quartz.QuartzJobListener] [1976] [226] - The task BackgroundPollingJob could not be performed, Because it is being scheduled by another job scheduler
+2024-11-01 14:59:25 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [202] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 14:59:57 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [193] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 15:00:48 [WRN] [ZQH.Abp.BackgroundTasks.Quartz.QuartzJobListener] [1976] [226] - The task BackgroundPollingJob could not be performed, Because it is being scheduled by another job scheduler
+2024-11-01 15:00:48 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [193] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 15:00:53 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [230] - Cannot process job change event because job with key Cleaning could not be found!
+2024-11-01 15:01:35 [WRN] [ZQH.Abp.BackgroundTasks.Quartz.QuartzJobListener] [1976] [230] - The task BackgroundPollingJob could not be performed, Because it is being scheduled by another job scheduler
+2024-11-01 15:01:55 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [230] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 15:02:12 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [265] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 15:03:03 [WRN] [ZQH.Abp.BackgroundTasks.Quartz.QuartzJobListener] [1976] [233] - The task BackgroundPollingJob could not be performed, Because it is being scheduled by another job scheduler
+2024-11-01 15:03:36 [WRN] [ZQH.Abp.BackgroundTasks.Quartz.QuartzJobListener] [1976] [233] - The task BackgroundPollingJob could not be performed, Because it is being scheduled by another job scheduler
+2024-11-01 15:03:41 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [264] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 15:04:30 [WRN] [ZQH.Abp.BackgroundTasks.Quartz.QuartzJobListener] [1976] [272] - The task BackgroundPollingJob could not be performed, Because it is being scheduled by another job scheduler
+2024-11-01 15:04:38 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [44] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 15:05:33 [WRN] [ZQH.Abp.BackgroundTasks.Quartz.QuartzJobListener] [1976] [242] - The task BackgroundPollingJob could not be performed, Because it is being scheduled by another job scheduler
+2024-11-01 15:05:36 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [272] - Cannot process job change event because job with key Polling could not be found!
+2024-11-01 15:06:27 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [227] - Cannot process job change event because job with key Polling could not be found!

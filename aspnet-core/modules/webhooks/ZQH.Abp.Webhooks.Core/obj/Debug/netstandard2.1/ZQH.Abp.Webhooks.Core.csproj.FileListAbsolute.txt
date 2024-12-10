@@ -1,0 +1,13 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Webhooks.Core.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Webhooks.Core.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Webhooks.Core.pdb
+E:\abp-vue\aspnet-core\modules\webhooks\ZQH.Abp.Webhooks.Core\obj\Debug\netstandard2.1\ZQH.Abp.Webhooks.Core.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\webhooks\ZQH.Abp.Webhooks.Core\obj\Debug\netstandard2.1\ZQH.Abp.Webhooks.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\webhooks\ZQH.Abp.Webhooks.Core\obj\Debug\netstandard2.1\ZQH.Abp.Webhooks.Core.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\webhooks\ZQH.Abp.Webhooks.Core\obj\Debug\netstandard2.1\ZQH.Abp.Webhooks.Core.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\webhooks\ZQH.Abp.Webhooks.Core\obj\Debug\netstandard2.1\ZQH.Abp.Webhooks.Core.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\webhooks\ZQH.Abp.Webhooks.Core\obj\Debug\netstandard2.1\ZQH.Abp.Webhooks.Core.sourcelink.json
+E:\abp-vue\aspnet-core\modules\webhooks\ZQH.Abp.Webhooks.Core\obj\Debug\netstandard2.1\ZQH.Abp.Webhooks.Core.dll
+E:\abp-vue\aspnet-core\modules\webhooks\ZQH.Abp.Webhooks.Core\obj\Debug\netstandard2.1\ZQH.Abp.Webhooks.Core.pdb
+E:\abp-vue\aspnet-core\modules\webhooks\ZQH.Abp.Webhooks.Core\obj\Debug\netstandard2.1\ZQH.Abp.Webhooks.Core.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\webhooks\ZQH.Abp.Webhooks.Core\obj\Debug\netstandard2.1\ZQH.Abp.Webhooks.Core.csproj.Fody.RuntimeCopyLocal.cache

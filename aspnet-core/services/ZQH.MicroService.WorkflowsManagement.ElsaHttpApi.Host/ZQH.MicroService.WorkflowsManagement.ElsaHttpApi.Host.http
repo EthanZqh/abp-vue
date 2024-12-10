@@ -1,0 +1,6 @@
+@ZQH.MicroService.WorkflowsManagement.ElsaHttpApi.Host_HostAddress = http://127.0.0.1:5120
+
+GET {{ZQH.MicroService.WorkflowsManagement.ElsaHttpApi.Host_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

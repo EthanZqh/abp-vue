@@ -1,0 +1,559 @@
+2024-10-25 20:42:31 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [21748] [76] - RabbitMQ consumer cancelled. --> amq.ctag-Z_M2FJDU4cIv6ios8Tce1Q
+2024-10-26 01:20:35 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [21748] [76] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-26 01:20:40 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [21748] [80] - RabbitMQ consumer registered. --> amq.ctag--m7TDsPcEL2DCdkPXcdZmA
+2024-10-26 01:20:40 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [21748] [66] - RabbitMQ consumer registered. --> amq.ctag-Z_M2FJDU4cIv6ios8Tce1Q
+2024-10-26 02:04:41 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [21748] [66] - Request starting HTTP/1.1 GET http://127.0.0.1:5002/api/abp/application-configuration?_t=1729879480564 - null 0
+2024-10-26 02:04:41 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [21748] [66] - Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 02:04:41 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [21748] [66] - Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2024-10-26 02:04:41 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [21748] [66] - Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2024-10-26 02:04:41 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [21748] [66] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-26 02:04:41 [DBG] [Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationAppService] [21748] [66] - Executing AbpApplicationConfigurationAppService.GetAsync()...
+2024-10-26 02:04:41 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [21748] [66] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`Enable`
+2024-10-26 02:04:41 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [21748] [80] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`DefaultCultureName`, `a`.`Description`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`Name`
+FROM `AbpLocalizationResources` AS `a`
+2024-10-26 02:04:41 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [21748] [80] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`Enable`
+2024-10-26 02:04:41 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [21748] [66] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CultureName`, `a`.`Key`, `a`.`ResourceName`, `a`.`Value`
+FROM `AbpLocalizationTexts` AS `a`
+2024-10-26 02:04:41 [DBG] [Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationAppService] [21748] [66] - Executed AbpApplicationConfigurationAppService.GetAsync().
+2024-10-26 02:04:41 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [21748] [66] - Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 186.565ms.
+2024-10-26 02:04:41 [DBG] [Volo.Abp.EntityFrameworkCore.AbpDbContext] [21748] [66] - Added 0 entity changes to the current audit log
+2024-10-26 02:04:41 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] [21748] [66] - Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2024-10-26 02:04:41 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [21748] [69] - Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 318.2706ms
+2024-10-26 02:04:41 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [21748] [69] - Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 02:04:41 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [21748] [69] - Request finished HTTP/1.1 GET http://127.0.0.1:5002/api/abp/application-configuration?_t=1729879480564 - 200 52258 application/json; charset=utf-8 393.5922ms
+2024-10-26 02:04:48 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [21748] [69] - Request starting HTTP/1.1 GET http://127.0.0.1:5002/api/abp/api-definition?_t=1729879488097 - null 0
+2024-10-26 02:04:48 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [21748] [69] - Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 02:04:48 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [21748] [69] - Route matched with {area = "abp", action = "Get", controller = "AbpApiDefinition"}. Executing controller action with signature Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel Get(Volo.Abp.Http.Modeling.ApplicationApiDescriptionModelRequestDto) on controller Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController (Volo.Abp.AspNetCore.Mvc).
+2024-10-26 02:04:48 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [21748] [69] - Executing action method Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2024-10-26 02:04:48 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [21748] [69] - ActionApiDescriptionModel.Create: Language.GetListAsyncByInput
+2024-10-26 02:04:48 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [21748] [69] - ActionApiDescriptionModel.Create: Resource.GetListAsyncByInput
+2024-10-26 02:04:48 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [21748] [69] - ActionApiDescriptionModel.Create: Text.GetByCultureKeyAsyncByInput
+2024-10-26 02:04:48 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [21748] [69] - ActionApiDescriptionModel.Create: Text.GetListAsyncByInput
+2024-10-26 02:04:48 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [21748] [69] - ActionApiDescriptionModel.Create: Onboarding.GetListAsyncByInput
+2024-10-26 02:04:48 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [21748] [69] - ActionApiDescriptionModel.Create: Onboarding.CreateAsyncByWebhookEvent
+2024-10-26 02:04:48 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [21748] [69] - ActionApiDescriptionModel.Create: Onboarding.CompleteTaskAsyncByTaskIdAndCancellationToken
+2024-10-26 02:04:48 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [21748] [69] - ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsyncByOptions
+2024-10-26 02:04:48 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [21748] [69] - ActionApiDescriptionModel.Create: AbpApplicationLocalization.GetAsyncByInput
+2024-10-26 02:04:48 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [21748] [69] - ActionApiDescriptionModel.Create: AbpApiDefinition.GetByModel
+2024-10-26 02:04:48 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [21748] [69] - Executed action method Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 104.0647ms.
+2024-10-26 02:04:48 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] [21748] [69] - Executing ObjectResult, writing value of type 'Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel'.
+2024-10-26 02:04:48 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [21748] [69] - Executed action Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) in 147.0963ms
+2024-10-26 02:04:48 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [21748] [69] - Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 02:04:48 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [21748] [69] - Request finished HTTP/1.1 GET http://127.0.0.1:5002/api/abp/api-definition?_t=1729879488097 - 200 20847 application/json; charset=utf-8 216.3914ms
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] - Loaded ABP modules:
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] - - ZQH.MicroService.Workflows.ElsaHttpApi.Host.WorkflowsManagementElsaHttpApiHostModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - ZQH.Abp.Serilog.Enrichers.Application.AbpSerilogEnrichersApplicationModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - ZQH.Abp.Serilog.Enrichers.UniqueId.AbpSerilogEnrichersUniqueIdModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -     - ZQH.Abp.IdGenerator.AbpIdGeneratorModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - Volo.Abp.Data.AbpDataModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -         - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - Volo.Abp.Security.AbpSecurityModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - Volo.Abp.Settings.AbpSettingsModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -         - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -         - Volo.Abp.Localization.AbpLocalizationModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -           - Volo.Abp.Threading.AbpThreadingModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -     - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - Volo.Abp.Auditing.AbpAuditingModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -         - Volo.Abp.Json.AbpJsonModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -           - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -             - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -             - Volo.Abp.Timing.AbpTimingModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - Volo.Abp.Http.AbpHttpModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -         - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -         - Volo.Abp.Minify.AbpMinifyModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - Volo.Abp.Validation.AbpValidationModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - Volo.Abp.AspNetCore.AbpAspNetCoreAbstractionsModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - ZQH.Abp.AuditLogging.Elasticsearch.AbpAuditLoggingElasticsearchModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -     - ZQH.Abp.AuditLogging.AbpAuditLoggingModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - Volo.Abp.Guids.AbpGuidsModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -     - ZQH.Abp.Elasticsearch.AbpElasticsearchModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - ZQH.Abp.AspNetCore.Mvc.Localization.AbpAspNetCoreMvcLocalizationModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -         - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -         - Volo.Abp.UI.AbpUiModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - Volo.Abp.Application.AbpDddApplicationModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -         - Volo.Abp.Domain.AbpDddDomainModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -           - Volo.Abp.EventBus.AbpEventBusModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -           - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -           - Volo.Abp.Caching.AbpCachingModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -             - Volo.Abp.Serialization.AbpSerializationModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -           - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -         - Volo.Abp.Features.AbpFeaturesModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - ZQH.Abp.Saas.EntityFrameworkCore.AbpSaasEntityFrameworkCoreModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -     - ZQH.Abp.Saas.AbpSaasDomainModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - ZQH.Abp.Saas.AbpSaasDomainSharedModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - ZQH.Abp.MultiTenancy.Editions.AbpMultiTenancyEditionsModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - ZQH.Abp.LocalizationManagement.EntityFrameworkCore.AbpLocalizationManagementEntityFrameworkCoreModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -     - ZQH.Abp.LocalizationManagement.AbpLocalizationManagementDomainModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - ZQH.Abp.Localization.Persistence.AbpLocalizationPersistenceModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - ZQH.Abp.LocalizationManagement.AbpLocalizationManagementDomainSharedModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -     - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - ZQH.Abp.EventBus.CAP.AbpCAPEventBusModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - ZQH.Abp.Identity.Session.AspNetCore.AbpIdentitySessionAspNetCoreModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -     - ZQH.Abp.Identity.Session.AbpIdentitySessionModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - Volo.Abp.Http.Client.AbpHttpClientModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -     - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - Volo.Abp.AspNetCore.Mvc.NewtonsoftJson.AbpAspNetCoreMvcNewtonsoftModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -     - Volo.Abp.Json.Newtonsoft.AbpJsonNewtonsoftModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - ZQH.Abp.Onboarding.AbpOnboardingHttpApiModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -     - ZQH.Abp.Onboarding.AbpOnboardingApplicationContractsModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - ZQH.Abp.Onboarding.AbpOnboardingDomainSharedModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - ZQH.Abp.Onboarding.AbpOnboardingApplicationModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -     - ZQH.Abp.Onboarding.AbpOnboardingDomainModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - ZQH.Abp.Onboarding.EntityFrameworkCore.AbpOnboardingEntityFrameworkCoreModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - ZQH.MicroService.Onboarding.EntityFrameworkCore.OnboardingMigrationsEntityFrameworkCoreModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -     - ZQH.Abp.Data.DbMigrator.AbpDataDbMigratorModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - ZQH.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -     - ZQH.Abp.Identity.AbpIdentityDomainModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - ZQH.Abp.Identity.AbpIdentityDomainSharedModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - Volo.Abp.Identity.AbpIdentityDomainModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -         - Volo.Abp.Users.AbpUsersDomainModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - ZQH.Abp.Authorization.OrganizationUnits.AbpAuthorizationOrganizationUnitsModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - ZQH.Abp.AspNetCore.HttpOverrides.AbpAspNetCoreHttpOverridesModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - ZQH.Abp.Localization.CultureMap.AbpLocalizationCultureMapModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - ZQH.Abp.Http.Client.Wrapper.AbpHttpClientWrapperModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -     - ZQH.Abp.Wrapper.AbpWrapperModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - ZQH.Abp.AspNetCore.Mvc.Wrapper.AbpAspNetCoreMvcWrapperModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -     - ZQH.Abp.AspNetCore.Wrapper.AbpAspNetCoreWrapperModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2024-10-26 03:19:11 [INF] [Volo.Abp.AbpApplicationBase] [22100] [1] -   - Volo.Abp.Autofac.AbpAutofacModule
+2024-10-26 03:19:12 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] [22100] [1] - User profile is available. Using 'C:\Users\ZQH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-26 03:19:12 [INF] [Volo.Abp.Modularity.ModuleManager] [22100] [1] - Initialized all ABP modules.
+2024-10-26 03:19:13 [INF] [DotNetCore.CAP.Processor.Dispatcher] [22100] [11] - Starting default Dispatcher
+2024-10-26 03:19:13 [WRN] [ZQH.Abp.EventBus.CAP.AbpCAPConsumerServiceSelector] [22100] [11] - We detected that you have duplicate subscribers (abp.multi_tenancy.tenant.connection_string.updated) in same group (ElsaClient.v1), this will cause diversity behavior.
+2024-10-26 03:19:13 [INF] [DotNetCore.CAP.Processor.CapProcessingServer] [22100] [11] - Starting the processing server.
+2024-10-26 03:19:13 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [22100] [7] - RabbitMQ consumer registered. --> amq.ctag-0ht80R8qbGoFolGifSIxsw
+2024-10-26 03:19:13 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [22100] [4] - RabbitMQ consumer registered. --> amq.ctag-ouvWsCdy4HT2tudwbBDFMQ
+2024-10-26 03:19:13 [INF] [DotNetCore.CAP.Internal.Bootstrapper] [22100] [11] - ### CAP started!
+2024-10-26 03:19:13 [INF] [Microsoft.Hosting.Lifetime] [22100] [1] - Now listening on: http://127.0.0.1:5002
+2024-10-26 03:19:13 [INF] [Microsoft.Hosting.Lifetime] [22100] [1] - Now listening on: http://127.0.0.1:61973
+2024-10-26 03:19:13 [INF] [Microsoft.Hosting.Lifetime] [22100] [1] - Application started. Press Ctrl+C to shut down.
+2024-10-26 03:19:13 [INF] [Microsoft.Hosting.Lifetime] [22100] [1] - Hosting environment: Development
+2024-10-26 03:19:13 [INF] [Microsoft.Hosting.Lifetime] [22100] [1] - Content root path: E:\abp-vue\aspnet-core\services\ZQH.MicroService.WorkflowsManagement.ElsaHttpApi.Host
+2024-10-26 03:19:13 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [7] - Executed DbCommand (4ms) [Parameters=[@__name_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`DefaultCultureName`, `a`.`Description`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`Name`
+FROM `AbpLocalizationResources` AS `a`
+WHERE `a`.`Name` = @__name_0
+LIMIT 1
+2024-10-26 03:19:13 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [11] - Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Name`, `a`.`ProviderKey`, `a`.`ProviderName`, `a`.`TenantId`
+FROM `AbpPermissionGrants` AS `a`
+WHERE FALSE
+2024-10-26 03:19:14 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [30] - Executed DbCommand (1ms) [Parameters=[@__cultureName_0='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`CultureName` = @__cultureName_0
+LIMIT 1
+2024-10-26 03:19:14 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [7] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT `a`.`Key`
+FROM `AbpLocalizationTexts` AS `a`
+WHERE FALSE
+2024-10-26 03:19:14 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [6] - Executed DbCommand (1ms) [Parameters=[@__cultureName_0='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`CultureName` = @__cultureName_0
+LIMIT 1
+2024-10-26 03:19:14 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [6] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT `a`.`Key`
+FROM `AbpLocalizationTexts` AS `a`
+WHERE FALSE
+2024-10-26 03:19:14 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [6] - Executed DbCommand (1ms) [Parameters=[@__name_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`DefaultCultureName`, `a`.`Description`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`Name`
+FROM `AbpLocalizationResources` AS `a`
+WHERE `a`.`Name` = @__name_0
+LIMIT 1
+2024-10-26 03:19:14 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [30] - Executed DbCommand (1ms) [Parameters=[@__cultureName_0='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`CultureName` = @__cultureName_0
+LIMIT 1
+2024-10-26 03:19:14 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [6] - Executed DbCommand (4ms) [Parameters=[@__resourceName_0='?' (Size = 4000), @__cultureName_1='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT `a`.`Key`
+FROM `AbpLocalizationTexts` AS `a`
+WHERE ((`a`.`ResourceName` = @__resourceName_0) AND (`a`.`CultureName` = @__cultureName_1)) AND `a`.`Key` IN ('Saas:010001', 'Saas:010002', 'Saas:020001', 'Saas:020101', 'Saas:020102', 'Saas:020103', 'Volo.AbpIo.MultiTenancy:010001', 'Volo.AbpIo.MultiTenancy:010002', 'Menu:Saas', 'Editions', 'NewEdition', 'EditionName', 'DisplayName:EditionName', 'EditionDeletionConfirmationMessage', 'Tenants', 'NewTenant', 'TenantName', 'DisplayName:TenantName', 'TenantDeletionConfirmationMessage', 'ConnectionStrings', 'ConnectionStrings:AddNew', 'DisplayName:DefaultConnectionString', 'DisplayName:UseSharedDatabase', 'DisplayName:Name', 'DisplayName:Value', 'DisplayName:IsActive', 'DisplayName:EnableTime', 'DisplayName:DisableTime', 'ManageHostFeatures', 'Features:Saas', 'Permission:Saas', 'Permission:EditionManagement', 'Permission:TenantManagement', 'Permission:Create', 'Permission:Edit', 'Permission:Delete', 'Permission:ManageConnectionStrings', 'Permission:ManageFeatures', 'DisplayName:AdminEmailAddress', 'DisplayName:AdminPassword', 'Features:RecycleStrategy', 'Features:RecycleStrategyDesc', 'Features:ExpirationReminderDays', 'Features:ExpirationReminderDaysDesc', 'Features:ExpiredRecoveryTime', 'Features:ExpiredRecoveryTimeDesc', 'TenantNotFoundById', 'TenantNotFoundByName', 'UnActived', 'RecycleStrategy:Reserve', 'RecycleStrategy:Recycle', 'test1')
+2024-10-26 03:19:14 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [6] - Executed DbCommand (1ms) [Parameters=[@__cultureName_0='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`CultureName` = @__cultureName_0
+LIMIT 1
+2024-10-26 03:19:14 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [6] - Executed DbCommand (2ms) [Parameters=[@__resourceName_0='?' (Size = 4000), @__cultureName_1='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT `a`.`Key`
+FROM `AbpLocalizationTexts` AS `a`
+WHERE ((`a`.`ResourceName` = @__resourceName_0) AND (`a`.`CultureName` = @__cultureName_1)) AND `a`.`Key` IN ('Name', 'Description', 'EmployeeName', 'EmployeeEmail', 'Id', 'EmployeeOnboardingApproval', 'Approval', 'Volo.AbpIo.MultiTenancy:010002', 'Menu:Saas', 'Editions', 'NewEdition', 'EditionName', 'DisplayName:EditionName', 'EditionDeletionConfirmationMessage', 'Tenants', 'NewTenant', 'TenantName', 'DisplayName:TenantName', 'TenantDeletionConfirmationMessage', 'ConnectionStrings', 'ConnectionStrings:AddNew', 'DisplayName:DefaultConnectionString', 'DisplayName:UseSharedDatabase', 'DisplayName:Name', 'DisplayName:Value', 'DisplayName:IsActive', 'DisplayName:EnableTime', 'DisplayName:DisableTime', 'ManageHostFeatures', 'Features:Saas', 'Permission:Saas', 'Permission:EditionManagement', 'Permission:TenantManagement', 'Permission:Create', 'Permission:Edit', 'Permission:Delete', 'Permission:ManageConnectionStrings', 'Permission:ManageFeatures', 'DisplayName:AdminEmailAddress', 'DisplayName:AdminPassword', 'Features:RecycleStrategy', 'Features:RecycleStrategyDesc', 'Features:ExpirationReminderDays', 'Features:ExpirationReminderDaysDesc', 'Features:ExpiredRecoveryTime', 'Features:ExpiredRecoveryTimeDesc', 'TenantNotFoundById', 'TenantNotFoundByName', 'UnActived', 'RecycleStrategy:Reserve', 'RecycleStrategy:Recycle', 'test')
+2024-10-26 03:19:14 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [6] - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`DeleterId`, `a`.`DeletionTime`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`EntityVersion`, `a`.`ExtraProperties`, `a`.`IsActive`, `a`.`IsDeleted`, `a`.`IsExternal`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`LastPasswordChangeTime`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`Name`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`ShouldChangePasswordOnNextLogin`, `a`.`Surname`, `a`.`TenantId`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AbpUsers` AS `a`
+WHERE ((@__ef_filter__p_0 OR NOT (`a`.`IsDeleted`)) AND (@__ef_filter__p_1 OR (`a`.`TenantId` IS NULL))) AND (`a`.`NormalizedUserName` = @__normalizedUserName_0)
+ORDER BY `a`.`Id`
+LIMIT 1
+2024-10-26 03:19:14 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [6] - Executed DbCommand (13ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t0`.`UserId`, `t0`.`RoleId`, `t0`.`TenantId`, `t`.`Id`
+FROM (
+    SELECT `a`.`Id`
+    FROM `AbpUsers` AS `a`
+    WHERE ((@__ef_filter__p_0 OR NOT (`a`.`IsDeleted`)) AND (@__ef_filter__p_1 OR (`a`.`TenantId` IS NULL))) AND (`a`.`NormalizedUserName` = @__normalizedUserName_0)
+    ORDER BY `a`.`Id`
+    LIMIT 1
+) AS `t`
+INNER JOIN (
+    SELECT `a0`.`UserId`, `a0`.`RoleId`, `a0`.`TenantId`
+    FROM `AbpUserRoles` AS `a0`
+    WHERE @__ef_filter__p_1 OR (`a0`.`TenantId` IS NULL)
+) AS `t0` ON `t`.`Id` = `t0`.`UserId`
+ORDER BY `t`.`Id`
+2024-10-26 03:19:14 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [6] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t0`.`UserId`, `t0`.`LoginProvider`, `t0`.`ProviderDisplayName`, `t0`.`ProviderKey`, `t0`.`TenantId`, `t`.`Id`
+FROM (
+    SELECT `a`.`Id`
+    FROM `AbpUsers` AS `a`
+    WHERE ((@__ef_filter__p_0 OR NOT (`a`.`IsDeleted`)) AND (@__ef_filter__p_1 OR (`a`.`TenantId` IS NULL))) AND (`a`.`NormalizedUserName` = @__normalizedUserName_0)
+    ORDER BY `a`.`Id`
+    LIMIT 1
+) AS `t`
+INNER JOIN (
+    SELECT `a0`.`UserId`, `a0`.`LoginProvider`, `a0`.`ProviderDisplayName`, `a0`.`ProviderKey`, `a0`.`TenantId`
+    FROM `AbpUserLogins` AS `a0`
+    WHERE @__ef_filter__p_1 OR (`a0`.`TenantId` IS NULL)
+) AS `t0` ON `t`.`Id` = `t0`.`UserId`
+ORDER BY `t`.`Id`
+2024-10-26 03:19:14 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [6] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t0`.`Id`, `t0`.`ClaimType`, `t0`.`ClaimValue`, `t0`.`TenantId`, `t0`.`UserId`, `t`.`Id`
+FROM (
+    SELECT `a`.`Id`
+    FROM `AbpUsers` AS `a`
+    WHERE ((@__ef_filter__p_0 OR NOT (`a`.`IsDeleted`)) AND (@__ef_filter__p_1 OR (`a`.`TenantId` IS NULL))) AND (`a`.`NormalizedUserName` = @__normalizedUserName_0)
+    ORDER BY `a`.`Id`
+    LIMIT 1
+) AS `t`
+INNER JOIN (
+    SELECT `a0`.`Id`, `a0`.`ClaimType`, `a0`.`ClaimValue`, `a0`.`TenantId`, `a0`.`UserId`
+    FROM `AbpUserClaims` AS `a0`
+    WHERE @__ef_filter__p_1 OR (`a0`.`TenantId` IS NULL)
+) AS `t0` ON `t`.`Id` = `t0`.`UserId`
+ORDER BY `t`.`Id`
+2024-10-26 03:19:14 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [6] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t0`.`UserId`, `t0`.`LoginProvider`, `t0`.`Name`, `t0`.`TenantId`, `t0`.`Value`, `t`.`Id`
+FROM (
+    SELECT `a`.`Id`
+    FROM `AbpUsers` AS `a`
+    WHERE ((@__ef_filter__p_0 OR NOT (`a`.`IsDeleted`)) AND (@__ef_filter__p_1 OR (`a`.`TenantId` IS NULL))) AND (`a`.`NormalizedUserName` = @__normalizedUserName_0)
+    ORDER BY `a`.`Id`
+    LIMIT 1
+) AS `t`
+INNER JOIN (
+    SELECT `a0`.`UserId`, `a0`.`LoginProvider`, `a0`.`Name`, `a0`.`TenantId`, `a0`.`Value`
+    FROM `AbpUserTokens` AS `a0`
+    WHERE @__ef_filter__p_1 OR (`a0`.`TenantId` IS NULL)
+) AS `t0` ON `t`.`Id` = `t0`.`UserId`
+ORDER BY `t`.`Id`
+2024-10-26 03:19:14 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [6] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t0`.`OrganizationUnitId`, `t0`.`UserId`, `t0`.`CreationTime`, `t0`.`CreatorId`, `t0`.`TenantId`, `t`.`Id`
+FROM (
+    SELECT `a`.`Id`
+    FROM `AbpUsers` AS `a`
+    WHERE ((@__ef_filter__p_0 OR NOT (`a`.`IsDeleted`)) AND (@__ef_filter__p_1 OR (`a`.`TenantId` IS NULL))) AND (`a`.`NormalizedUserName` = @__normalizedUserName_0)
+    ORDER BY `a`.`Id`
+    LIMIT 1
+) AS `t`
+INNER JOIN (
+    SELECT `a0`.`OrganizationUnitId`, `a0`.`UserId`, `a0`.`CreationTime`, `a0`.`CreatorId`, `a0`.`TenantId`
+    FROM `AbpUserOrganizationUnits` AS `a0`
+    WHERE @__ef_filter__p_1 OR (`a0`.`TenantId` IS NULL)
+) AS `t0` ON `t`.`Id` = `t0`.`UserId`
+ORDER BY `t`.`Id`
+2024-10-26 03:19:16 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [22100] [6] - Failed to initialize index and audit log may not be retrieved.
+2024-10-26 03:19:17 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [22100] [6] - Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET /
+ ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product.
+ ---> System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9200)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Elasticsearch.Net.HttpConnection.RequestAsync[TResponse](RequestData requestData, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure()
+   at Elasticsearch.Net.RequestPipeline.PingAsync(Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.PingAsync(IRequestPipeline pipeline, Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.RequestAsync[TResponse](HttpMethod method, String path, CancellationToken cancellationToken, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2024-10-26 03:19:21 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [22100] [6] - Failed to initialize index and security log may not be retrieved.
+2024-10-26 03:19:21 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [22100] [6] - Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET /
+ ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product.
+ ---> System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9200)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Elasticsearch.Net.HttpConnection.RequestAsync[TResponse](RequestData requestData, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure()
+   at Elasticsearch.Net.RequestPipeline.PingAsync(Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.PingAsync(IRequestPipeline pipeline, Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.RequestAsync[TResponse](HttpMethod method, String path, CancellationToken cancellationToken, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2024-10-26 03:22:32 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [22100] [37] - Request starting HTTP/1.1 GET http://127.0.0.1:5002/api/abp/application-configuration?_t=1729884151997 - null 0
+2024-10-26 03:22:32 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [36] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`Enable`
+2024-10-26 03:22:33 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [22100] [36] - Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:22:33 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [36] - Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2024-10-26 03:22:34 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [36] - Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2024-10-26 03:22:34 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [22100] [36] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-26 03:22:34 [DBG] [Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationAppService] [22100] [36] - Executing AbpApplicationConfigurationAppService.GetAsync()...
+2024-10-26 03:22:34 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [35] - Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`Enable`
+2024-10-26 03:22:34 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [35] - Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`DefaultCultureName`, `a`.`Description`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`Name`
+FROM `AbpLocalizationResources` AS `a`
+2024-10-26 03:22:34 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [36] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`Enable`
+2024-10-26 03:22:34 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [37] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CultureName`, `a`.`Key`, `a`.`ResourceName`, `a`.`Value`
+FROM `AbpLocalizationTexts` AS `a`
+2024-10-26 03:22:35 [DBG] [Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationAppService] [22100] [37] - Executed AbpApplicationConfigurationAppService.GetAsync().
+2024-10-26 03:22:35 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [37] - Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1506.6982ms.
+2024-10-26 03:22:35 [DBG] [Volo.Abp.EntityFrameworkCore.AbpDbContext] [22100] [37] - Added 0 entity changes to the current audit log
+2024-10-26 03:22:35 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] [22100] [37] - Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2024-10-26 03:22:36 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [38] - Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 2372.1141ms
+2024-10-26 03:22:36 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [22100] [38] - Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:22:36 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [22100] [38] - Request finished HTTP/1.1 GET http://127.0.0.1:5002/api/abp/application-configuration?_t=1729884151997 - 200 52258 application/json; charset=utf-8 3691.9785ms
+2024-10-26 03:22:40 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [22100] [35] - Request starting HTTP/1.1 GET http://127.0.0.1:5002/api/abp/api-definition?_t=1729884160457 - null 0
+2024-10-26 03:22:40 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [22100] [35] - Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:22:40 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [35] - Route matched with {area = "abp", action = "Get", controller = "AbpApiDefinition"}. Executing controller action with signature Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel Get(Volo.Abp.Http.Modeling.ApplicationApiDescriptionModelRequestDto) on controller Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController (Volo.Abp.AspNetCore.Mvc).
+2024-10-26 03:22:40 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [35] - Executing action method Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2024-10-26 03:22:40 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [22100] [35] - ActionApiDescriptionModel.Create: Language.GetListAsyncByInput
+2024-10-26 03:22:40 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [22100] [35] - ActionApiDescriptionModel.Create: Resource.GetListAsyncByInput
+2024-10-26 03:22:40 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [22100] [35] - ActionApiDescriptionModel.Create: Text.GetByCultureKeyAsyncByInput
+2024-10-26 03:22:40 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [22100] [35] - ActionApiDescriptionModel.Create: Text.GetListAsyncByInput
+2024-10-26 03:22:40 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [22100] [35] - ActionApiDescriptionModel.Create: Onboarding.GetListAsyncByInput
+2024-10-26 03:22:40 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [22100] [35] - ActionApiDescriptionModel.Create: Onboarding.CreateAsyncByWebhookEvent
+2024-10-26 03:22:40 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [22100] [35] - ActionApiDescriptionModel.Create: Onboarding.CompleteTaskAsyncByTaskIdAndCancellationToken
+2024-10-26 03:22:40 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [22100] [35] - ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsyncByOptions
+2024-10-26 03:22:40 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [22100] [35] - ActionApiDescriptionModel.Create: AbpApplicationLocalization.GetAsyncByInput
+2024-10-26 03:22:40 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [22100] [35] - ActionApiDescriptionModel.Create: AbpApiDefinition.GetByModel
+2024-10-26 03:22:40 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [35] - Executed action method Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 94.6372ms.
+2024-10-26 03:22:40 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] [22100] [35] - Executing ObjectResult, writing value of type 'Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel'.
+2024-10-26 03:22:40 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [35] - Executed action Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) in 146.1358ms
+2024-10-26 03:22:40 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [22100] [35] - Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:22:40 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [22100] [35] - Request finished HTTP/1.1 GET http://127.0.0.1:5002/api/abp/api-definition?_t=1729884160457 - 200 20847 application/json; charset=utf-8 178.8653ms
+2024-10-26 03:22:49 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [22100] [35] - Executing subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'ElsaClient.v1'
+2024-10-26 03:22:49 [DBG] [ZQH.Abp.Identity.Session.DefaultIdentitySessionCache] [22100] [35] - Refresh user session cache for: 846c282e4eb04f7dac7f554dd484732e
+2024-10-26 03:22:50 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [22100] [37] - Executed subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'ElsaClient.v1' with instance 'zqhT16' in 135.9386ms
+2024-10-26 03:22:50 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [22100] [37] - Request starting HTTP/1.1 GET http://127.0.0.1:5002/api/abp/application-configuration?_t=1729884170584 - null 0
+2024-10-26 03:22:51 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] [22100] [37] - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-10-26 03:22:51 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] [22100] [37] - Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2024-10-26 03:22:51 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] [22100] [37] - Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2024-10-26 03:22:51 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [22100] [37] - Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:22:51 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [37] - Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2024-10-26 03:22:51 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [37] - Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2024-10-26 03:22:51 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [22100] [37] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-26 03:22:51 [DBG] [Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationAppService] [22100] [37] - Executing AbpApplicationConfigurationAppService.GetAsync()...
+2024-10-26 03:22:51 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [38] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`Enable`
+2024-10-26 03:22:51 [DBG] [Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationAppService] [22100] [38] - Executed AbpApplicationConfigurationAppService.GetAsync().
+2024-10-26 03:22:51 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [38] - Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 57.0043ms.
+2024-10-26 03:22:51 [DBG] [Volo.Abp.EntityFrameworkCore.AbpDbContext] [22100] [38] - Added 0 entity changes to the current audit log
+2024-10-26 03:22:51 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] [22100] [38] - Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2024-10-26 03:22:51 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [38] - Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 95.8224ms
+2024-10-26 03:22:51 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [22100] [38] - Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:22:51 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [22100] [38] - Request finished HTTP/1.1 GET http://127.0.0.1:5002/api/abp/application-configuration?_t=1729884170584 - 200 52258 application/json; charset=utf-8 972.8973ms
+2024-10-26 03:23:03 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [22100] [38] - Request starting HTTP/1.1 GET http://127.0.0.1:5002/api/workflow/onboarding?skipCount=0&maxResultCount=10&_t=1729884183450 - null 0
+2024-10-26 03:23:03 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] [22100] [38] - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-10-26 03:23:03 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] [22100] [38] - Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2024-10-26 03:23:03 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] [22100] [38] - Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2024-10-26 03:23:03 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [22100] [38] - Executing endpoint 'ZQH.Abp.Onboarding.OnboardingController.GetListAsync (ZQH.Abp.Onboarding.HttpApi)'
+2024-10-26 03:23:03 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [38] - Route matched with {action = "GetList", controller = "Onboarding", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.ListResultDto`1[ZQH.Abp.Onboarding.Definitions.Dto.OnboardingTaskDto]] GetListAsync(ZQH.Abp.Onboarding.Definitions.Dto.OnboardingGetListInput) on controller ZQH.Abp.Onboarding.OnboardingController (ZQH.Abp.Onboarding.HttpApi).
+2024-10-26 03:23:03 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [38] - Executing action method ZQH.Abp.Onboarding.OnboardingController.GetListAsync (ZQH.Abp.Onboarding.HttpApi) - Validation state: "Valid"
+2024-10-26 03:23:03 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [35] - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `CusOnboardingTasks` AS `c`
+WHERE (@__ef_filter__p_0 OR NOT (`c`.`IsDeleted`)) AND NOT (`c`.`IsCompleted`)
+2024-10-26 03:23:05 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [35] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `c`.`Id`, `c`.`CompletedAt`, `c`.`ConcurrencyStamp`, `c`.`CreatedAt`, `c`.`CreationTime`, `c`.`CreatorId`, `c`.`DeleterId`, `c`.`DeletionTime`, `c`.`Description`, `c`.`EmployeeEmail`, `c`.`EmployeeName`, `c`.`ExternalId`, `c`.`ExtraProperties`, `c`.`IsCompleted`, `c`.`IsDeleted`, `c`.`LastModificationTime`, `c`.`LastModifierId`, `c`.`Name`, `c`.`ProcessId`, `c`.`Roles`, `c`.`Users`
+FROM `CusOnboardingTasks` AS `c`
+WHERE (@__ef_filter__p_0 OR NOT (`c`.`IsDeleted`)) AND NOT (`c`.`IsCompleted`)
+ORDER BY `c`.`CreationTime`
+LIMIT @__p_1 OFFSET @__p_0
+2024-10-26 03:23:05 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [35] - Executed action method ZQH.Abp.Onboarding.OnboardingController.GetListAsync (ZQH.Abp.Onboarding.HttpApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1538.5646ms.
+2024-10-26 03:23:05 [DBG] [Volo.Abp.EntityFrameworkCore.AbpDbContext] [22100] [35] - Added 0 entity changes to the current audit log
+2024-10-26 03:23:05 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] [22100] [35] - Executing ObjectResult, writing value of type 'ZQH.Abp.Wrapper.WrapResult'.
+2024-10-26 03:23:05 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [35] - Executed action ZQH.Abp.Onboarding.OnboardingController.GetListAsync (ZQH.Abp.Onboarding.HttpApi) in 1720.4104ms
+2024-10-26 03:23:05 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [22100] [35] - Executed endpoint 'ZQH.Abp.Onboarding.OnboardingController.GetListAsync (ZQH.Abp.Onboarding.HttpApi)'
+2024-10-26 03:23:05 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [22100] [35] - Request finished HTTP/1.1 GET http://127.0.0.1:5002/api/workflow/onboarding?skipCount=0&maxResultCount=10&_t=1729884183450 - 200 79 application/json; charset=utf-8 1788.9723ms
+2024-10-26 03:24:26 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [22100] [42] - Executing subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'ElsaClient.v1'
+2024-10-26 03:24:26 [DBG] [ZQH.Abp.Identity.Session.DefaultIdentitySessionCache] [22100] [42] - Remove user session cache for: 846c282e4eb04f7dac7f554dd484732e
+2024-10-26 03:24:26 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [22100] [42] - Executed subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'ElsaClient.v1' with instance 'zqhT16' in 82.7496ms
+2024-10-26 03:24:32 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [22100] [41] - Request starting HTTP/1.1 GET http://127.0.0.1:5002/api/abp/application-configuration?_t=1729884271793 - null 0
+2024-10-26 03:24:32 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [22100] [41] - Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:24:32 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [41] - Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2024-10-26 03:24:32 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [41] - Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2024-10-26 03:24:32 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [22100] [41] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-26 03:24:32 [DBG] [Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationAppService] [22100] [41] - Executing AbpApplicationConfigurationAppService.GetAsync()...
+2024-10-26 03:24:32 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [41] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`Enable`
+2024-10-26 03:24:32 [DBG] [Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationAppService] [22100] [42] - Executed AbpApplicationConfigurationAppService.GetAsync().
+2024-10-26 03:24:32 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [42] - Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 160.2457ms.
+2024-10-26 03:24:32 [DBG] [Volo.Abp.EntityFrameworkCore.AbpDbContext] [22100] [42] - Added 0 entity changes to the current audit log
+2024-10-26 03:24:32 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] [22100] [42] - Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2024-10-26 03:24:32 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [41] - Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 226.5838ms
+2024-10-26 03:24:32 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [22100] [41] - Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:24:32 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [22100] [41] - Request finished HTTP/1.1 GET http://127.0.0.1:5002/api/abp/application-configuration?_t=1729884271793 - 200 52258 application/json; charset=utf-8 384.2669ms
+2024-10-26 03:24:34 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [22100] [35] - Request starting HTTP/1.1 GET http://127.0.0.1:5002/api/abp/api-definition?_t=1729884274359 - null 0
+2024-10-26 03:24:34 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [22100] [35] - Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:24:34 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [35] - Route matched with {area = "abp", action = "Get", controller = "AbpApiDefinition"}. Executing controller action with signature Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel Get(Volo.Abp.Http.Modeling.ApplicationApiDescriptionModelRequestDto) on controller Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController (Volo.Abp.AspNetCore.Mvc).
+2024-10-26 03:24:34 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [35] - Executing action method Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2024-10-26 03:24:34 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [22100] [35] - ActionApiDescriptionModel.Create: Language.GetListAsyncByInput
+2024-10-26 03:24:34 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [22100] [35] - ActionApiDescriptionModel.Create: Resource.GetListAsyncByInput
+2024-10-26 03:24:34 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [22100] [35] - ActionApiDescriptionModel.Create: Text.GetByCultureKeyAsyncByInput
+2024-10-26 03:24:34 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [22100] [35] - ActionApiDescriptionModel.Create: Text.GetListAsyncByInput
+2024-10-26 03:24:34 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [22100] [35] - ActionApiDescriptionModel.Create: Onboarding.GetListAsyncByInput
+2024-10-26 03:24:34 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [22100] [35] - ActionApiDescriptionModel.Create: Onboarding.CreateAsyncByWebhookEvent
+2024-10-26 03:24:34 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [22100] [35] - ActionApiDescriptionModel.Create: Onboarding.CompleteTaskAsyncByTaskIdAndCancellationToken
+2024-10-26 03:24:34 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [22100] [35] - ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsyncByOptions
+2024-10-26 03:24:34 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [22100] [35] - ActionApiDescriptionModel.Create: AbpApplicationLocalization.GetAsyncByInput
+2024-10-26 03:24:34 [DBG] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [22100] [35] - ActionApiDescriptionModel.Create: AbpApiDefinition.GetByModel
+2024-10-26 03:24:34 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [35] - Executed action method Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 27.806ms.
+2024-10-26 03:24:34 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] [22100] [35] - Executing ObjectResult, writing value of type 'Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel'.
+2024-10-26 03:24:34 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [35] - Executed action Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) in 41.2351ms
+2024-10-26 03:24:34 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [22100] [35] - Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:24:34 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [22100] [35] - Request finished HTTP/1.1 GET http://127.0.0.1:5002/api/abp/api-definition?_t=1729884274359 - 200 20847 application/json; charset=utf-8 74.3948ms
+2024-10-26 03:24:43 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [22100] [35] - Executing subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'ElsaClient.v1'
+2024-10-26 03:24:43 [DBG] [ZQH.Abp.Identity.Session.DefaultIdentitySessionCache] [22100] [35] - Refresh user session cache for: dfb333c91bbf4452925f05cc0d99ea91
+2024-10-26 03:24:43 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [22100] [38] - Executed subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'ElsaClient.v1' with instance 'zqhT16' in 7.8968ms
+2024-10-26 03:24:44 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [22100] [41] - Request starting HTTP/1.1 GET http://127.0.0.1:5002/api/abp/application-configuration?_t=1729884284400 - null 0
+2024-10-26 03:24:44 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] [22100] [41] - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-10-26 03:24:44 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] [22100] [41] - Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2024-10-26 03:24:44 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] [22100] [41] - Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2024-10-26 03:24:44 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [22100] [41] - Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:24:44 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [41] - Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2024-10-26 03:24:44 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [41] - Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2024-10-26 03:24:44 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [22100] [41] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-26 03:24:44 [DBG] [Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationAppService] [22100] [41] - Executing AbpApplicationConfigurationAppService.GetAsync()...
+2024-10-26 03:24:44 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [38] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`Enable`
+2024-10-26 03:24:44 [DBG] [Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationAppService] [22100] [38] - Executed AbpApplicationConfigurationAppService.GetAsync().
+2024-10-26 03:24:44 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [38] - Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 56.5365ms.
+2024-10-26 03:24:44 [DBG] [Volo.Abp.EntityFrameworkCore.AbpDbContext] [22100] [38] - Added 0 entity changes to the current audit log
+2024-10-26 03:24:44 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] [22100] [38] - Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2024-10-26 03:24:44 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [42] - Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 88.9444ms
+2024-10-26 03:24:44 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [22100] [42] - Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:24:44 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [22100] [42] - Request finished HTTP/1.1 GET http://127.0.0.1:5002/api/abp/application-configuration?_t=1729884284400 - 200 52258 application/json; charset=utf-8 174.4894ms
+2024-10-26 03:31:36 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [22100] [54] - Request starting HTTP/1.1 GET http://127.0.0.1:5002/api/workflow/onboarding?skipCount=0&maxResultCount=10&_t=1729884696301 - null 0
+2024-10-26 03:31:36 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] [22100] [54] - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-10-26 03:31:36 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] [22100] [54] - Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2024-10-26 03:31:36 [INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] [22100] [54] - Bearer was not authenticated. Failure message: IDX10208: Unable to validate audience. validationParameters.ValidAudience is null or whitespace and validationParameters.ValidAudiences is null.
+2024-10-26 03:31:36 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [22100] [54] - Executing endpoint 'ZQH.Abp.Onboarding.OnboardingController.GetListAsync (ZQH.Abp.Onboarding.HttpApi)'
+2024-10-26 03:31:36 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [54] - Route matched with {action = "GetList", controller = "Onboarding", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.ListResultDto`1[ZQH.Abp.Onboarding.Definitions.Dto.OnboardingTaskDto]] GetListAsync(ZQH.Abp.Onboarding.Definitions.Dto.OnboardingGetListInput) on controller ZQH.Abp.Onboarding.OnboardingController (ZQH.Abp.Onboarding.HttpApi).
+2024-10-26 03:31:36 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [54] - Executing action method ZQH.Abp.Onboarding.OnboardingController.GetListAsync (ZQH.Abp.Onboarding.HttpApi) - Validation state: "Valid"
+2024-10-26 03:31:36 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [54] - Executed DbCommand (0ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `CusOnboardingTasks` AS `c`
+WHERE (@__ef_filter__p_0 OR NOT (`c`.`IsDeleted`)) AND NOT (`c`.`IsCompleted`)
+2024-10-26 03:31:36 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [22100] [59] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `c`.`Id`, `c`.`CompletedAt`, `c`.`ConcurrencyStamp`, `c`.`CreatedAt`, `c`.`CreationTime`, `c`.`CreatorId`, `c`.`DeleterId`, `c`.`DeletionTime`, `c`.`Description`, `c`.`EmployeeEmail`, `c`.`EmployeeName`, `c`.`ExternalId`, `c`.`ExtraProperties`, `c`.`IsCompleted`, `c`.`IsDeleted`, `c`.`LastModificationTime`, `c`.`LastModifierId`, `c`.`Name`, `c`.`ProcessId`, `c`.`Roles`, `c`.`Users`
+FROM `CusOnboardingTasks` AS `c`
+WHERE (@__ef_filter__p_0 OR NOT (`c`.`IsDeleted`)) AND NOT (`c`.`IsCompleted`)
+ORDER BY `c`.`CreationTime`
+LIMIT @__p_1 OFFSET @__p_0
+2024-10-26 03:31:36 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [59] - Executed action method ZQH.Abp.Onboarding.OnboardingController.GetListAsync (ZQH.Abp.Onboarding.HttpApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 20.8339ms.
+2024-10-26 03:31:36 [DBG] [Volo.Abp.EntityFrameworkCore.AbpDbContext] [22100] [59] - Added 0 entity changes to the current audit log
+2024-10-26 03:31:36 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] [22100] [59] - Executing ObjectResult, writing value of type 'ZQH.Abp.Wrapper.WrapResult'.
+2024-10-26 03:31:36 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [22100] [59] - Executed action ZQH.Abp.Onboarding.OnboardingController.GetListAsync (ZQH.Abp.Onboarding.HttpApi) in 35.3982ms
+2024-10-26 03:31:36 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [22100] [59] - Executed endpoint 'ZQH.Abp.Onboarding.OnboardingController.GetListAsync (ZQH.Abp.Onboarding.HttpApi)'
+2024-10-26 03:31:36 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [22100] [59] - Request finished HTTP/1.1 GET http://127.0.0.1:5002/api/workflow/onboarding?skipCount=0&maxResultCount=10&_t=1729884696301 - 200 79 application/json; charset=utf-8 67.5549ms
+2024-10-26 06:06:04 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [22100] [89] - RabbitMQ consumer cancelled. --> amq.ctag-ouvWsCdy4HT2tudwbBDFMQ
+2024-10-26 09:47:52 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [22100] [89] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-26 09:47:53 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [22100] [96] - RabbitMQ consumer cancelled. --> amq.ctag-0ht80R8qbGoFolGifSIxsw
+2024-10-26 09:47:53 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [22100] [96] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-26 09:47:54 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [22100] [96] - RabbitMQ consumer registered. --> amq.ctag-ouvWsCdy4HT2tudwbBDFMQ
+2024-10-26 09:47:54 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [22100] [89] - RabbitMQ consumer registered. --> amq.ctag-0ht80R8qbGoFolGifSIxsw

@@ -1,0 +1,252 @@
+2024-10-24 23:20:09 [ERR] [DotNetCore.CAP.Internal.SubscribeExecutor] [13612] [44] - An exception occurred while executing the subscription method. Topic:ZQH.Abp.Identity.IdentitySessionEto.Created, Id:4001002589894053889, Instance: zqhT16
+DotNetCore.CAP.Internal.SubscriberExecutionFailedException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found on type 'ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer' can be invoked with the available services and parameters:
+Cannot resolve parameter 'ZQH.Abp.Identity.Session.IIdentitySessionCache identitySessionCache' of constructor 'Void .ctor(ZQH.Abp.Identity.Session.IIdentitySessionCache, ZQH.Abp.Identity.Session.IIdentitySessionStore)'.
+
+See https://autofac.rtfd.io/help/no-constructors-bindable for more info.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass14_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass39_0.<OnActivated>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+2024-10-24 23:20:09 [ERR] [DotNetCore.CAP.Internal.SubscribeExecutor] [13612] [42] - An exception occurred while executing the subscription method. Topic:ZQH.Abp.Identity.IdentitySessionEto.Created, Id:4001002589894053889, Instance: zqhT16
+DotNetCore.CAP.Internal.SubscriberExecutionFailedException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found on type 'ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer' can be invoked with the available services and parameters:
+Cannot resolve parameter 'ZQH.Abp.Identity.Session.IIdentitySessionCache identitySessionCache' of constructor 'Void .ctor(ZQH.Abp.Identity.Session.IIdentitySessionCache, ZQH.Abp.Identity.Session.IIdentitySessionStore)'.
+
+See https://autofac.rtfd.io/help/no-constructors-bindable for more info.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass14_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass39_0.<OnActivated>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+2024-10-24 23:20:09 [ERR] [DotNetCore.CAP.Internal.SubscribeExecutor] [13612] [42] - An exception occurred while executing the subscription method. Topic:ZQH.Abp.Identity.IdentitySessionEto.Created, Id:4001002589894053889, Instance: zqhT16
+DotNetCore.CAP.Internal.SubscriberExecutionFailedException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found on type 'ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer' can be invoked with the available services and parameters:
+Cannot resolve parameter 'ZQH.Abp.Identity.Session.IIdentitySessionCache identitySessionCache' of constructor 'Void .ctor(ZQH.Abp.Identity.Session.IIdentitySessionCache, ZQH.Abp.Identity.Session.IIdentitySessionStore)'.
+
+See https://autofac.rtfd.io/help/no-constructors-bindable for more info.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass14_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass39_0.<OnActivated>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+2024-10-24 23:24:21 [ERR] [DotNetCore.CAP.Internal.SubscribeExecutor] [13612] [43] - An exception occurred while executing the subscription method. Topic:ZQH.Abp.Identity.IdentitySessionEto.Deleted, Id:4001002589894053890, Instance: zqhT16
+DotNetCore.CAP.Internal.SubscriberExecutionFailedException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found on type 'ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer' can be invoked with the available services and parameters:
+Cannot resolve parameter 'ZQH.Abp.Identity.Session.IIdentitySessionCache identitySessionCache' of constructor 'Void .ctor(ZQH.Abp.Identity.Session.IIdentitySessionCache, ZQH.Abp.Identity.Session.IIdentitySessionStore)'.
+
+See https://autofac.rtfd.io/help/no-constructors-bindable for more info.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass14_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass39_0.<OnActivated>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+2024-10-24 23:24:21 [ERR] [DotNetCore.CAP.Internal.SubscribeExecutor] [13612] [43] - An exception occurred while executing the subscription method. Topic:ZQH.Abp.Identity.IdentitySessionEto.Deleted, Id:4001002589894053890, Instance: zqhT16
+DotNetCore.CAP.Internal.SubscriberExecutionFailedException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found on type 'ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer' can be invoked with the available services and parameters:
+Cannot resolve parameter 'ZQH.Abp.Identity.Session.IIdentitySessionCache identitySessionCache' of constructor 'Void .ctor(ZQH.Abp.Identity.Session.IIdentitySessionCache, ZQH.Abp.Identity.Session.IIdentitySessionStore)'.
+
+See https://autofac.rtfd.io/help/no-constructors-bindable for more info.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass14_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass39_0.<OnActivated>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+2024-10-24 23:24:21 [ERR] [DotNetCore.CAP.Internal.SubscribeExecutor] [13612] [43] - An exception occurred while executing the subscription method. Topic:ZQH.Abp.Identity.IdentitySessionEto.Deleted, Id:4001002589894053890, Instance: zqhT16
+DotNetCore.CAP.Internal.SubscriberExecutionFailedException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found on type 'ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer' can be invoked with the available services and parameters:
+Cannot resolve parameter 'ZQH.Abp.Identity.Session.IIdentitySessionCache identitySessionCache' of constructor 'Void .ctor(ZQH.Abp.Identity.Session.IIdentitySessionCache, ZQH.Abp.Identity.Session.IIdentitySessionStore)'.
+
+See https://autofac.rtfd.io/help/no-constructors-bindable for more info.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass14_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass39_0.<OnActivated>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+2024-10-24 23:27:15 [ERR] [DotNetCore.CAP.Internal.SubscribeExecutor] [13612] [63] - An exception occurred while executing the subscription method. Topic:ZQH.Abp.Identity.IdentitySessionEto.Created, Id:4001002589894053889, Instance: zqhT16
+DotNetCore.CAP.Internal.SubscriberExecutionFailedException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found on type 'ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer' can be invoked with the available services and parameters:
+Cannot resolve parameter 'ZQH.Abp.Identity.Session.IIdentitySessionCache identitySessionCache' of constructor 'Void .ctor(ZQH.Abp.Identity.Session.IIdentitySessionCache, ZQH.Abp.Identity.Session.IIdentitySessionStore)'.
+
+See https://autofac.rtfd.io/help/no-constructors-bindable for more info.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass14_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass39_0.<OnActivated>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)

@@ -1,0 +1,16 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Dapr.Client.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Dapr.Client.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Dapr.Client.pdb
+E:\abp-vue\aspnet-core\framework\dapr\ZQH.Abp.Dapr.Client\obj\Debug\net8.0\ZQH.Abp.Dapr.Client.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\dapr\ZQH.Abp.Dapr.Client\obj\Debug\net8.0\ZQH.Abp.Dapr.Client.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\dapr\ZQH.Abp.Dapr.Client\obj\Debug\net8.0\ZQH.Abp.Dapr.Client.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\dapr\ZQH.Abp.Dapr.Client\obj\Debug\net8.0\ZQH.Abp.Dapr.Client.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\dapr\ZQH.Abp.Dapr.Client\obj\Debug\net8.0\ZQH.Abp.Dapr.Client.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\dapr\ZQH.Abp.Dapr.Client\obj\Debug\net8.0\ZQH.Abp.Dapr.Client.sourcelink.json
+E:\abp-vue\aspnet-core\framework\dapr\ZQH.Abp.Dapr.Client\obj\Debug\net8.0\ZQH.Abp.Dapr.Client.csproj.CopyComplete
+E:\abp-vue\aspnet-core\framework\dapr\ZQH.Abp.Dapr.Client\obj\Debug\net8.0\ZQH.Abp.Dapr.Client.dll
+E:\abp-vue\aspnet-core\framework\dapr\ZQH.Abp.Dapr.Client\obj\Debug\net8.0\refint\ZQH.Abp.Dapr.Client.dll
+E:\abp-vue\aspnet-core\framework\dapr\ZQH.Abp.Dapr.Client\obj\Debug\net8.0\ZQH.Abp.Dapr.Client.pdb
+E:\abp-vue\aspnet-core\framework\dapr\ZQH.Abp.Dapr.Client\obj\Debug\net8.0\ref\ZQH.Abp.Dapr.Client.dll
+E:\abp-vue\aspnet-core\framework\dapr\ZQH.Abp.Dapr.Client\obj\Debug\net8.0\ZQH.Abp.Dapr.Client.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\dapr\ZQH.Abp.Dapr.Client\obj\Debug\net8.0\ZQH.Abp.Dapr.Client.csproj.Fody.RuntimeCopyLocal.cache

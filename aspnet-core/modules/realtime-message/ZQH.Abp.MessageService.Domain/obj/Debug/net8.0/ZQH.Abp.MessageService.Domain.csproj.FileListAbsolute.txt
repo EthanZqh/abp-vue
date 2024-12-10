@@ -1,0 +1,16 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.MessageService.Domain.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.MessageService.Domain.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.MessageService.Domain.pdb
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.MessageService.Domain\obj\Debug\net8.0\ZQH.Abp.MessageService.Domain.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.MessageService.Domain\obj\Debug\net8.0\ZQH.Abp.MessageService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.MessageService.Domain\obj\Debug\net8.0\ZQH.Abp.MessageService.Domain.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.MessageService.Domain\obj\Debug\net8.0\ZQH.Abp.MessageService.Domain.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.MessageService.Domain\obj\Debug\net8.0\ZQH.Abp.MessageService.Domain.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.MessageService.Domain\obj\Debug\net8.0\ZQH.Abp.MessageService.Domain.sourcelink.json
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.MessageService.Domain\obj\Debug\net8.0\ZQH.Abp.MessageService.Domain.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.MessageService.Domain\obj\Debug\net8.0\ZQH.Abp.MessageService.Domain.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.MessageService.Domain\obj\Debug\net8.0\ZQH.Abp.MessageService.Domain.csproj.CopyComplete
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.MessageService.Domain\obj\Debug\net8.0\ZQH.Abp.MessageService.Domain.dll
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.MessageService.Domain\obj\Debug\net8.0\refint\ZQH.Abp.MessageService.Domain.dll
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.MessageService.Domain\obj\Debug\net8.0\ZQH.Abp.MessageService.Domain.pdb
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.MessageService.Domain\obj\Debug\net8.0\ref\ZQH.Abp.MessageService.Domain.dll

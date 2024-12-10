@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>ZQH.Abp.Tencent.SettingManagement</AssemblyName>
+		<PackageId>ZQH.Abp.Tencent.SettingManagement</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+	</PropertyGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="ZQH.Abp\Aliyun\SettingManagement\Localization\Resources\*.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Volo.Abp.AspNetCore.Mvc" />
+		<PackageReference Include="Volo.Abp.SettingManagement.Domain" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\settings\ZQH.Abp.SettingManagement.Application.Contracts\ZQH.Abp.SettingManagement.Application.Contracts.csproj" />
+	  <ProjectReference Include="..\ZQH.Abp.Tencent.QQ\ZQH.Abp.Tencent.QQ.csproj" />
+	  <ProjectReference Include="..\ZQH.Abp.Tencent\ZQH.Abp.Tencent.csproj" />
+	</ItemGroup>
+
+</Project>

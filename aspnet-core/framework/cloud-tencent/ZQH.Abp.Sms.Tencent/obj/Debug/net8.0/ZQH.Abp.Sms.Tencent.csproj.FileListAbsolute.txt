@@ -1,0 +1,16 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Sms.Tencent.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Sms.Tencent.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Sms.Tencent.pdb
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Sms.Tencent\obj\Debug\net8.0\ZQH.Abp.Sms.Tencent.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Sms.Tencent\obj\Debug\net8.0\ZQH.Abp.Sms.Tencent.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Sms.Tencent\obj\Debug\net8.0\ZQH.Abp.Sms.Tencent.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Sms.Tencent\obj\Debug\net8.0\ZQH.Abp.Sms.Tencent.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Sms.Tencent\obj\Debug\net8.0\ZQH.Abp.Sms.Tencent.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Sms.Tencent\obj\Debug\net8.0\ZQH.Abp.Sms.Tencent.sourcelink.json
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Sms.Tencent\obj\Debug\net8.0\ZQH.Abp.Sms.Tencent.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Sms.Tencent\obj\Debug\net8.0\ZQH.Abp.Sms.Tencent.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Sms.Tencent\obj\Debug\net8.0\ZQH.Abp.Sms.Tencent.csproj.CopyComplete
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Sms.Tencent\obj\Debug\net8.0\ZQH.Abp.Sms.Tencent.dll
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Sms.Tencent\obj\Debug\net8.0\refint\ZQH.Abp.Sms.Tencent.dll
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Sms.Tencent\obj\Debug\net8.0\ZQH.Abp.Sms.Tencent.pdb
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Sms.Tencent\obj\Debug\net8.0\ref\ZQH.Abp.Sms.Tencent.dll

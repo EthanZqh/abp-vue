@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<Import Project="..\..\..\..\..\common.props" />
+	<Import Project="..\..\..\..\..\common.secrets.props" />
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<RootNamespace>LINGYUN.MicroService.Internal.ApiGateway</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Ocelot.Provider.Polly" />
+		<PackageReference Include="AgileConfig.Client" />
+		<PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" />
+		<PackageReference Include="Serilog.AspNetCore" />
+		<PackageReference Include="Serilog.Enrichers.Environment" />
+		<PackageReference Include="Serilog.Enrichers.Assembly" />
+		<PackageReference Include="Serilog.Enrichers.Process" />
+		<PackageReference Include="Serilog.Enrichers.Thread" />
+		<PackageReference Include="Serilog.Settings.Configuration" />
+		<PackageReference Include="Serilog.Sinks.Elasticsearch" />
+		<PackageReference Include="Serilog.Sinks.File" />
+		<PackageReference Include="Swashbuckle.AspNetCore" />
+		<PackageReference Include="Volo.Abp.AspNetCore.Serilog" />
+		<PackageReference Include="Volo.Abp.AspNetCore.Authentication.JwtBearer" />
+		<PackageReference Include="Volo.Abp.Autofac" />
+		<PackageReference Include="Volo.Abp.AspNetCore" />
+		<PackageReference Include="Volo.Abp.Ddd.Application.Contracts" />
+		<PackageReference Include="Volo.Abp.Caching.StackExchangeRedis" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\..\..\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging.Elasticsearch\ZQH.Abp.AuditLogging.Elasticsearch.csproj" />
+		<!--<ProjectReference Include="..\..\..\..\..\aspnet-core\framework\common\LINGYUN.Abp.AspNetCore.HttpOverrides\LINGYUN.Abp.AspNetCore.HttpOverrides.csproj" />-->
+		<ProjectReference Include="..\..\..\..\..\aspnet-core\framework\localization\ZQH.Abp.Localization.CultureMap\ZQH.Abp.Localization.CultureMap.csproj" />
+		<ProjectReference Include="..\..\..\..\..\aspnet-core\framework\logging\ZQH.Abp.Logging.Serilog.Elasticsearch\ZQH.Abp.Logging.Serilog.Elasticsearch.csproj" />
+		<ProjectReference Include="..\..\..\..\..\aspnet-core\framework\logging\ZQH.Abp.Serilog.Enrichers.Application\ZQH.Abp.Serilog.Enrichers.Application.csproj" />
+		<ProjectReference Include="..\..\..\..\..\aspnet-core\framework\logging\ZQH.Abp.Serilog.Enrichers.UniqueId\ZQH.Abp.Serilog.Enrichers.UniqueId.csproj" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+E:\abp-vue\gateways\internal\ZQH.MicroService.Internal.ApiGateway\LocalNuget\netstandard2.0\ZQH.Abp.Serilog.Enrichers.Application.deps.json
+E:\abp-vue\gateways\internal\ZQH.MicroService.Internal.ApiGateway\LocalNuget\netstandard2.0\ZQH.Abp.Serilog.Enrichers.Application.dll
+E:\abp-vue\gateways\internal\ZQH.MicroService.Internal.ApiGateway\LocalNuget\netstandard2.0\ZQH.Abp.Serilog.Enrichers.Application.pdb
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.Serilog.Enrichers.Application.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.Serilog.Enrichers.Application.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.Serilog.Enrichers.Application.pdb
+E:\abp-vue\aspnet-core\framework\logging\ZQH.Abp.Serilog.Enrichers.Application\obj\Debug\netstandard2.0\ZQH.Abp.Serilog.Enrichers.Application.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\logging\ZQH.Abp.Serilog.Enrichers.Application\obj\Debug\netstandard2.0\ZQH.Abp.Serilog.Enrichers.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\logging\ZQH.Abp.Serilog.Enrichers.Application\obj\Debug\netstandard2.0\ZQH.Abp.Serilog.Enrichers.Application.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\logging\ZQH.Abp.Serilog.Enrichers.Application\obj\Debug\netstandard2.0\ZQH.Abp.Serilog.Enrichers.Application.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\logging\ZQH.Abp.Serilog.Enrichers.Application\obj\Debug\netstandard2.0\ZQH.Abp.Serilog.Enrichers.Application.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\logging\ZQH.Abp.Serilog.Enrichers.Application\obj\Debug\netstandard2.0\ZQH.Abp.Serilog.Enrichers.Application.sourcelink.json
+E:\abp-vue\aspnet-core\framework\logging\ZQH.Abp.Serilog.Enrichers.Application\obj\Debug\netstandard2.0\ZQH.Abp.Serilog.Enrichers.Application.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\logging\ZQH.Abp.Serilog.Enrichers.Application\obj\Debug\netstandard2.0\ZQH.Abp.Serilog.Enrichers.Application.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\logging\ZQH.Abp.Serilog.Enrichers.Application\obj\Debug\netstandard2.0\ZQH.Abp.Serilog.Enrichers.Application.dll
+E:\abp-vue\aspnet-core\framework\logging\ZQH.Abp.Serilog.Enrichers.Application\obj\Debug\netstandard2.0\ZQH.Abp.Serilog.Enrichers.Application.pdb

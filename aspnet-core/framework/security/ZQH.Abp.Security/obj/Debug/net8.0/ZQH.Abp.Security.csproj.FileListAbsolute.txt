@@ -1,0 +1,15 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Security.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Security.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Security.pdb
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Security\obj\Debug\net8.0\ZQH.Abp.Security.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Security\obj\Debug\net8.0\ZQH.Abp.Security.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Security\obj\Debug\net8.0\ZQH.Abp.Security.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Security\obj\Debug\net8.0\ZQH.Abp.Security.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Security\obj\Debug\net8.0\ZQH.Abp.Security.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Security\obj\Debug\net8.0\ZQH.Abp.Security.sourcelink.json
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Security\obj\Debug\net8.0\ZQH.Abp.Security.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Security\obj\Debug\net8.0\ZQH.Abp.Security.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Security\obj\Debug\net8.0\ZQH.Abp.Security.dll
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Security\obj\Debug\net8.0\refint\ZQH.Abp.Security.dll
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Security\obj\Debug\net8.0\ZQH.Abp.Security.pdb
+E:\abp-vue\aspnet-core\framework\security\ZQH.Abp.Security\obj\Debug\net8.0\ref\ZQH.Abp.Security.dll

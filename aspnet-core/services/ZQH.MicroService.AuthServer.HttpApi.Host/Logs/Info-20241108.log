@@ -1,0 +1,219 @@
+2024-11-08 00:56:57 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [22] - RabbitMQ consumer cancelled. --> amq.ctag-mGEtn2mrc_2tIIKaAuZKOQ
+2024-11-08 02:19:02 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [22] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-08 11:45:06 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [135] - RabbitMQ consumer cancelled. --> amq.ctag-mGEtn2mrc_2tIIKaAuZKOQ
+2024-11-08 11:45:07 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [135] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-08 11:45:10 [WRN] [DotNetCore.CAP.Processor.TransportCheckProcessor] [13556] [67] - Transport connection is unhealthy, reconnection...
+2024-11-08 12:09:47 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [33] - Executed DbCommand (4ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__Subtract_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `a`
+FROM `AbpSessions` AS `a`
+WHERE (@__ef_filter__p_0 OR (`a`.`TenantId` IS NULL)) AND (`a`.`LastAccessed` IS NULL OR (`a`.`LastAccessed` < @__Subtract_0))
+2024-11-08 12:09:53 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [13556] [58] - Lock is acquired for TokenCleanupBackgroundWorker
+2024-11-08 12:09:53 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [58] - Start cleanup.
+2024-11-08 12:09:53 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [58] - Start cleanup tokens.
+2024-11-08 12:09:53 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [103] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Status`
+    FROM `OpenIddictAuthorizations` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`AuthorizationId` = `t`.`Id`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` NOT IN ('inactive', 'valid') OR (`o`.`Status` IS NULL)) OR (`t`.`Id` IS NOT NULL AND ((`t`.`Status` <> 'valid') OR `t`.`Status` IS NULL))) OR (`o`.`ExpirationDate` < UTC_TIMESTAMP()))
+2024-11-08 12:09:53 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [103] - Start cleanup authorizations.
+2024-11-08 12:09:53 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [33] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT `o`.`Id`
+FROM `OpenIddictAuthorizations` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`AuthorizationId`
+    FROM `OpenIddictTokens` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`Id` = `t`.`AuthorizationId`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` <> 'valid') OR `o`.`Status` IS NULL) OR ((`o`.`Type` = 'ad-hoc') AND `t`.`Id` IS NULL))
+2024-11-08 12:09:53 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [33] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+WHERE FALSE
+2024-11-08 12:09:53 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [33] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictAuthorizations` AS `o`
+WHERE FALSE
+2024-11-08 12:09:53 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [13556] [33] - Lock is released for TokenCleanupBackgroundWorker
+2024-11-08 15:47:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [31] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__Subtract_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `a`
+FROM `AbpSessions` AS `a`
+WHERE (@__ef_filter__p_0 OR (`a`.`TenantId` IS NULL)) AND (`a`.`LastAccessed` IS NULL OR (`a`.`LastAccessed` < @__Subtract_0))
+2024-11-08 15:47:56 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [13556] [31] - Lock is acquired for TokenCleanupBackgroundWorker
+2024-11-08 15:47:56 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [31] - Start cleanup.
+2024-11-08 15:47:56 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [31] - Start cleanup tokens.
+2024-11-08 15:47:56 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [31] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Status`
+    FROM `OpenIddictAuthorizations` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`AuthorizationId` = `t`.`Id`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` NOT IN ('inactive', 'valid') OR (`o`.`Status` IS NULL)) OR (`t`.`Id` IS NOT NULL AND ((`t`.`Status` <> 'valid') OR `t`.`Status` IS NULL))) OR (`o`.`ExpirationDate` < UTC_TIMESTAMP()))
+2024-11-08 15:47:56 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [31] - Start cleanup authorizations.
+2024-11-08 15:47:56 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [31] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT `o`.`Id`
+FROM `OpenIddictAuthorizations` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`AuthorizationId`
+    FROM `OpenIddictTokens` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`Id` = `t`.`AuthorizationId`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` <> 'valid') OR `o`.`Status` IS NULL) OR ((`o`.`Type` = 'ad-hoc') AND `t`.`Id` IS NULL))
+2024-11-08 15:47:56 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [31] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+WHERE FALSE
+2024-11-08 15:47:56 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [31] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictAuthorizations` AS `o`
+WHERE FALSE
+2024-11-08 15:47:56 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [13556] [31] - Lock is released for TokenCleanupBackgroundWorker
+2024-11-08 16:47:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [107] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__Subtract_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `a`
+FROM `AbpSessions` AS `a`
+WHERE (@__ef_filter__p_0 OR (`a`.`TenantId` IS NULL)) AND (`a`.`LastAccessed` IS NULL OR (`a`.`LastAccessed` < @__Subtract_0))
+2024-11-08 16:47:56 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [13556] [105] - Lock is acquired for TokenCleanupBackgroundWorker
+2024-11-08 16:47:56 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [105] - Start cleanup.
+2024-11-08 16:47:56 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [105] - Start cleanup tokens.
+2024-11-08 16:47:56 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [107] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Status`
+    FROM `OpenIddictAuthorizations` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`AuthorizationId` = `t`.`Id`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` NOT IN ('inactive', 'valid') OR (`o`.`Status` IS NULL)) OR (`t`.`Id` IS NOT NULL AND ((`t`.`Status` <> 'valid') OR `t`.`Status` IS NULL))) OR (`o`.`ExpirationDate` < UTC_TIMESTAMP()))
+2024-11-08 16:47:56 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [107] - Start cleanup authorizations.
+2024-11-08 16:47:56 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [107] - Executed DbCommand (0ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT `o`.`Id`
+FROM `OpenIddictAuthorizations` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`AuthorizationId`
+    FROM `OpenIddictTokens` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`Id` = `t`.`AuthorizationId`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` <> 'valid') OR `o`.`Status` IS NULL) OR ((`o`.`Type` = 'ad-hoc') AND `t`.`Id` IS NULL))
+2024-11-08 16:47:56 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [107] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+WHERE FALSE
+2024-11-08 16:47:56 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [107] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictAuthorizations` AS `o`
+WHERE FALSE
+2024-11-08 16:47:56 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [13556] [107] - Lock is released for TokenCleanupBackgroundWorker
+2024-11-08 17:47:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [35] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__Subtract_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `a`
+FROM `AbpSessions` AS `a`
+WHERE (@__ef_filter__p_0 OR (`a`.`TenantId` IS NULL)) AND (`a`.`LastAccessed` IS NULL OR (`a`.`LastAccessed` < @__Subtract_0))
+2024-11-08 17:47:56 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [13556] [130] - Lock is acquired for TokenCleanupBackgroundWorker
+2024-11-08 17:47:56 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [130] - Start cleanup.
+2024-11-08 17:47:56 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [130] - Start cleanup tokens.
+2024-11-08 17:47:56 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [25] - Executed DbCommand (0ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Status`
+    FROM `OpenIddictAuthorizations` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`AuthorizationId` = `t`.`Id`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` NOT IN ('inactive', 'valid') OR (`o`.`Status` IS NULL)) OR (`t`.`Id` IS NOT NULL AND ((`t`.`Status` <> 'valid') OR `t`.`Status` IS NULL))) OR (`o`.`ExpirationDate` < UTC_TIMESTAMP()))
+2024-11-08 17:47:56 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [25] - Start cleanup authorizations.
+2024-11-08 17:47:56 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [130] - Executed DbCommand (0ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT `o`.`Id`
+FROM `OpenIddictAuthorizations` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`AuthorizationId`
+    FROM `OpenIddictTokens` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`Id` = `t`.`AuthorizationId`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` <> 'valid') OR `o`.`Status` IS NULL) OR ((`o`.`Type` = 'ad-hoc') AND `t`.`Id` IS NULL))
+2024-11-08 17:47:56 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [130] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+WHERE FALSE
+2024-11-08 17:47:56 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [130] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictAuthorizations` AS `o`
+WHERE FALSE
+2024-11-08 17:47:56 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [13556] [130] - Lock is released for TokenCleanupBackgroundWorker
+2024-11-08 18:47:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [52] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__Subtract_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `a`
+FROM `AbpSessions` AS `a`
+WHERE (@__ef_filter__p_0 OR (`a`.`TenantId` IS NULL)) AND (`a`.`LastAccessed` IS NULL OR (`a`.`LastAccessed` < @__Subtract_0))
+2024-11-08 18:47:56 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [13556] [33] - Lock is acquired for TokenCleanupBackgroundWorker
+2024-11-08 18:47:56 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [33] - Start cleanup.
+2024-11-08 18:47:56 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [33] - Start cleanup tokens.
+2024-11-08 18:47:56 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [52] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Status`
+    FROM `OpenIddictAuthorizations` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`AuthorizationId` = `t`.`Id`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` NOT IN ('inactive', 'valid') OR (`o`.`Status` IS NULL)) OR (`t`.`Id` IS NOT NULL AND ((`t`.`Status` <> 'valid') OR `t`.`Status` IS NULL))) OR (`o`.`ExpirationDate` < UTC_TIMESTAMP()))
+2024-11-08 18:47:56 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [52] - Start cleanup authorizations.
+2024-11-08 18:47:56 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [52] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT `o`.`Id`
+FROM `OpenIddictAuthorizations` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`AuthorizationId`
+    FROM `OpenIddictTokens` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`Id` = `t`.`AuthorizationId`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` <> 'valid') OR `o`.`Status` IS NULL) OR ((`o`.`Type` = 'ad-hoc') AND `t`.`Id` IS NULL))
+2024-11-08 18:47:56 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [52] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+WHERE FALSE
+2024-11-08 18:47:56 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [52] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictAuthorizations` AS `o`
+WHERE FALSE
+2024-11-08 18:47:56 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [13556] [52] - Lock is released for TokenCleanupBackgroundWorker
+2024-11-08 20:15:15 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [33] - RabbitMQ consumer cancelled. --> amq.ctag-1ZKdUK0rYxQ72W1CWF2m6A
+2024-11-08 20:15:18 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [33] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-08 21:14:45 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [37] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__Subtract_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `a`
+FROM `AbpSessions` AS `a`
+WHERE (@__ef_filter__p_0 OR (`a`.`TenantId` IS NULL)) AND (`a`.`LastAccessed` IS NULL OR (`a`.`LastAccessed` < @__Subtract_0))
+2024-11-08 21:14:51 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [13556] [69] - Lock is acquired for TokenCleanupBackgroundWorker
+2024-11-08 21:14:51 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [69] - Start cleanup.
+2024-11-08 21:14:51 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [69] - Start cleanup tokens.
+2024-11-08 21:14:51 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [69] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Status`
+    FROM `OpenIddictAuthorizations` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`AuthorizationId` = `t`.`Id`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` NOT IN ('inactive', 'valid') OR (`o`.`Status` IS NULL)) OR (`t`.`Id` IS NOT NULL AND ((`t`.`Status` <> 'valid') OR `t`.`Status` IS NULL))) OR (`o`.`ExpirationDate` < UTC_TIMESTAMP()))
+2024-11-08 21:14:51 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [69] - Start cleanup authorizations.
+2024-11-08 21:14:51 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [37] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT `o`.`Id`
+FROM `OpenIddictAuthorizations` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`AuthorizationId`
+    FROM `OpenIddictTokens` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`Id` = `t`.`AuthorizationId`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` <> 'valid') OR `o`.`Status` IS NULL) OR ((`o`.`Type` = 'ad-hoc') AND `t`.`Id` IS NULL))
+2024-11-08 21:14:51 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [37] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+WHERE FALSE
+2024-11-08 21:14:51 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [37] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictAuthorizations` AS `o`
+WHERE FALSE
+2024-11-08 21:14:51 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [13556] [37] - Lock is released for TokenCleanupBackgroundWorker
+2024-11-08 23:52:31 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [134] - RabbitMQ consumer cancelled. --> amq.ctag-1ZKdUK0rYxQ72W1CWF2m6A
+2024-11-08 23:52:31 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [134] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.

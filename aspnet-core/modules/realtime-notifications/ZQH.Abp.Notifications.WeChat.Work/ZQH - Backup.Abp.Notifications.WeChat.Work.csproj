@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>ZQH.Abp.Notifications.WeChat.Work</AssemblyName>
+		<PackageId>ZQH.Abp.Notifications.WeChat.Work</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\framework\wechat\ZQH.Abp.WeChat.Work\ZQH.Abp.WeChat.Work.csproj" />
+	  <ProjectReference Include="..\ZQH.Abp.Notifications\ZQH.Abp.Notifications.csproj" />
+	</ItemGroup>
+
+</Project>

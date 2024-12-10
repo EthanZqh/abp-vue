@@ -1,0 +1,16 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Authentication.QQ.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Authentication.QQ.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Authentication.QQ.pdb
+E:\abp-vue\aspnet-core\framework\authentication\ZQH.Abp.Authentication.QQ\obj\Debug\net8.0\ZQH.Abp.Authentication.QQ.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\authentication\ZQH.Abp.Authentication.QQ\obj\Debug\net8.0\ZQH.Abp.Authentication.QQ.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\authentication\ZQH.Abp.Authentication.QQ\obj\Debug\net8.0\ZQH.Abp.Authentication.QQ.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\authentication\ZQH.Abp.Authentication.QQ\obj\Debug\net8.0\ZQH.Abp.Authentication.QQ.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\authentication\ZQH.Abp.Authentication.QQ\obj\Debug\net8.0\ZQH.Abp.Authentication.QQ.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\authentication\ZQH.Abp.Authentication.QQ\obj\Debug\net8.0\ZQH.Abp.Authentication.QQ.sourcelink.json
+E:\abp-vue\aspnet-core\framework\authentication\ZQH.Abp.Authentication.QQ\obj\Debug\net8.0\ZQH.Abp.Authentication.QQ.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\authentication\ZQH.Abp.Authentication.QQ\obj\Debug\net8.0\ZQH.Abp.Authentication.QQ.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\authentication\ZQH.Abp.Authentication.QQ\obj\Debug\net8.0\ZQH.Abp.Authentication.QQ.csproj.CopyComplete
+E:\abp-vue\aspnet-core\framework\authentication\ZQH.Abp.Authentication.QQ\obj\Debug\net8.0\ZQH.Abp.Authentication.QQ.dll
+E:\abp-vue\aspnet-core\framework\authentication\ZQH.Abp.Authentication.QQ\obj\Debug\net8.0\refint\ZQH.Abp.Authentication.QQ.dll
+E:\abp-vue\aspnet-core\framework\authentication\ZQH.Abp.Authentication.QQ\obj\Debug\net8.0\ZQH.Abp.Authentication.QQ.pdb
+E:\abp-vue\aspnet-core\framework\authentication\ZQH.Abp.Authentication.QQ\obj\Debug\net8.0\ref\ZQH.Abp.Authentication.QQ.dll

@@ -1,0 +1,14 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Saas.HttpApi.Client.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Saas.HttpApi.Client.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Saas.HttpApi.Client.pdb
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.Saas.HttpApi.Client\obj\Debug\netstandard2.1\ZQH.Abp.Saas.HttpApi.Client.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.Saas.HttpApi.Client\obj\Debug\netstandard2.1\ZQH.Abp.Saas.HttpApi.Client.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.Saas.HttpApi.Client\obj\Debug\netstandard2.1\ZQH.Abp.Saas.HttpApi.Client.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.Saas.HttpApi.Client\obj\Debug\netstandard2.1\ZQH.Abp.Saas.HttpApi.Client.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.Saas.HttpApi.Client\obj\Debug\netstandard2.1\ZQH.Abp.Saas.HttpApi.Client.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.Saas.HttpApi.Client\obj\Debug\netstandard2.1\ZQH.Abp.Saas.HttpApi.Client.sourcelink.json
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.Saas.HttpApi.Client\obj\Debug\netstandard2.1\ZQH.Abp.Saas.HttpApi.Client.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.Saas.HttpApi.Client\obj\Debug\netstandard2.1\ZQH.Abp.Saas.HttpApi.Client.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.Saas.HttpApi.Client\obj\Debug\netstandard2.1\ZQH.Abp.Saas.HttpApi.Client.csproj.CopyComplete
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.Saas.HttpApi.Client\obj\Debug\netstandard2.1\ZQH.Abp.Saas.HttpApi.Client.dll
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.Saas.HttpApi.Client\obj\Debug\netstandard2.1\ZQH.Abp.Saas.HttpApi.Client.pdb

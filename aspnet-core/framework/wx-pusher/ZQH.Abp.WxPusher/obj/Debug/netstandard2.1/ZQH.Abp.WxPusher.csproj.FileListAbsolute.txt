@@ -1,0 +1,14 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.WxPusher.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.WxPusher.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.WxPusher.pdb
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.WxPusher\obj\Debug\netstandard2.1\ZQH.Abp.WxPusher.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.WxPusher\obj\Debug\netstandard2.1\ZQH.Abp.WxPusher.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.WxPusher\obj\Debug\netstandard2.1\ZQH.Abp.WxPusher.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.WxPusher\obj\Debug\netstandard2.1\ZQH.Abp.WxPusher.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.WxPusher\obj\Debug\netstandard2.1\ZQH.Abp.WxPusher.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.WxPusher\obj\Debug\netstandard2.1\ZQH.Abp.WxPusher.sourcelink.json
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.WxPusher\obj\Debug\netstandard2.1\ZQH.Abp.WxPusher.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.WxPusher\obj\Debug\netstandard2.1\ZQH.Abp.WxPusher.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.WxPusher\obj\Debug\netstandard2.1\ZQH.Abp.WxPusher.csproj.CopyComplete
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.WxPusher\obj\Debug\netstandard2.1\ZQH.Abp.WxPusher.dll
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.WxPusher\obj\Debug\netstandard2.1\ZQH.Abp.WxPusher.pdb

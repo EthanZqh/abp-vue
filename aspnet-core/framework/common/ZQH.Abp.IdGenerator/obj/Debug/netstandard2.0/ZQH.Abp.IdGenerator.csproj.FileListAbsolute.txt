@@ -1,0 +1,16 @@
+E:\abp-vue\gateways\internal\ZQH.MicroService.Internal.ApiGateway\LocalNuget\netstandard2.0\ZQH.Abp.IdGenerator.deps.json
+E:\abp-vue\gateways\internal\ZQH.MicroService.Internal.ApiGateway\LocalNuget\netstandard2.0\ZQH.Abp.IdGenerator.dll
+E:\abp-vue\gateways\internal\ZQH.MicroService.Internal.ApiGateway\LocalNuget\netstandard2.0\ZQH.Abp.IdGenerator.pdb
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.IdGenerator.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.IdGenerator.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.IdGenerator.pdb
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.IdGenerator\obj\Debug\netstandard2.0\ZQH.Abp.IdGenerator.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.IdGenerator\obj\Debug\netstandard2.0\ZQH.Abp.IdGenerator.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.IdGenerator\obj\Debug\netstandard2.0\ZQH.Abp.IdGenerator.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.IdGenerator\obj\Debug\netstandard2.0\ZQH.Abp.IdGenerator.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.IdGenerator\obj\Debug\netstandard2.0\ZQH.Abp.IdGenerator.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.IdGenerator\obj\Debug\netstandard2.0\ZQH.Abp.IdGenerator.sourcelink.json
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.IdGenerator\obj\Debug\netstandard2.0\ZQH.Abp.IdGenerator.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.IdGenerator\obj\Debug\netstandard2.0\ZQH.Abp.IdGenerator.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.IdGenerator\obj\Debug\netstandard2.0\ZQH.Abp.IdGenerator.dll
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.IdGenerator\obj\Debug\netstandard2.0\ZQH.Abp.IdGenerator.pdb

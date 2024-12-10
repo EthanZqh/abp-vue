@@ -1,0 +1,14 @@
+E:\abp-next-admin\aspnet-core\LocalNuget\netstandard2.0\LINGYUN.Abp.Webhooks.Identity.deps.json
+E:\abp-next-admin\aspnet-core\LocalNuget\netstandard2.0\LINGYUN.Abp.Webhooks.Identity.dll
+E:\abp-next-admin\aspnet-core\LocalNuget\netstandard2.0\LINGYUN.Abp.Webhooks.Identity.pdb
+E:\abp-next-admin\aspnet-core\modules\webhooks\LINGYUN.Abp.Webhooks.Identity\obj\Debug\netstandard2.0\LINGYUN.Abp.Webhooks.Identity.csproj.AssemblyReference.cache
+E:\abp-next-admin\aspnet-core\modules\webhooks\LINGYUN.Abp.Webhooks.Identity\obj\Debug\netstandard2.0\LINGYUN.Abp.Webhooks.Identity.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-next-admin\aspnet-core\modules\webhooks\LINGYUN.Abp.Webhooks.Identity\obj\Debug\netstandard2.0\LINGYUN.Abp.Webhooks.Identity.AssemblyInfoInputs.cache
+E:\abp-next-admin\aspnet-core\modules\webhooks\LINGYUN.Abp.Webhooks.Identity\obj\Debug\netstandard2.0\LINGYUN.Abp.Webhooks.Identity.AssemblyInfo.cs
+E:\abp-next-admin\aspnet-core\modules\webhooks\LINGYUN.Abp.Webhooks.Identity\obj\Debug\netstandard2.0\LINGYUN.Abp.Webhooks.Identity.csproj.CoreCompileInputs.cache
+E:\abp-next-admin\aspnet-core\modules\webhooks\LINGYUN.Abp.Webhooks.Identity\obj\Debug\netstandard2.0\LINGYUN.Abp.Webhooks.Identity.sourcelink.json
+E:\abp-next-admin\aspnet-core\modules\webhooks\LINGYUN.Abp.Webhooks.Identity\obj\Debug\netstandard2.0\LINGYUN.Abp.Webhooks.Identity.csproj.Fody.CopyLocal.cache
+E:\abp-next-admin\aspnet-core\modules\webhooks\LINGYUN.Abp.Webhooks.Identity\obj\Debug\netstandard2.0\LINGYUN.Abp.Webhooks.Identity.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-next-admin\aspnet-core\modules\webhooks\LINGYUN.Abp.Webhooks.Identity\obj\Debug\netstandard2.0\LINGYUN.Abp.Webhooks.Identity.csproj.CopyComplete
+E:\abp-next-admin\aspnet-core\modules\webhooks\LINGYUN.Abp.Webhooks.Identity\obj\Debug\netstandard2.0\LINGYUN.Abp.Webhooks.Identity.dll
+E:\abp-next-admin\aspnet-core\modules\webhooks\LINGYUN.Abp.Webhooks.Identity\obj\Debug\netstandard2.0\LINGYUN.Abp.Webhooks.Identity.pdb

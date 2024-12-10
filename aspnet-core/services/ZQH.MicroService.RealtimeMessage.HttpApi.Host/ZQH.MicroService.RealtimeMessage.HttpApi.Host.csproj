@@ -1,0 +1,123 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<Import Project="..\..\..\common.secrets.props" />
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<RootNamespace>ZQH.MicroService.RealtimeMessage</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="Localization\Resources\*.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AgileConfig.Client" />
+		<PackageReference Include="DotNetCore.CAP.Dashboard" />
+		<PackageReference Include="DotNetCore.CAP.MySql" />
+		<PackageReference Include="DotNetCore.CAP.RabbitMQ" />
+		<PackageReference Include="DotNetCore.CAP.OpenTelemetry" />
+		<PackageReference Include="DistributedLock.Redis" />
+		<PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" />
+		<!--<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>-->
+		<PackageReference Include="Microsoft.AspNetCore.SignalR.StackExchangeRedis" />
+		<PackageReference Include="OpenTelemetry.Extensions.Hosting" />
+		<PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" />
+		<PackageReference Include="OpenTelemetry.Exporter.Zipkin" />
+		<PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" />
+		<PackageReference Include="OpenTelemetry.Instrumentation.Http" />
+		<PackageReference Include="OpenTelemetry.Instrumentation.Runtime" />
+		<PackageReference Include="OpenTelemetry.Instrumentation.EntityFrameworkCore" />
+		<PackageReference Include="Quartz.Serialization.Json" />
+		<PackageReference Include="Serilog.AspNetCore" />
+		<PackageReference Include="Serilog.Enrichers.Environment" />
+		<PackageReference Include="Serilog.Enrichers.Assembly" />
+		<PackageReference Include="Serilog.Enrichers.Process" />
+		<PackageReference Include="Serilog.Enrichers.Thread" />
+		<PackageReference Include="Serilog.Settings.Configuration" />
+		<PackageReference Include="Serilog.Sinks.Elasticsearch" />
+		<PackageReference Include="Serilog.Sinks.File" />
+		<PackageReference Include="Swashbuckle.AspNetCore" />
+		<PackageReference Include="Volo.Abp.AspNetCore.Serilog" />
+		<PackageReference Include="Volo.Abp.Caching.StackExchangeRedis" />
+		<PackageReference Include="Volo.Abp.AspNetCore.MultiTenancy" />
+		<PackageReference Include="Volo.Abp.AspNetCore.Authentication.JwtBearer" />
+		<PackageReference Include="Volo.Abp.Autofac" />
+		<PackageReference Include="Volo.Abp.EntityFrameworkCore.MySQL" />
+		<PackageReference Include="Volo.Abp.Http.Client" />
+		<PackageReference Include="Volo.Abp.Identity.EntityFrameworkCore" />
+		<PackageReference Include="Volo.Abp.FeatureManagement.EntityFrameworkCore" />
+		<PackageReference Include="Volo.Abp.SettingManagement.EntityFrameworkCore" />
+		<PackageReference Include="Volo.Abp.PermissionManagement.EntityFrameworkCore" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\framework\auditing\ZQH.Abp.AuditLogging.Elasticsearch\ZQH.Abp.AuditLogging.Elasticsearch.csproj" />
+		<ProjectReference Include="..\..\framework\authorization\ZQH.Abp.Authorization.OrganizationUnits\ZQH.Abp.Authorization.OrganizationUnits.csproj" />
+		<ProjectReference Include="..\..\framework\common\ZQH.Abp.AspNetCore.HttpOverrides\ZQH.Abp.AspNetCore.HttpOverrides.csproj" />
+		<ProjectReference Include="..\..\framework\common\ZQH.Abp.Data.DbMigrator\ZQH.Abp.Data.DbMigrator.csproj" />
+		<ProjectReference Include="..\..\framework\common\ZQH.Abp.EventBus.CAP\ZQH.Abp.EventBus.CAP.csproj" />
+		<ProjectReference Include="..\..\framework\common\ZQH.Abp.Features.LimitValidation.Redis.Client\ZQH.Abp.Features.LimitValidation.Redis.Client.csproj" />
+		<ProjectReference Include="..\..\framework\localization\ZQH.Abp.AspNetCore.Mvc.Localization\ZQH.Abp.AspNetCore.Mvc.Localization.csproj" />
+		<ProjectReference Include="..\..\framework\localization\ZQH.Abp.Localization.CultureMap\ZQH.Abp.Localization.CultureMap.csproj" />
+		<ProjectReference Include="..\..\framework\logging\ZQH.Abp.Serilog.Enrichers.Application\ZQH.Abp.Serilog.Enrichers.Application.csproj" />
+		<ProjectReference Include="..\..\framework\logging\ZQH.Abp.Serilog.Enrichers.UniqueId\ZQH.Abp.Serilog.Enrichers.UniqueId.csproj" />
+		<ProjectReference Include="..\..\framework\mvc\ZQH.Abp.AspNetCore.Mvc.Wrapper\ZQH.Abp.AspNetCore.Mvc.Wrapper.csproj" />
+		<ProjectReference Include="..\..\framework\security\ZQH.Abp.Claims.Mapping\ZQH.Abp.Claims.Mapping.csproj" />
+		<ProjectReference Include="..\..\framework\wechat\ZQH.Abp.Identity.WeChat.Work\ZQH.Abp.Identity.WeChat.Work.csproj" />
+		<ProjectReference Include="..\..\framework\wechat\ZQH.Abp.Identity.WeChat\ZQH.Abp.Identity.WeChat.csproj" />
+		<ProjectReference Include="..\..\framework\wechat\ZQH.Abp.WeChat.Official.Handlers\ZQH.Abp.WeChat.Official.Handlers.csproj" />
+		<ProjectReference Include="..\..\framework\wechat\ZQH.Abp.WeChat.Work.Handlers\ZQH.Abp.WeChat.Work.Handlers.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\migrations\ZQH.MicroService.RealtimeMessage.EntityFrameworkCore\ZQH.MicroService.RealtimeMessage.EntityFrameworkCore.csproj" />
+		<ProjectReference Include="..\..\modules\identity\ZQH.Abp.Identity.EntityFrameworkCore\ZQH.Abp.Identity.EntityFrameworkCore.csproj" />
+		<ProjectReference Include="..\..\modules\identity\ZQH.Abp.Identity.Notifications\ZQH.Abp.Identity.Notifications.csproj" />
+		<ProjectReference Include="..\..\modules\identity\ZQH.Abp.Identity.Session.AspNetCore\ZQH.Abp.Identity.Session.AspNetCore.csproj" />
+		<ProjectReference Include="..\..\modules\localization-management\ZQH.Abp.LocalizationManagement.EntityFrameworkCore\ZQH.Abp.LocalizationManagement.EntityFrameworkCore.csproj" />
+		<ProjectReference Include="..\..\modules\realtime-message\ZQH.Abp.IM.SignalR\ZQH.Abp.IM.SignalR.csproj" />
+		<ProjectReference Include="..\..\modules\realtime-message\ZQH.Abp.MessageService.Application\ZQH.Abp.MessageService.Application.csproj" />
+		<ProjectReference Include="..\..\modules\realtime-message\ZQH.Abp.MessageService.EntityFrameworkCore\ZQH.Abp.MessageService.EntityFrameworkCore.csproj" />
+		<ProjectReference Include="..\..\modules\realtime-message\ZQH.Abp.MessageService.HttpApi\ZQH.Abp.MessageService.HttpApi.csproj" />
+		<ProjectReference Include="..\..\modules\realtime-notifications\ZQH.Abp.ExceptionHandling.Notifications\ZQH.Abp.ExceptionHandling.Notifications.csproj" />
+		<ProjectReference Include="..\..\modules\realtime-notifications\ZQH.Abp.Notifications.Application\ZQH.Abp.Notifications.Application.csproj" />
+		<ProjectReference Include="..\..\modules\realtime-notifications\ZQH.Abp.Notifications.Emailing\ZQH.Abp.Notifications.Emailing.csproj" />
+		<ProjectReference Include="..\..\modules\realtime-notifications\ZQH.Abp.Notifications.EntityFrameworkCore\ZQH.Abp.Notifications.EntityFrameworkCore.csproj" />
+		<ProjectReference Include="..\..\modules\realtime-notifications\ZQH.Abp.Notifications.HttpApi\ZQH.Abp.Notifications.HttpApi.csproj" />
+		<ProjectReference Include="..\..\modules\realtime-notifications\ZQH.Abp.Notifications.SignalR\ZQH.Abp.Notifications.SignalR.csproj" />
+		<ProjectReference Include="..\..\modules\realtime-notifications\ZQH.Abp.Notifications.Sms\ZQH.Abp.Notifications.Sms.csproj" />
+		<ProjectReference Include="..\..\modules\realtime-notifications\ZQH.Abp.Notifications.WeChat.MiniProgram\ZQH.Abp.Notifications.WeChat.MiniProgram.csproj" />
+		<ProjectReference Include="..\..\modules\realtime-notifications\ZQH.Abp.Notifications.WeChat.Work\ZQH.Abp.Notifications.WeChat.Work.csproj" />
+		<ProjectReference Include="..\..\modules\realtime-notifications\ZQH.Abp.Notifications.WxPusher\ZQH.Abp.Notifications.WxPusher.csproj" />
+		<ProjectReference Include="..\..\modules\saas\ZQH.Abp.Saas.EntityFrameworkCore\ZQH.Abp.Saas.EntityFrameworkCore.csproj" />
+		<ProjectReference Include="..\..\modules\task-management\ZQH.Abp.BackgroundTasks.Quartz\ZQH.Abp.BackgroundTasks.Quartz.csproj" />
+		<ProjectReference Include="..\..\modules\task-management\ZQH.Abp.BackgroundTasks.DistributedLocking\ZQH.Abp.BackgroundTasks.DistributedLocking.csproj" />
+		<ProjectReference Include="..\..\modules\task-management\ZQH.Abp.BackgroundTasks.ExceptionHandling\ZQH.Abp.BackgroundTasks.ExceptionHandling.csproj" />
+		<ProjectReference Include="..\..\modules\task-management\ZQH.Abp.Notifications.Jobs\ZQH.Abp.Notifications.Jobs.csproj" />
+		
+		
+		<ProjectReference Include="..\..\modules\task-management\ZQH.Abp.TaskManagement.EntityFrameworkCore\ZQH.Abp.TaskManagement.EntityFrameworkCore.csproj" />
+		<ProjectReference Include="..\..\modules\text-templating\ZQH.Abp.TextTemplating.EntityFrameworkCore\ZQH.Abp.TextTemplating.EntityFrameworkCore.csproj" />
+		<ProjectReference Include="..\..\modules\text-templating\ZQH.Abp.TextTemplating.Scriban\ZQH.Abp.TextTemplating.Scriban.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Properties\Resources.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>Resources.resx</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Update="Properties\Resources.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	</ItemGroup>
+
+</Project>

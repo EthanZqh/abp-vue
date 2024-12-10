@@ -1,0 +1,532 @@
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] - Loaded ABP modules:
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] - - ZQH.MicroService.BackendAdmin.BackendAdminHttpApiHostModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.EventBus.CAP.AbpCAPEventBusModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - Volo.Abp.EventBus.AbpEventBusModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -         - Volo.Abp.Data.AbpDataModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -           - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -         - Volo.Abp.Security.AbpSecurityModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -         - Volo.Abp.Settings.AbpSettingsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -         - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -           - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -           - Volo.Abp.Localization.AbpLocalizationModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -             - Volo.Abp.Threading.AbpThreadingModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.Json.AbpJsonModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -         - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -           - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -           - Volo.Abp.Timing.AbpTimingModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.Guids.AbpGuidsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.Serilog.Enrichers.Application.AbpSerilogEnrichersApplicationModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.Serilog.Enrichers.UniqueId.AbpSerilogEnrichersUniqueIdModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.IdGenerator.AbpIdGeneratorModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.Auditing.AbpAuditingModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.Http.AbpHttpModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -         - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -         - Volo.Abp.Minify.AbpMinifyModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.Validation.AbpValidationModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.AspNetCore.AbpAspNetCoreAbstractionsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.Logging.Serilog.Elasticsearch.AbpLoggingSerilogElasticsearchModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.Logging.AbpLoggingModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.Elasticsearch.AbpElasticsearchModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.AuditLogging.Elasticsearch.AbpAuditLoggingElasticsearchModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.AuditLogging.AbpAuditLoggingModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -             - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -             - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -               - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -             - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -               - Volo.Abp.UI.AbpUiModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -             - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -             - Volo.Abp.Application.AbpDddApplicationModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -               - Volo.Abp.Domain.AbpDddDomainModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -                 - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -                 - Volo.Abp.Caching.AbpCachingModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -                   - Volo.Abp.Serialization.AbpSerializationModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -                 - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -               - Volo.Abp.Features.AbpFeaturesModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.AspNetCore.Mvc.Localization.AbpAspNetCoreMvcLocalizationModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.Aliyun.SettingManagement.AbpAliyunSettingManagementModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.Aliyun.AbpAliyunModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - ZQH.Abp.Features.LimitValidation.AbpFeaturesLimitValidationModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.Sms.Aliyun.AbpAliyunSmsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.Sms.AbpSmsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.Tencent.SettingManagement.AbpTencentCloudSettingManagementModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.Tencent.AbpTencentCloudModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.Tencent.QQ.AbpTencentQQModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.WxPusher.SettingManagement.AbpWxPusherSettingManagementModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.WxPusher.AbpWxPusherModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.OssManagement.SettingManagement.AbpOssManagementSettingManagementModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.OssManagement.AbpOssManagementApplicationContractsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - ZQH.Abp.OssManagement.AbpOssManagementDomainSharedModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.DataProtectionManagement.AbpDataProtectionManagementApplicationModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.DataProtectionManagement.AbpDataProtectionManagementApplicationContractsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - ZQH.Abp.DataProtectionManagement.AbpDataProtectionManagementDomainSharedModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.DataProtectionManagement.AbpDataProtectionManagementDomainModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - ZQH.Abp.DataProtection.AbpDataProtectionModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -         - ZQH.Abp.DataProtection.AbpDataProtectionAbstractionsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.DataProtectionManagement.AbpDataProtectionManagementHttpApiModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.FeatureManagement.HttpApi.AbpFeatureManagementHttpApiModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.FeatureManagement.AbpFeatureManagementClientModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.Features.Client.AbpFeaturesClientModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.Auditing.AbpAuditingApplicationModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.Auditing.AbpAuditingApplicationContractsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.Auditing.AbpAuditingHttpApiModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.Saas.AbpSaasApplicationModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.Saas.AbpSaasDomainModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - ZQH.Abp.Saas.AbpSaasDomainSharedModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - ZQH.Abp.MultiTenancy.Editions.AbpMultiTenancyEditionsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.Saas.AbpSaasApplicationContractsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.Saas.AbpSaasHttpApiModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.TextTemplating.AbpTextTemplatingApplicationModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.TextTemplating.AbpTextTemplatingDomainModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - ZQH.Abp.TextTemplating.AbpTextTemplatingDomainSharedModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.TextTemplating.AbpTextTemplatingApplicationContractsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.TextTemplating.AbpTextTemplatingHttpApiModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.CachingManagement.AbpCachingManagementApplicationModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.CachingManagement.AbpCachingManagementApplicationContractsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.CachingManagement.AbpCachingManagementHttpApiModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.CachingManagement.StackExchangeRedis.AbpCachingManagementStackExchangeRedisModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.CachingManagement.AbpCachingManagementDomainModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.Identity.AbpIdentityDomainModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - ZQH.Abp.Identity.AbpIdentityDomainSharedModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.Identity.AbpIdentityDomainModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -         - Volo.Abp.Users.AbpUsersDomainModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - Volo.Abp.IdentityServer.EntityFrameworkCore.AbpIdentityServerEntityFrameworkCoreModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - Volo.Abp.IdentityServer.AbpIdentityServerDomainModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.PermissionManagement.OrganizationUnits.AbpPermissionManagementDomainOrganizationUnitsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.Authorization.OrganizationUnits.AbpAuthorizationOrganizationUnitsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.Saas.EntityFrameworkCore.AbpSaasEntityFrameworkCoreModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - Volo.Abp.PermissionManagement.IdentityServer.AbpPermissionManagementDomainIdentityServerModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.LocalizationManagement.EntityFrameworkCore.AbpLocalizationManagementEntityFrameworkCoreModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.LocalizationManagement.AbpLocalizationManagementDomainModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - ZQH.Abp.Localization.Persistence.AbpLocalizationPersistenceModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - ZQH.Abp.LocalizationManagement.AbpLocalizationManagementDomainSharedModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.TextTemplating.EntityFrameworkCore.AbpTextTemplatingEntityFrameworkCoreModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.Identity.Session.AspNetCore.AbpIdentitySessionAspNetCoreModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.Identity.Session.AbpIdentitySessionModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.MicroService.BackendAdmin.EntityFrameworkCore.BackendAdminMigrationsEntityFrameworkCoreModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.DataProtectionManagement.EntityFrameworkCore.AbpDataProtectionManagementEntityFrameworkCoreModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - ZQH.Abp.DataProtection.EntityFrameworkCore.AbpDataProtectionEntityFrameworkCoreModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.Data.DbMigrator.AbpDataDbMigratorModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.ExceptionHandling.Emailing.AbpEmailingExceptionHandlingModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - Volo.Abp.Emailing.AbpEmailingModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -       - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -         - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - Volo.Abp.Http.Client.AbpHttpClientModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.Localization.CultureMap.AbpLocalizationCultureMapModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.AspNetCore.Mvc.Wrapper.AbpAspNetCoreMvcWrapperModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.Wrapper.AbpWrapperModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -     - ZQH.Abp.AspNetCore.Wrapper.AbpAspNetCoreWrapperModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.AspNetCore.HttpOverrides.AbpAspNetCoreHttpOverridesModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - ZQH.Abp.Claims.Mapping.AbpClaimsMappingModule
+2024-10-25 06:45:28 [INF] [Volo.Abp.AbpApplicationBase] [32312] [1] -   - Volo.Abp.Autofac.AbpAutofacModule
+2024-10-25 06:45:29 [INF] [Volo.Abp.AspNetCore.Mvc.Conventions.AbpServiceConvention] [32312] [10] - Removing the controller ZQH.MicroService.BackendAdmin.Controllers.SettingMergeController, ZQH.MicroService.BackendAdmin.HttpApi.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from the application model since it replaces the controller(s): ZQH.Abp.SettingManagement.SettingController, ZQH.Abp.SettingManagement.HttpApi, Version=8.2.1.0, Culture=neutral, PublicKeyToken=null
+2024-10-25 06:45:29 [INF] [Volo.Abp.AspNetCore.Mvc.Conventions.AbpServiceConvention] [32312] [10] - Removing the controller ZQH.MicroService.BackendAdmin.Controllers.UserSettingMergeController, ZQH.MicroService.BackendAdmin.HttpApi.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from the application model since it replaces the controller(s): ZQH.Abp.SettingManagement.UserSettingController, ZQH.Abp.SettingManagement.HttpApi, Version=8.2.1.0, Culture=neutral, PublicKeyToken=null
+2024-10-25 06:45:29 [INF] [Volo.Abp.Modularity.ModuleManager] [32312] [10] - Initialized all ABP modules.
+2024-10-25 06:45:30 [INF] [DotNetCore.CAP.Processor.Dispatcher] [32312] [22] - Starting default Dispatcher
+2024-10-25 06:45:30 [WRN] [ZQH.Abp.EventBus.CAP.AbpCAPConsumerServiceSelector] [32312] [22] - We detected that you have duplicate subscribers (abp.multi_tenancy.tenant.connection_string.updated) in same group (BackendAdmin.v1), this will cause diversity behavior.
+2024-10-25 06:45:30 [INF] [DotNetCore.CAP.Processor.CapProcessingServer] [32312] [22] - Starting the processing server.
+2024-10-25 06:45:30 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [32312] [4] - RabbitMQ consumer registered. --> amq.ctag-B4koPaTECXTXEYbP6843uw
+2024-10-25 06:45:30 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [32312] [6] - RabbitMQ consumer registered. --> amq.ctag-R4y-mOno5M-hX98MtVtfPQ
+2024-10-25 06:45:30 [INF] [DotNetCore.CAP.Internal.Bootstrapper] [32312] [22] - ### CAP started!
+2024-10-25 06:45:34 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [32312] [4] - Failed to initialize index and audit log may not be retrieved.
+2024-10-25 06:45:34 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [32312] [4] - Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET /
+ ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product.
+ ---> System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9200)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Elasticsearch.Net.HttpConnection.RequestAsync[TResponse](RequestData requestData, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure()
+   at Elasticsearch.Net.RequestPipeline.PingAsync(Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.PingAsync(IRequestPipeline pipeline, Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.RequestAsync[TResponse](HttpMethod method, String path, CancellationToken cancellationToken, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2024-10-25 06:45:38 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [32312] [4] - Failed to initialize index and security log may not be retrieved.
+2024-10-25 06:45:38 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [32312] [4] - Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET /
+ ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product.
+ ---> System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9200)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Elasticsearch.Net.HttpConnection.RequestAsync[TResponse](RequestData requestData, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure()
+   at Elasticsearch.Net.RequestPipeline.PingAsync(Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.PingAsync(IRequestPipeline pipeline, Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.RequestAsync[TResponse](HttpMethod method, String path, CancellationToken cancellationToken, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2024-10-25 07:08:32 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [32312] [36] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 07:08:40 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [32312] [32] - Controller 'TextTemplateContent' contains more than one action with name 'GetAsyncByInput' for module 'text-templating'. Ignored: System.Threading.Tasks.Task`1[ZQH.Abp.TextTemplating.TextTemplateContentDto] GetAsync(ZQH.Abp.TextTemplating.TextTemplateContentGetInput)
+2024-10-25 07:09:00 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [32312] [32] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 07:09:03 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [32312] [42] - Controller 'TextTemplateContent' contains more than one action with name 'GetAsyncByInput' for module 'text-templating'. Ignored: System.Threading.Tasks.Task`1[ZQH.Abp.TextTemplating.TextTemplateContentDto] GetAsync(ZQH.Abp.TextTemplating.TextTemplateContentGetInput)
+2024-10-25 07:09:04 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [32312] [38] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 07:11:23 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [32312] [36] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 07:11:26 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [32312] [47] - Controller 'TextTemplateContent' contains more than one action with name 'GetAsyncByInput' for module 'text-templating'. Ignored: System.Threading.Tasks.Task`1[ZQH.Abp.TextTemplating.TextTemplateContentDto] GetAsync(ZQH.Abp.TextTemplating.TextTemplateContentGetInput)
+2024-10-25 07:12:01 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [32312] [53] - Executing subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'BackendAdmin.v1'
+2024-10-25 07:12:01 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [32312] [57] - Executed subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'BackendAdmin.v1' with instance 'zqhT16' in 82.9604ms
+2024-10-25 07:12:04 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [32312] [47] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 07:45:29 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] [32312] [94] - Failed executing DbCommand (2ms) [Parameters=[@__maxExpirationDate_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `i`
+FROM `IdentityServerPersistedGrants` AS `i`
+WHERE `i`.`Expiration` IS NOT NULL AND (`i`.`Expiration` < @__maxExpirationDate_0)
+2024-10-25 07:45:29 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [32312] [94] - Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+MySqlConnector.MySqlException (0x80004005): Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 309
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.DeleteDirectAsync(Expression`1 predicate, CancellationToken cancellationToken)
+   at Volo.Abp.IdentityServer.Grants.PersistentGrantRepository.DeleteExpirationAsync(DateTime maxExpirationDate, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.RemoveGrantsAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.CleanAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2024-10-25 07:45:29 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [32312] [94] - ---------- Exception Data ----------
+Server Error Code = 1146
+SqlState = 42S02
+
+2024-10-25 08:45:29 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] [32312] [65] - Failed executing DbCommand (1ms) [Parameters=[@__maxExpirationDate_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `i`
+FROM `IdentityServerPersistedGrants` AS `i`
+WHERE `i`.`Expiration` IS NOT NULL AND (`i`.`Expiration` < @__maxExpirationDate_0)
+2024-10-25 08:45:29 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [32312] [65] - Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+MySqlConnector.MySqlException (0x80004005): Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 309
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.DeleteDirectAsync(Expression`1 predicate, CancellationToken cancellationToken)
+   at Volo.Abp.IdentityServer.Grants.PersistentGrantRepository.DeleteExpirationAsync(DateTime maxExpirationDate, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.RemoveGrantsAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.CleanAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2024-10-25 08:45:29 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [32312] [65] - ---------- Exception Data ----------
+Server Error Code = 1146
+SqlState = 42S02
+
+2024-10-25 09:45:29 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] [32312] [10] - Failed executing DbCommand (1ms) [Parameters=[@__maxExpirationDate_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `i`
+FROM `IdentityServerPersistedGrants` AS `i`
+WHERE `i`.`Expiration` IS NOT NULL AND (`i`.`Expiration` < @__maxExpirationDate_0)
+2024-10-25 09:45:29 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [32312] [10] - Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+MySqlConnector.MySqlException (0x80004005): Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 309
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.DeleteDirectAsync(Expression`1 predicate, CancellationToken cancellationToken)
+   at Volo.Abp.IdentityServer.Grants.PersistentGrantRepository.DeleteExpirationAsync(DateTime maxExpirationDate, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.RemoveGrantsAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.CleanAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2024-10-25 09:45:29 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [32312] [10] - ---------- Exception Data ----------
+Server Error Code = 1146
+SqlState = 42S02
+
+2024-10-25 09:58:39 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [32312] [35] - Executing subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'BackendAdmin.v1'
+2024-10-25 09:58:39 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [32312] [24] - Executed subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'BackendAdmin.v1' with instance 'zqhT16' in 153.8515ms
+2024-10-25 09:58:39 [INF] [DotNetCore.CAP.RabbitMQ.RabbitMQTransport] [32312] [27] - CAP message 'ZQH.Abp.Identity.IdentitySessionEto.Updated' published, internal id '4001002702516781059'
+2024-10-25 09:58:39 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [32312] [24] - Executing subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'BackendAdmin.v1'
+2024-10-25 09:58:39 [INF] [DotNetCore.CAP.RabbitMQ.RabbitMQTransport] [32312] [24] - CAP message 'ZQH.Abp.Identity.IdentitySessionEto.Updated' published, internal id '4001002702516781061'
+2024-10-25 09:58:39 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [32312] [24] - Executed subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'BackendAdmin.v1' with instance 'zqhT16' in 14.6387ms
+2024-10-25 10:17:31 [WRN] [Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter] [32312] [37] - ---------- RemoteServiceErrorInfo ----------
+{
+  "code": "Volo.Authorization:010001",
+  "message": "授权失败！提供的策略尚未授予。",
+  "details": null,
+  "data": {},
+  "validationErrors": null
+}
+
+2024-10-25 10:17:31 [WRN] [Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter] [32312] [37] - Exception of type 'Volo.Abp.Authorization.AbpAuthorizationException' was thrown.
+Volo.Abp.Authorization.AbpAuthorizationException: Exception of type 'Volo.Abp.Authorization.AbpAuthorizationException' was thrown.
+   at Microsoft.AspNetCore.Authorization.AbpAuthorizationServiceExtensions.CheckAsync(IAuthorizationService authorizationService, AuthorizationPolicy policy)
+   at Volo.Abp.Authorization.MethodInvocationAuthorizationService.CheckAsync(MethodInvocationAuthorizationContext context)
+   at Volo.Abp.Authorization.AuthorizationInterceptor.AuthorizeAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Authorization.AuthorizationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Auditing.AuditingInterceptor.ProceedByLoggingAsync(IAbpMethodInvocation invocation, AbpAuditingOptions options, IAuditingHelper auditingHelper, IAuditLogScope auditLogScope)
+   at Volo.Abp.Auditing.AuditingInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at lambda_method3956(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-10-25 10:17:31 [WRN] [Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter] [32312] [37] - Code:Volo.Authorization:010001
+2024-10-25 10:17:35 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [32312] [47] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 10:17:40 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [32312] [52] - Controller 'TextTemplateContent' contains more than one action with name 'GetAsyncByInput' for module 'text-templating'. Ignored: System.Threading.Tasks.Task`1[ZQH.Abp.TextTemplating.TextTemplateContentDto] GetAsync(ZQH.Abp.TextTemplating.TextTemplateContentGetInput)
+2024-10-25 10:25:08 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [32312] [63] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 10:25:10 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [32312] [69] - Controller 'TextTemplateContent' contains more than one action with name 'GetAsyncByInput' for module 'text-templating'. Ignored: System.Threading.Tasks.Task`1[ZQH.Abp.TextTemplating.TextTemplateContentDto] GetAsync(ZQH.Abp.TextTemplating.TextTemplateContentGetInput)
+2024-10-25 10:27:44 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [32312] [69] - Executing subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'BackendAdmin.v1'
+2024-10-25 10:27:44 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [32312] [47] - Executed subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'BackendAdmin.v1' with instance 'zqhT16' in 13.1737ms
+2024-10-25 10:27:44 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [32312] [69] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 10:28:04 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [32312] [63] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 10:28:07 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [32312] [77] - Controller 'TextTemplateContent' contains more than one action with name 'GetAsyncByInput' for module 'text-templating'. Ignored: System.Threading.Tasks.Task`1[ZQH.Abp.TextTemplating.TextTemplateContentDto] GetAsync(ZQH.Abp.TextTemplating.TextTemplateContentGetInput)
+2024-10-25 10:30:43 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [32312] [75] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 10:30:46 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [32312] [93] - Controller 'TextTemplateContent' contains more than one action with name 'GetAsyncByInput' for module 'text-templating'. Ignored: System.Threading.Tasks.Task`1[ZQH.Abp.TextTemplating.TextTemplateContentDto] GetAsync(ZQH.Abp.TextTemplating.TextTemplateContentGetInput)
+2024-10-25 10:45:29 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] [32312] [115] - Failed executing DbCommand (2ms) [Parameters=[@__maxExpirationDate_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `i`
+FROM `IdentityServerPersistedGrants` AS `i`
+WHERE `i`.`Expiration` IS NOT NULL AND (`i`.`Expiration` < @__maxExpirationDate_0)
+2024-10-25 10:45:29 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [32312] [115] - Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+MySqlConnector.MySqlException (0x80004005): Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 309
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.DeleteDirectAsync(Expression`1 predicate, CancellationToken cancellationToken)
+   at Volo.Abp.IdentityServer.Grants.PersistentGrantRepository.DeleteExpirationAsync(DateTime maxExpirationDate, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.RemoveGrantsAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.CleanAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2024-10-25 10:45:29 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [32312] [115] - ---------- Exception Data ----------
+Server Error Code = 1146
+SqlState = 42S02
+
+2024-10-25 10:51:17 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [32312] [113] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 10:51:17 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [32312] [113] - Executing subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'BackendAdmin.v1'
+2024-10-25 10:51:17 [INF] [DotNetCore.CAP.RabbitMQ.RabbitMQTransport] [32312] [73] - CAP message 'ZQH.Abp.Identity.IdentitySessionEto.Updated' published, internal id '4001002702516781064'
+2024-10-25 10:51:17 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [32312] [114] - Executed subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'BackendAdmin.v1' with instance 'zqhT16' in 20.134ms
+2024-10-25 10:51:20 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [32312] [113] - Controller 'TextTemplateContent' contains more than one action with name 'GetAsyncByInput' for module 'text-templating'. Ignored: System.Threading.Tasks.Task`1[ZQH.Abp.TextTemplating.TextTemplateContentDto] GetAsync(ZQH.Abp.TextTemplating.TextTemplateContentGetInput)
+2024-10-25 11:45:30 [ERR] [Microsoft.EntityFrameworkCore.Database.Command] [32312] [105] - Failed executing DbCommand (2ms) [Parameters=[@__maxExpirationDate_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `i`
+FROM `IdentityServerPersistedGrants` AS `i`
+WHERE `i`.`Expiration` IS NOT NULL AND (`i`.`Expiration` < @__maxExpirationDate_0)
+2024-10-25 11:45:30 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [32312] [105] - Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+MySqlConnector.MySqlException (0x80004005): Table 'authserver-v8.2.identityserverpersistedgrants' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 309
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.DeleteDirectAsync(Expression`1 predicate, CancellationToken cancellationToken)
+   at Volo.Abp.IdentityServer.Grants.PersistentGrantRepository.DeleteExpirationAsync(DateTime maxExpirationDate, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.RemoveGrantsAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupService.CleanAsync()
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous(IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapter.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync(IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker.DoWorkAsync(PeriodicBackgroundWorkerContext workerContext)
+   at Volo.Abp.BackgroundWorkers.AsyncPeriodicBackgroundWorkerBase.DoWorkAsync(CancellationToken cancellationToken)
+2024-10-25 11:45:30 [ERR] [Volo.Abp.IdentityServer.Tokens.TokenCleanupBackgroundWorker] [32312] [105] - ---------- Exception Data ----------
+Server Error Code = 1146
+SqlState = 42S02
+
+2024-10-25 11:46:59 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [32312] [7] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 11:46:59 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [32312] [7] - Executing subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'BackendAdmin.v1'
+2024-10-25 11:46:59 [INF] [DotNetCore.CAP.RabbitMQ.RabbitMQTransport] [32312] [7] - CAP message 'ZQH.Abp.Identity.IdentitySessionEto.Updated' published, internal id '4001002702516781066'
+2024-10-25 11:46:59 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [32312] [3] - Executed subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'BackendAdmin.v1' with instance 'zqhT16' in 60.9995ms
+2024-10-25 11:47:07 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [32312] [105] - Controller 'TextTemplateContent' contains more than one action with name 'GetAsyncByInput' for module 'text-templating'. Ignored: System.Threading.Tasks.Task`1[ZQH.Abp.TextTemplating.TextTemplateContentDto] GetAsync(ZQH.Abp.TextTemplating.TextTemplateContentGetInput)
+2024-10-25 11:47:14 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [32312] [7] - Executing subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'BackendAdmin.v1'
+2024-10-25 11:47:14 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [32312] [105] - Executed subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'BackendAdmin.v1' with instance 'zqhT16' in 14.948ms
+2024-10-25 11:47:15 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [32312] [7] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 11:51:09 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [32312] [32] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 11:51:13 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [32312] [145] - Controller 'TextTemplateContent' contains more than one action with name 'GetAsyncByInput' for module 'text-templating'. Ignored: System.Threading.Tasks.Task`1[ZQH.Abp.TextTemplating.TextTemplateContentDto] GetAsync(ZQH.Abp.TextTemplating.TextTemplateContentGetInput)
+2024-10-25 11:54:34 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [32312] [145] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 11:54:37 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [32312] [42] - Controller 'TextTemplateContent' contains more than one action with name 'GetAsyncByInput' for module 'text-templating'. Ignored: System.Threading.Tasks.Task`1[ZQH.Abp.TextTemplating.TextTemplateContentDto] GetAsync(ZQH.Abp.TextTemplating.TextTemplateContentGetInput)
+2024-10-25 13:44:08 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [32312] [102] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 13:44:09 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [32312] [88] - Executing subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'BackendAdmin.v1'
+2024-10-25 13:44:09 [INF] [DotNetCore.CAP.RabbitMQ.RabbitMQTransport] [32312] [98] - CAP message 'ZQH.Abp.Identity.IdentitySessionEto.Updated' published, internal id '4001002702516781069'
+2024-10-25 13:44:09 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [32312] [102] - Executed subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'BackendAdmin.v1' with instance 'zqhT16' in 44.5754ms
+2024-10-25 13:44:17 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [32312] [102] - Controller 'TextTemplateContent' contains more than one action with name 'GetAsyncByInput' for module 'text-templating'. Ignored: System.Threading.Tasks.Task`1[ZQH.Abp.TextTemplating.TextTemplateContentDto] GetAsync(ZQH.Abp.TextTemplating.TextTemplateContentGetInput)
+2024-10-25 14:28:55 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [32312] [39] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 14:29:06 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [32312] [36] - Controller 'TextTemplateContent' contains more than one action with name 'GetAsyncByInput' for module 'text-templating'. Ignored: System.Threading.Tasks.Task`1[ZQH.Abp.TextTemplating.TextTemplateContentDto] GetAsync(ZQH.Abp.TextTemplating.TextTemplateContentGetInput)
+2024-10-25 14:30:17 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [32312] [38] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 14:30:20 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [32312] [61] - Controller 'TextTemplateContent' contains more than one action with name 'GetAsyncByInput' for module 'text-templating'. Ignored: System.Threading.Tasks.Task`1[ZQH.Abp.TextTemplating.TextTemplateContentDto] GetAsync(ZQH.Abp.TextTemplating.TextTemplateContentGetInput)
+2024-10-25 14:31:28 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [32312] [67] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 14:31:30 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [32312] [38] - Controller 'TextTemplateContent' contains more than one action with name 'GetAsyncByInput' for module 'text-templating'. Ignored: System.Threading.Tasks.Task`1[ZQH.Abp.TextTemplating.TextTemplateContentDto] GetAsync(ZQH.Abp.TextTemplating.TextTemplateContentGetInput)
+2024-10-25 20:42:27 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [32312] [38] - RabbitMQ consumer cancelled. --> amq.ctag-B4koPaTECXTXEYbP6843uw
+2024-10-25 20:42:28 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [32312] [38] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-25 20:42:28 [WRN] [DotNetCore.CAP.Processor.TransportCheckProcessor] [32312] [69] - Transport connection is unhealthy, reconnection...

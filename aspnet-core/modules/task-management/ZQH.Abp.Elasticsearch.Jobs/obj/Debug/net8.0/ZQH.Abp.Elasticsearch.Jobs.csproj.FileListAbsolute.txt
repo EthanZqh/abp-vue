@@ -1,0 +1,16 @@
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Elasticsearch.Jobs\obj\Debug\net8.0\ZQH.Abp.Elasticsearch.Jobs.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Elasticsearch.Jobs\obj\Debug\net8.0\ZQH.Abp.Elasticsearch.Jobs.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Elasticsearch.Jobs\obj\Debug\net8.0\ZQH.Abp.Elasticsearch.Jobs.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Elasticsearch.Jobs\obj\Debug\net8.0\ZQH.Abp.Elasticsearch.Jobs.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Elasticsearch.Jobs\obj\Debug\net8.0\ZQH.Abp.Elasticsearch.Jobs.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Elasticsearch.Jobs\obj\Debug\net8.0\ZQH.Abp.Elasticsearch.Jobs.sourcelink.json
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Elasticsearch.Jobs\obj\Debug\net8.0\ZQH.Abp.Elasticsearch.Jobs.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Elasticsearch.Jobs\obj\Debug\net8.0\ZQH.Abp.Elasticsearch.Jobs.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Elasticsearch.Jobs\obj\Debug\net8.0\ZQH.Abp.Elasticsearch.Jobs.csproj.CopyComplete
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Elasticsearch.Jobs.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Elasticsearch.Jobs.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Elasticsearch.Jobs.pdb
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Elasticsearch.Jobs\obj\Debug\net8.0\ZQH.Abp.Elasticsearch.Jobs.dll
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Elasticsearch.Jobs\obj\Debug\net8.0\refint\ZQH.Abp.Elasticsearch.Jobs.dll
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Elasticsearch.Jobs\obj\Debug\net8.0\ZQH.Abp.Elasticsearch.Jobs.pdb
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.Elasticsearch.Jobs\obj\Debug\net8.0\ref\ZQH.Abp.Elasticsearch.Jobs.dll

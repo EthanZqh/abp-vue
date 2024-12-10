@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34601.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "host", "host", "{075327FF-7351-48A6-8BA4-332900C8F7D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZQH.MicroService.Workflows.ElsaServer", "services\ZQH.MicroService.WorkflowsManagement.ElsaServer\ZQH.MicroService.Workflows.ElsaServer.csproj", "{04104BBF-8AED-4E97-8D3D-E85AC2AE24F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZQH.ElsaStudio", "services\ZQH.ElsaStudio\ZQH.ElsaStudio.csproj", "{6C2FAB29-9BA5-4016-8CBA-ED6C87425336}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "migrations", "migrations", "{F6AF22E3-5BDC-42A7-B1A1-32ACA7790827}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZQH.MicroService.ElsaServer.DbMigrator", "migrations\ZQH.MicroService.ElsaServer.DbMigrator\ZQH.MicroService.ElsaServer.DbMigrator.csproj", "{9A8F4094-AE3D-4CAF-B382-90C27D92EBAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZQH.MicroService.ElsaServer.EntityFrameworkCore", "migrations\ZQH.MicroService.ElsaServer.EntityFrameworkCore\ZQH.MicroService.ElsaServer.EntityFrameworkCore.csproj", "{328AF1E3-BE0E-46CF-90F1-7BD06482ACB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elsa.EntityFrameworkCore.MySql", "migrations\Elsa.EntityFrameworkCore.MySql\Elsa.EntityFrameworkCore.MySql.csproj", "{0F272922-44C6-4E47-937B-AA85E2869365}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{137474A3-E97E-4AAE-A877-F212EFDD6E53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Javascript", "Javascript", "{8B659A05-470E-4E4A-8890-3610FB4BE326}"
+	ProjectSection(SolutionItems) = preProject
+		efcore-3.0.sh = efcore-3.0.sh
+		Script1.js = Script1.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "framework", "framework", "{B6DC7D85-EC15-444B-B564-84416FA1C32A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{A828EDDB-3E70-48B8-AFE2-569AB862AC4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZQH.Abp.Data.DbMigrator", "framework\common\ZQH.Abp.Data.DbMigrator\ZQH.Abp.Data.DbMigrator.csproj", "{F0AD5B75-D060-4242-AED6-4AE9DD9B24AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elsa.EntityFrameworkCore.MySqlVersion8", "services\Elsa.EntityFrameworkCore.MySql\Elsa.EntityFrameworkCore.MySqlVersion8.csproj", "{7C7883B2-D88A-4C7E-8E35-184FA7FEC70A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04104BBF-8AED-4E97-8D3D-E85AC2AE24F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04104BBF-8AED-4E97-8D3D-E85AC2AE24F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04104BBF-8AED-4E97-8D3D-E85AC2AE24F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04104BBF-8AED-4E97-8D3D-E85AC2AE24F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C2FAB29-9BA5-4016-8CBA-ED6C87425336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C2FAB29-9BA5-4016-8CBA-ED6C87425336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C2FAB29-9BA5-4016-8CBA-ED6C87425336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C2FAB29-9BA5-4016-8CBA-ED6C87425336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A8F4094-AE3D-4CAF-B382-90C27D92EBAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A8F4094-AE3D-4CAF-B382-90C27D92EBAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A8F4094-AE3D-4CAF-B382-90C27D92EBAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A8F4094-AE3D-4CAF-B382-90C27D92EBAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{328AF1E3-BE0E-46CF-90F1-7BD06482ACB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{328AF1E3-BE0E-46CF-90F1-7BD06482ACB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{328AF1E3-BE0E-46CF-90F1-7BD06482ACB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{328AF1E3-BE0E-46CF-90F1-7BD06482ACB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F272922-44C6-4E47-937B-AA85E2869365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F272922-44C6-4E47-937B-AA85E2869365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F272922-44C6-4E47-937B-AA85E2869365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F272922-44C6-4E47-937B-AA85E2869365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0AD5B75-D060-4242-AED6-4AE9DD9B24AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0AD5B75-D060-4242-AED6-4AE9DD9B24AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0AD5B75-D060-4242-AED6-4AE9DD9B24AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0AD5B75-D060-4242-AED6-4AE9DD9B24AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C7883B2-D88A-4C7E-8E35-184FA7FEC70A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C7883B2-D88A-4C7E-8E35-184FA7FEC70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C7883B2-D88A-4C7E-8E35-184FA7FEC70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C7883B2-D88A-4C7E-8E35-184FA7FEC70A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04104BBF-8AED-4E97-8D3D-E85AC2AE24F5} = {075327FF-7351-48A6-8BA4-332900C8F7D1}
+		{6C2FAB29-9BA5-4016-8CBA-ED6C87425336} = {075327FF-7351-48A6-8BA4-332900C8F7D1}
+		{9A8F4094-AE3D-4CAF-B382-90C27D92EBAC} = {F6AF22E3-5BDC-42A7-B1A1-32ACA7790827}
+		{328AF1E3-BE0E-46CF-90F1-7BD06482ACB4} = {F6AF22E3-5BDC-42A7-B1A1-32ACA7790827}
+		{0F272922-44C6-4E47-937B-AA85E2869365} = {F6AF22E3-5BDC-42A7-B1A1-32ACA7790827}
+		{137474A3-E97E-4AAE-A877-F212EFDD6E53} = {F6AF22E3-5BDC-42A7-B1A1-32ACA7790827}
+		{A828EDDB-3E70-48B8-AFE2-569AB862AC4A} = {B6DC7D85-EC15-444B-B564-84416FA1C32A}
+		{F0AD5B75-D060-4242-AED6-4AE9DD9B24AC} = {A828EDDB-3E70-48B8-AFE2-569AB862AC4A}
+		{7C7883B2-D88A-4C7E-8E35-184FA7FEC70A} = {075327FF-7351-48A6-8BA4-332900C8F7D1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F268FAB-2AB2-4450-8000-F2ED19430C7B}
+	EndGlobalSection
+EndGlobal

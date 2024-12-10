@@ -1,0 +1,16 @@
+E:\abp-vue\gateways\internal\ZQH.MicroService.Internal.ApiGateway\LocalNuget\netstandard2.1\ZQH.Abp.AuditLogging.deps.json
+E:\abp-vue\gateways\internal\ZQH.MicroService.Internal.ApiGateway\LocalNuget\netstandard2.1\ZQH.Abp.AuditLogging.dll
+E:\abp-vue\gateways\internal\ZQH.MicroService.Internal.ApiGateway\LocalNuget\netstandard2.1\ZQH.Abp.AuditLogging.pdb
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.AuditLogging.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.AuditLogging.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.AuditLogging.pdb
+E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging\obj\Debug\netstandard2.1\ZQH.Abp.AuditLogging.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging\obj\Debug\netstandard2.1\ZQH.Abp.AuditLogging.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging\obj\Debug\netstandard2.1\ZQH.Abp.AuditLogging.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging\obj\Debug\netstandard2.1\ZQH.Abp.AuditLogging.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging\obj\Debug\netstandard2.1\ZQH.Abp.AuditLogging.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging\obj\Debug\netstandard2.1\ZQH.Abp.AuditLogging.sourcelink.json
+E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging\obj\Debug\netstandard2.1\ZQH.Abp.AuditLogging.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging\obj\Debug\netstandard2.1\ZQH.Abp.AuditLogging.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging\obj\Debug\netstandard2.1\ZQH.Abp.AuditLogging.dll
+E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging\obj\Debug\netstandard2.1\ZQH.Abp.AuditLogging.pdb

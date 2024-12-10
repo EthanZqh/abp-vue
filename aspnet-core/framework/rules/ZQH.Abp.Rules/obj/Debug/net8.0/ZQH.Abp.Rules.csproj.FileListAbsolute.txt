@@ -1,0 +1,15 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Rules.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Rules.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Rules.pdb
+E:\abp-vue\aspnet-core\framework\rules\ZQH.Abp.Rules\obj\Debug\net8.0\ZQH.Abp.Rules.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\rules\ZQH.Abp.Rules\obj\Debug\net8.0\ZQH.Abp.Rules.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\rules\ZQH.Abp.Rules\obj\Debug\net8.0\ZQH.Abp.Rules.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\rules\ZQH.Abp.Rules\obj\Debug\net8.0\ZQH.Abp.Rules.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\rules\ZQH.Abp.Rules\obj\Debug\net8.0\ZQH.Abp.Rules.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\rules\ZQH.Abp.Rules\obj\Debug\net8.0\ZQH.Abp.Rules.sourcelink.json
+E:\abp-vue\aspnet-core\framework\rules\ZQH.Abp.Rules\obj\Debug\net8.0\ZQH.Abp.Rules.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\rules\ZQH.Abp.Rules\obj\Debug\net8.0\ZQH.Abp.Rules.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\rules\ZQH.Abp.Rules\obj\Debug\net8.0\ZQH.Abp.Rules.dll
+E:\abp-vue\aspnet-core\framework\rules\ZQH.Abp.Rules\obj\Debug\net8.0\refint\ZQH.Abp.Rules.dll
+E:\abp-vue\aspnet-core\framework\rules\ZQH.Abp.Rules\obj\Debug\net8.0\ZQH.Abp.Rules.pdb
+E:\abp-vue\aspnet-core\framework\rules\ZQH.Abp.Rules\obj\Debug\net8.0\ref\ZQH.Abp.Rules.dll

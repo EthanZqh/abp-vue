@@ -1,0 +1,14 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.BlobStoring.Aliyun.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.BlobStoring.Aliyun.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.BlobStoring.Aliyun.pdb
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.BlobStoring.Aliyun\obj\Debug\netstandard2.1\ZQH.Abp.BlobStoring.Aliyun.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.BlobStoring.Aliyun\obj\Debug\netstandard2.1\ZQH.Abp.BlobStoring.Aliyun.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.BlobStoring.Aliyun\obj\Debug\netstandard2.1\ZQH.Abp.BlobStoring.Aliyun.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.BlobStoring.Aliyun\obj\Debug\netstandard2.1\ZQH.Abp.BlobStoring.Aliyun.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.BlobStoring.Aliyun\obj\Debug\netstandard2.1\ZQH.Abp.BlobStoring.Aliyun.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.BlobStoring.Aliyun\obj\Debug\netstandard2.1\ZQH.Abp.BlobStoring.Aliyun.sourcelink.json
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.BlobStoring.Aliyun\obj\Debug\netstandard2.1\ZQH.Abp.BlobStoring.Aliyun.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.BlobStoring.Aliyun\obj\Debug\netstandard2.1\ZQH.Abp.BlobStoring.Aliyun.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.BlobStoring.Aliyun\obj\Debug\netstandard2.1\ZQH.Abp.BlobStoring.Aliyun.csproj.CopyComplete
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.BlobStoring.Aliyun\obj\Debug\netstandard2.1\ZQH.Abp.BlobStoring.Aliyun.dll
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.BlobStoring.Aliyun\obj\Debug\netstandard2.1\ZQH.Abp.BlobStoring.Aliyun.pdb

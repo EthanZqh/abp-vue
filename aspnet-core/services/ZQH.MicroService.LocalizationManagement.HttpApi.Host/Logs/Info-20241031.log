@@ -1,0 +1,12 @@
+2024-10-31 14:00:58 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [66] - RabbitMQ consumer cancelled. --> amq.ctag-fkyVjqB-6LZY1cdIazjY0A
+2024-10-31 14:00:58 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [66] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-31 14:00:58 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [66] - RabbitMQ consumer cancelled. --> amq.ctag-YFwIBgocKw_hV-dZcoAbvg
+2024-10-31 14:00:58 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [66] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-31 14:01:03 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [49] - RabbitMQ consumer registered. --> amq.ctag-fkyVjqB-6LZY1cdIazjY0A
+2024-10-31 14:01:03 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [93] - RabbitMQ consumer registered. --> amq.ctag-YFwIBgocKw_hV-dZcoAbvg
+2024-10-31 18:30:08 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [51] - RabbitMQ consumer cancelled. --> amq.ctag-fkyVjqB-6LZY1cdIazjY0A
+2024-10-31 18:30:08 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [51] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-31 18:30:08 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [51] - RabbitMQ consumer cancelled. --> amq.ctag-YFwIBgocKw_hV-dZcoAbvg
+2024-10-31 18:30:08 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [51] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-31 18:30:14 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [112] - RabbitMQ consumer registered. --> amq.ctag-fkyVjqB-6LZY1cdIazjY0A
+2024-10-31 18:30:14 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [43] - RabbitMQ consumer registered. --> amq.ctag-YFwIBgocKw_hV-dZcoAbvg

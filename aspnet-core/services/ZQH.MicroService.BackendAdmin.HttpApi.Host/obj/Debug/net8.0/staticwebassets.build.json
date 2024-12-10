@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bHZjLoNLJ+kLncAH6Lhj8GD6k1Ku0GvXfn6cm+MApHo=",
+  "Source": "ZQH.MicroService.BackendAdmin.HttpApi.Host",
+  "BasePath": "_content/ZQH.MicroService.BackendAdmin.HttpApi.Host",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

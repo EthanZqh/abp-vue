@@ -1,0 +1,15 @@
+2024-10-28 19:20:36 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [22100] [54] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-28 19:20:41 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [22100] [25] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-28 19:58:38 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [22100] [42] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-28 20:58:39 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [22100] [80] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-28 21:00:11 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [22100] [79] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-28 21:13:32 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [22100] [74] - RabbitMQ consumer cancelled. --> amq.ctag-ouvWsCdy4HT2tudwbBDFMQ
+2024-10-28 21:13:35 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [22100] [74] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-28 21:13:35 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [22100] [78] - RabbitMQ consumer cancelled. --> amq.ctag-0ht80R8qbGoFolGifSIxsw
+2024-10-28 21:13:35 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [22100] [78] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-28 21:13:49 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [22100] [78] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-28 23:13:33 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [22100] [49] - RabbitMQ consumer cancelled. --> amq.ctag-ouvWsCdy4HT2tudwbBDFMQ
+2024-10-28 23:13:34 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [22100] [49] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-28 23:13:36 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [22100] [49] - RabbitMQ consumer cancelled. --> amq.ctag-0ht80R8qbGoFolGifSIxsw
+2024-10-28 23:13:36 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [22100] [49] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-28 23:13:40 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [22100] [50] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.

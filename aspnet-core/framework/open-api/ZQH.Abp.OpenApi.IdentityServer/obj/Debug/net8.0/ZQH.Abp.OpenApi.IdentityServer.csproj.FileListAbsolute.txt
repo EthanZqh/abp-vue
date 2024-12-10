@@ -1,0 +1,16 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.OpenApi.IdentityServer.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.OpenApi.IdentityServer.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.OpenApi.IdentityServer.pdb
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.IdentityServer\obj\Debug\net8.0\ZQH.Abp.OpenApi.IdentityServer.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.IdentityServer\obj\Debug\net8.0\ZQH.Abp.OpenApi.IdentityServer.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.IdentityServer\obj\Debug\net8.0\ZQH.Abp.OpenApi.IdentityServer.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.IdentityServer\obj\Debug\net8.0\ZQH.Abp.OpenApi.IdentityServer.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.IdentityServer\obj\Debug\net8.0\ZQH.Abp.OpenApi.IdentityServer.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.IdentityServer\obj\Debug\net8.0\ZQH.Abp.OpenApi.IdentityServer.sourcelink.json
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.IdentityServer\obj\Debug\net8.0\ZQH.Abp.OpenApi.IdentityServer.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.IdentityServer\obj\Debug\net8.0\ZQH.Abp.OpenApi.IdentityServer.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.IdentityServer\obj\Debug\net8.0\ZQH.Abp.OpenApi.IdentityServer.csproj.CopyComplete
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.IdentityServer\obj\Debug\net8.0\ZQH.Abp.OpenApi.IdentityServer.dll
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.IdentityServer\obj\Debug\net8.0\refint\ZQH.Abp.OpenApi.IdentityServer.dll
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.IdentityServer\obj\Debug\net8.0\ZQH.Abp.OpenApi.IdentityServer.pdb
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi.IdentityServer\obj\Debug\net8.0\ref\ZQH.Abp.OpenApi.IdentityServer.dll

@@ -1,0 +1,9 @@
+2024-10-29 23:47:13 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [1976] [250] - RabbitMQ consumer cancelled. --> amq.ctag-edPjh2UZyqC7FSm96nDuxg
+2024-10-30 04:30:05 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [1976] [250] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-30 04:30:06 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [1976] [251] - RabbitMQ consumer cancelled. --> amq.ctag-PAfDFFb3aUISy1hlTO5bXA
+2024-10-30 04:30:07 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [1976] [251] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-30 04:30:10 [WRN] [DotNetCore.CAP.Processor.TransportCheckProcessor] [1976] [222] - Transport connection is unhealthy, reconnection...
+2024-10-30 04:30:11 [WRN] [ZQH.Abp.BackgroundTasks.Quartz.QuartzJobListener] [1976] [251] - The task BackgroundPollingJob could not be performed, Because it is being scheduled by another job scheduler
+2024-10-30 04:30:14 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [280] - Cannot process job change event because job with key Polling could not be found!
+2024-10-30 04:30:14 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [222] - Cannot process job change event because job with key Cleaning could not be found!
+2024-10-30 04:30:14 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [1976] [251] - Cannot process job change event because job with key Checking could not be found!

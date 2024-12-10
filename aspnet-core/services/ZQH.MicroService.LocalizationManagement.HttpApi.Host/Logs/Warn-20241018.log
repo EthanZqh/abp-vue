@@ -1,0 +1,17 @@
+2024-10-18 00:04:23 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [16428] [43] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-18 00:04:35 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [16428] [43] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-18 00:04:41 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [16428] [70] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-18 02:35:47 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [16428] [124] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-18 02:35:56 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [16428] [108] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-18 02:36:37 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [16428] [124] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-18 03:26:24 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [16428] [25] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-18 03:38:03 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [16428] [24] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-18 03:38:16 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [16428] [35] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-18 03:38:27 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [16428] [107] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-18 03:39:07 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [16428] [84] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-18 04:42:50 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [16428] [65] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-18 04:42:54 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [16428] [36] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-18 04:50:55 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [16428] [86] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-18 05:30:32 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [16428] [88] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-18 05:30:45 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [16428] [116] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-18 05:31:02 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [16428] [115] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.

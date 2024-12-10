@@ -1,0 +1,687 @@
+2024-10-22 00:09:11 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [36476] [90] - RabbitMQ consumer cancelled. --> amq.ctag-Eq-eoCFf2F-999qQScviYA
+2024-10-22 00:09:14 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [36476] [90] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-22 00:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [73] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__Subtract_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `a`
+FROM `AbpSessions` AS `a`
+WHERE (@__ef_filter__p_0 OR (`a`.`TenantId` IS NULL)) AND (`a`.`LastAccessed` IS NULL OR (`a`.`LastAccessed` < @__Subtract_0))
+2024-10-22 00:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [36476] [73] - Lock is acquired for TokenCleanupBackgroundWorker
+2024-10-22 00:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [36476] [73] - Start cleanup.
+2024-10-22 00:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [36476] [73] - Start cleanup tokens.
+2024-10-22 00:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [73] - Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Status`
+    FROM `OpenIddictAuthorizations` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`AuthorizationId` = `t`.`Id`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` NOT IN ('inactive', 'valid') OR (`o`.`Status` IS NULL)) OR (`t`.`Id` IS NOT NULL AND ((`t`.`Status` <> 'valid') OR `t`.`Status` IS NULL))) OR (`o`.`ExpirationDate` < UTC_TIMESTAMP()))
+2024-10-22 00:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [36476] [73] - Start cleanup authorizations.
+2024-10-22 00:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [73] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT `o`.`Id`
+FROM `OpenIddictAuthorizations` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`AuthorizationId`
+    FROM `OpenIddictTokens` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`Id` = `t`.`AuthorizationId`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` <> 'valid') OR `o`.`Status` IS NULL) OR ((`o`.`Type` = 'ad-hoc') AND `t`.`Id` IS NULL))
+2024-10-22 00:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [73] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+WHERE FALSE
+2024-10-22 00:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [73] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictAuthorizations` AS `o`
+WHERE FALSE
+2024-10-22 00:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [36476] [73] - Lock is released for TokenCleanupBackgroundWorker
+2024-10-22 01:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [40] - Executed DbCommand (4ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__Subtract_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `a`
+FROM `AbpSessions` AS `a`
+WHERE (@__ef_filter__p_0 OR (`a`.`TenantId` IS NULL)) AND (`a`.`LastAccessed` IS NULL OR (`a`.`LastAccessed` < @__Subtract_0))
+2024-10-22 01:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [36476] [40] - Lock is acquired for TokenCleanupBackgroundWorker
+2024-10-22 01:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [36476] [40] - Start cleanup.
+2024-10-22 01:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [36476] [40] - Start cleanup tokens.
+2024-10-22 01:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [107] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Status`
+    FROM `OpenIddictAuthorizations` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`AuthorizationId` = `t`.`Id`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` NOT IN ('inactive', 'valid') OR (`o`.`Status` IS NULL)) OR (`t`.`Id` IS NOT NULL AND ((`t`.`Status` <> 'valid') OR `t`.`Status` IS NULL))) OR (`o`.`ExpirationDate` < UTC_TIMESTAMP()))
+2024-10-22 01:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [36476] [107] - Start cleanup authorizations.
+2024-10-22 01:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [107] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT `o`.`Id`
+FROM `OpenIddictAuthorizations` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`AuthorizationId`
+    FROM `OpenIddictTokens` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`Id` = `t`.`AuthorizationId`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` <> 'valid') OR `o`.`Status` IS NULL) OR ((`o`.`Type` = 'ad-hoc') AND `t`.`Id` IS NULL))
+2024-10-22 01:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [107] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+WHERE FALSE
+2024-10-22 01:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [107] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictAuthorizations` AS `o`
+WHERE FALSE
+2024-10-22 01:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [36476] [107] - Lock is released for TokenCleanupBackgroundWorker
+2024-10-22 02:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [55] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__Subtract_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `a`
+FROM `AbpSessions` AS `a`
+WHERE (@__ef_filter__p_0 OR (`a`.`TenantId` IS NULL)) AND (`a`.`LastAccessed` IS NULL OR (`a`.`LastAccessed` < @__Subtract_0))
+2024-10-22 02:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [36476] [55] - Lock is acquired for TokenCleanupBackgroundWorker
+2024-10-22 02:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [36476] [55] - Start cleanup.
+2024-10-22 02:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [36476] [55] - Start cleanup tokens.
+2024-10-22 02:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [60] - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Status`
+    FROM `OpenIddictAuthorizations` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`AuthorizationId` = `t`.`Id`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` NOT IN ('inactive', 'valid') OR (`o`.`Status` IS NULL)) OR (`t`.`Id` IS NOT NULL AND ((`t`.`Status` <> 'valid') OR `t`.`Status` IS NULL))) OR (`o`.`ExpirationDate` < UTC_TIMESTAMP()))
+2024-10-22 02:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [36476] [60] - Start cleanup authorizations.
+2024-10-22 02:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [97] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT `o`.`Id`
+FROM `OpenIddictAuthorizations` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`AuthorizationId`
+    FROM `OpenIddictTokens` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`Id` = `t`.`AuthorizationId`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` <> 'valid') OR `o`.`Status` IS NULL) OR ((`o`.`Type` = 'ad-hoc') AND `t`.`Id` IS NULL))
+2024-10-22 02:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [97] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+WHERE FALSE
+2024-10-22 02:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [97] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictAuthorizations` AS `o`
+WHERE FALSE
+2024-10-22 02:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [36476] [97] - Lock is released for TokenCleanupBackgroundWorker
+2024-10-22 03:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [67] - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__Subtract_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `a`
+FROM `AbpSessions` AS `a`
+WHERE (@__ef_filter__p_0 OR (`a`.`TenantId` IS NULL)) AND (`a`.`LastAccessed` IS NULL OR (`a`.`LastAccessed` < @__Subtract_0))
+2024-10-22 03:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [36476] [101] - Lock is acquired for TokenCleanupBackgroundWorker
+2024-10-22 03:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [36476] [101] - Start cleanup.
+2024-10-22 03:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [36476] [101] - Start cleanup tokens.
+2024-10-22 03:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [101] - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Status`
+    FROM `OpenIddictAuthorizations` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`AuthorizationId` = `t`.`Id`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` NOT IN ('inactive', 'valid') OR (`o`.`Status` IS NULL)) OR (`t`.`Id` IS NOT NULL AND ((`t`.`Status` <> 'valid') OR `t`.`Status` IS NULL))) OR (`o`.`ExpirationDate` < UTC_TIMESTAMP()))
+2024-10-22 03:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [36476] [101] - Start cleanup authorizations.
+2024-10-22 03:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [67] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT `o`.`Id`
+FROM `OpenIddictAuthorizations` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`AuthorizationId`
+    FROM `OpenIddictTokens` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`Id` = `t`.`AuthorizationId`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` <> 'valid') OR `o`.`Status` IS NULL) OR ((`o`.`Type` = 'ad-hoc') AND `t`.`Id` IS NULL))
+2024-10-22 03:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [67] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+WHERE FALSE
+2024-10-22 03:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [67] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictAuthorizations` AS `o`
+WHERE FALSE
+2024-10-22 03:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [36476] [67] - Lock is released for TokenCleanupBackgroundWorker
+2024-10-22 04:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [95] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__Subtract_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `a`
+FROM `AbpSessions` AS `a`
+WHERE (@__ef_filter__p_0 OR (`a`.`TenantId` IS NULL)) AND (`a`.`LastAccessed` IS NULL OR (`a`.`LastAccessed` < @__Subtract_0))
+2024-10-22 04:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [36476] [88] - Lock is acquired for TokenCleanupBackgroundWorker
+2024-10-22 04:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [36476] [88] - Start cleanup.
+2024-10-22 04:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [36476] [88] - Start cleanup tokens.
+2024-10-22 04:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [88] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Status`
+    FROM `OpenIddictAuthorizations` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`AuthorizationId` = `t`.`Id`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` NOT IN ('inactive', 'valid') OR (`o`.`Status` IS NULL)) OR (`t`.`Id` IS NOT NULL AND ((`t`.`Status` <> 'valid') OR `t`.`Status` IS NULL))) OR (`o`.`ExpirationDate` < UTC_TIMESTAMP()))
+2024-10-22 04:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [36476] [88] - Start cleanup authorizations.
+2024-10-22 04:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [88] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT `o`.`Id`
+FROM `OpenIddictAuthorizations` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`AuthorizationId`
+    FROM `OpenIddictTokens` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`Id` = `t`.`AuthorizationId`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` <> 'valid') OR `o`.`Status` IS NULL) OR ((`o`.`Type` = 'ad-hoc') AND `t`.`Id` IS NULL))
+2024-10-22 04:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [88] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+WHERE FALSE
+2024-10-22 04:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [88] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictAuthorizations` AS `o`
+WHERE FALSE
+2024-10-22 04:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [36476] [88] - Lock is released for TokenCleanupBackgroundWorker
+2024-10-22 05:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [74] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__Subtract_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `a`
+FROM `AbpSessions` AS `a`
+WHERE (@__ef_filter__p_0 OR (`a`.`TenantId` IS NULL)) AND (`a`.`LastAccessed` IS NULL OR (`a`.`LastAccessed` < @__Subtract_0))
+2024-10-22 05:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [36476] [74] - Lock is acquired for TokenCleanupBackgroundWorker
+2024-10-22 05:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [36476] [74] - Start cleanup.
+2024-10-22 05:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [36476] [74] - Start cleanup tokens.
+2024-10-22 05:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [60] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Status`
+    FROM `OpenIddictAuthorizations` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`AuthorizationId` = `t`.`Id`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` NOT IN ('inactive', 'valid') OR (`o`.`Status` IS NULL)) OR (`t`.`Id` IS NOT NULL AND ((`t`.`Status` <> 'valid') OR `t`.`Status` IS NULL))) OR (`o`.`ExpirationDate` < UTC_TIMESTAMP()))
+2024-10-22 05:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [36476] [60] - Start cleanup authorizations.
+2024-10-22 05:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [60] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT `o`.`Id`
+FROM `OpenIddictAuthorizations` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`AuthorizationId`
+    FROM `OpenIddictTokens` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`Id` = `t`.`AuthorizationId`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` <> 'valid') OR `o`.`Status` IS NULL) OR ((`o`.`Type` = 'ad-hoc') AND `t`.`Id` IS NULL))
+2024-10-22 05:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [60] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+WHERE FALSE
+2024-10-22 05:55:50 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [36476] [60] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictAuthorizations` AS `o`
+WHERE FALSE
+2024-10-22 05:55:50 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [36476] [60] - Lock is released for TokenCleanupBackgroundWorker
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] - Loaded ABP modules:
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] - - ZQH.MicroService.AuthServer.AuthServerHttpApiHostModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - ZQH.Abp.Serilog.Enrichers.Application.AbpSerilogEnrichersApplicationModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - ZQH.Abp.Serilog.Enrichers.UniqueId.AbpSerilogEnrichersUniqueIdModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - ZQH.Abp.IdGenerator.AbpIdGeneratorModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - Volo.Abp.Data.AbpDataModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -         - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - Volo.Abp.Security.AbpSecurityModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - Volo.Abp.Settings.AbpSettingsModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -         - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -         - Volo.Abp.Localization.AbpLocalizationModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -           - Volo.Abp.Threading.AbpThreadingModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - Volo.Abp.Auditing.AbpAuditingModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -         - Volo.Abp.Json.AbpJsonModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -           - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -             - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -             - Volo.Abp.Timing.AbpTimingModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - Volo.Abp.Http.AbpHttpModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -         - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -         - Volo.Abp.Minify.AbpMinifyModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - Volo.Abp.Validation.AbpValidationModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - Volo.Abp.AspNetCore.AbpAspNetCoreAbstractionsModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - ZQH.Abp.AspNetCore.Mvc.Localization.AbpAspNetCoreMvcLocalizationModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -         - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -         - Volo.Abp.UI.AbpUiModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - Volo.Abp.Application.AbpDddApplicationModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -         - Volo.Abp.Domain.AbpDddDomainModule
+2024-10-22 06:06:25 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -           - Volo.Abp.EventBus.AbpEventBusModule
+2024-10-22 06:06:26 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -             - Volo.Abp.Guids.AbpGuidsModule
+2024-10-22 06:06:27 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -             - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-10-22 06:06:28 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -             - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-10-22 06:06:28 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -           - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-10-22 06:06:29 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -           - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-10-22 06:06:29 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -           - Volo.Abp.Caching.AbpCachingModule
+2024-10-22 06:06:29 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -             - Volo.Abp.Serialization.AbpSerializationModule
+2024-10-22 06:06:29 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -           - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-10-22 06:06:29 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -         - Volo.Abp.Features.AbpFeaturesModule
+2024-10-22 06:06:29 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - ZQH.Abp.Account.AbpAccountApplicationModule
+2024-10-22 06:06:29 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - Volo.Abp.Account.AbpAccountApplicationModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -         - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -           - Volo.Abp.Users.AbpUsersAbstractionModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -           - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -             - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - Volo.Abp.Identity.AbpIdentityApplicationModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -         - Volo.Abp.Identity.AbpIdentityDomainModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -           - Volo.Abp.Users.AbpUsersDomainModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -           - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -           - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - Volo.Abp.Emailing.AbpEmailingModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - ZQH.Abp.Account.AbpAccountApplicationContractsModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - ZQH.Abp.Account.Templates.AbpAccountTemplatesModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - ZQH.Abp.Identity.AbpIdentityDomainModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - ZQH.Abp.Identity.AbpIdentityDomainSharedModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - ZQH.Abp.WeChat.MiniProgram.AbpWeChatMiniProgramModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - ZQH.Abp.WeChat.AbpWeChatModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -         - ZQH.Abp.WeChat.Common.AbpWeChatCommonModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - ZQH.Abp.Features.LimitValidation.AbpFeaturesLimitValidationModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - ZQH.Abp.Account.AbpAccountHttpApiModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - Volo.Abp.Account.AbpAccountHttpApiModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - ZQH.Abp.Identity.AbpIdentityApplicationModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - ZQH.Abp.Identity.AbpIdentityApplicationContractsModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - ZQH.Abp.Identity.AbpIdentityHttpApiModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - ZQH.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - ZQH.Abp.OpenIddict.AbpOpenIddictApplicationModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - ZQH.Abp.OpenIddict.AbpOpenIddictApplicationContractsModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - ZQH.Abp.OpenIddict.AbpOpenIddictHttpApiModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - ZQH.Abp.Saas.EntityFrameworkCore.AbpSaasEntityFrameworkCoreModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - ZQH.Abp.Saas.AbpSaasDomainModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - ZQH.Abp.Saas.AbpSaasDomainSharedModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - ZQH.Abp.MultiTenancy.Editions.AbpMultiTenancyEditionsModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - ZQH.Abp.LocalizationManagement.EntityFrameworkCore.AbpLocalizationManagementEntityFrameworkCoreModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - ZQH.Abp.LocalizationManagement.AbpLocalizationManagementDomainModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - ZQH.Abp.Localization.Persistence.AbpLocalizationPersistenceModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -       - ZQH.Abp.LocalizationManagement.AbpLocalizationManagementDomainSharedModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - ZQH.Abp.Authorization.OrganizationUnits.AbpAuthorizationOrganizationUnitsModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - ZQH.Abp.AuditLogging.Elasticsearch.AbpAuditLoggingElasticsearchModule
+2024-10-22 06:06:30 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - ZQH.Abp.AuditLogging.AbpAuditLoggingModule
+2024-10-22 06:06:31 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - ZQH.Abp.Elasticsearch.AbpElasticsearchModule
+2024-10-22 06:06:31 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - ZQH.Abp.ExceptionHandling.Emailing.AbpEmailingExceptionHandlingModule
+2024-10-22 06:06:31 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - ZQH.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-10-22 06:06:31 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - ZQH.Abp.EventBus.CAP.AbpCAPEventBusModule
+2024-10-22 06:06:31 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - Volo.Abp.Http.Client.AbpHttpClientModule
+2024-10-22 06:06:31 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-10-22 06:06:31 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2024-10-22 06:06:31 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - ZQH.Abp.Sms.Aliyun.AbpAliyunSmsModule
+2024-10-22 06:06:31 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - Volo.Abp.Sms.AbpSmsModule
+2024-10-22 06:06:31 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - ZQH.Abp.Aliyun.AbpAliyunModule
+2024-10-22 06:06:31 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-10-22 06:06:31 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - ZQH.Abp.Localization.CultureMap.AbpLocalizationCultureMapModule
+2024-10-22 06:06:31 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2024-10-22 06:06:31 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - ZQH.Abp.Identity.Session.AspNetCore.AbpIdentitySessionAspNetCoreModule
+2024-10-22 06:06:31 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - ZQH.Abp.Identity.Session.AbpIdentitySessionModule
+2024-10-22 06:06:31 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - ZQH.Abp.AspNetCore.HttpOverrides.AbpAspNetCoreHttpOverridesModule
+2024-10-22 06:06:31 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - ZQH.Abp.AspNetCore.Mvc.Wrapper.AbpAspNetCoreMvcWrapperModule
+2024-10-22 06:06:31 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - ZQH.Abp.Wrapper.AbpWrapperModule
+2024-10-22 06:06:31 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -     - ZQH.Abp.AspNetCore.Wrapper.AbpAspNetCoreWrapperModule
+2024-10-22 06:06:31 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - ZQH.Abp.Claims.Mapping.AbpClaimsMappingModule
+2024-10-22 06:06:31 [INF] [Volo.Abp.AbpApplicationBase] [63780] [1] -   - Volo.Abp.Autofac.AbpAutofacModule
+2024-10-22 06:06:32 [INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] [63780] [1] - User profile is available. Using 'C:\Users\ZQH\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-22 06:06:34 [INF] [Volo.Abp.Modularity.ModuleManager] [63780] [1] - Initialized all ABP modules.
+2024-10-22 06:06:36 [INF] [Microsoft.Hosting.Lifetime] [63780] [1] - Now listening on: http://0.0.0.0:30015
+2024-10-22 06:06:36 [INF] [Microsoft.Hosting.Lifetime] [63780] [1] - Application started. Press Ctrl+C to shut down.
+2024-10-22 06:06:36 [INF] [Microsoft.Hosting.Lifetime] [63780] [1] - Hosting environment: Development
+2024-10-22 06:06:36 [INF] [Microsoft.Hosting.Lifetime] [63780] [1] - Content root path: E:\abp-vue\aspnet-core\services\ZQH.MicroService.AuthServer.HttpApi.Host
+2024-10-22 06:06:36 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [7] - Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`DisplayName`, `a`.`ExtraProperties`, `a`.`Name`
+FROM `AbpFeatureGroups` AS `a`
+2024-10-22 06:06:36 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [28] - Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`DefaultValue`, `a`.`Description`, `a`.`DisplayName`, `a`.`ExtraProperties`, `a`.`IsEncrypted`, `a`.`IsInherited`, `a`.`IsVisibleToClients`, `a`.`Name`, `a`.`Providers`
+FROM `AbpSettingDefinitions` AS `a`
+2024-10-22 06:06:36 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [29] - Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`DisplayName`, `a`.`ExtraProperties`, `a`.`Name`
+FROM `AbpPermissionGroups` AS `a`
+2024-10-22 06:06:36 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [6] - Executed DbCommand (129ms) [Parameters=[@__name_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`DefaultCultureName`, `a`.`Description`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`Name`
+FROM `AbpLocalizationResources` AS `a`
+WHERE `a`.`Name` = @__name_0
+LIMIT 1
+2024-10-22 06:06:37 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [7] - Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`AllowedProviders`, `a`.`DefaultValue`, `a`.`Description`, `a`.`DisplayName`, `a`.`ExtraProperties`, `a`.`GroupName`, `a`.`IsAvailableToHost`, `a`.`IsVisibleToClients`, `a`.`Name`, `a`.`ParentName`, `a`.`ValueType`
+FROM `AbpFeatures` AS `a`
+2024-10-22 06:06:37 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [25] - Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`DisplayName`, `a`.`ExtraProperties`, `a`.`GroupName`, `a`.`IsEnabled`, `a`.`MultiTenancySide`, `a`.`Name`, `a`.`ParentName`, `a`.`Providers`, `a`.`StateCheckers`
+FROM `AbpPermissions` AS `a`
+2024-10-22 06:06:37 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [6] - Executed DbCommand (1ms) [Parameters=[@__cultureName_0='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`CultureName` = @__cultureName_0
+LIMIT 1
+2024-10-22 06:06:37 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [6] - Executed DbCommand (10ms) [Parameters=[@__resourceName_0='?' (Size = 4000), @__cultureName_1='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT `a`.`Key`
+FROM `AbpLocalizationTexts` AS `a`
+WHERE ((`a`.`ResourceName` = @__resourceName_0) AND (`a`.`CultureName` = @__cultureName_1)) AND `a`.`Key` IN ('Menu:IdentityManagement', 'Users', 'NewUser', 'UserName', 'Surname', 'EmailAddress', 'PhoneNumber', 'UserInformations', 'DisplayName:IsDefault', 'DisplayName:IsStatic', 'DisplayName:IsPublic', 'Roles', 'Password', 'PersonalInfo', 'PersonalSettings', 'UserDeletionConfirmationMessage', 'RoleDeletionConfirmationMessage', 'DisplayName:RoleName', 'DisplayName:UserName', 'DisplayName:Name', 'DisplayName:Surname', 'DisplayName:Password', 'DisplayName:Email', 'DisplayName:PhoneNumber', 'DisplayName:TwoFactorEnabled', 'DisplayName:IsActive', 'DisplayName:LockoutEnabled', 'NewRole', 'RoleName', 'CreationTime', 'Permissions', 'DisplayName:CurrentPassword', 'DisplayName:NewPassword', 'DisplayName:NewPasswordConfirm', 'PasswordChangedMessage', 'PersonalSettingsSavedMessage', 'Volo.Abp.Identity:DefaultError', 'Volo.Abp.Identity:ConcurrencyFailure', 'Volo.Abp.Identity:DuplicateEmail', 'Volo.Abp.Identity:DuplicateRoleName', 'Volo.Abp.Identity:DuplicateUserName', 'Volo.Abp.Identity:InvalidEmail', 'Volo.Abp.Identity:InvalidPasswordHasherCompatibilityMode', 'Volo.Abp.Identity:InvalidPasswordHasherIterationCount', 'Volo.Abp.Identity:InvalidRoleName', 'Volo.Abp.Identity:InvalidToken', 'Volo.Abp.Identity:InvalidUserName', 'InvalidUserName', 'Volo.Abp.Identity:LoginAlreadyAssociated', 'Volo.Abp.Identity:PasswordMismatch', 'Volo.Abp.Identity:PasswordRequiresDigit', 'Volo.Abp.Identity:PasswordRequiresLower', 'Volo.Abp.Identity:PasswordRequiresNonAlphanumeric', 'Volo.Abp.Identity:PasswordRequiresUpper', 'Volo.Abp.Identity:PasswordTooShort', 'Volo.Abp.Identity:PasswordRequiresUniqueChars', 'Volo.Abp.Identity:RoleNotFound', 'Volo.Abp.Identity:UserAlreadyHasPassword', 'Volo.Abp.Identity:UserAlreadyInRole', 'Volo.Abp.Identity:UserLockedOut', 'Volo.Abp.Identity:UserLockoutNotEnabled', 'Volo.Abp.Identity:UserNameNotFound', 'Volo.Abp.Identity:UserNotInRole', 'Volo.Abp.Identity:PasswordConfirmationFailed', 'Volo.Abp.Identity:NullSecurityStamp', 'Volo.Abp.Identity:RecoveryCodeRedemptionFailed', 'Volo.Abp.Identity:010001', 'Volo.Abp.Identity:010002', 'Volo.Abp.Identity:010003', 'Volo.Abp.Identity:010004', 'Volo.Abp.Identity:010005', 'Volo.Abp.Identity:010006', 'Volo.Abp.Identity:010007', 'Volo.Abp.Identity:010008', 'Volo.Abp.Identity:010009', 'Volo.Abp.Identity:010021', 'Identity.OrganizationUnit.MaxUserMembershipCount', 'ThisUserIsNotActiveMessage', 'Permission:IdentityManagement', 'Permission:RoleManagement', 'Permission:Create', 'Permission:Edit', 'Permission:Delete', 'Permission:ChangePermissions', 'Permission:ManageRoles', 'Permission:UserManagement', 'Permission:UserLookup', 'DisplayName:Abp.Identity.Password.RequiredLength', 'DisplayName:Abp.Identity.Password.RequiredUniqueChars', 'DisplayName:Abp.Identity.Password.RequireNonAlphanumeric', 'DisplayName:Abp.Identity.Password.RequireLowercase', 'DisplayName:Abp.Identity.Password.RequireUppercase', 'DisplayName:Abp.Identity.Password.RequireDigit', 'DisplayName:Abp.Identity.Password.ForceUsersToPeriodicallyChangePassword', 'DisplayName:Abp.Identity.Password.PasswordChangePeriodDays', 'DisplayName:Abp.Identity.Lockout.AllowedForNewUsers', 'DisplayName:Abp.Identity.Lockout.LockoutDuration', 'DisplayName:Abp.Identity.Lockout.MaxFailedAccessAttempts', 'DisplayName:Abp.Identity.SignIn.RequireConfirmedEmail', 'DisplayName:Abp.Identity.SignIn.EnablePhoneNumberConfirmation', 'DisplayName:Abp.Identity.SignIn.RequireConfirmedPhoneNumber', 'DisplayName:Abp.Identity.User.IsUserNameUpdateEnabled', 'DisplayName:Abp.Identity.User.IsEmailUpdateEnabled', 'Description:Abp.Identity.Password.RequiredLength', 'Description:Abp.Identity.Password.RequiredUniqueChars', 'Description:Abp.Identity.Password.RequireNonAlphanumeric', 'Description:Abp.Identity.Password.RequireLowercase', 'Description:Abp.Identity.Password.RequireUppercase', 'Description:Abp.Identity.Password.RequireDigit', 'Description:Abp.Identity.Password.ForceUsersToPeriodicallyChangePassword', 'Description:Abp.Identity.Password.PasswordChangePeriodDays', 'Description:Abp.Identity.Lockout.AllowedForNewUsers', 'Description:Abp.Identity.Lockout.LockoutDuration', 'Description:Abp.Identity.Lockout.MaxFailedAccessAttempts', 'Description:Abp.Identity.SignIn.RequireConfirmedEmail', 'Description:Abp.Identity.SignIn.EnablePhoneNumberConfirmation', 'Description:Abp.Identity.SignIn.RequireConfirmedPhoneNumber', 'Description:Abp.Identity.User.IsUserNameUpdateEnabled', 'Description:Abp.Identity.User.IsEmailUpdateEnabled', 'Details', 'CreatedBy', 'ModifiedBy', 'ModificationTime', 'PasswordUpdateTime', 'LockoutEndTime', 'FailedAccessCount')
+2024-10-22 06:06:37 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [23] - Executed DbCommand (1ms) [Parameters=[@__cultureName_0='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`CultureName` = @__cultureName_0
+LIMIT 1
+2024-10-22 06:06:37 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [6] - Executed DbCommand (4ms) [Parameters=[@p9='?' (DbType = Guid), @p0='?' (Size = 2048), @p1='?' (Size = 512), @p2='?' (Size = 256), @p3='?' (Size = 4000), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (Size = 128), @p8='?' (Size = 1024), @p19='?' (DbType = Guid), @p10='?' (Size = 2048), @p11='?' (Size = 512), @p12='?' (Size = 256), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (DbType = Boolean), @p16='?' (DbType = Boolean), @p17='?' (Size = 128), @p18='?' (Size = 1024)], CommandType='"Text"', CommandTimeout='30']
+UPDATE `AbpSettingDefinitions` SET `DefaultValue` = @p0, `Description` = @p1, `DisplayName` = @p2, `ExtraProperties` = @p3, `IsEncrypted` = @p4, `IsInherited` = @p5, `IsVisibleToClients` = @p6, `Name` = @p7, `Providers` = @p8
+WHERE `Id` = @p9;
+SELECT ROW_COUNT();
+
+UPDATE `AbpSettingDefinitions` SET `DefaultValue` = @p10, `Description` = @p11, `DisplayName` = @p12, `ExtraProperties` = @p13, `IsEncrypted` = @p14, `IsInherited` = @p15, `IsVisibleToClients` = @p16, `Name` = @p17, `Providers` = @p18
+WHERE `Id` = @p19;
+SELECT ROW_COUNT();
+2024-10-22 06:06:37 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [7] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`DisplayName`, `a`.`ExtraProperties`, `a`.`Name`
+FROM `AbpFeatureGroups` AS `a`
+2024-10-22 06:06:37 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [23] - Executed DbCommand (4ms) [Parameters=[@__resourceName_0='?' (Size = 4000), @__cultureName_1='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT `a`.`Key`
+FROM `AbpLocalizationTexts` AS `a`
+WHERE ((`a`.`ResourceName` = @__resourceName_0) AND (`a`.`CultureName` = @__cultureName_1)) AND `a`.`Key` IN ('Menu:IdentityManagement', 'Users', 'NewUser', 'UserName', 'Surname', 'EmailAddress', 'PhoneNumber', 'UserInformations', 'DisplayName:IsDefault', 'DisplayName:IsStatic', 'DisplayName:IsPublic', 'Roles', 'Password', 'PersonalInfo', 'PersonalSettings', 'UserDeletionConfirmationMessage', 'RoleDeletionConfirmationMessage', 'DisplayName:RoleName', 'DisplayName:UserName', 'DisplayName:Name', 'DisplayName:Surname', 'DisplayName:Password', 'DisplayName:Email', 'DisplayName:PhoneNumber', 'DisplayName:TwoFactorEnabled', 'DisplayName:IsActive', 'DisplayName:LockoutEnabled', 'NewRole', 'RoleName', 'CreationTime', 'Permissions', 'DisplayName:CurrentPassword', 'DisplayName:NewPassword', 'DisplayName:NewPasswordConfirm', 'PasswordChangedMessage', 'PersonalSettingsSavedMessage', 'Volo.Abp.Identity:DefaultError', 'Volo.Abp.Identity:ConcurrencyFailure', 'Volo.Abp.Identity:DuplicateEmail', 'Volo.Abp.Identity:DuplicateRoleName', 'Volo.Abp.Identity:DuplicateUserName', 'Volo.Abp.Identity:InvalidEmail', 'Volo.Abp.Identity:InvalidPasswordHasherCompatibilityMode', 'Volo.Abp.Identity:InvalidPasswordHasherIterationCount', 'Volo.Abp.Identity:InvalidRoleName', 'Volo.Abp.Identity:InvalidToken', 'Volo.Abp.Identity:InvalidUserName', 'InvalidUserName', 'Volo.Abp.Identity:LoginAlreadyAssociated', 'Volo.Abp.Identity:PasswordMismatch', 'Volo.Abp.Identity:PasswordRequiresDigit', 'Volo.Abp.Identity:PasswordRequiresLower', 'Volo.Abp.Identity:PasswordRequiresNonAlphanumeric', 'Volo.Abp.Identity:PasswordRequiresUpper', 'Volo.Abp.Identity:PasswordTooShort', 'Volo.Abp.Identity:PasswordRequiresUniqueChars', 'Volo.Abp.Identity:RoleNotFound', 'Volo.Abp.Identity:UserAlreadyHasPassword', 'Volo.Abp.Identity:UserAlreadyInRole', 'Volo.Abp.Identity:UserLockedOut', 'Volo.Abp.Identity:UserLockoutNotEnabled', 'Volo.Abp.Identity:UserNameNotFound', 'Volo.Abp.Identity:UserNotInRole', 'Volo.Abp.Identity:PasswordConfirmationFailed', 'Volo.Abp.Identity:NullSecurityStamp', 'Volo.Abp.Identity:RecoveryCodeRedemptionFailed', 'Volo.Abp.Identity:010001', 'Volo.Abp.Identity:010002', 'Volo.Abp.Identity:010003', 'Volo.Abp.Identity:010004', 'Volo.Abp.Identity:010005', 'Volo.Abp.Identity:010006', 'Volo.Abp.Identity:010007', 'Volo.Abp.Identity:010008', 'Volo.Abp.Identity:010009', 'Volo.Abp.Identity:010021', 'Identity.OrganizationUnit.MaxUserMembershipCount', 'ThisUserIsNotActiveMessage', 'Permission:IdentityManagement', 'Permission:RoleManagement', 'Permission:Create', 'Permission:Edit', 'Permission:Delete', 'Permission:ChangePermissions', 'Permission:ManageRoles', 'Permission:UserManagement', 'Permission:UserLookup', 'DisplayName:Abp.Identity.Password.RequiredLength', 'DisplayName:Abp.Identity.Password.RequiredUniqueChars', 'DisplayName:Abp.Identity.Password.RequireNonAlphanumeric', 'DisplayName:Abp.Identity.Password.RequireLowercase', 'DisplayName:Abp.Identity.Password.RequireUppercase', 'DisplayName:Abp.Identity.Password.RequireDigit', 'DisplayName:Abp.Identity.Password.ForceUsersToPeriodicallyChangePassword', 'DisplayName:Abp.Identity.Password.PasswordChangePeriodDays', 'DisplayName:Abp.Identity.Lockout.AllowedForNewUsers', 'DisplayName:Abp.Identity.Lockout.LockoutDuration', 'DisplayName:Abp.Identity.Lockout.MaxFailedAccessAttempts', 'DisplayName:Abp.Identity.SignIn.RequireConfirmedEmail', 'DisplayName:Abp.Identity.SignIn.EnablePhoneNumberConfirmation', 'DisplayName:Abp.Identity.SignIn.RequireConfirmedPhoneNumber', 'DisplayName:Abp.Identity.User.IsUserNameUpdateEnabled', 'DisplayName:Abp.Identity.User.IsEmailUpdateEnabled', 'Description:Abp.Identity.Password.RequiredLength', 'Description:Abp.Identity.Password.RequiredUniqueChars', 'Description:Abp.Identity.Password.RequireNonAlphanumeric', 'Description:Abp.Identity.Password.RequireLowercase', 'Description:Abp.Identity.Password.RequireUppercase', 'Description:Abp.Identity.Password.RequireDigit', 'Description:Abp.Identity.Password.ForceUsersToPeriodicallyChangePassword', 'Description:Abp.Identity.Password.PasswordChangePeriodDays', 'Description:Abp.Identity.Lockout.AllowedForNewUsers', 'Description:Abp.Identity.Lockout.LockoutDuration', 'Description:Abp.Identity.Lockout.MaxFailedAccessAttempts', 'Description:Abp.Identity.SignIn.RequireConfirmedEmail', 'Description:Abp.Identity.SignIn.EnablePhoneNumberConfirmation', 'Description:Abp.Identity.SignIn.RequireConfirmedPhoneNumber', 'Description:Abp.Identity.User.IsUserNameUpdateEnabled', 'Description:Abp.Identity.User.IsEmailUpdateEnabled', 'Details', 'CreatedBy', 'ModifiedBy', 'ModificationTime', 'PasswordUpdateTime', 'LockoutEndTime', 'FailedAccessCount')
+2024-10-22 06:06:37 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [6] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`AllowedProviders`, `a`.`DefaultValue`, `a`.`Description`, `a`.`DisplayName`, `a`.`ExtraProperties`, `a`.`GroupName`, `a`.`IsAvailableToHost`, `a`.`IsVisibleToClients`, `a`.`Name`, `a`.`ParentName`, `a`.`ValueType`
+FROM `AbpFeatures` AS `a`
+2024-10-22 06:06:37 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [7] - Executed DbCommand (1ms) [Parameters=[@__name_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`DefaultCultureName`, `a`.`Description`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`Name`
+FROM `AbpLocalizationResources` AS `a`
+WHERE `a`.`Name` = @__name_0
+LIMIT 1
+2024-10-22 06:06:37 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [7] - Executed DbCommand (3ms) [Parameters=[@__cultureName_0='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`CultureName` = @__cultureName_0
+LIMIT 1
+2024-10-22 06:06:37 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [22] - Executed DbCommand (1ms) [Parameters=[@__resourceName_0='?' (Size = 4000), @__cultureName_1='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT `a`.`Key`
+FROM `AbpLocalizationTexts` AS `a`
+WHERE ((`a`.`ResourceName` = @__resourceName_0) AND (`a`.`CultureName` = @__cultureName_1)) AND `a`.`Key` IN ('TheOpenIDConnectRequestCannotBeRetrieved', 'TheUserDetailsCannotBbeRetrieved', 'TheApplicationDetailsCannotBeFound', 'DetailsConcerningTheCallingClientApplicationCannotBeFound', 'TheSpecifiedGrantTypeIsNotImplemented', 'Authorization', 'DoYouWantToGrantAccessToYourData', 'ScopesRequested', 'Accept', 'Deny')
+2024-10-22 06:06:37 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [22] - Executed DbCommand (1ms) [Parameters=[@__cultureName_0='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`CultureName` = @__cultureName_0
+LIMIT 1
+2024-10-22 06:06:37 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [22] - Executed DbCommand (1ms) [Parameters=[@__resourceName_0='?' (Size = 4000), @__cultureName_1='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT `a`.`Key`
+FROM `AbpLocalizationTexts` AS `a`
+WHERE ((`a`.`ResourceName` = @__resourceName_0) AND (`a`.`CultureName` = @__cultureName_1)) AND `a`.`Key` IN ('TheOpenIDConnectRequestCannotBeRetrieved', 'TheUserDetailsCannotBbeRetrieved', 'TheApplicationDetailsCannotBeFound', 'DetailsConcerningTheCallingClientApplicationCannotBeFound', 'TheSpecifiedGrantTypeIsNotImplemented', 'Authorization', 'DoYouWantToGrantAccessToYourData', 'ScopesRequested', 'Accept', 'Deny')
+2024-10-22 06:06:37 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [22] - Executed DbCommand (2ms) [Parameters=[@__name_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`DefaultCultureName`, `a`.`Description`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`Name`
+FROM `AbpLocalizationResources` AS `a`
+WHERE `a`.`Name` = @__name_0
+LIMIT 1
+2024-10-22 06:06:37 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [22] - Executed DbCommand (1ms) [Parameters=[@__cultureName_0='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`CultureName` = @__cultureName_0
+LIMIT 1
+2024-10-22 06:06:37 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [22] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT `a`.`Key`
+FROM `AbpLocalizationTexts` AS `a`
+WHERE FALSE
+2024-10-22 06:06:37 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [22] - Executed DbCommand (1ms) [Parameters=[@__cultureName_0='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`CultureName` = @__cultureName_0
+LIMIT 1
+2024-10-22 06:06:37 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [22] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT `a`.`Key`
+FROM `AbpLocalizationTexts` AS `a`
+WHERE FALSE
+2024-10-22 06:06:42 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [63780] [22] - Failed to initialize index and audit log may not be retrieved.
+2024-10-22 06:06:42 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [63780] [22] - Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET /
+ ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product.
+ ---> System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9200)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Elasticsearch.Net.HttpConnection.RequestAsync[TResponse](RequestData requestData, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure()
+   at Elasticsearch.Net.RequestPipeline.PingAsync(Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.PingAsync(IRequestPipeline pipeline, Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.RequestAsync[TResponse](HttpMethod method, String path, CancellationToken cancellationToken, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2024-10-22 06:06:47 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [63780] [23] - Failed to initialize index and security log may not be retrieved.
+2024-10-22 06:06:47 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [63780] [23] - Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET /
+ ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product.
+ ---> System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9200)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Elasticsearch.Net.HttpConnection.RequestAsync[TResponse](RequestData requestData, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure()
+   at Elasticsearch.Net.RequestPipeline.PingAsync(Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.PingAsync(IRequestPipeline pipeline, Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.RequestAsync[TResponse](HttpMethod method, String path, CancellationToken cancellationToken, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2024-10-22 07:06:31 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [63780] [3] - Lock is acquired for TokenCleanupBackgroundWorker
+2024-10-22 07:06:32 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [63780] [3] - Start cleanup.
+2024-10-22 07:06:32 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [63780] [3] - Start cleanup tokens.
+2024-10-22 07:06:32 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [33] - Executed DbCommand (7ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__Subtract_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `a`
+FROM `AbpSessions` AS `a`
+WHERE (@__ef_filter__p_0 OR (`a`.`TenantId` IS NULL)) AND (`a`.`LastAccessed` IS NULL OR (`a`.`LastAccessed` < @__Subtract_0))
+2024-10-22 07:06:32 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [53] - Executed DbCommand (12ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Status`
+    FROM `OpenIddictAuthorizations` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`AuthorizationId` = `t`.`Id`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` NOT IN ('inactive', 'valid') OR (`o`.`Status` IS NULL)) OR (`t`.`Id` IS NOT NULL AND ((`t`.`Status` <> 'valid') OR `t`.`Status` IS NULL))) OR (`o`.`ExpirationDate` < UTC_TIMESTAMP()))
+2024-10-22 07:06:32 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [63780] [53] - Start cleanup authorizations.
+2024-10-22 07:06:32 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [53] - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT `o`.`Id`
+FROM `OpenIddictAuthorizations` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`AuthorizationId`
+    FROM `OpenIddictTokens` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`Id` = `t`.`AuthorizationId`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` <> 'valid') OR `o`.`Status` IS NULL) OR ((`o`.`Type` = 'ad-hoc') AND `t`.`Id` IS NULL))
+2024-10-22 07:06:32 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [3] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+WHERE FALSE
+2024-10-22 07:06:32 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [3] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictAuthorizations` AS `o`
+WHERE FALSE
+2024-10-22 07:06:32 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [63780] [53] - Lock is released for TokenCleanupBackgroundWorker
+2024-10-22 08:08:58 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [77] - Executed DbCommand (4ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__Subtract_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `a`
+FROM `AbpSessions` AS `a`
+WHERE (@__ef_filter__p_0 OR (`a`.`TenantId` IS NULL)) AND (`a`.`LastAccessed` IS NULL OR (`a`.`LastAccessed` < @__Subtract_0))
+2024-10-22 08:08:58 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [63780] [73] - Lock is acquired for TokenCleanupBackgroundWorker
+2024-10-22 08:08:58 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [63780] [73] - Start cleanup.
+2024-10-22 08:08:58 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [63780] [73] - Start cleanup tokens.
+2024-10-22 08:08:58 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [73] - Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Status`
+    FROM `OpenIddictAuthorizations` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`AuthorizationId` = `t`.`Id`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` NOT IN ('inactive', 'valid') OR (`o`.`Status` IS NULL)) OR (`t`.`Id` IS NOT NULL AND ((`t`.`Status` <> 'valid') OR `t`.`Status` IS NULL))) OR (`o`.`ExpirationDate` < UTC_TIMESTAMP()))
+2024-10-22 08:08:58 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [63780] [73] - Start cleanup authorizations.
+2024-10-22 08:08:58 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [73] - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT `o`.`Id`
+FROM `OpenIddictAuthorizations` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`AuthorizationId`
+    FROM `OpenIddictTokens` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`Id` = `t`.`AuthorizationId`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` <> 'valid') OR `o`.`Status` IS NULL) OR ((`o`.`Type` = 'ad-hoc') AND `t`.`Id` IS NULL))
+2024-10-22 08:08:58 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [73] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+WHERE FALSE
+2024-10-22 08:08:58 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [73] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictAuthorizations` AS `o`
+WHERE FALSE
+2024-10-22 08:08:58 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [63780] [73] - Lock is released for TokenCleanupBackgroundWorker
+2024-10-22 11:19:14 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [81] - Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__Subtract_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `a`
+FROM `AbpSessions` AS `a`
+WHERE (@__ef_filter__p_0 OR (`a`.`TenantId` IS NULL)) AND (`a`.`LastAccessed` IS NULL OR (`a`.`LastAccessed` < @__Subtract_0))
+2024-10-22 11:19:14 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [63780] [81] - Lock is acquired for TokenCleanupBackgroundWorker
+2024-10-22 11:19:14 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [63780] [81] - Start cleanup.
+2024-10-22 11:19:14 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [63780] [81] - Start cleanup tokens.
+2024-10-22 11:19:15 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [81] - Executed DbCommand (7ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Status`
+    FROM `OpenIddictAuthorizations` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`AuthorizationId` = `t`.`Id`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` NOT IN ('inactive', 'valid') OR (`o`.`Status` IS NULL)) OR (`t`.`Id` IS NOT NULL AND ((`t`.`Status` <> 'valid') OR `t`.`Status` IS NULL))) OR (`o`.`ExpirationDate` < UTC_TIMESTAMP()))
+2024-10-22 11:19:15 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [63780] [81] - Start cleanup authorizations.
+2024-10-22 11:19:15 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [81] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT `o`.`Id`
+FROM `OpenIddictAuthorizations` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`AuthorizationId`
+    FROM `OpenIddictTokens` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`Id` = `t`.`AuthorizationId`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` <> 'valid') OR `o`.`Status` IS NULL) OR ((`o`.`Type` = 'ad-hoc') AND `t`.`Id` IS NULL))
+2024-10-22 11:19:15 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [81] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+WHERE (@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`AuthorizationId` IS NOT NULL AND (`o`.`AuthorizationId` = '3a157a2f-7830-d738-fb26-30fe6084066d'))
+2024-10-22 11:19:15 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [81] - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictAuthorizations` AS `o`
+WHERE (@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`Id` = '3a157a2f-7830-d738-fb26-30fe6084066d')
+2024-10-22 11:19:15 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [63780] [81] - Lock is released for TokenCleanupBackgroundWorker
+2024-10-22 12:19:14 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [6] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__Subtract_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `a`
+FROM `AbpSessions` AS `a`
+WHERE (@__ef_filter__p_0 OR (`a`.`TenantId` IS NULL)) AND (`a`.`LastAccessed` IS NULL OR (`a`.`LastAccessed` < @__Subtract_0))
+2024-10-22 12:19:15 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [63780] [21] - Lock is acquired for TokenCleanupBackgroundWorker
+2024-10-22 12:19:15 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [63780] [21] - Start cleanup.
+2024-10-22 12:19:15 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [63780] [21] - Start cleanup tokens.
+2024-10-22 12:19:15 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [21] - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Status`
+    FROM `OpenIddictAuthorizations` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`AuthorizationId` = `t`.`Id`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` NOT IN ('inactive', 'valid') OR (`o`.`Status` IS NULL)) OR (`t`.`Id` IS NOT NULL AND ((`t`.`Status` <> 'valid') OR `t`.`Status` IS NULL))) OR (`o`.`ExpirationDate` < UTC_TIMESTAMP()))
+2024-10-22 12:19:15 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [63780] [21] - Start cleanup authorizations.
+2024-10-22 12:19:15 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [21] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT `o`.`Id`
+FROM `OpenIddictAuthorizations` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`AuthorizationId`
+    FROM `OpenIddictTokens` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`Id` = `t`.`AuthorizationId`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` <> 'valid') OR `o`.`Status` IS NULL) OR ((`o`.`Type` = 'ad-hoc') AND `t`.`Id` IS NULL))
+2024-10-22 12:19:15 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [21] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+WHERE FALSE
+2024-10-22 12:19:15 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [21] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictAuthorizations` AS `o`
+WHERE FALSE
+2024-10-22 12:19:15 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [63780] [21] - Lock is released for TokenCleanupBackgroundWorker
+2024-10-22 13:19:14 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [113] - Executed DbCommand (14ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__Subtract_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `a`
+FROM `AbpSessions` AS `a`
+WHERE (@__ef_filter__p_0 OR (`a`.`TenantId` IS NULL)) AND (`a`.`LastAccessed` IS NULL OR (`a`.`LastAccessed` < @__Subtract_0))
+2024-10-22 13:19:15 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [63780] [113] - Lock is acquired for TokenCleanupBackgroundWorker
+2024-10-22 13:19:15 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [63780] [113] - Start cleanup.
+2024-10-22 13:19:15 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [63780] [113] - Start cleanup tokens.
+2024-10-22 13:19:15 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [113] - Executed DbCommand (4ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Status`
+    FROM `OpenIddictAuthorizations` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`AuthorizationId` = `t`.`Id`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` NOT IN ('inactive', 'valid') OR (`o`.`Status` IS NULL)) OR (`t`.`Id` IS NOT NULL AND ((`t`.`Status` <> 'valid') OR `t`.`Status` IS NULL))) OR (`o`.`ExpirationDate` < UTC_TIMESTAMP()))
+2024-10-22 13:19:15 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [63780] [113] - Start cleanup authorizations.
+2024-10-22 13:19:15 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [113] - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT `o`.`Id`
+FROM `OpenIddictAuthorizations` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`AuthorizationId`
+    FROM `OpenIddictTokens` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`Id` = `t`.`AuthorizationId`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` <> 'valid') OR `o`.`Status` IS NULL) OR ((`o`.`Type` = 'ad-hoc') AND `t`.`Id` IS NULL))
+2024-10-22 13:19:15 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [113] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+WHERE (@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`AuthorizationId` IS NOT NULL AND (`o`.`AuthorizationId` = '3a157ad7-c2ed-f0d0-465d-afa982c89302'))
+2024-10-22 13:19:15 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [63780] [113] - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictAuthorizations` AS `o`
+WHERE (@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`Id` = '3a157ad7-c2ed-f0d0-465d-afa982c89302')
+2024-10-22 13:19:15 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [63780] [113] - Lock is released for TokenCleanupBackgroundWorker
+2024-10-22 18:37:05 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [63780] [58] - RabbitMQ consumer cancelled. --> amq.ctag-zAoRHrBlzY-4jvbLkL3ofg
+2024-10-22 18:37:07 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [63780] [58] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-22 18:37:12 [WRN] [DotNetCore.CAP.Processor.TransportCheckProcessor] [63780] [69] - Transport connection is unhealthy, reconnection...
+2024-10-22 18:37:12 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [63780] [112] - RabbitMQ consumer cancelled. --> amq.ctag-zAoRHrBlzY-4jvbLkL3ofg
+2024-10-22 18:37:12 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [63780] [112] - RabbitMQ consumer shutdown. --> Goodbye

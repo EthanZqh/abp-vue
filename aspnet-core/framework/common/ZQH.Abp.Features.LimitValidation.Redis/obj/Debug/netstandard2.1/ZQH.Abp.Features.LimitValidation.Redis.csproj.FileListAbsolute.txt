@@ -1,0 +1,14 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Features.LimitValidation.Redis.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Features.LimitValidation.Redis.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Features.LimitValidation.Redis.pdb
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.Features.LimitValidation.Redis\obj\Debug\netstandard2.1\ZQH.Abp.Features.LimitValidation.Redis.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.Features.LimitValidation.Redis\obj\Debug\netstandard2.1\ZQH.Abp.Features.LimitValidation.Redis.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.Features.LimitValidation.Redis\obj\Debug\netstandard2.1\ZQH.Abp.Features.LimitValidation.Redis.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.Features.LimitValidation.Redis\obj\Debug\netstandard2.1\ZQH.Abp.Features.LimitValidation.Redis.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.Features.LimitValidation.Redis\obj\Debug\netstandard2.1\ZQH.Abp.Features.LimitValidation.Redis.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.Features.LimitValidation.Redis\obj\Debug\netstandard2.1\ZQH.Abp.Features.LimitValidation.Redis.sourcelink.json
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.Features.LimitValidation.Redis\obj\Debug\netstandard2.1\ZQH.Abp.Features.LimitValidation.Redis.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.Features.LimitValidation.Redis\obj\Debug\netstandard2.1\ZQH.Abp.Features.LimitValidation.Redis.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.Features.LimitValidation.Redis\obj\Debug\netstandard2.1\ZQH.Abp.Features.LimitValidation.Redis.csproj.CopyComplete
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.Features.LimitValidation.Redis\obj\Debug\netstandard2.1\ZQH.Abp.Features.LimitValidation.Redis.dll
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.Features.LimitValidation.Redis\obj\Debug\netstandard2.1\ZQH.Abp.Features.LimitValidation.Redis.pdb

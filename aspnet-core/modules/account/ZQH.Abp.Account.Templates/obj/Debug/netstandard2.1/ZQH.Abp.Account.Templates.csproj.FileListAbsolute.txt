@@ -1,0 +1,14 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Account.Templates.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Account.Templates.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Account.Templates.pdb
+E:\abp-vue\aspnet-core\modules\account\ZQH.Abp.Account.Templates\obj\Debug\netstandard2.1\ZQH.Abp.Account.Templates.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\account\ZQH.Abp.Account.Templates\obj\Debug\netstandard2.1\ZQH.Abp.Account.Templates.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\account\ZQH.Abp.Account.Templates\obj\Debug\netstandard2.1\ZQH.Abp.Account.Templates.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\account\ZQH.Abp.Account.Templates\obj\Debug\netstandard2.1\ZQH.Abp.Account.Templates.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\account\ZQH.Abp.Account.Templates\obj\Debug\netstandard2.1\ZQH.Abp.Account.Templates.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\account\ZQH.Abp.Account.Templates\obj\Debug\netstandard2.1\ZQH.Abp.Account.Templates.sourcelink.json
+E:\abp-vue\aspnet-core\modules\account\ZQH.Abp.Account.Templates\obj\Debug\netstandard2.1\ZQH.Abp.Account.Templates.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\account\ZQH.Abp.Account.Templates\obj\Debug\netstandard2.1\ZQH.Abp.Account.Templates.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\account\ZQH.Abp.Account.Templates\obj\Debug\netstandard2.1\ZQH.Abp.Account.Templates.csproj.CopyComplete
+E:\abp-vue\aspnet-core\modules\account\ZQH.Abp.Account.Templates\obj\Debug\netstandard2.1\ZQH.Abp.Account.Templates.dll
+E:\abp-vue\aspnet-core\modules\account\ZQH.Abp.Account.Templates\obj\Debug\netstandard2.1\ZQH.Abp.Account.Templates.pdb

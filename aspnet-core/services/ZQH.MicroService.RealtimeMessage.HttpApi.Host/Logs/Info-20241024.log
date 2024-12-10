@@ -1,0 +1,194 @@
+2024-10-24 00:13:29 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [114] - RabbitMQ consumer cancelled. --> amq.ctag-iCa93JNh4mDNNBaxeWvfNw
+2024-10-24 00:13:32 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [114] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 00:13:35 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [114] - RabbitMQ consumer cancelled. --> amq.ctag-zwtlzBf-Vp6Ro7PwqeK-hQ
+2024-10-24 00:13:37 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [114] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 00:13:37 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [114] - RabbitMQ consumer cancelled. --> amq.ctag-o0b82jKs_ur7ExWA35tt0A
+2024-10-24 00:13:38 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [114] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 00:13:39 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [114] - RabbitMQ consumer cancelled. --> amq.ctag-ZqApme1DBacUSCOXeRaqsg
+2024-10-24 00:13:40 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [114] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 00:13:57 [WRN] [DotNetCore.CAP.Processor.TransportCheckProcessor] [69700] [114] - Transport connection is unhealthy, reconnection...
+2024-10-24 00:13:59 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [32] - RabbitMQ consumer registered. --> amq.ctag-X_NBpfPFalh7l-UloB5Wjg
+2024-10-24 00:14:00 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [79] - RabbitMQ consumer registered. --> amq.ctag-IS83oPsIdmPEWFbw2PA9qQ
+2024-10-24 00:14:01 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [109] - RabbitMQ consumer registered. --> amq.ctag-k0F75tJ-VNTlUhqC3gt4YA
+2024-10-24 00:14:02 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [82] - RabbitMQ consumer registered. --> amq.ctag-GUI9PfpJksO7Mr_D_tC35A
+2024-10-24 01:29:20 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [32] - RabbitMQ consumer cancelled. --> amq.ctag-X_NBpfPFalh7l-UloB5Wjg
+2024-10-24 01:29:21 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [32] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 01:29:25 [WRN] [DotNetCore.CAP.Processor.TransportCheckProcessor] [69700] [32] - Transport connection is unhealthy, reconnection...
+2024-10-24 01:29:25 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [74] - RabbitMQ consumer cancelled. --> amq.ctag-IS83oPsIdmPEWFbw2PA9qQ
+2024-10-24 01:29:27 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [74] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 01:29:27 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [24] - RabbitMQ consumer cancelled. --> amq.ctag-k0F75tJ-VNTlUhqC3gt4YA
+2024-10-24 01:29:30 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [81] - RabbitMQ consumer registered. --> amq.ctag-4US8_xxrhhlYvDbJJqQEFQ
+2024-10-24 01:29:31 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [88] - RabbitMQ consumer registered. --> amq.ctag-Zt5R7YuYYtprb-8ZyqeVCA
+2024-10-24 01:29:31 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [7] - RabbitMQ consumer registered. --> amq.ctag-m0x3TK6iAJK3xF3usVF5jw
+2024-10-24 01:29:31 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [24] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 01:29:32 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [74] - RabbitMQ consumer cancelled. --> amq.ctag-GUI9PfpJksO7Mr_D_tC35A
+2024-10-24 01:29:32 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [29] - RabbitMQ consumer registered. --> amq.ctag-GF8x9-3SVCWMzVo5t8N0_Q
+2024-10-24 01:29:32 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [74] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 01:30:01 [WRN] [DotNetCore.CAP.Processor.TransportCheckProcessor] [69700] [74] - Transport connection is unhealthy, reconnection...
+2024-10-24 01:30:01 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [81] - RabbitMQ consumer cancelled. --> amq.ctag-Zt5R7YuYYtprb-8ZyqeVCA
+2024-10-24 01:30:01 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [29] - RabbitMQ consumer cancelled. --> amq.ctag-4US8_xxrhhlYvDbJJqQEFQ
+2024-10-24 01:30:01 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [81] - RabbitMQ consumer shutdown. --> Goodbye
+2024-10-24 01:30:01 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [29] - RabbitMQ consumer shutdown. --> Goodbye
+2024-10-24 01:30:01 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [29] - RabbitMQ consumer cancelled. --> amq.ctag-m0x3TK6iAJK3xF3usVF5jw
+2024-10-24 01:30:01 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [81] - RabbitMQ consumer cancelled. --> amq.ctag-GF8x9-3SVCWMzVo5t8N0_Q
+2024-10-24 01:30:01 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [29] - RabbitMQ consumer shutdown. --> Goodbye
+2024-10-24 01:30:01 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [81] - RabbitMQ consumer shutdown. --> Goodbye
+2024-10-24 01:30:01 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [74] - RabbitMQ consumer registered. --> amq.ctag-DZZaOq_NI5EcVz0S0UUJ8g
+2024-10-24 01:30:01 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [81] - RabbitMQ consumer registered. --> amq.ctag-yGUxSd_qwHF1KXMZSFPyNg
+2024-10-24 01:30:01 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [29] - RabbitMQ consumer registered. --> amq.ctag-8RNoRkdugA5IF_5HX8zBiQ
+2024-10-24 01:30:01 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [29] - RabbitMQ consumer registered. --> amq.ctag-AYuGZKWtt8xBXrtZsBd5_w
+2024-10-24 05:49:56 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [26] - RabbitMQ consumer cancelled. --> amq.ctag-DZZaOq_NI5EcVz0S0UUJ8g
+2024-10-24 05:49:57 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [26] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 05:49:57 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [26] - RabbitMQ consumer cancelled. --> amq.ctag-yGUxSd_qwHF1KXMZSFPyNg
+2024-10-24 05:49:57 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [26] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 05:49:57 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [26] - RabbitMQ consumer cancelled. --> amq.ctag-8RNoRkdugA5IF_5HX8zBiQ
+2024-10-24 05:49:57 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [26] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 05:49:57 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [26] - RabbitMQ consumer cancelled. --> amq.ctag-AYuGZKWtt8xBXrtZsBd5_w
+2024-10-24 05:49:57 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [26] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 05:50:00 [WRN] [DotNetCore.CAP.Processor.TransportCheckProcessor] [69700] [26] - Transport connection is unhealthy, reconnection...
+2024-10-24 05:50:00 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [24] - RabbitMQ consumer registered. --> amq.ctag-h9Wm6TamYRjkOfWdmrjzug
+2024-10-24 05:50:00 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [26] - RabbitMQ consumer registered. --> amq.ctag-BUbs9ozvTfFwexImLnthZg
+2024-10-24 05:50:00 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [24] - RabbitMQ consumer registered. --> amq.ctag-hA6pYLrERBui1TGX9KgbNg
+2024-10-24 05:50:00 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [55] - RabbitMQ consumer registered. --> amq.ctag-awoGAG5mxW4cSzIc3YGoRw
+2024-10-24 13:59:18 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [55] - RabbitMQ consumer cancelled. --> amq.ctag-BUbs9ozvTfFwexImLnthZg
+2024-10-24 13:59:18 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [55] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 13:59:18 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [55] - RabbitMQ consumer cancelled. --> amq.ctag-h9Wm6TamYRjkOfWdmrjzug
+2024-10-24 13:59:18 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [55] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 13:59:19 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [55] - RabbitMQ consumer cancelled. --> amq.ctag-hA6pYLrERBui1TGX9KgbNg
+2024-10-24 13:59:19 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [55] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 13:59:19 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [55] - RabbitMQ consumer cancelled. --> amq.ctag-awoGAG5mxW4cSzIc3YGoRw
+2024-10-24 13:59:19 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [55] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 13:59:23 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [60] - RabbitMQ consumer registered. --> amq.ctag-BUbs9ozvTfFwexImLnthZg
+2024-10-24 13:59:23 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [24] - RabbitMQ consumer registered. --> amq.ctag-h9Wm6TamYRjkOfWdmrjzug
+2024-10-24 13:59:23 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [102] - RabbitMQ consumer registered. --> amq.ctag-hA6pYLrERBui1TGX9KgbNg
+2024-10-24 13:59:23 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [56] - RabbitMQ consumer registered. --> amq.ctag-awoGAG5mxW4cSzIc3YGoRw
+2024-10-24 16:35:32 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [55] - RabbitMQ consumer cancelled. --> amq.ctag-BUbs9ozvTfFwexImLnthZg
+2024-10-24 16:35:33 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [55] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 16:35:33 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [55] - RabbitMQ consumer cancelled. --> amq.ctag-h9Wm6TamYRjkOfWdmrjzug
+2024-10-24 16:35:33 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [55] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 16:35:33 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [55] - RabbitMQ consumer cancelled. --> amq.ctag-hA6pYLrERBui1TGX9KgbNg
+2024-10-24 16:35:33 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [55] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 16:35:33 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [55] - RabbitMQ consumer cancelled. --> amq.ctag-awoGAG5mxW4cSzIc3YGoRw
+2024-10-24 16:35:33 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [55] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 16:35:37 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [55] - RabbitMQ consumer registered. --> amq.ctag-BUbs9ozvTfFwexImLnthZg
+2024-10-24 16:35:37 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [56] - RabbitMQ consumer registered. --> amq.ctag-h9Wm6TamYRjkOfWdmrjzug
+2024-10-24 16:35:37 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [102] - RabbitMQ consumer registered. --> amq.ctag-hA6pYLrERBui1TGX9KgbNg
+2024-10-24 16:35:37 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [69700] [55] - RabbitMQ consumer registered. --> amq.ctag-awoGAG5mxW4cSzIc3YGoRw
+2024-10-24 23:08:32 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [69700] [41] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:08:38 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [69700] [112] - Controller 'Notification' contains more than one action with name 'SendAsyncByInput' for module 'notifications'. Ignored: System.Threading.Tasks.Task SendAsync(ZQH.Abp.Notifications.NotificationTemplateSendDto)
+2024-10-24 23:15:05 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [69700] [51] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:15:10 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [69700] [51] - Controller 'Notification' contains more than one action with name 'SendAsyncByInput' for module 'notifications'. Ignored: System.Threading.Tasks.Task SendAsync(ZQH.Abp.Notifications.NotificationTemplateSendDto)
+2024-10-24 23:20:09 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [69700] [69] - Executing subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'MessageService.v1'
+2024-10-24 23:20:09 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [69700] [57] - Executed subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'MessageService.v1' with instance 'zqhT16' in 431.7111ms
+2024-10-24 23:20:23 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [69700] [28] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:21:49 [WRN] [Volo.Abp.Caching.DistributedCache] [69700] [38] - The operation was canceled.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Volo.Abp.Caching.DistributedCache`2.GetAsync(TCacheKey key, Nullable`1 hideErrors, Boolean considerUow, CancellationToken token)
+2024-10-24 23:21:49 [WRN] [Volo.Abp.Caching.DistributedCache] [69700] [110] - The operation was canceled.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Volo.Abp.Caching.DistributedCache`2.GetAsync(TCacheKey key, Nullable`1 hideErrors, Boolean considerUow, CancellationToken token)
+2024-10-24 23:21:49 [ERR] [Microsoft.AspNetCore.SignalR.HubConnectionHandler] [69700] [110] - Error when dispatching 'OnDisconnectedAsync' on hub.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Volo.Abp.Threading.SemaphoreSlimExtensions.LockAsync(SemaphoreSlim semaphoreSlim, CancellationToken cancellationToken)
+   at Volo.Abp.Caching.DistributedCache`2.GetOrAddAsync(TCacheKey key, Func`1 factory, Func`1 optionsFactory, Nullable`1 hideErrors, Boolean considerUow, CancellationToken token)
+   at Volo.Abp.Identity.IdentityDynamicClaimsPrincipalContributorCache.GetAsync(Guid userId, Nullable`1 tenantId)
+   at Volo.Abp.Identity.IdentityDynamicClaimsPrincipalContributor.ContributeAsync(AbpClaimsPrincipalContributorContext context)
+   at Volo.Abp.Security.Claims.AbpClaimsPrincipalFactory.InternalCreateAsync(AbpClaimsPrincipalFactoryOptions options, ClaimsPrincipal existsClaimsPrincipal, Boolean isDynamic)
+   at Volo.Abp.Security.Claims.AbpClaimsPrincipalFactory.CreateDynamicAsync(ClaimsPrincipal existsClaimsPrincipal)
+   at Volo.Abp.AspNetCore.SignalR.Authentication.AbpAuthenticationHubFilter.HandleDynamicClaimsPrincipalAsync(ClaimsPrincipal claimsPrincipal, IServiceProvider serviceProvider, HubCallerContext hubCallerContext, Boolean skipCheckDynamicClaimsInterval)
+   at Volo.Abp.AspNetCore.SignalR.Authentication.AbpAuthenticationHubFilter.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+2024-10-24 23:21:49 [ERR] [Microsoft.AspNetCore.SignalR.HubConnectionHandler] [69700] [38] - Error when dispatching 'OnDisconnectedAsync' on hub.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Volo.Abp.Threading.SemaphoreSlimExtensions.LockAsync(SemaphoreSlim semaphoreSlim, CancellationToken cancellationToken)
+   at Volo.Abp.Caching.DistributedCache`2.GetOrAddAsync(TCacheKey key, Func`1 factory, Func`1 optionsFactory, Nullable`1 hideErrors, Boolean considerUow, CancellationToken token)
+   at Volo.Abp.Identity.IdentityDynamicClaimsPrincipalContributorCache.GetAsync(Guid userId, Nullable`1 tenantId)
+   at Volo.Abp.Identity.IdentityDynamicClaimsPrincipalContributor.ContributeAsync(AbpClaimsPrincipalContributorContext context)
+   at Volo.Abp.Security.Claims.AbpClaimsPrincipalFactory.InternalCreateAsync(AbpClaimsPrincipalFactoryOptions options, ClaimsPrincipal existsClaimsPrincipal, Boolean isDynamic)
+   at Volo.Abp.Security.Claims.AbpClaimsPrincipalFactory.CreateDynamicAsync(ClaimsPrincipal existsClaimsPrincipal)
+   at Volo.Abp.AspNetCore.SignalR.Authentication.AbpAuthenticationHubFilter.HandleDynamicClaimsPrincipalAsync(ClaimsPrincipal claimsPrincipal, IServiceProvider serviceProvider, HubCallerContext hubCallerContext, Boolean skipCheckDynamicClaimsInterval)
+   at Volo.Abp.AspNetCore.SignalR.Authentication.AbpAuthenticationHubFilter.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+2024-10-24 23:21:49 [ERR] [Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager] [69700] [74] - Failed disposing connection YfcA3bovcQfggOj9SeddPg.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Volo.Abp.Threading.SemaphoreSlimExtensions.LockAsync(SemaphoreSlim semaphoreSlim, CancellationToken cancellationToken)
+   at Volo.Abp.Caching.DistributedCache`2.GetOrAddAsync(TCacheKey key, Func`1 factory, Func`1 optionsFactory, Nullable`1 hideErrors, Boolean considerUow, CancellationToken token)
+   at Volo.Abp.Identity.IdentityDynamicClaimsPrincipalContributorCache.GetAsync(Guid userId, Nullable`1 tenantId)
+   at Volo.Abp.Identity.IdentityDynamicClaimsPrincipalContributor.ContributeAsync(AbpClaimsPrincipalContributorContext context)
+   at Volo.Abp.Security.Claims.AbpClaimsPrincipalFactory.InternalCreateAsync(AbpClaimsPrincipalFactoryOptions options, ClaimsPrincipal existsClaimsPrincipal, Boolean isDynamic)
+   at Volo.Abp.Security.Claims.AbpClaimsPrincipalFactory.CreateDynamicAsync(ClaimsPrincipal existsClaimsPrincipal)
+   at Volo.Abp.AspNetCore.SignalR.Authentication.AbpAuthenticationHubFilter.HandleDynamicClaimsPrincipalAsync(ClaimsPrincipal claimsPrincipal, IServiceProvider serviceProvider, HubCallerContext hubCallerContext, Boolean skipCheckDynamicClaimsInterval)
+   at Volo.Abp.AspNetCore.SignalR.Authentication.AbpAuthenticationHubFilter.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.ExecuteApplication(ConnectionDelegate connectionDelegate)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.WaitOnTasks(Task applicationTask, Task transportTask, Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.DisposeAsync(Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager.DisposeAndRemoveAsync(HttpConnectionContext connection, Boolean closeGracefully, HttpConnectionStopStatus status)
+2024-10-24 23:21:49 [ERR] [Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager] [69700] [110] - Failed disposing connection JR4f_nBDFTdML5xtIok71g.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Volo.Abp.Threading.SemaphoreSlimExtensions.LockAsync(SemaphoreSlim semaphoreSlim, CancellationToken cancellationToken)
+   at Volo.Abp.Caching.DistributedCache`2.GetOrAddAsync(TCacheKey key, Func`1 factory, Func`1 optionsFactory, Nullable`1 hideErrors, Boolean considerUow, CancellationToken token)
+   at Volo.Abp.Identity.IdentityDynamicClaimsPrincipalContributorCache.GetAsync(Guid userId, Nullable`1 tenantId)
+   at Volo.Abp.Identity.IdentityDynamicClaimsPrincipalContributor.ContributeAsync(AbpClaimsPrincipalContributorContext context)
+   at Volo.Abp.Security.Claims.AbpClaimsPrincipalFactory.InternalCreateAsync(AbpClaimsPrincipalFactoryOptions options, ClaimsPrincipal existsClaimsPrincipal, Boolean isDynamic)
+   at Volo.Abp.Security.Claims.AbpClaimsPrincipalFactory.CreateDynamicAsync(ClaimsPrincipal existsClaimsPrincipal)
+   at Volo.Abp.AspNetCore.SignalR.Authentication.AbpAuthenticationHubFilter.HandleDynamicClaimsPrincipalAsync(ClaimsPrincipal claimsPrincipal, IServiceProvider serviceProvider, HubCallerContext hubCallerContext, Boolean skipCheckDynamicClaimsInterval)
+   at Volo.Abp.AspNetCore.SignalR.Authentication.AbpAuthenticationHubFilter.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.ExecuteApplication(ConnectionDelegate connectionDelegate)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.WaitOnTasks(Task applicationTask, Task transportTask, Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.DisposeAsync(Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager.DisposeAndRemoveAsync(HttpConnectionContext connection, Boolean closeGracefully, HttpConnectionStopStatus status)
+2024-10-24 23:21:56 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [69700] [50] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:22:04 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [69700] [50] - Controller 'Notification' contains more than one action with name 'SendAsyncByInput' for module 'notifications'. Ignored: System.Threading.Tasks.Task SendAsync(ZQH.Abp.Notifications.NotificationTemplateSendDto)
+2024-10-24 23:24:21 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [69700] [104] - Executing subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'MessageService.v1'
+2024-10-24 23:24:21 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [69700] [7] - Executing subscriber method 'IdentitySessionRevokeEventHandler.HandleEventAsync' on group 'MessageService.IdentitySessionRevokeEventHandler.v1'
+2024-10-24 23:24:21 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [69700] [50] - Executed subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'MessageService.v1' with instance 'zqhT16' in 23.2022ms
+2024-10-24 23:24:21 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [69700] [50] - Executed subscriber method 'IdentitySessionRevokeEventHandler.HandleEventAsync' on group 'MessageService.IdentitySessionRevokeEventHandler.v1' with instance 'zqhT16' in 61.9456ms
+2024-10-24 23:24:21 [INF] [DotNetCore.CAP.RabbitMQ.RabbitMQTransport] [69700] [7] - CAP message 'abp.realtime.notifications' published, internal id '4001001631368409092'
+2024-10-24 23:24:21 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [69700] [104] - Executing subscriber method 'NotificationEventHandler.HandleEventAsync' on group 'MessageService.v1'
+2024-10-24 23:24:21 [WRN] [ZQH.Abp.Notifications.WeChat.Work.WeChatWorkNotificationPublishProvider] [69700] [95] - WeChat.Work cannot push messages because the feature WeChat.Work.Message.Enable is not enabled
+2024-10-24 23:24:21 [WRN] [ZQH.Abp.Notifications.WeChat.MiniProgram.WeChatMiniProgramNotificationPublishProvider] [69700] [7] - Wechat weapp template id be empty, can not send notification!
+2024-10-24 23:24:21 [WRN] [ZQH.Abp.Notifications.WxPusher.WxPusherNotificationPublishProvider] [69700] [95] - WxPusher cannot push messages because the feature WxPusher.Message.Enable is not enabled
+2024-10-24 23:24:22 [WRN] [ZQH.Abp.Notifications.Emailing.EmailingNotificationPublishProvider] [69700] [95] - The subscriber did not confirm the email address and could not send email notifications!
+2024-10-24 23:24:22 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [69700] [95] - Executed subscriber method 'NotificationEventHandler.HandleEventAsync' on group 'MessageService.v1' with instance 'zqhT16' in 926.1225ms
+2024-10-24 23:25:14 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [69700] [104] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:25:17 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [69700] [47] - Controller 'Notification' contains more than one action with name 'SendAsyncByInput' for module 'notifications'. Ignored: System.Threading.Tasks.Task SendAsync(ZQH.Abp.Notifications.NotificationTemplateSendDto)
+2024-10-24 23:26:47 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [69700] [95] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:26:50 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [69700] [95] - Controller 'Notification' contains more than one action with name 'SendAsyncByInput' for module 'notifications'. Ignored: System.Threading.Tasks.Task SendAsync(ZQH.Abp.Notifications.NotificationTemplateSendDto)
+2024-10-24 23:29:16 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [69700] [102] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:29:19 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [69700] [44] - Controller 'Notification' contains more than one action with name 'SendAsyncByInput' for module 'notifications'. Ignored: System.Threading.Tasks.Task SendAsync(ZQH.Abp.Notifications.NotificationTemplateSendDto)

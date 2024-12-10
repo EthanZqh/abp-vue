@@ -1,0 +1,15 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Account.Application.Contracts.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Account.Application.Contracts.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Account.Application.Contracts.pdb
+E:\abp-vue\aspnet-core\modules\account\ZQH.Abp.Account.Application.Contracts\obj\Debug\net8.0\ZQH.Abp.Account.Application.Contracts.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\account\ZQH.Abp.Account.Application.Contracts\obj\Debug\net8.0\ZQH.Abp.Account.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\account\ZQH.Abp.Account.Application.Contracts\obj\Debug\net8.0\ZQH.Abp.Account.Application.Contracts.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\account\ZQH.Abp.Account.Application.Contracts\obj\Debug\net8.0\ZQH.Abp.Account.Application.Contracts.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\account\ZQH.Abp.Account.Application.Contracts\obj\Debug\net8.0\ZQH.Abp.Account.Application.Contracts.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\account\ZQH.Abp.Account.Application.Contracts\obj\Debug\net8.0\ZQH.Abp.Account.Application.Contracts.sourcelink.json
+E:\abp-vue\aspnet-core\modules\account\ZQH.Abp.Account.Application.Contracts\obj\Debug\net8.0\ZQH.Abp.Account.Application.Contracts.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\account\ZQH.Abp.Account.Application.Contracts\obj\Debug\net8.0\ZQH.Abp.Account.Application.Contracts.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\account\ZQH.Abp.Account.Application.Contracts\obj\Debug\net8.0\ZQH.Abp.Account.Application.Contracts.dll
+E:\abp-vue\aspnet-core\modules\account\ZQH.Abp.Account.Application.Contracts\obj\Debug\net8.0\refint\ZQH.Abp.Account.Application.Contracts.dll
+E:\abp-vue\aspnet-core\modules\account\ZQH.Abp.Account.Application.Contracts\obj\Debug\net8.0\ZQH.Abp.Account.Application.Contracts.pdb
+E:\abp-vue\aspnet-core\modules\account\ZQH.Abp.Account.Application.Contracts\obj\Debug\net8.0\ref\ZQH.Abp.Account.Application.Contracts.dll

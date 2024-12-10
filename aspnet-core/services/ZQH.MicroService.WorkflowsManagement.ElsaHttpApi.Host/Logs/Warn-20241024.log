@@ -1,0 +1,430 @@
+2024-10-24 00:13:29 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [17708] [85] - RabbitMQ consumer cancelled. --> amq.ctag-YtPLbPCM8v0U2pmSuecY9w
+2024-10-24 00:13:33 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [17708] [85] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 00:13:35 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [17708] [99] - RabbitMQ consumer cancelled. --> amq.ctag-0rAROPTdv8rPAPEfHZkJhQ
+2024-10-24 00:13:36 [WRN] [DotNetCore.CAP.Processor.TransportCheckProcessor] [17708] [85] - Transport connection is unhealthy, reconnection...
+2024-10-24 00:13:37 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [17708] [99] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 04:03:10 [WRN] [ZQH.Abp.EventBus.CAP.AbpCAPConsumerServiceSelector] [8076] [7] - We detected that you have duplicate subscribers (abp.multi_tenancy.tenant.connection_string.updated) in same group (ElsaClient.v1), this will cause diversity behavior.
+2024-10-24 04:03:14 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [8076] [26] - Failed to initialize index and audit log may not be retrieved.
+2024-10-24 04:03:14 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [8076] [26] - Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET /
+ ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product.
+ ---> System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9200)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Elasticsearch.Net.HttpConnection.RequestAsync[TResponse](RequestData requestData, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure()
+   at Elasticsearch.Net.RequestPipeline.PingAsync(Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.PingAsync(IRequestPipeline pipeline, Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.RequestAsync[TResponse](HttpMethod method, String path, CancellationToken cancellationToken, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2024-10-24 04:03:18 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [8076] [31] - Failed to initialize index and security log may not be retrieved.
+2024-10-24 04:03:18 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [8076] [31] - Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET /
+ ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product.
+ ---> System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9200)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Elasticsearch.Net.HttpConnection.RequestAsync[TResponse](RequestData requestData, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure()
+   at Elasticsearch.Net.RequestPipeline.PingAsync(Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.PingAsync(IRequestPipeline pipeline, Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.RequestAsync[TResponse](HttpMethod method, String path, CancellationToken cancellationToken, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2024-10-24 04:03:34 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [8076] [31] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 04:03:39 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [8076] [31] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 04:10:08 [WRN] [ZQH.Abp.EventBus.CAP.AbpCAPConsumerServiceSelector] [35488] [6] - We detected that you have duplicate subscribers (abp.multi_tenancy.tenant.connection_string.updated) in same group (ElsaClient.v1), this will cause diversity behavior.
+2024-10-24 04:10:12 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [35488] [22] - Failed to initialize index and audit log may not be retrieved.
+2024-10-24 04:10:12 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [35488] [22] - Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET /
+ ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product.
+ ---> System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9200)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Elasticsearch.Net.HttpConnection.RequestAsync[TResponse](RequestData requestData, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure()
+   at Elasticsearch.Net.RequestPipeline.PingAsync(Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.PingAsync(IRequestPipeline pipeline, Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.RequestAsync[TResponse](HttpMethod method, String path, CancellationToken cancellationToken, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2024-10-24 04:10:16 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [35488] [32] - Failed to initialize index and security log may not be retrieved.
+2024-10-24 04:10:16 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [35488] [32] - Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET /
+ ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product.
+ ---> System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9200)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Elasticsearch.Net.HttpConnection.RequestAsync[TResponse](RequestData requestData, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure()
+   at Elasticsearch.Net.RequestPipeline.PingAsync(Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.PingAsync(IRequestPipeline pipeline, Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.RequestAsync[TResponse](HttpMethod method, String path, CancellationToken cancellationToken, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2024-10-24 04:10:32 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [35488] [6] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:07:13 [WRN] [ZQH.Abp.EventBus.CAP.AbpCAPConsumerServiceSelector] [13612] [7] - We detected that you have duplicate subscribers (abp.multi_tenancy.tenant.connection_string.updated) in same group (ElsaClient.v1), this will cause diversity behavior.
+2024-10-24 23:07:16 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [13612] [32] - Failed to initialize index and audit log may not be retrieved.
+2024-10-24 23:07:16 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [13612] [32] - Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET /
+ ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product.
+ ---> System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9200)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Elasticsearch.Net.HttpConnection.RequestAsync[TResponse](RequestData requestData, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure()
+   at Elasticsearch.Net.RequestPipeline.PingAsync(Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.PingAsync(IRequestPipeline pipeline, Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.RequestAsync[TResponse](HttpMethod method, String path, CancellationToken cancellationToken, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2024-10-24 23:07:21 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [13612] [22] - Failed to initialize index and security log may not be retrieved.
+2024-10-24 23:07:21 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [13612] [22] - Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET /
+ ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product.
+ ---> System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9200)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Elasticsearch.Net.HttpConnection.RequestAsync[TResponse](RequestData requestData, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure()
+   at Elasticsearch.Net.RequestPipeline.PingAsync(Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.PingAsync(IRequestPipeline pipeline, Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.RequestAsync[TResponse](HttpMethod method, String path, CancellationToken cancellationToken, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2024-10-24 23:08:31 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [13612] [32] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:15:06 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [13612] [7] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:20:09 [ERR] [DotNetCore.CAP.Internal.SubscribeExecutor] [13612] [44] - An exception occurred while executing the subscription method. Topic:ZQH.Abp.Identity.IdentitySessionEto.Created, Id:4001002589894053889, Instance: zqhT16
+DotNetCore.CAP.Internal.SubscriberExecutionFailedException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found on type 'ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer' can be invoked with the available services and parameters:
+Cannot resolve parameter 'ZQH.Abp.Identity.Session.IIdentitySessionCache identitySessionCache' of constructor 'Void .ctor(ZQH.Abp.Identity.Session.IIdentitySessionCache, ZQH.Abp.Identity.Session.IIdentitySessionStore)'.
+
+See https://autofac.rtfd.io/help/no-constructors-bindable for more info.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass14_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass39_0.<OnActivated>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+2024-10-24 23:20:09 [WRN] [DotNetCore.CAP.Internal.SubscribeExecutor] [13612] [44] - The 1th retrying consume a message failed. message id: 4001002589894053889
+2024-10-24 23:20:09 [ERR] [DotNetCore.CAP.Internal.SubscribeExecutor] [13612] [42] - An exception occurred while executing the subscription method. Topic:ZQH.Abp.Identity.IdentitySessionEto.Created, Id:4001002589894053889, Instance: zqhT16
+DotNetCore.CAP.Internal.SubscriberExecutionFailedException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found on type 'ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer' can be invoked with the available services and parameters:
+Cannot resolve parameter 'ZQH.Abp.Identity.Session.IIdentitySessionCache identitySessionCache' of constructor 'Void .ctor(ZQH.Abp.Identity.Session.IIdentitySessionCache, ZQH.Abp.Identity.Session.IIdentitySessionStore)'.
+
+See https://autofac.rtfd.io/help/no-constructors-bindable for more info.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass14_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass39_0.<OnActivated>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+2024-10-24 23:20:09 [WRN] [DotNetCore.CAP.Internal.SubscribeExecutor] [13612] [42] - The 2th retrying consume a message failed. message id: 4001002589894053889
+2024-10-24 23:20:09 [ERR] [DotNetCore.CAP.Internal.SubscribeExecutor] [13612] [42] - An exception occurred while executing the subscription method. Topic:ZQH.Abp.Identity.IdentitySessionEto.Created, Id:4001002589894053889, Instance: zqhT16
+DotNetCore.CAP.Internal.SubscriberExecutionFailedException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found on type 'ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer' can be invoked with the available services and parameters:
+Cannot resolve parameter 'ZQH.Abp.Identity.Session.IIdentitySessionCache identitySessionCache' of constructor 'Void .ctor(ZQH.Abp.Identity.Session.IIdentitySessionCache, ZQH.Abp.Identity.Session.IIdentitySessionStore)'.
+
+See https://autofac.rtfd.io/help/no-constructors-bindable for more info.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass14_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass39_0.<OnActivated>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+2024-10-24 23:20:23 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [13612] [42] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:21:58 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [13612] [51] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:24:21 [ERR] [DotNetCore.CAP.Internal.SubscribeExecutor] [13612] [43] - An exception occurred while executing the subscription method. Topic:ZQH.Abp.Identity.IdentitySessionEto.Deleted, Id:4001002589894053890, Instance: zqhT16
+DotNetCore.CAP.Internal.SubscriberExecutionFailedException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found on type 'ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer' can be invoked with the available services and parameters:
+Cannot resolve parameter 'ZQH.Abp.Identity.Session.IIdentitySessionCache identitySessionCache' of constructor 'Void .ctor(ZQH.Abp.Identity.Session.IIdentitySessionCache, ZQH.Abp.Identity.Session.IIdentitySessionStore)'.
+
+See https://autofac.rtfd.io/help/no-constructors-bindable for more info.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass14_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass39_0.<OnActivated>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+2024-10-24 23:24:21 [WRN] [DotNetCore.CAP.Internal.SubscribeExecutor] [13612] [43] - The 1th retrying consume a message failed. message id: 4001002589894053890
+2024-10-24 23:24:21 [ERR] [DotNetCore.CAP.Internal.SubscribeExecutor] [13612] [43] - An exception occurred while executing the subscription method. Topic:ZQH.Abp.Identity.IdentitySessionEto.Deleted, Id:4001002589894053890, Instance: zqhT16
+DotNetCore.CAP.Internal.SubscriberExecutionFailedException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found on type 'ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer' can be invoked with the available services and parameters:
+Cannot resolve parameter 'ZQH.Abp.Identity.Session.IIdentitySessionCache identitySessionCache' of constructor 'Void .ctor(ZQH.Abp.Identity.Session.IIdentitySessionCache, ZQH.Abp.Identity.Session.IIdentitySessionStore)'.
+
+See https://autofac.rtfd.io/help/no-constructors-bindable for more info.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass14_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass39_0.<OnActivated>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+2024-10-24 23:24:21 [WRN] [DotNetCore.CAP.Internal.SubscribeExecutor] [13612] [43] - The 2th retrying consume a message failed. message id: 4001002589894053890
+2024-10-24 23:24:21 [ERR] [DotNetCore.CAP.Internal.SubscribeExecutor] [13612] [43] - An exception occurred while executing the subscription method. Topic:ZQH.Abp.Identity.IdentitySessionEto.Deleted, Id:4001002589894053890, Instance: zqhT16
+DotNetCore.CAP.Internal.SubscriberExecutionFailedException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found on type 'ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer' can be invoked with the available services and parameters:
+Cannot resolve parameter 'ZQH.Abp.Identity.Session.IIdentitySessionCache identitySessionCache' of constructor 'Void .ctor(ZQH.Abp.Identity.Session.IIdentitySessionCache, ZQH.Abp.Identity.Session.IIdentitySessionStore)'.
+
+See https://autofac.rtfd.io/help/no-constructors-bindable for more info.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass14_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass39_0.<OnActivated>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+2024-10-24 23:25:14 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [13612] [62] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:26:47 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [13612] [57] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:27:15 [ERR] [DotNetCore.CAP.Internal.SubscribeExecutor] [13612] [63] - An exception occurred while executing the subscription method. Topic:ZQH.Abp.Identity.IdentitySessionEto.Created, Id:4001002589894053889, Instance: zqhT16
+DotNetCore.CAP.Internal.SubscriberExecutionFailedException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while activating ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found on type 'ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer' can be invoked with the available services and parameters:
+Cannot resolve parameter 'ZQH.Abp.Identity.Session.IIdentitySessionCache identitySessionCache' of constructor 'Void .ctor(ZQH.Abp.Identity.Session.IIdentitySessionCache, ZQH.Abp.Identity.Session.IIdentitySessionStore)'.
+
+See https://autofac.rtfd.io/help/no-constructors-bindable for more info.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<>c__DisplayClass14_0.<UseSingleConstructorActivation>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass41_0.<PropertiesAutowired>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Builder.RegistrationBuilder`3.<>c__DisplayClass39_0.<OnActivated>b__0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.GetInstance(IServiceProvider provider, ConsumerContext context) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 243
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 73
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+2024-10-24 23:29:16 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [13612] [67] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.

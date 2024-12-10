@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;netstandard2.1;net8.0</TargetFrameworks>
+		<AssemblyName>ZQH.Abp.Sms.Aliyun</AssemblyName>
+		<PackageId>ZQH.Abp.Sms.Aliyun</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+		<Description>阿里云短信服务</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="ZQH.Abp\Sms\Aliyun\Localization\Resources\*.json" />
+		<EmbeddedResource Include="ZQH.Abp\Sms\Aliyun\Localization\Resources\*.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Volo.Abp.Sms" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\cloud-aliyun\ZQH.Abp.Aliyun\ZQH.Abp.Aliyun.csproj" />
+	</ItemGroup>
+
+</Project>

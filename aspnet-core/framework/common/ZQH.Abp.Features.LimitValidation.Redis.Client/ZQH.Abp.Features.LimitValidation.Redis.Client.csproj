@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;netstandard2.1;net8.0</TargetFrameworks>
+		<AssemblyName>ZQH.Abp.Features.LimitValidation.Redis.Client</AssemblyName>
+		<PackageId>ZQH.Abp.Features.LimitValidation.Redis.Client</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+		<Description>功能限制验证组件Redis客户端格式实现</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\features\ZQH.Abp.Features.Client\ZQH.Abp.Features.Client.csproj" />
+		<ProjectReference Include="..\ZQH.Abp.Features.LimitValidation.Redis\ZQH.Abp.Features.LimitValidation.Redis.csproj" />
+	</ItemGroup>
+
+</Project>

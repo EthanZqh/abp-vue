@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>ZQH.Abp.WeChat.SettingManagement</AssemblyName>
+		<PackageId>ZQH.Abp.WeChat.SettingManagement</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="ZQH.Abp\WeChat\SettingManagement\Localization\Resources\*.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="ZQH.Abp\WeChat\SettingManagement\Localization\Resources\*.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Volo.Abp.AspNetCore.Mvc" />
+		<PackageReference Include="Volo.Abp.SettingManagement.Domain" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\settings\ZQH.Abp.SettingManagement.Application.Contracts\ZQH.Abp.SettingManagement.Application.Contracts.csproj" />
+	  <ProjectReference Include="..\ZQH.Abp.WeChat.MiniProgram\ZQH.Abp.WeChat.MiniProgram.csproj" />
+	  <ProjectReference Include="..\ZQH.Abp.WeChat.Official\ZQH.Abp.WeChat.Official.csproj" />
+	  <ProjectReference Include="..\ZQH.Abp.WeChat.Work\ZQH.Abp.WeChat.Work.csproj" />
+	</ItemGroup>
+
+</Project>

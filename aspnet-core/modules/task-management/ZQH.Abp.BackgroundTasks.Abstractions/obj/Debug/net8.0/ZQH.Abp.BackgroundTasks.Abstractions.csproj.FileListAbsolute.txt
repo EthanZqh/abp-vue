@@ -1,0 +1,15 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.BackgroundTasks.Abstractions.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.BackgroundTasks.Abstractions.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.BackgroundTasks.Abstractions.pdb
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.BackgroundTasks.Abstractions\obj\Debug\net8.0\ZQH.Abp.BackgroundTasks.Abstractions.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.BackgroundTasks.Abstractions\obj\Debug\net8.0\ZQH.Abp.BackgroundTasks.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.BackgroundTasks.Abstractions\obj\Debug\net8.0\ZQH.Abp.BackgroundTasks.Abstractions.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.BackgroundTasks.Abstractions\obj\Debug\net8.0\ZQH.Abp.BackgroundTasks.Abstractions.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.BackgroundTasks.Abstractions\obj\Debug\net8.0\ZQH.Abp.BackgroundTasks.Abstractions.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.BackgroundTasks.Abstractions\obj\Debug\net8.0\ZQH.Abp.BackgroundTasks.Abstractions.sourcelink.json
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.BackgroundTasks.Abstractions\obj\Debug\net8.0\ZQH.Abp.BackgroundTasks.Abstractions.dll
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.BackgroundTasks.Abstractions\obj\Debug\net8.0\refint\ZQH.Abp.BackgroundTasks.Abstractions.dll
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.BackgroundTasks.Abstractions\obj\Debug\net8.0\ZQH.Abp.BackgroundTasks.Abstractions.pdb
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.BackgroundTasks.Abstractions\obj\Debug\net8.0\ref\ZQH.Abp.BackgroundTasks.Abstractions.dll
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.BackgroundTasks.Abstractions\obj\Debug\net8.0\ZQH.Abp.BackgroundTasks.Abstractions.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.BackgroundTasks.Abstractions\obj\Debug\net8.0\ZQH.Abp.BackgroundTasks.Abstractions.csproj.Fody.RuntimeCopyLocal.cache

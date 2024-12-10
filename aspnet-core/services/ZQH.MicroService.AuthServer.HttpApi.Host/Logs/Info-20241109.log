@@ -1,0 +1,114 @@
+2024-11-09 00:17:16 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [139] - RabbitMQ consumer cancelled. --> amq.ctag-1ZKdUK0rYxQ72W1CWF2m6A
+2024-11-09 00:17:16 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [139] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-09 00:39:54 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [47] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__Subtract_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `a`
+FROM `AbpSessions` AS `a`
+WHERE (@__ef_filter__p_0 OR (`a`.`TenantId` IS NULL)) AND (`a`.`LastAccessed` IS NULL OR (`a`.`LastAccessed` < @__Subtract_0))
+2024-11-09 00:40:00 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [13556] [71] - Lock is acquired for TokenCleanupBackgroundWorker
+2024-11-09 00:40:00 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [71] - Start cleanup.
+2024-11-09 00:40:00 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [71] - Start cleanup tokens.
+2024-11-09 00:40:00 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [71] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Status`
+    FROM `OpenIddictAuthorizations` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`AuthorizationId` = `t`.`Id`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` NOT IN ('inactive', 'valid') OR (`o`.`Status` IS NULL)) OR (`t`.`Id` IS NOT NULL AND ((`t`.`Status` <> 'valid') OR `t`.`Status` IS NULL))) OR (`o`.`ExpirationDate` < UTC_TIMESTAMP()))
+2024-11-09 00:40:00 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [71] - Start cleanup authorizations.
+2024-11-09 00:40:00 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [71] - Executed DbCommand (0ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT `o`.`Id`
+FROM `OpenIddictAuthorizations` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`AuthorizationId`
+    FROM `OpenIddictTokens` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`Id` = `t`.`AuthorizationId`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` <> 'valid') OR `o`.`Status` IS NULL) OR ((`o`.`Type` = 'ad-hoc') AND `t`.`Id` IS NULL))
+2024-11-09 00:40:00 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [71] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+WHERE FALSE
+2024-11-09 00:40:00 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [71] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictAuthorizations` AS `o`
+WHERE FALSE
+2024-11-09 00:40:00 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [13556] [71] - Lock is released for TokenCleanupBackgroundWorker
+2024-11-09 05:20:42 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [73] - RabbitMQ consumer cancelled. --> amq.ctag-1ZKdUK0rYxQ72W1CWF2m6A
+2024-11-09 05:20:44 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [73] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-09 15:36:19 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [121] - RabbitMQ consumer cancelled. --> amq.ctag-1ZKdUK0rYxQ72W1CWF2m6A
+2024-11-09 15:36:20 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [121] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-09 17:22:45 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [67] - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__Subtract_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `a`
+FROM `AbpSessions` AS `a`
+WHERE (@__ef_filter__p_0 OR (`a`.`TenantId` IS NULL)) AND (`a`.`LastAccessed` IS NULL OR (`a`.`LastAccessed` < @__Subtract_0))
+2024-11-09 17:22:51 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [13556] [67] - Lock is acquired for TokenCleanupBackgroundWorker
+2024-11-09 17:22:51 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [67] - Start cleanup.
+2024-11-09 17:22:51 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [67] - Start cleanup tokens.
+2024-11-09 17:22:51 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [67] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Status`
+    FROM `OpenIddictAuthorizations` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`AuthorizationId` = `t`.`Id`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` NOT IN ('inactive', 'valid') OR (`o`.`Status` IS NULL)) OR (`t`.`Id` IS NOT NULL AND ((`t`.`Status` <> 'valid') OR `t`.`Status` IS NULL))) OR (`o`.`ExpirationDate` < UTC_TIMESTAMP()))
+2024-11-09 17:22:51 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [67] - Start cleanup authorizations.
+2024-11-09 17:22:51 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [67] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT `o`.`Id`
+FROM `OpenIddictAuthorizations` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`AuthorizationId`
+    FROM `OpenIddictTokens` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`Id` = `t`.`AuthorizationId`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` <> 'valid') OR `o`.`Status` IS NULL) OR ((`o`.`Type` = 'ad-hoc') AND `t`.`Id` IS NULL))
+2024-11-09 17:22:51 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [67] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+WHERE FALSE
+2024-11-09 17:22:51 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [67] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictAuthorizations` AS `o`
+WHERE FALSE
+2024-11-09 17:22:51 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [13556] [67] - Lock is released for TokenCleanupBackgroundWorker
+2024-11-09 19:08:52 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [73] - RabbitMQ consumer cancelled. --> amq.ctag-1ZKdUK0rYxQ72W1CWF2m6A
+2024-11-09 19:09:03 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [73] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-09 23:10:17 [WRN] [DotNetCore.CAP.Processor.TransportCheckProcessor] [13556] [69] - Transport connection is unhealthy, reconnection...
+2024-11-09 23:10:34 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [73] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__Subtract_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `a`
+FROM `AbpSessions` AS `a`
+WHERE (@__ef_filter__p_0 OR (`a`.`TenantId` IS NULL)) AND (`a`.`LastAccessed` IS NULL OR (`a`.`LastAccessed` < @__Subtract_0))
+2024-11-09 23:10:39 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [13556] [69] - Lock is acquired for TokenCleanupBackgroundWorker
+2024-11-09 23:10:39 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [69] - Start cleanup.
+2024-11-09 23:10:39 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [69] - Start cleanup tokens.
+2024-11-09 23:10:39 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [103] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Status`
+    FROM `OpenIddictAuthorizations` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`AuthorizationId` = `t`.`Id`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` NOT IN ('inactive', 'valid') OR (`o`.`Status` IS NULL)) OR (`t`.`Id` IS NOT NULL AND ((`t`.`Status` <> 'valid') OR `t`.`Status` IS NULL))) OR (`o`.`ExpirationDate` < UTC_TIMESTAMP()))
+2024-11-09 23:10:39 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [103] - Start cleanup authorizations.
+2024-11-09 23:10:39 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [103] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT `o`.`Id`
+FROM `OpenIddictAuthorizations` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`AuthorizationId`
+    FROM `OpenIddictTokens` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`Id` = `t`.`AuthorizationId`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` <> 'valid') OR `o`.`Status` IS NULL) OR ((`o`.`Type` = 'ad-hoc') AND `t`.`Id` IS NULL))
+2024-11-09 23:10:39 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [103] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+WHERE FALSE
+2024-11-09 23:10:39 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [103] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictAuthorizations` AS `o`
+WHERE FALSE
+2024-11-09 23:10:39 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [13556] [103] - Lock is released for TokenCleanupBackgroundWorker

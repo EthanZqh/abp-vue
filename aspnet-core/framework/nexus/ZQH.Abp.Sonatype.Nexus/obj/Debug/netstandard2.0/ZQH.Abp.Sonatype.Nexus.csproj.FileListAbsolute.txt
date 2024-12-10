@@ -1,0 +1,13 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.Sonatype.Nexus.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.Sonatype.Nexus.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.Sonatype.Nexus.pdb
+E:\abp-vue\aspnet-core\framework\nexus\ZQH.Abp.Sonatype.Nexus\obj\Debug\netstandard2.0\ZQH.Abp.Sonatype.Nexus.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\nexus\ZQH.Abp.Sonatype.Nexus\obj\Debug\netstandard2.0\ZQH.Abp.Sonatype.Nexus.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\nexus\ZQH.Abp.Sonatype.Nexus\obj\Debug\netstandard2.0\ZQH.Abp.Sonatype.Nexus.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\nexus\ZQH.Abp.Sonatype.Nexus\obj\Debug\netstandard2.0\ZQH.Abp.Sonatype.Nexus.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\nexus\ZQH.Abp.Sonatype.Nexus\obj\Debug\netstandard2.0\ZQH.Abp.Sonatype.Nexus.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\nexus\ZQH.Abp.Sonatype.Nexus\obj\Debug\netstandard2.0\ZQH.Abp.Sonatype.Nexus.sourcelink.json
+E:\abp-vue\aspnet-core\framework\nexus\ZQH.Abp.Sonatype.Nexus\obj\Debug\netstandard2.0\ZQH.Abp.Sonatype.Nexus.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\nexus\ZQH.Abp.Sonatype.Nexus\obj\Debug\netstandard2.0\ZQH.Abp.Sonatype.Nexus.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\nexus\ZQH.Abp.Sonatype.Nexus\obj\Debug\netstandard2.0\ZQH.Abp.Sonatype.Nexus.dll
+E:\abp-vue\aspnet-core\framework\nexus\ZQH.Abp.Sonatype.Nexus\obj\Debug\netstandard2.0\ZQH.Abp.Sonatype.Nexus.pdb

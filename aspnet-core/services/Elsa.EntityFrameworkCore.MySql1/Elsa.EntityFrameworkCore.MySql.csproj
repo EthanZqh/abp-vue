@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<!--<Nullable>enable</Nullable>-->
+	</PropertyGroup>
+    <!--<PropertyGroup>
+        <Description>
+            Provides MySQL EF Core migrations for various modules.
+        </Description>
+        <PackageTags>elsa module persistence efcore mysql</PackageTags>
+    </PropertyGroup>-->
+
+    <ItemGroup>
+        <PackageReference Include="Elsa.EntityFrameworkCore"  />
+        <PackageReference Include="JetBrains.Annotations"  />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" >
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Pomelo.EntityFrameworkCore.MySql"  />
+        <PackageReference Include="Pomelo.EntityFrameworkCore.MySql.Design"  />
+    </ItemGroup>
+
+</Project>

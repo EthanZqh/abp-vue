@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ZQH.MicroService.TaskManagement.HttpApi.Host.props" />
+</Project>

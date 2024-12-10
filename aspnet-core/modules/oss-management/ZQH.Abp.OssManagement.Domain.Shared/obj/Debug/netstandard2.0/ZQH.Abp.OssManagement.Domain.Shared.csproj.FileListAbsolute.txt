@@ -1,0 +1,13 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.OssManagement.Domain.Shared.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.OssManagement.Domain.Shared.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.OssManagement.Domain.Shared.pdb
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Domain.Shared\obj\Debug\netstandard2.0\ZQH.Abp.OssManagement.Domain.Shared.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Domain.Shared\obj\Debug\netstandard2.0\ZQH.Abp.OssManagement.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Domain.Shared\obj\Debug\netstandard2.0\ZQH.Abp.OssManagement.Domain.Shared.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Domain.Shared\obj\Debug\netstandard2.0\ZQH.Abp.OssManagement.Domain.Shared.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Domain.Shared\obj\Debug\netstandard2.0\ZQH.Abp.OssManagement.Domain.Shared.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Domain.Shared\obj\Debug\netstandard2.0\ZQH.Abp.OssManagement.Domain.Shared.sourcelink.json
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Domain.Shared\obj\Debug\netstandard2.0\ZQH.Abp.OssManagement.Domain.Shared.dll
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Domain.Shared\obj\Debug\netstandard2.0\ZQH.Abp.OssManagement.Domain.Shared.pdb
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Domain.Shared\obj\Debug\netstandard2.0\ZQH.Abp.OssManagement.Domain.Shared.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.Domain.Shared\obj\Debug\netstandard2.0\ZQH.Abp.OssManagement.Domain.Shared.csproj.Fody.RuntimeCopyLocal.cache

@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace />
+    <!--<Nullable>enable</Nullable>-->
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ZQH.Abp.Onboarding.Application.Contracts\ZQH.Abp.Onboarding.Application.Contracts.csproj" />
+    <ProjectReference Include="..\ZQH.Abp.Onboarding.Domain\ZQH.Abp.Onboarding.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

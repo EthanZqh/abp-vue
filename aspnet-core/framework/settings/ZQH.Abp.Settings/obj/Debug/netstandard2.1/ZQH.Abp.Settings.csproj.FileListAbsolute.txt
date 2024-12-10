@@ -1,0 +1,13 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Settings.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Settings.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Settings.pdb
+E:\abp-vue\aspnet-core\framework\settings\ZQH.Abp.Settings\obj\Debug\netstandard2.1\ZQH.Abp.Settings.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\settings\ZQH.Abp.Settings\obj\Debug\netstandard2.1\ZQH.Abp.Settings.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\settings\ZQH.Abp.Settings\obj\Debug\netstandard2.1\ZQH.Abp.Settings.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\settings\ZQH.Abp.Settings\obj\Debug\netstandard2.1\ZQH.Abp.Settings.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\settings\ZQH.Abp.Settings\obj\Debug\netstandard2.1\ZQH.Abp.Settings.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\settings\ZQH.Abp.Settings\obj\Debug\netstandard2.1\ZQH.Abp.Settings.sourcelink.json
+E:\abp-vue\aspnet-core\framework\settings\ZQH.Abp.Settings\obj\Debug\netstandard2.1\ZQH.Abp.Settings.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\settings\ZQH.Abp.Settings\obj\Debug\netstandard2.1\ZQH.Abp.Settings.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\settings\ZQH.Abp.Settings\obj\Debug\netstandard2.1\ZQH.Abp.Settings.dll
+E:\abp-vue\aspnet-core\framework\settings\ZQH.Abp.Settings\obj\Debug\netstandard2.1\ZQH.Abp.Settings.pdb

@@ -1,0 +1,13 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.BackgroundWorkers.Hangfire.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.BackgroundWorkers.Hangfire.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.BackgroundWorkers.Hangfire.pdb
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.BackgroundWorkers.Hangfire\obj\Debug\netstandard2.0\ZQH.Abp.BackgroundWorkers.Hangfire.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.BackgroundWorkers.Hangfire\obj\Debug\netstandard2.0\ZQH.Abp.BackgroundWorkers.Hangfire.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.BackgroundWorkers.Hangfire\obj\Debug\netstandard2.0\ZQH.Abp.BackgroundWorkers.Hangfire.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.BackgroundWorkers.Hangfire\obj\Debug\netstandard2.0\ZQH.Abp.BackgroundWorkers.Hangfire.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.BackgroundWorkers.Hangfire\obj\Debug\netstandard2.0\ZQH.Abp.BackgroundWorkers.Hangfire.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.BackgroundWorkers.Hangfire\obj\Debug\netstandard2.0\ZQH.Abp.BackgroundWorkers.Hangfire.sourcelink.json
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.BackgroundWorkers.Hangfire\obj\Debug\netstandard2.0\ZQH.Abp.BackgroundWorkers.Hangfire.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.BackgroundWorkers.Hangfire\obj\Debug\netstandard2.0\ZQH.Abp.BackgroundWorkers.Hangfire.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.BackgroundWorkers.Hangfire\obj\Debug\netstandard2.0\ZQH.Abp.BackgroundWorkers.Hangfire.dll
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.BackgroundWorkers.Hangfire\obj\Debug\netstandard2.0\ZQH.Abp.BackgroundWorkers.Hangfire.pdb

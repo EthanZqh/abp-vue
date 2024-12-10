@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;netstandard2.1;net8.0</TargetFrameworks>
+		<AssemblyName>LINGYUN.Abp.Webhooks.Saas</AssemblyName>
+		<PackageId>LINGYUN.Abp.Webhooks.Saas</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+	</PropertyGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="LINGYUN\Abp\Webhooks\Saas\Localization\Resources\*.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="LINGYUN\Abp\Webhooks\Saas\Localization\Resources\en.json" />
+	  <None Remove="LINGYUN\Abp\Webhooks\Saas\Localization\Resources\zh-Hans.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Volo.Abp.Ddd.Domain" />
+		<PackageReference Include="Volo.Abp.EventBus" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\saas\ZQH.Abp.Saas.Domain.Shared\ZQH.Abp.Saas.Domain.Shared.csproj" />
+		<ProjectReference Include="..\ZQH.Abp.Webhooks\ZQH.Abp.Webhooks.csproj" />
+	</ItemGroup>
+
+</Project>

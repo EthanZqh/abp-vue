@@ -1,0 +1,17 @@
+E:\abp-vue\gateways\internal\ZQH.MicroService.Internal.ApiGateway\LocalNuget\netstandard2.0\ZQH.Abp.AuditLogging.Elasticsearch.deps.json
+E:\abp-vue\gateways\internal\ZQH.MicroService.Internal.ApiGateway\LocalNuget\netstandard2.0\ZQH.Abp.AuditLogging.Elasticsearch.dll
+E:\abp-vue\gateways\internal\ZQH.MicroService.Internal.ApiGateway\LocalNuget\netstandard2.0\ZQH.Abp.AuditLogging.Elasticsearch.pdb
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.AuditLogging.Elasticsearch.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.AuditLogging.Elasticsearch.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.AuditLogging.Elasticsearch.pdb
+E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging.Elasticsearch\obj\Debug\netstandard2.0\ZQH.Abp.AuditLogging.Elasticsearch.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging.Elasticsearch\obj\Debug\netstandard2.0\ZQH.Abp.AuditLogging.Elasticsearch.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging.Elasticsearch\obj\Debug\netstandard2.0\ZQH.Abp.AuditLogging.Elasticsearch.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging.Elasticsearch\obj\Debug\netstandard2.0\ZQH.Abp.AuditLogging.Elasticsearch.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging.Elasticsearch\obj\Debug\netstandard2.0\ZQH.Abp.AuditLogging.Elasticsearch.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging.Elasticsearch\obj\Debug\netstandard2.0\ZQH.Abp.AuditLogging.Elasticsearch.sourcelink.json
+E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging.Elasticsearch\obj\Debug\netstandard2.0\ZQH.Abp.AuditLogging.Elasticsearch.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging.Elasticsearch\obj\Debug\netstandard2.0\ZQH.Abp.AuditLogging.Elasticsearch.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging.Elasticsearch\obj\Debug\netstandard2.0\ZQH.Abp.AuditLogging.Elasticsearch.csproj.CopyComplete
+E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging.Elasticsearch\obj\Debug\netstandard2.0\ZQH.Abp.AuditLogging.Elasticsearch.dll
+E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging.Elasticsearch\obj\Debug\netstandard2.0\ZQH.Abp.AuditLogging.Elasticsearch.pdb

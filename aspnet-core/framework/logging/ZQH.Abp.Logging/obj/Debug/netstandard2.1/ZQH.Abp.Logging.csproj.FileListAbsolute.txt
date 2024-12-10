@@ -1,0 +1,16 @@
+E:\abp-vue\gateways\internal\ZQH.MicroService.Internal.ApiGateway\LocalNuget\netstandard2.1\ZQH.Abp.Logging.deps.json
+E:\abp-vue\gateways\internal\ZQH.MicroService.Internal.ApiGateway\LocalNuget\netstandard2.1\ZQH.Abp.Logging.dll
+E:\abp-vue\gateways\internal\ZQH.MicroService.Internal.ApiGateway\LocalNuget\netstandard2.1\ZQH.Abp.Logging.pdb
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Logging.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Logging.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.Logging.pdb
+E:\abp-vue\aspnet-core\framework\logging\ZQH.Abp.Logging\obj\Debug\netstandard2.1\ZQH.Abp.Logging.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\logging\ZQH.Abp.Logging\obj\Debug\netstandard2.1\ZQH.Abp.Logging.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\logging\ZQH.Abp.Logging\obj\Debug\netstandard2.1\ZQH.Abp.Logging.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\logging\ZQH.Abp.Logging\obj\Debug\netstandard2.1\ZQH.Abp.Logging.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\logging\ZQH.Abp.Logging\obj\Debug\netstandard2.1\ZQH.Abp.Logging.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\logging\ZQH.Abp.Logging\obj\Debug\netstandard2.1\ZQH.Abp.Logging.sourcelink.json
+E:\abp-vue\aspnet-core\framework\logging\ZQH.Abp.Logging\obj\Debug\netstandard2.1\ZQH.Abp.Logging.dll
+E:\abp-vue\aspnet-core\framework\logging\ZQH.Abp.Logging\obj\Debug\netstandard2.1\ZQH.Abp.Logging.pdb
+E:\abp-vue\aspnet-core\framework\logging\ZQH.Abp.Logging\obj\Debug\netstandard2.1\ZQH.Abp.Logging.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\logging\ZQH.Abp.Logging\obj\Debug\netstandard2.1\ZQH.Abp.Logging.csproj.Fody.RuntimeCopyLocal.cache

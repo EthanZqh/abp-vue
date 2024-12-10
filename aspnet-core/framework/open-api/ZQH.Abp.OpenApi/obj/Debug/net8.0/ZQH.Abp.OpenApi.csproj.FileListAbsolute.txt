@@ -1,0 +1,15 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.OpenApi.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.OpenApi.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.OpenApi.pdb
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi\obj\Debug\net8.0\ZQH.Abp.OpenApi.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi\obj\Debug\net8.0\ZQH.Abp.OpenApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi\obj\Debug\net8.0\ZQH.Abp.OpenApi.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi\obj\Debug\net8.0\ZQH.Abp.OpenApi.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi\obj\Debug\net8.0\ZQH.Abp.OpenApi.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi\obj\Debug\net8.0\ZQH.Abp.OpenApi.sourcelink.json
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi\obj\Debug\net8.0\ZQH.Abp.OpenApi.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi\obj\Debug\net8.0\ZQH.Abp.OpenApi.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi\obj\Debug\net8.0\ZQH.Abp.OpenApi.dll
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi\obj\Debug\net8.0\refint\ZQH.Abp.OpenApi.dll
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi\obj\Debug\net8.0\ZQH.Abp.OpenApi.pdb
+E:\abp-vue\aspnet-core\framework\open-api\ZQH.Abp.OpenApi\obj\Debug\net8.0\ref\ZQH.Abp.OpenApi.dll

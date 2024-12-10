@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>ZQH.Abp.TaskManagement.HttpApi</AssemblyName>
+		<PackageId>ZQH.Abp.TaskManagement.HttpApi</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Volo.Abp.AspNetCore.Mvc" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\framework\dynamic-queryable\ZQH.Abp.Dynamic.Queryable.HttpApi\ZQH.Abp.Dynamic.Queryable.HttpApi.csproj" />
+	  <ProjectReference Include="..\ZQH.Abp.TaskManagement.Application.Contracts\ZQH.Abp.TaskManagement.Application.Contracts.csproj" />
+	</ItemGroup>
+
+</Project>

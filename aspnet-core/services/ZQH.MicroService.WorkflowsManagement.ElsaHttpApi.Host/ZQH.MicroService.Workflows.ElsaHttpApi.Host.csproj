@@ -1,0 +1,108 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+	<Import Project="..\..\..\common.secrets.props" />
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <!--<Nullable>enable</Nullable>-->
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Remove="Localization\Resources\en.json" />
+    <Content Remove="Localization\Resources\zh-Hans.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Localization\Resources\en.json" />
+    <EmbeddedResource Include="Localization\Resources\zh-Hans.json" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AgileConfig.Client" />
+		<PackageReference Include="Elsa.EntityFrameworkCore" />
+		<PackageReference Include="Elsa.EntityFrameworkCore.SqlServer" />
+		<PackageReference Include="JetBrains.Annotations" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Serilog.AspNetCore" />
+		<PackageReference Include="Serilog.Enrichers.Assembly" />
+		<PackageReference Include="Serilog.Enrichers.Environment" />
+		<PackageReference Include="Serilog.Enrichers.Process" />
+		<PackageReference Include="Serilog.Enrichers.Thread" />
+		<PackageReference Include="Serilog.Settings.Configuration" />
+		<PackageReference Include="Serilog.Sinks.Elasticsearch" />
+		<PackageReference Include="Serilog.Sinks.File" />
+		<PackageReference Include="Swashbuckle.AspNetCore" />
+		<PackageReference Include="Volo.Abp.AspNetCore.Authentication.JwtBearer" />
+		<PackageReference Include="Volo.Abp.AspNetCore.MultiTenancy" />
+		<PackageReference Include="Volo.Abp.AspNetCore.Mvc" />
+		<PackageReference Include="Volo.Abp.AspNetCore.Mvc.NewtonsoftJson" />
+		<PackageReference Include="Volo.Abp.AspNetCore.Serilog" />
+		<PackageReference Include="Volo.Abp.Autofac" />
+		<PackageReference Include="Volo.Abp.Caching.StackExchangeRedis" />
+		<PackageReference Include="Volo.Abp.DistributedLocking" />
+		<PackageReference Include="Volo.Abp.Ddd.Application" />
+		<PackageReference Include="Volo.Abp.EntityFrameworkCore.MySQL" />
+		<PackageReference Include="Volo.Abp.Http.Client" />
+		<PackageReference Include="Volo.Abp.Swashbuckle" />
+		<PackageReference Include="Volo.Abp.FeatureManagement.EntityFrameworkCore" />
+		<PackageReference Include="Volo.Abp.PermissionManagement.EntityFrameworkCore" />
+		<PackageReference Include="DotNetCore.CAP.Dashboard" />
+		<PackageReference Include="DotNetCore.CAP.MySql" />
+		<PackageReference Include="DotNetCore.CAP.RabbitMQ" />
+		<PackageReference Include="DotNetCore.CAP.OpenTelemetry" />
+		<PackageReference Include="Quartz.Serialization.Json" />
+		<PackageReference Include="DistributedLock.Redis" />
+		<PackageReference Include="OpenTelemetry.Extensions.Hosting" />
+		<PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" />
+		<PackageReference Include="OpenTelemetry.Exporter.Zipkin" />
+		<PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" />
+		<PackageReference Include="OpenTelemetry.Instrumentation.Http" />
+		<PackageReference Include="OpenTelemetry.Instrumentation.Runtime" />
+		<PackageReference Include="OpenTelemetry.Instrumentation.EntityFrameworkCore" />
+		<PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" />
+		<PackageReference Include="Microsoft.AspNetCore.SignalR.StackExchangeRedis" />
+
+
+		<!--<PackageReference Include="Elsa" Version="3.2.0" />
+	  <PackageReference Include="Elsa.CSharp" Version="3.2.0" />
+	  <PackageReference Include="Elsa.Email" Version="3.2.0" />
+	  <PackageReference Include="Elsa.EntityFrameworkCore" Version="3.2.0" />
+	  <PackageReference Include="Elsa.EntityFrameworkCore.SqlServer" Version="3.2.0" />
+	  <PackageReference Include="Elsa.Identity" Version="3.2.0" />
+	  <PackageReference Include="Elsa.JavaScript" Version="3.2.0" />
+	  <PackageReference Include="Elsa.Scheduling" Version="3.2.0" />
+	  <PackageReference Include="Elsa.Webhooks" Version="3.2.0" />
+	  <PackageReference Include="Elsa.Workflows.Api" Version="3.2.0" />
+	  <PackageReference Include="JetBrains.Annotations" Version="2023.3.0" />
+	  <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.8" />-->
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\framework\auditing\ZQH.Abp.AuditLogging.Elasticsearch\ZQH.Abp.AuditLogging.Elasticsearch.csproj" />
+	  <ProjectReference Include="..\..\framework\authorization\ZQH.Abp.Authorization.OrganizationUnits\ZQH.Abp.Authorization.OrganizationUnits.csproj" />
+	  <ProjectReference Include="..\..\framework\common\ZQH.Abp.AspNetCore.HttpOverrides\ZQH.Abp.AspNetCore.HttpOverrides.csproj" />
+	  <ProjectReference Include="..\..\framework\common\ZQH.Abp.Data.DbMigrator\ZQH.Abp.Data.DbMigrator.csproj" />
+	  <ProjectReference Include="..\..\framework\common\ZQH.Abp.EventBus.CAP\ZQH.Abp.EventBus.CAP.csproj" />
+	  <ProjectReference Include="..\..\framework\common\ZQH.Abp.ExceptionHandling\ZQH.Abp.ExceptionHandling.csproj" />
+	  <ProjectReference Include="..\..\framework\common\ZQH.Abp.Http.Client.Wrapper\ZQH.Abp.Http.Client.Wrapper.csproj" />
+	  <ProjectReference Include="..\..\framework\localization\ZQH.Abp.AspNetCore.Mvc.Localization\ZQH.Abp.AspNetCore.Mvc.Localization.csproj" />
+	  <ProjectReference Include="..\..\framework\localization\ZQH.Abp.Localization.CultureMap\ZQH.Abp.Localization.CultureMap.csproj" />
+	  <ProjectReference Include="..\..\framework\logging\ZQH.Abp.Serilog.Enrichers.Application\ZQH.Abp.Serilog.Enrichers.Application.csproj" />
+	  <ProjectReference Include="..\..\framework\logging\ZQH.Abp.Serilog.Enrichers.UniqueId\ZQH.Abp.Serilog.Enrichers.UniqueId.csproj" />
+	  <ProjectReference Include="..\..\framework\mvc\ZQH.Abp.AspNetCore.Mvc.Wrapper\ZQH.Abp.AspNetCore.Mvc.Wrapper.csproj" />
+	  <ProjectReference Include="..\..\framework\tenants\ZQH.Abp.MultiTenancy.Editions\ZQH.Abp.MultiTenancy.Editions.csproj" />
+	  <ProjectReference Include="..\..\migrations\ZQH.MicroService.Onboarding.EntityFrameworkCore\ZQH.MicroService.Onboarding.EntityFrameworkCore.csproj" />
+	  <ProjectReference Include="..\..\modules\identity\ZQH.Abp.Identity.EntityFrameworkCore\ZQH.Abp.Identity.EntityFrameworkCore.csproj" />
+	  <ProjectReference Include="..\..\modules\identity\ZQH.Abp.Identity.Session.AspNetCore\ZQH.Abp.Identity.Session.AspNetCore.csproj" />
+	  <ProjectReference Include="..\..\modules\localization-management\ZQH.Abp.LocalizationManagement.EntityFrameworkCore\ZQH.Abp.LocalizationManagement.EntityFrameworkCore.csproj" />
+	  <ProjectReference Include="..\..\modules\Onboarding\ZQH.Abp.Onboarding.Application\ZQH.Abp.Onboarding.Application.csproj" />
+	  <ProjectReference Include="..\..\modules\Onboarding\ZQH.Abp.Onboarding.EntityFrameworkCore\ZQH.Abp.Onboarding.EntityFrameworkCore.csproj" />
+	  <ProjectReference Include="..\..\modules\Onboarding\ZQH.Abp.Onboarding.HttpApi\ZQH.Abp.Onboarding.HttpApi.csproj" />
+	  <ProjectReference Include="..\..\modules\saas\ZQH.Abp.Saas.EntityFrameworkCore\ZQH.Abp.Saas.EntityFrameworkCore.csproj" />
+	  <ProjectReference Include="..\..\modules\task-management\ZQH.Abp.BackgroundTasks.Quartz\ZQH.Abp.BackgroundTasks.Quartz.csproj" />
+	</ItemGroup>
+
+
+</Project>

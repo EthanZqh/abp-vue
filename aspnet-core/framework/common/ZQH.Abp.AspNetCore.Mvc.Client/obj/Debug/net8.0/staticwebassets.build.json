@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7UUJEGdgja6YnjLZNNBOpgrt7gBi2vGKz7Y00DOMLmM=",
+  "Source": "ZQH.Abp.AspNetCore.Mvc.Client",
+  "BasePath": "_content/ZQH.Abp.AspNetCore.Mvc.Client",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,24 @@
+2024-11-13 00:20:24 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [127] - RabbitMQ consumer cancelled. --> amq.ctag-jyoykYn76fR61Xo_dQFW2Q
+2024-11-13 00:20:27 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [127] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-13 00:20:27 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [127] - RabbitMQ consumer cancelled. --> amq.ctag-V2l-Ma47Yelorjz4JK5zVQ
+2024-11-13 00:20:28 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [127] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-13 00:20:30 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [143] - RabbitMQ consumer registered. --> amq.ctag-jyoykYn76fR61Xo_dQFW2Q
+2024-11-13 00:20:30 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [127] - RabbitMQ consumer registered. --> amq.ctag-V2l-Ma47Yelorjz4JK5zVQ
+2024-11-13 10:48:40 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [164] - RabbitMQ consumer cancelled. --> amq.ctag-jyoykYn76fR61Xo_dQFW2Q
+2024-11-13 10:48:42 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [164] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-13 10:48:44 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [164] - RabbitMQ consumer cancelled. --> amq.ctag-V2l-Ma47Yelorjz4JK5zVQ
+2024-11-13 10:48:44 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [164] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-13 10:48:45 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [26] - RabbitMQ consumer registered. --> amq.ctag-jyoykYn76fR61Xo_dQFW2Q
+2024-11-13 10:48:45 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [164] - RabbitMQ consumer registered. --> amq.ctag-V2l-Ma47Yelorjz4JK5zVQ
+2024-11-13 12:12:43 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [164] - RabbitMQ consumer cancelled. --> amq.ctag-jyoykYn76fR61Xo_dQFW2Q
+2024-11-13 12:12:43 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [164] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-13 12:12:43 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [164] - RabbitMQ consumer cancelled. --> amq.ctag-V2l-Ma47Yelorjz4JK5zVQ
+2024-11-13 12:12:43 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [164] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-13 12:12:48 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [36] - RabbitMQ consumer registered. --> amq.ctag-jyoykYn76fR61Xo_dQFW2Q
+2024-11-13 12:12:48 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [126] - RabbitMQ consumer registered. --> amq.ctag-V2l-Ma47Yelorjz4JK5zVQ
+2024-11-13 12:40:21 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [36] - RabbitMQ consumer cancelled. --> amq.ctag-jyoykYn76fR61Xo_dQFW2Q
+2024-11-13 12:40:30 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [36] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-13 12:40:33 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [164] - RabbitMQ consumer cancelled. --> amq.ctag-V2l-Ma47Yelorjz4JK5zVQ
+2024-11-13 12:40:34 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [164] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-13 12:40:34 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [36] - RabbitMQ consumer registered. --> amq.ctag-jyoykYn76fR61Xo_dQFW2Q
+2024-11-13 12:40:34 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [126] - RabbitMQ consumer registered. --> amq.ctag-V2l-Ma47Yelorjz4JK5zVQ

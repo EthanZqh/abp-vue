@@ -1,0 +1,13 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.TextTemplating.Scriban.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.TextTemplating.Scriban.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.TextTemplating.Scriban.pdb
+E:\abp-vue\aspnet-core\modules\text-templating\ZQH.Abp.TextTemplating.Scriban\obj\Debug\netstandard2.0\ZQH.Abp.TextTemplating.Scriban.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\text-templating\ZQH.Abp.TextTemplating.Scriban\obj\Debug\netstandard2.0\ZQH.Abp.TextTemplating.Scriban.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\text-templating\ZQH.Abp.TextTemplating.Scriban\obj\Debug\netstandard2.0\ZQH.Abp.TextTemplating.Scriban.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\text-templating\ZQH.Abp.TextTemplating.Scriban\obj\Debug\netstandard2.0\ZQH.Abp.TextTemplating.Scriban.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\text-templating\ZQH.Abp.TextTemplating.Scriban\obj\Debug\netstandard2.0\ZQH.Abp.TextTemplating.Scriban.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\text-templating\ZQH.Abp.TextTemplating.Scriban\obj\Debug\netstandard2.0\ZQH.Abp.TextTemplating.Scriban.sourcelink.json
+E:\abp-vue\aspnet-core\modules\text-templating\ZQH.Abp.TextTemplating.Scriban\obj\Debug\netstandard2.0\ZQH.Abp.TextTemplating.Scriban.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\text-templating\ZQH.Abp.TextTemplating.Scriban\obj\Debug\netstandard2.0\ZQH.Abp.TextTemplating.Scriban.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\text-templating\ZQH.Abp.TextTemplating.Scriban\obj\Debug\netstandard2.0\ZQH.Abp.TextTemplating.Scriban.dll
+E:\abp-vue\aspnet-core\modules\text-templating\ZQH.Abp.TextTemplating.Scriban\obj\Debug\netstandard2.0\ZQH.Abp.TextTemplating.Scriban.pdb

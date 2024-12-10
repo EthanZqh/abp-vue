@@ -1,0 +1,12 @@
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.EntityFrameworkCore\bin\Debug\net8.0\ZQH.Abp.Onboarding.Application.EntityFrameworkCore.deps.json
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.EntityFrameworkCore\bin\Debug\net8.0\ZQH.Abp.Onboarding.Application.EntityFrameworkCore.dll
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.EntityFrameworkCore\bin\Debug\net8.0\ZQH.Abp.Onboarding.Application.EntityFrameworkCore.pdb
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.Onboarding.Application.EntityFrameworkCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.Onboarding.Application.EntityFrameworkCore.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.Onboarding.Application.EntityFrameworkCore.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.Onboarding.Application.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.Onboarding.Application.EntityFrameworkCore.sourcelink.json
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.Onboarding.Application.EntityFrameworkCore.dll
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.EntityFrameworkCore\obj\Debug\net8.0\refint\ZQH.Abp.Onboarding.Application.EntityFrameworkCore.dll
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.Onboarding.Application.EntityFrameworkCore.pdb
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.EntityFrameworkCore\obj\Debug\net8.0\ref\ZQH.Abp.Onboarding.Application.EntityFrameworkCore.dll

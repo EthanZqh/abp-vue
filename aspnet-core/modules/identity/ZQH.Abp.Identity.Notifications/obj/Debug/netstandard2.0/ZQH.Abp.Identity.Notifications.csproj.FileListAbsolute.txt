@@ -1,0 +1,14 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.Identity.Notifications.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.Identity.Notifications.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.Identity.Notifications.pdb
+E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Notifications\obj\Debug\netstandard2.0\ZQH.Abp.Identity.Notifications.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Notifications\obj\Debug\netstandard2.0\ZQH.Abp.Identity.Notifications.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Notifications\obj\Debug\netstandard2.0\ZQH.Abp.Identity.Notifications.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Notifications\obj\Debug\netstandard2.0\ZQH.Abp.Identity.Notifications.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Notifications\obj\Debug\netstandard2.0\ZQH.Abp.Identity.Notifications.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Notifications\obj\Debug\netstandard2.0\ZQH.Abp.Identity.Notifications.sourcelink.json
+E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Notifications\obj\Debug\netstandard2.0\ZQH.Abp.Identity.Notifications.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Notifications\obj\Debug\netstandard2.0\ZQH.Abp.Identity.Notifications.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Notifications\obj\Debug\netstandard2.0\ZQH.Abp.Identity.Notifications.csproj.CopyComplete
+E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Notifications\obj\Debug\netstandard2.0\ZQH.Abp.Identity.Notifications.dll
+E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Notifications\obj\Debug\netstandard2.0\ZQH.Abp.Identity.Notifications.pdb

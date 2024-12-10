@@ -1,0 +1,15 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.CachingManagement.Domain.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.CachingManagement.Domain.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.CachingManagement.Domain.pdb
+E:\abp-vue\aspnet-core\modules\caching-management\ZQH.Abp.CachingManagement.Domain\obj\Debug\net8.0\ZQH.Abp.CachingManagement.Domain.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\caching-management\ZQH.Abp.CachingManagement.Domain\obj\Debug\net8.0\ZQH.Abp.CachingManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\caching-management\ZQH.Abp.CachingManagement.Domain\obj\Debug\net8.0\ZQH.Abp.CachingManagement.Domain.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\caching-management\ZQH.Abp.CachingManagement.Domain\obj\Debug\net8.0\ZQH.Abp.CachingManagement.Domain.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\caching-management\ZQH.Abp.CachingManagement.Domain\obj\Debug\net8.0\ZQH.Abp.CachingManagement.Domain.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\caching-management\ZQH.Abp.CachingManagement.Domain\obj\Debug\net8.0\ZQH.Abp.CachingManagement.Domain.sourcelink.json
+E:\abp-vue\aspnet-core\modules\caching-management\ZQH.Abp.CachingManagement.Domain\obj\Debug\net8.0\ZQH.Abp.CachingManagement.Domain.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\caching-management\ZQH.Abp.CachingManagement.Domain\obj\Debug\net8.0\ZQH.Abp.CachingManagement.Domain.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\caching-management\ZQH.Abp.CachingManagement.Domain\obj\Debug\net8.0\ZQH.Abp.CachingManagement.Domain.dll
+E:\abp-vue\aspnet-core\modules\caching-management\ZQH.Abp.CachingManagement.Domain\obj\Debug\net8.0\refint\ZQH.Abp.CachingManagement.Domain.dll
+E:\abp-vue\aspnet-core\modules\caching-management\ZQH.Abp.CachingManagement.Domain\obj\Debug\net8.0\ZQH.Abp.CachingManagement.Domain.pdb
+E:\abp-vue\aspnet-core\modules\caching-management\ZQH.Abp.CachingManagement.Domain\obj\Debug\net8.0\ref\ZQH.Abp.CachingManagement.Domain.dll

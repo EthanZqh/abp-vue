@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <RootNamespace />
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.Ddd.Application"  />
+        <ProjectReference Include="..\ProductManagement.Domain.Shared\ProductManagement.Domain.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Include="ProductManagement\Localization\ApplicationContracts\*.json" />
+        <Content Remove="ProductManagement\Localization\ApplicationContracts\*.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="ProductManagement\Localization\ApplicationContracts\zh-Hans.json" />
+    </ItemGroup>
+
+</Project>

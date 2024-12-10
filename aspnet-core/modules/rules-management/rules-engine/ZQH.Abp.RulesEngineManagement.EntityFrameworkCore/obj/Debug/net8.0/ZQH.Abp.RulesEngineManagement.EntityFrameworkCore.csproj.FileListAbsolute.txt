@@ -1,0 +1,16 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore.pdb
+E:\abp-vue\aspnet-core\modules\rules-management\rules-engine\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\rules-management\rules-engine\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\rules-management\rules-engine\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\rules-management\rules-engine\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\rules-management\rules-engine\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\rules-management\rules-engine\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore.sourcelink.json
+E:\abp-vue\aspnet-core\modules\rules-management\rules-engine\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\rules-management\rules-engine\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\rules-management\rules-engine\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore.csproj.CopyComplete
+E:\abp-vue\aspnet-core\modules\rules-management\rules-engine\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore.dll
+E:\abp-vue\aspnet-core\modules\rules-management\rules-engine\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore\obj\Debug\net8.0\refint\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore.dll
+E:\abp-vue\aspnet-core\modules\rules-management\rules-engine\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore\obj\Debug\net8.0\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore.pdb
+E:\abp-vue\aspnet-core\modules\rules-management\rules-engine\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore\obj\Debug\net8.0\ref\ZQH.Abp.RulesEngineManagement.EntityFrameworkCore.dll

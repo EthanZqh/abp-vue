@@ -1,0 +1,30 @@
+2024-10-28 19:20:36 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [14928] [87] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-28 19:20:41 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [14928] [69] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-28 19:20:45 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [14928] [48] - Controller 'Notification' contains more than one action with name 'SendAsyncByInput' for module 'notifications'. Ignored: System.Threading.Tasks.Task SendAsync(ZQH.Abp.Notifications.NotificationTemplateSendDto)
+2024-10-28 19:58:38 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [14928] [36] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-28 19:58:42 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [14928] [52] - Controller 'Notification' contains more than one action with name 'SendAsyncByInput' for module 'notifications'. Ignored: System.Threading.Tasks.Task SendAsync(ZQH.Abp.Notifications.NotificationTemplateSendDto)
+2024-10-28 20:58:39 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [14928] [101] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-28 20:58:44 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [14928] [140] - Controller 'Notification' contains more than one action with name 'SendAsyncByInput' for module 'notifications'. Ignored: System.Threading.Tasks.Task SendAsync(ZQH.Abp.Notifications.NotificationTemplateSendDto)
+2024-10-28 21:00:11 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [14928] [100] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-28 21:00:14 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [14928] [72] - Controller 'Notification' contains more than one action with name 'SendAsyncByInput' for module 'notifications'. Ignored: System.Threading.Tasks.Task SendAsync(ZQH.Abp.Notifications.NotificationTemplateSendDto)
+2024-10-28 21:13:32 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [14928] [140] - RabbitMQ consumer cancelled. --> amq.ctag-dJPtPg-cxjvOZtkjbbZioQ
+2024-10-28 21:13:35 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [14928] [140] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-28 21:13:35 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [14928] [140] - RabbitMQ consumer cancelled. --> amq.ctag-O_FVZJklM-HJ4db70PK5ww
+2024-10-28 21:13:35 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [14928] [140] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-28 21:13:35 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [14928] [140] - RabbitMQ consumer cancelled. --> amq.ctag-Xf_MI-mRke5PvrKnQzVeng
+2024-10-28 21:13:35 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [14928] [140] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-28 21:13:35 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [14928] [140] - RabbitMQ consumer cancelled. --> amq.ctag--gvuL0TZd0yZ-OiNinhcHQ
+2024-10-28 21:13:35 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [14928] [140] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-28 21:13:49 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [14928] [140] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-28 21:13:51 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [14928] [140] - Controller 'Notification' contains more than one action with name 'SendAsyncByInput' for module 'notifications'. Ignored: System.Threading.Tasks.Task SendAsync(ZQH.Abp.Notifications.NotificationTemplateSendDto)
+2024-10-28 23:13:32 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [14928] [53] - RabbitMQ consumer cancelled. --> amq.ctag-dJPtPg-cxjvOZtkjbbZioQ
+2024-10-28 23:13:34 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [14928] [53] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-28 23:13:36 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [14928] [53] - RabbitMQ consumer cancelled. --> amq.ctag-O_FVZJklM-HJ4db70PK5ww
+2024-10-28 23:13:36 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [14928] [53] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-28 23:13:36 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [14928] [53] - RabbitMQ consumer cancelled. --> amq.ctag-Xf_MI-mRke5PvrKnQzVeng
+2024-10-28 23:13:36 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [14928] [53] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-28 23:13:36 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [14928] [53] - RabbitMQ consumer cancelled. --> amq.ctag--gvuL0TZd0yZ-OiNinhcHQ
+2024-10-28 23:13:36 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [14928] [53] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-28 23:13:37 [WRN] [DotNetCore.CAP.Processor.TransportCheckProcessor] [14928] [79] - Transport connection is unhealthy, reconnection...
+2024-10-28 23:13:39 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [14928] [79] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-28 23:13:47 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [14928] [50] - Controller 'Notification' contains more than one action with name 'SendAsyncByInput' for module 'notifications'. Ignored: System.Threading.Tasks.Task SendAsync(ZQH.Abp.Notifications.NotificationTemplateSendDto)

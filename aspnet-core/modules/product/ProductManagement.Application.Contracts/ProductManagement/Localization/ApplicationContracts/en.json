@@ -1,0 +1,16 @@
+{
+  "culture": "en",
+  "texts": {
+    "Permission:ProductManagement": "Product Management",
+    "Permission:Products": "Products",
+    "Permission:Edit": "Edit",
+    "Permission:Delete": "Delete",
+    "Permission:Create": "Create",
+    "DisplayName:MaxPageSize": "MaxPageSize",
+    "Description:MaxPageSize": "MaxPageSize",
+    "Permission:DownLoad": "DownLoad",
+    "Permission:UpLoad": "UpLoad",
+    "Permission:Tests": "Tests",
+    "Tests": "测试111"
+  }
+}

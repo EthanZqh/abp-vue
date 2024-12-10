@@ -1,0 +1,16 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.BlobStoring.Tencent.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.BlobStoring.Tencent.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.BlobStoring.Tencent.pdb
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.BlobStoring.Tencent\obj\Debug\net8.0\ZQH.Abp.BlobStoring.Tencent.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.BlobStoring.Tencent\obj\Debug\net8.0\ZQH.Abp.BlobStoring.Tencent.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.BlobStoring.Tencent\obj\Debug\net8.0\ZQH.Abp.BlobStoring.Tencent.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.BlobStoring.Tencent\obj\Debug\net8.0\ZQH.Abp.BlobStoring.Tencent.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.BlobStoring.Tencent\obj\Debug\net8.0\ZQH.Abp.BlobStoring.Tencent.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.BlobStoring.Tencent\obj\Debug\net8.0\ZQH.Abp.BlobStoring.Tencent.sourcelink.json
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.BlobStoring.Tencent\obj\Debug\net8.0\ZQH.Abp.BlobStoring.Tencent.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.BlobStoring.Tencent\obj\Debug\net8.0\ZQH.Abp.BlobStoring.Tencent.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.BlobStoring.Tencent\obj\Debug\net8.0\ZQH.Abp.BlobStoring.Tencent.csproj.CopyComplete
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.BlobStoring.Tencent\obj\Debug\net8.0\ZQH.Abp.BlobStoring.Tencent.dll
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.BlobStoring.Tencent\obj\Debug\net8.0\refint\ZQH.Abp.BlobStoring.Tencent.dll
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.BlobStoring.Tencent\obj\Debug\net8.0\ZQH.Abp.BlobStoring.Tencent.pdb
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.BlobStoring.Tencent\obj\Debug\net8.0\ref\ZQH.Abp.BlobStoring.Tencent.dll

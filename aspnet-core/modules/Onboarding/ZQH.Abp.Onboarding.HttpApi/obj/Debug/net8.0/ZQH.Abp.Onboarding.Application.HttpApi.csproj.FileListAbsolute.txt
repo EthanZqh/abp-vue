@@ -1,0 +1,12 @@
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.HttpApi\bin\Debug\net8.0\ZQH.Abp.Onboarding.Application.HttpApi.deps.json
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.HttpApi\bin\Debug\net8.0\ZQH.Abp.Onboarding.Application.HttpApi.dll
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.HttpApi\bin\Debug\net8.0\ZQH.Abp.Onboarding.Application.HttpApi.pdb
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.HttpApi\obj\Debug\net8.0\ZQH.Abp.Onboarding.Application.HttpApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.HttpApi\obj\Debug\net8.0\ZQH.Abp.Onboarding.Application.HttpApi.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.HttpApi\obj\Debug\net8.0\ZQH.Abp.Onboarding.Application.HttpApi.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.HttpApi\obj\Debug\net8.0\ZQH.Abp.Onboarding.Application.HttpApi.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.HttpApi\obj\Debug\net8.0\ZQH.Abp.Onboarding.Application.HttpApi.sourcelink.json
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.HttpApi\obj\Debug\net8.0\ZQH.Abp.Onboarding.Application.HttpApi.dll
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.HttpApi\obj\Debug\net8.0\refint\ZQH.Abp.Onboarding.Application.HttpApi.dll
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.HttpApi\obj\Debug\net8.0\ZQH.Abp.Onboarding.Application.HttpApi.pdb
+E:\abp-vue\aspnet-core\modules\Onboarding\ZQH.Abp.Onboarding.Application.HttpApi\obj\Debug\net8.0\ref\ZQH.Abp.Onboarding.Application.HttpApi.dll

@@ -1,0 +1,13 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.Tencent.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.Tencent.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.0\ZQH.Abp.Tencent.pdb
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Tencent\obj\Debug\netstandard2.0\ZQH.Abp.Tencent.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Tencent\obj\Debug\netstandard2.0\ZQH.Abp.Tencent.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Tencent\obj\Debug\netstandard2.0\ZQH.Abp.Tencent.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Tencent\obj\Debug\netstandard2.0\ZQH.Abp.Tencent.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Tencent\obj\Debug\netstandard2.0\ZQH.Abp.Tencent.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Tencent\obj\Debug\netstandard2.0\ZQH.Abp.Tencent.sourcelink.json
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Tencent\obj\Debug\netstandard2.0\ZQH.Abp.Tencent.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Tencent\obj\Debug\netstandard2.0\ZQH.Abp.Tencent.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Tencent\obj\Debug\netstandard2.0\ZQH.Abp.Tencent.dll
+E:\abp-vue\aspnet-core\framework\cloud-tencent\ZQH.Abp.Tencent\obj\Debug\netstandard2.0\ZQH.Abp.Tencent.pdb

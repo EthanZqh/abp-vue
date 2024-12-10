@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>ZQH.Abp.Notifications.WeChat.MiniProgram</AssemblyName>
+		<PackageId>ZQH.Abp.Notifications.WeChat.MiniProgram</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\framework\common\ZQH.Abp.Features.LimitValidation\ZQH.Abp.Features.LimitValidation.csproj" />
+		<ProjectReference Include="..\..\..\framework\wechat\ZQH.Abp.WeChat.MiniProgram\ZQH.Abp.WeChat.MiniProgram.csproj" />
+		<ProjectReference Include="..\ZQH.Abp.Notifications\ZQH.Abp.Notifications.csproj" />
+	</ItemGroup>
+
+</Project>

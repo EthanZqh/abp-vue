@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>ZQH.Abp.Auditing.Application</AssemblyName>
+		<PackageId>ZQH.Abp.Auditing.Application</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Volo.Abp.AutoMapper" />
+		<PackageReference Include="Volo.Abp.Ddd.Application" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\framework\auditing\ZQH.Abp.AuditLogging\ZQH.Abp.AuditLogging.csproj" />
+		<ProjectReference Include="..\..\..\framework\logging\ZQH.Abp.Logging\ZQH.Abp.Logging.csproj" />
+		<ProjectReference Include="..\ZQH.Abp.Auditing.Application.Contracts\ZQH.Abp.Auditing.Application.Contracts.csproj" />
+	</ItemGroup>
+
+</Project>

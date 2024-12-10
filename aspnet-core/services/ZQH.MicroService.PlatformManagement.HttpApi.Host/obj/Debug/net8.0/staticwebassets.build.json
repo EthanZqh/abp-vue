@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wdMIuH9IE3NlNWJ4e7jO95XsxIkZM5EZsFq+rmFMpVE=",
+  "Source": "ZQH.MicroService.PlatformManagement.HttpApi.Host",
+  "BasePath": "_content/ZQH.MicroService.PlatformManagement.HttpApi.Host",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

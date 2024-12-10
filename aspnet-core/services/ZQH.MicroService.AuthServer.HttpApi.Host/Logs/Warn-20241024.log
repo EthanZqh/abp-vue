@@ -1,0 +1,23 @@
+2024-10-24 00:13:29 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [63780] [3] - RabbitMQ consumer cancelled. --> amq.ctag-ab-WGEnLlLlPnoSkS-rxzw
+2024-10-24 00:13:32 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [63780] [3] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 00:13:37 [WRN] [DotNetCore.CAP.Processor.TransportCheckProcessor] [63780] [3] - Transport connection is unhealthy, reconnection...
+2024-10-24 05:49:56 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [63780] [64] - RabbitMQ consumer cancelled. --> amq.ctag-QodoZ-b8On9LqPKQE5AqSQ
+2024-10-24 05:49:57 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [63780] [64] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 13:59:18 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [63780] [165] - RabbitMQ consumer cancelled. --> amq.ctag-QodoZ-b8On9LqPKQE5AqSQ
+2024-10-24 13:59:18 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [63780] [165] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 13:59:21 [WRN] [DotNetCore.CAP.Processor.TransportCheckProcessor] [63780] [165] - Transport connection is unhealthy, reconnection...
+2024-10-24 16:35:32 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [63780] [190] - RabbitMQ consumer cancelled. --> amq.ctag-D4kTLsC5SMHk8F_wgvoXfg
+2024-10-24 16:35:33 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [63780] [190] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-24 23:08:32 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [63780] [87] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:08:38 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [63780] [51] - Controller 'Account' contains more than one action with name 'RegisterAsyncByInput' for module 'account'. Ignored: System.Threading.Tasks.Task RegisterAsync(ZQH.Abp.Account.PhoneRegisterDto)
+2024-10-24 23:15:06 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [63780] [68] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:15:10 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [63780] [68] - Controller 'Account' contains more than one action with name 'RegisterAsyncByInput' for module 'account'. Ignored: System.Threading.Tasks.Task RegisterAsync(ZQH.Abp.Account.PhoneRegisterDto)
+2024-10-24 23:20:24 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [63780] [188] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:21:57 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [63780] [189] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:22:02 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [63780] [189] - Controller 'Account' contains more than one action with name 'RegisterAsyncByInput' for module 'account'. Ignored: System.Threading.Tasks.Task RegisterAsync(ZQH.Abp.Account.PhoneRegisterDto)
+2024-10-24 23:25:14 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [63780] [193] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:25:17 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [63780] [166] - Controller 'Account' contains more than one action with name 'RegisterAsyncByInput' for module 'account'. Ignored: System.Threading.Tasks.Task RegisterAsync(ZQH.Abp.Account.PhoneRegisterDto)
+2024-10-24 23:26:47 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [63780] [165] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:26:50 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [63780] [161] - Controller 'Account' contains more than one action with name 'RegisterAsyncByInput' for module 'account'. Ignored: System.Threading.Tasks.Task RegisterAsync(ZQH.Abp.Account.PhoneRegisterDto)
+2024-10-24 23:29:16 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [63780] [70] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-24 23:29:19 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [63780] [161] - Controller 'Account' contains more than one action with name 'RegisterAsyncByInput' for module 'account'. Ignored: System.Threading.Tasks.Task RegisterAsync(ZQH.Abp.Account.PhoneRegisterDto)

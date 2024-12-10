@@ -1,0 +1,14 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.IM.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.IM.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.IM.pdb
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.IM\obj\Debug\netstandard2.1\ZQH.Abp.IM.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.IM\obj\Debug\netstandard2.1\ZQH.Abp.IM.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.IM\obj\Debug\netstandard2.1\ZQH.Abp.IM.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.IM\obj\Debug\netstandard2.1\ZQH.Abp.IM.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.IM\obj\Debug\netstandard2.1\ZQH.Abp.IM.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.IM\obj\Debug\netstandard2.1\ZQH.Abp.IM.sourcelink.json
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.IM\obj\Debug\netstandard2.1\ZQH.Abp.IM.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.IM\obj\Debug\netstandard2.1\ZQH.Abp.IM.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.IM\obj\Debug\netstandard2.1\ZQH.Abp.IM.csproj.CopyComplete
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.IM\obj\Debug\netstandard2.1\ZQH.Abp.IM.dll
+E:\abp-vue\aspnet-core\modules\realtime-message\ZQH.Abp.IM\obj\Debug\netstandard2.1\ZQH.Abp.IM.pdb

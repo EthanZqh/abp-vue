@@ -1,0 +1,17 @@
+E:\abp-vue7\abp-next-admin-master\aspnet-core\modules\product\ProductManagement.Domain\bin\Release\net7.0\ProductManagement.Domain.deps.json
+E:\abp-vue7\abp-next-admin-master\aspnet-core\modules\product\ProductManagement.Domain\bin\Release\net7.0\ProductManagement.Domain.dll
+E:\abp-vue7\abp-next-admin-master\aspnet-core\modules\product\ProductManagement.Domain\bin\Release\net7.0\ProductManagement.Domain.pdb
+E:\abp-vue7\abp-next-admin-master\aspnet-core\modules\product\ProductManagement.Domain\bin\Release\net7.0\ProductManagement.Domain.Shared.dll
+E:\abp-vue7\abp-next-admin-master\aspnet-core\modules\product\ProductManagement.Domain\bin\Release\net7.0\ProductManagement.Domain.Shared.pdb
+E:\abp-vue7\abp-next-admin-master\aspnet-core\modules\product\ProductManagement.Domain\obj\Release\net7.0\ProductManagement.Domain.csproj.AssemblyReference.cache
+E:\abp-vue7\abp-next-admin-master\aspnet-core\modules\product\ProductManagement.Domain\obj\Release\net7.0\ProductManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue7\abp-next-admin-master\aspnet-core\modules\product\ProductManagement.Domain\obj\Release\net7.0\ProductManagement.Domain.AssemblyInfoInputs.cache
+E:\abp-vue7\abp-next-admin-master\aspnet-core\modules\product\ProductManagement.Domain\obj\Release\net7.0\ProductManagement.Domain.AssemblyInfo.cs
+E:\abp-vue7\abp-next-admin-master\aspnet-core\modules\product\ProductManagement.Domain\obj\Release\net7.0\ProductManagement.Domain.csproj.CoreCompileInputs.cache
+E:\abp-vue7\abp-next-admin-master\aspnet-core\modules\product\ProductManagement.Domain\obj\Release\net7.0\ProductManagement.Domain.csproj.Fody.CopyLocal.cache
+E:\abp-vue7\abp-next-admin-master\aspnet-core\modules\product\ProductManagement.Domain\obj\Release\net7.0\ProductManagement.Domain.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue7\abp-next-admin-master\aspnet-core\modules\product\ProductManagement.Domain\obj\Release\net7.0\ProductManagement.Domain.csproj.CopyComplete
+E:\abp-vue7\abp-next-admin-master\aspnet-core\modules\product\ProductManagement.Domain\obj\Release\net7.0\ProductManagement.Domain.dll
+E:\abp-vue7\abp-next-admin-master\aspnet-core\modules\product\ProductManagement.Domain\obj\Release\net7.0\refint\ProductManagement.Domain.dll
+E:\abp-vue7\abp-next-admin-master\aspnet-core\modules\product\ProductManagement.Domain\obj\Release\net7.0\ProductManagement.Domain.pdb
+E:\abp-vue7\abp-next-admin-master\aspnet-core\modules\product\ProductManagement.Domain\obj\Release\net7.0\ref\ProductManagement.Domain.dll

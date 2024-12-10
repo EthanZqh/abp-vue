@@ -1,0 +1,16 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.TextTemplating.Application.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.TextTemplating.Application.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.TextTemplating.Application.pdb
+E:\abp-vue\aspnet-core\modules\text-templating\ZQH.Abp.TextTemplating.Application\obj\Debug\net8.0\ZQH.Abp.TextTemplating.Application.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\text-templating\ZQH.Abp.TextTemplating.Application\obj\Debug\net8.0\ZQH.Abp.TextTemplating.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\text-templating\ZQH.Abp.TextTemplating.Application\obj\Debug\net8.0\ZQH.Abp.TextTemplating.Application.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\text-templating\ZQH.Abp.TextTemplating.Application\obj\Debug\net8.0\ZQH.Abp.TextTemplating.Application.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\text-templating\ZQH.Abp.TextTemplating.Application\obj\Debug\net8.0\ZQH.Abp.TextTemplating.Application.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\text-templating\ZQH.Abp.TextTemplating.Application\obj\Debug\net8.0\ZQH.Abp.TextTemplating.Application.sourcelink.json
+E:\abp-vue\aspnet-core\modules\text-templating\ZQH.Abp.TextTemplating.Application\obj\Debug\net8.0\ZQH.Abp.TextTemplating.Application.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\text-templating\ZQH.Abp.TextTemplating.Application\obj\Debug\net8.0\ZQH.Abp.TextTemplating.Application.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\text-templating\ZQH.Abp.TextTemplating.Application\obj\Debug\net8.0\ZQH.Abp.TextTemplating.Application.csproj.CopyComplete
+E:\abp-vue\aspnet-core\modules\text-templating\ZQH.Abp.TextTemplating.Application\obj\Debug\net8.0\ZQH.Abp.TextTemplating.Application.dll
+E:\abp-vue\aspnet-core\modules\text-templating\ZQH.Abp.TextTemplating.Application\obj\Debug\net8.0\refint\ZQH.Abp.TextTemplating.Application.dll
+E:\abp-vue\aspnet-core\modules\text-templating\ZQH.Abp.TextTemplating.Application\obj\Debug\net8.0\ZQH.Abp.TextTemplating.Application.pdb
+E:\abp-vue\aspnet-core\modules\text-templating\ZQH.Abp.TextTemplating.Application\obj\Debug\net8.0\ref\ZQH.Abp.TextTemplating.Application.dll

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>LINGYUN.Abp.WebhooksManagement.Dapr.Client</AssemblyName>
+		<PackageId>LINGYUN.Abp.WebhooksManagement.Dapr.Client</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\framework\dapr\ZQH.Abp.Dapr.Client\ZQH.Abp.Dapr.Client.csproj" />
+		<ProjectReference Include="..\ZQH.Abp.WebhooksManagement.Application.Contracts\ZQH.Abp.WebhooksManagement.Application.Contracts.csproj" />
+	</ItemGroup>
+
+</Project>

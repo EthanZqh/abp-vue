@@ -1,0 +1,14 @@
+2024-11-03 17:20:25 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [22] - RabbitMQ consumer cancelled. --> amq.ctag-synJKmYNIZAjlQyb0jBvTw
+2024-11-03 17:20:26 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [22] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-03 17:20:26 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [22] - RabbitMQ consumer cancelled. --> amq.ctag-yHYbX6WyGT1_UKqx_-MZfg
+2024-11-03 17:20:26 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [22] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-03 17:20:30 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [85] - RabbitMQ consumer registered. --> amq.ctag-synJKmYNIZAjlQyb0jBvTw
+2024-11-03 17:20:30 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [26] - RabbitMQ consumer registered. --> amq.ctag-yHYbX6WyGT1_UKqx_-MZfg
+2024-11-03 17:37:14 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [4] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-03 17:37:14 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [4] - Start cleanup.
+2024-11-03 17:37:14 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [4] - Start cleanup host temp objects.
+2024-11-03 17:37:14 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [4] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-03 19:42:14 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [99] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-03 19:42:14 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [99] - Start cleanup.
+2024-11-03 19:42:14 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [99] - Start cleanup host temp objects.
+2024-11-03 19:42:14 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [99] - Lock is released for OssObjectTempCleanupBackgroundWorker

@@ -1,0 +1,16 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.BlobStoring.OssManagement.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.BlobStoring.OssManagement.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.BlobStoring.OssManagement.pdb
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.BlobStoring.OssManagement\obj\Debug\net8.0\ZQH.Abp.BlobStoring.OssManagement.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.BlobStoring.OssManagement\obj\Debug\net8.0\ZQH.Abp.BlobStoring.OssManagement.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.BlobStoring.OssManagement\obj\Debug\net8.0\ZQH.Abp.BlobStoring.OssManagement.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.BlobStoring.OssManagement\obj\Debug\net8.0\ZQH.Abp.BlobStoring.OssManagement.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.BlobStoring.OssManagement\obj\Debug\net8.0\ZQH.Abp.BlobStoring.OssManagement.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.BlobStoring.OssManagement\obj\Debug\net8.0\ZQH.Abp.BlobStoring.OssManagement.sourcelink.json
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.BlobStoring.OssManagement\obj\Debug\net8.0\ZQH.Abp.BlobStoring.OssManagement.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.BlobStoring.OssManagement\obj\Debug\net8.0\ZQH.Abp.BlobStoring.OssManagement.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.BlobStoring.OssManagement\obj\Debug\net8.0\ZQH.Abp.BlobStoring.OssManagement.csproj.CopyComplete
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.BlobStoring.OssManagement\obj\Debug\net8.0\ZQH.Abp.BlobStoring.OssManagement.dll
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.BlobStoring.OssManagement\obj\Debug\net8.0\refint\ZQH.Abp.BlobStoring.OssManagement.dll
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.BlobStoring.OssManagement\obj\Debug\net8.0\ZQH.Abp.BlobStoring.OssManagement.pdb
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.BlobStoring.OssManagement\obj\Debug\net8.0\ref\ZQH.Abp.BlobStoring.OssManagement.dll

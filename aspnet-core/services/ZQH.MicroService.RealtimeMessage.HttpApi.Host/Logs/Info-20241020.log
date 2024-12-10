@@ -1,0 +1,172 @@
+2024-10-20 09:14:26 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [2524] [133] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-20 09:14:36 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [2524] [53] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-20 09:14:37 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [2524] [133] - Controller 'Notification' contains more than one action with name 'SendAsyncByInput' for module 'notifications'. Ignored: System.Threading.Tasks.Task SendAsync(ZQH.Abp.Notifications.NotificationTemplateSendDto)
+2024-10-20 11:52:26 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [2524] [73] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-20 11:52:29 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [2524] [53] - Controller 'Notification' contains more than one action with name 'SendAsyncByInput' for module 'notifications'. Ignored: System.Threading.Tasks.Task SendAsync(ZQH.Abp.Notifications.NotificationTemplateSendDto)
+2024-10-20 12:22:49 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [2524] [37] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-20 12:22:52 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [2524] [81] - Controller 'Notification' contains more than one action with name 'SendAsyncByInput' for module 'notifications'. Ignored: System.Threading.Tasks.Task SendAsync(ZQH.Abp.Notifications.NotificationTemplateSendDto)
+2024-10-20 13:59:57 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [2524] [130] - RabbitMQ consumer cancelled. --> amq.ctag-NbItZ590ImFS78vLtb0pww
+2024-10-20 13:59:57 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [2524] [130] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-20 13:59:57 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [2524] [130] - RabbitMQ consumer cancelled. --> amq.ctag-mJB_mhD7O6H3GZtbBoQAHw
+2024-10-20 13:59:57 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [2524] [130] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-20 13:59:57 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [2524] [130] - RabbitMQ consumer cancelled. --> amq.ctag-A9A7c8R4Jw6PHmnzCuvsmw
+2024-10-20 13:59:57 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [2524] [130] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-20 13:59:57 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [2524] [130] - RabbitMQ consumer cancelled. --> amq.ctag-GIUaHWkdPAfcqVN-oe2Xhg
+2024-10-20 13:59:57 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [2524] [130] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-20 14:00:02 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [2524] [110] - RabbitMQ consumer registered. --> amq.ctag-NbItZ590ImFS78vLtb0pww
+2024-10-20 14:00:02 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [2524] [130] - RabbitMQ consumer registered. --> amq.ctag-mJB_mhD7O6H3GZtbBoQAHw
+2024-10-20 14:00:02 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [2524] [76] - RabbitMQ consumer registered. --> amq.ctag-A9A7c8R4Jw6PHmnzCuvsmw
+2024-10-20 14:00:02 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [2524] [74] - RabbitMQ consumer registered. --> amq.ctag-GIUaHWkdPAfcqVN-oe2Xhg
+2024-10-20 14:00:07 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [2524] [74] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-20 14:00:09 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [2524] [76] - Controller 'Notification' contains more than one action with name 'SendAsyncByInput' for module 'notifications'. Ignored: System.Threading.Tasks.Task SendAsync(ZQH.Abp.Notifications.NotificationTemplateSendDto)
+2024-10-20 16:46:52 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [2524] [52] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-20 16:46:55 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [2524] [52] - Controller 'Notification' contains more than one action with name 'SendAsyncByInput' for module 'notifications'. Ignored: System.Threading.Tasks.Task SendAsync(ZQH.Abp.Notifications.NotificationTemplateSendDto)
+2024-10-20 18:53:36 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [2524] [83] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-20 18:53:46 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [2524] [41] - Controller 'Notification' contains more than one action with name 'SendAsyncByInput' for module 'notifications'. Ignored: System.Threading.Tasks.Task SendAsync(ZQH.Abp.Notifications.NotificationTemplateSendDto)
+2024-10-20 18:53:54 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [2524] [41] - Executing subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'MessageService.v1'
+2024-10-20 18:53:54 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [2524] [97] - Executed subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'MessageService.v1' with instance 'zqhT16' in 9.5196ms
+2024-10-20 18:53:57 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [2524] [41] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-20 18:54:26 [WRN] [Volo.Abp.Caching.DistributedCache] [2524] [25] - The operation was canceled.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Volo.Abp.Caching.DistributedCache`2.GetAsync(TCacheKey key, Nullable`1 hideErrors, Boolean considerUow, CancellationToken token)
+2024-10-20 18:54:26 [ERR] [Microsoft.AspNetCore.SignalR.HubConnectionHandler] [2524] [25] - Error when dispatching 'OnDisconnectedAsync' on hub.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Volo.Abp.Threading.SemaphoreSlimExtensions.LockAsync(SemaphoreSlim semaphoreSlim, CancellationToken cancellationToken)
+   at Volo.Abp.Caching.DistributedCache`2.GetOrAddAsync(TCacheKey key, Func`1 factory, Func`1 optionsFactory, Nullable`1 hideErrors, Boolean considerUow, CancellationToken token)
+   at Volo.Abp.Identity.IdentityDynamicClaimsPrincipalContributorCache.GetAsync(Guid userId, Nullable`1 tenantId)
+   at Volo.Abp.Identity.IdentityDynamicClaimsPrincipalContributor.ContributeAsync(AbpClaimsPrincipalContributorContext context)
+   at Volo.Abp.Security.Claims.AbpClaimsPrincipalFactory.InternalCreateAsync(AbpClaimsPrincipalFactoryOptions options, ClaimsPrincipal existsClaimsPrincipal, Boolean isDynamic)
+   at Volo.Abp.Security.Claims.AbpClaimsPrincipalFactory.CreateDynamicAsync(ClaimsPrincipal existsClaimsPrincipal)
+   at Volo.Abp.AspNetCore.SignalR.Authentication.AbpAuthenticationHubFilter.HandleDynamicClaimsPrincipalAsync(ClaimsPrincipal claimsPrincipal, IServiceProvider serviceProvider, HubCallerContext hubCallerContext, Boolean skipCheckDynamicClaimsInterval)
+   at Volo.Abp.AspNetCore.SignalR.Authentication.AbpAuthenticationHubFilter.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+2024-10-20 18:54:26 [ERR] [Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager] [2524] [25] - Failed disposing connection i9ZYq2ebe8D5Cn0J0IqaWQ.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Volo.Abp.Threading.SemaphoreSlimExtensions.LockAsync(SemaphoreSlim semaphoreSlim, CancellationToken cancellationToken)
+   at Volo.Abp.Caching.DistributedCache`2.GetOrAddAsync(TCacheKey key, Func`1 factory, Func`1 optionsFactory, Nullable`1 hideErrors, Boolean considerUow, CancellationToken token)
+   at Volo.Abp.Identity.IdentityDynamicClaimsPrincipalContributorCache.GetAsync(Guid userId, Nullable`1 tenantId)
+   at Volo.Abp.Identity.IdentityDynamicClaimsPrincipalContributor.ContributeAsync(AbpClaimsPrincipalContributorContext context)
+   at Volo.Abp.Security.Claims.AbpClaimsPrincipalFactory.InternalCreateAsync(AbpClaimsPrincipalFactoryOptions options, ClaimsPrincipal existsClaimsPrincipal, Boolean isDynamic)
+   at Volo.Abp.Security.Claims.AbpClaimsPrincipalFactory.CreateDynamicAsync(ClaimsPrincipal existsClaimsPrincipal)
+   at Volo.Abp.AspNetCore.SignalR.Authentication.AbpAuthenticationHubFilter.HandleDynamicClaimsPrincipalAsync(ClaimsPrincipal claimsPrincipal, IServiceProvider serviceProvider, HubCallerContext hubCallerContext, Boolean skipCheckDynamicClaimsInterval)
+   at Volo.Abp.AspNetCore.SignalR.Authentication.AbpAuthenticationHubFilter.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.ExecuteApplication(ConnectionDelegate connectionDelegate)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.WaitOnTasks(Task applicationTask, Task transportTask, Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.DisposeAsync(Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager.DisposeAndRemoveAsync(HttpConnectionContext connection, Boolean closeGracefully, HttpConnectionStopStatus status)
+2024-10-20 18:54:29 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [2524] [97] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-20 18:54:39 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [2524] [58] - Controller 'Notification' contains more than one action with name 'SendAsyncByInput' for module 'notifications'. Ignored: System.Threading.Tasks.Task SendAsync(ZQH.Abp.Notifications.NotificationTemplateSendDto)
+2024-10-20 19:18:35 [WRN] [Volo.Abp.Caching.DistributedCache] [2524] [57] - The operation was canceled.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Volo.Abp.Caching.DistributedCache`2.GetAsync(TCacheKey key, Nullable`1 hideErrors, Boolean considerUow, CancellationToken token)
+2024-10-20 19:18:35 [WRN] [Volo.Abp.Caching.DistributedCache] [2524] [109] - The operation was canceled.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Volo.Abp.Caching.DistributedCache`2.GetAsync(TCacheKey key, Nullable`1 hideErrors, Boolean considerUow, CancellationToken token)
+2024-10-20 19:18:35 [ERR] [Microsoft.AspNetCore.SignalR.HubConnectionHandler] [2524] [57] - Error when dispatching 'OnDisconnectedAsync' on hub.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Volo.Abp.Threading.SemaphoreSlimExtensions.LockAsync(SemaphoreSlim semaphoreSlim, CancellationToken cancellationToken)
+   at Volo.Abp.Caching.DistributedCache`2.GetOrAddAsync(TCacheKey key, Func`1 factory, Func`1 optionsFactory, Nullable`1 hideErrors, Boolean considerUow, CancellationToken token)
+   at Volo.Abp.Identity.IdentityDynamicClaimsPrincipalContributorCache.GetAsync(Guid userId, Nullable`1 tenantId)
+   at Volo.Abp.Identity.IdentityDynamicClaimsPrincipalContributor.ContributeAsync(AbpClaimsPrincipalContributorContext context)
+   at Volo.Abp.Security.Claims.AbpClaimsPrincipalFactory.InternalCreateAsync(AbpClaimsPrincipalFactoryOptions options, ClaimsPrincipal existsClaimsPrincipal, Boolean isDynamic)
+   at Volo.Abp.Security.Claims.AbpClaimsPrincipalFactory.CreateDynamicAsync(ClaimsPrincipal existsClaimsPrincipal)
+   at Volo.Abp.AspNetCore.SignalR.Authentication.AbpAuthenticationHubFilter.HandleDynamicClaimsPrincipalAsync(ClaimsPrincipal claimsPrincipal, IServiceProvider serviceProvider, HubCallerContext hubCallerContext, Boolean skipCheckDynamicClaimsInterval)
+   at Volo.Abp.AspNetCore.SignalR.Authentication.AbpAuthenticationHubFilter.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+2024-10-20 19:18:35 [ERR] [Microsoft.AspNetCore.SignalR.HubConnectionHandler] [2524] [109] - Error when dispatching 'OnDisconnectedAsync' on hub.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Volo.Abp.Threading.SemaphoreSlimExtensions.LockAsync(SemaphoreSlim semaphoreSlim, CancellationToken cancellationToken)
+   at Volo.Abp.Caching.DistributedCache`2.GetOrAddAsync(TCacheKey key, Func`1 factory, Func`1 optionsFactory, Nullable`1 hideErrors, Boolean considerUow, CancellationToken token)
+   at Volo.Abp.Identity.IdentityDynamicClaimsPrincipalContributorCache.GetAsync(Guid userId, Nullable`1 tenantId)
+   at Volo.Abp.Identity.IdentityDynamicClaimsPrincipalContributor.ContributeAsync(AbpClaimsPrincipalContributorContext context)
+   at Volo.Abp.Security.Claims.AbpClaimsPrincipalFactory.InternalCreateAsync(AbpClaimsPrincipalFactoryOptions options, ClaimsPrincipal existsClaimsPrincipal, Boolean isDynamic)
+   at Volo.Abp.Security.Claims.AbpClaimsPrincipalFactory.CreateDynamicAsync(ClaimsPrincipal existsClaimsPrincipal)
+   at Volo.Abp.AspNetCore.SignalR.Authentication.AbpAuthenticationHubFilter.HandleDynamicClaimsPrincipalAsync(ClaimsPrincipal claimsPrincipal, IServiceProvider serviceProvider, HubCallerContext hubCallerContext, Boolean skipCheckDynamicClaimsInterval)
+   at Volo.Abp.AspNetCore.SignalR.Authentication.AbpAuthenticationHubFilter.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+2024-10-20 19:18:35 [ERR] [Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager] [2524] [68] - Failed disposing connection kkQvgvHy_e45R0dqdU0AHg.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Volo.Abp.Threading.SemaphoreSlimExtensions.LockAsync(SemaphoreSlim semaphoreSlim, CancellationToken cancellationToken)
+   at Volo.Abp.Caching.DistributedCache`2.GetOrAddAsync(TCacheKey key, Func`1 factory, Func`1 optionsFactory, Nullable`1 hideErrors, Boolean considerUow, CancellationToken token)
+   at Volo.Abp.Identity.IdentityDynamicClaimsPrincipalContributorCache.GetAsync(Guid userId, Nullable`1 tenantId)
+   at Volo.Abp.Identity.IdentityDynamicClaimsPrincipalContributor.ContributeAsync(AbpClaimsPrincipalContributorContext context)
+   at Volo.Abp.Security.Claims.AbpClaimsPrincipalFactory.InternalCreateAsync(AbpClaimsPrincipalFactoryOptions options, ClaimsPrincipal existsClaimsPrincipal, Boolean isDynamic)
+   at Volo.Abp.Security.Claims.AbpClaimsPrincipalFactory.CreateDynamicAsync(ClaimsPrincipal existsClaimsPrincipal)
+   at Volo.Abp.AspNetCore.SignalR.Authentication.AbpAuthenticationHubFilter.HandleDynamicClaimsPrincipalAsync(ClaimsPrincipal claimsPrincipal, IServiceProvider serviceProvider, HubCallerContext hubCallerContext, Boolean skipCheckDynamicClaimsInterval)
+   at Volo.Abp.AspNetCore.SignalR.Authentication.AbpAuthenticationHubFilter.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.ExecuteApplication(ConnectionDelegate connectionDelegate)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.WaitOnTasks(Task applicationTask, Task transportTask, Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.DisposeAsync(Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager.DisposeAndRemoveAsync(HttpConnectionContext connection, Boolean closeGracefully, HttpConnectionStopStatus status)
+2024-10-20 19:18:35 [ERR] [Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager] [2524] [57] - Failed disposing connection 1hYl_N84ZLcnNlNxJGE8qw.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Volo.Abp.Threading.SemaphoreSlimExtensions.LockAsync(SemaphoreSlim semaphoreSlim, CancellationToken cancellationToken)
+   at Volo.Abp.Caching.DistributedCache`2.GetOrAddAsync(TCacheKey key, Func`1 factory, Func`1 optionsFactory, Nullable`1 hideErrors, Boolean considerUow, CancellationToken token)
+   at Volo.Abp.Identity.IdentityDynamicClaimsPrincipalContributorCache.GetAsync(Guid userId, Nullable`1 tenantId)
+   at Volo.Abp.Identity.IdentityDynamicClaimsPrincipalContributor.ContributeAsync(AbpClaimsPrincipalContributorContext context)
+   at Volo.Abp.Security.Claims.AbpClaimsPrincipalFactory.InternalCreateAsync(AbpClaimsPrincipalFactoryOptions options, ClaimsPrincipal existsClaimsPrincipal, Boolean isDynamic)
+   at Volo.Abp.Security.Claims.AbpClaimsPrincipalFactory.CreateDynamicAsync(ClaimsPrincipal existsClaimsPrincipal)
+   at Volo.Abp.AspNetCore.SignalR.Authentication.AbpAuthenticationHubFilter.HandleDynamicClaimsPrincipalAsync(ClaimsPrincipal claimsPrincipal, IServiceProvider serviceProvider, HubCallerContext hubCallerContext, Boolean skipCheckDynamicClaimsInterval)
+   at Volo.Abp.AspNetCore.SignalR.Authentication.AbpAuthenticationHubFilter.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.HubFilterFactory.OnDisconnectedAsync(HubLifetimeContext context, Exception exception, Func`3 next)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.HubOnDisconnectedAsync(HubConnectionContext connection, Exception exception)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.OnConnectedAsync(ConnectionContext connection)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.ExecuteApplication(ConnectionDelegate connectionDelegate)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.WaitOnTasks(Task applicationTask, Task transportTask, Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionContext.DisposeAsync(Boolean closeGracefully)
+   at Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager.DisposeAndRemoveAsync(HttpConnectionContext connection, Boolean closeGracefully, HttpConnectionStopStatus status)
+2024-10-20 19:20:39 [INF] [DotNetCore.CAP.RabbitMQ.RabbitMQTransport] [2524] [109] - CAP message 'abp.identity.session.change_accessed' published, internal id '4000999780442357913'
+2024-10-20 19:20:39 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [2524] [68] - Executing subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'MessageService.v1'
+2024-10-20 19:20:40 [INF] [DotNetCore.CAP.RabbitMQ.RabbitMQTransport] [2524] [68] - CAP message 'ZQH.Abp.Identity.IdentitySessionEto.Updated' published, internal id '4000999780442357915'
+2024-10-20 19:20:40 [INF] [DotNetCore.CAP.Internal.SubscribeExecutor] [2524] [109] - Executed subscriber method 'IdentitySessionCacheItemSynchronizer.HandleEventAsync' on group 'MessageService.v1' with instance 'zqhT16' in 778.3956ms

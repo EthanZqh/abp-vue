@@ -1,0 +1,14 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.BlobStoring.Nexus.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.BlobStoring.Nexus.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.BlobStoring.Nexus.pdb
+E:\abp-vue\aspnet-core\framework\nexus\ZQH.Abp.BlobStoring.Nexus\obj\Debug\netstandard2.1\ZQH.Abp.BlobStoring.Nexus.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\nexus\ZQH.Abp.BlobStoring.Nexus\obj\Debug\netstandard2.1\ZQH.Abp.BlobStoring.Nexus.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\nexus\ZQH.Abp.BlobStoring.Nexus\obj\Debug\netstandard2.1\ZQH.Abp.BlobStoring.Nexus.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\nexus\ZQH.Abp.BlobStoring.Nexus\obj\Debug\netstandard2.1\ZQH.Abp.BlobStoring.Nexus.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\nexus\ZQH.Abp.BlobStoring.Nexus\obj\Debug\netstandard2.1\ZQH.Abp.BlobStoring.Nexus.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\nexus\ZQH.Abp.BlobStoring.Nexus\obj\Debug\netstandard2.1\ZQH.Abp.BlobStoring.Nexus.sourcelink.json
+E:\abp-vue\aspnet-core\framework\nexus\ZQH.Abp.BlobStoring.Nexus\obj\Debug\netstandard2.1\ZQH.Abp.BlobStoring.Nexus.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\nexus\ZQH.Abp.BlobStoring.Nexus\obj\Debug\netstandard2.1\ZQH.Abp.BlobStoring.Nexus.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\nexus\ZQH.Abp.BlobStoring.Nexus\obj\Debug\netstandard2.1\ZQH.Abp.BlobStoring.Nexus.csproj.CopyComplete
+E:\abp-vue\aspnet-core\framework\nexus\ZQH.Abp.BlobStoring.Nexus\obj\Debug\netstandard2.1\ZQH.Abp.BlobStoring.Nexus.dll
+E:\abp-vue\aspnet-core\framework\nexus\ZQH.Abp.BlobStoring.Nexus\obj\Debug\netstandard2.1\ZQH.Abp.BlobStoring.Nexus.pdb

@@ -1,0 +1,53 @@
+2024-11-09 00:17:16 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [27] - RabbitMQ consumer cancelled. --> amq.ctag--028UsoC05ntXIM8_WyGTQ
+2024-11-09 00:17:16 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [27] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-09 00:17:16 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [27] - RabbitMQ consumer cancelled. --> amq.ctag-KqJVk4twG4dw6afHEhBKvw
+2024-11-09 00:17:16 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [27] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-09 00:17:21 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [24] - RabbitMQ consumer registered. --> amq.ctag--028UsoC05ntXIM8_WyGTQ
+2024-11-09 00:17:21 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [27] - RabbitMQ consumer registered. --> amq.ctag-KqJVk4twG4dw6afHEhBKvw
+2024-11-09 00:40:45 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [106] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-09 00:40:45 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [106] - Start cleanup.
+2024-11-09 00:40:45 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [106] - Start cleanup host temp objects.
+2024-11-09 00:40:45 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [66] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-09 05:20:42 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [45] - RabbitMQ consumer cancelled. --> amq.ctag--028UsoC05ntXIM8_WyGTQ
+2024-11-09 05:20:43 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [45] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-09 05:20:43 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [45] - RabbitMQ consumer cancelled. --> amq.ctag-KqJVk4twG4dw6afHEhBKvw
+2024-11-09 05:20:44 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [45] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-09 05:20:47 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [77] - RabbitMQ consumer registered. --> amq.ctag--028UsoC05ntXIM8_WyGTQ
+2024-11-09 05:20:47 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [139] - RabbitMQ consumer registered. --> amq.ctag-KqJVk4twG4dw6afHEhBKvw
+2024-11-09 15:36:19 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [86] - RabbitMQ consumer cancelled. --> amq.ctag--028UsoC05ntXIM8_WyGTQ
+2024-11-09 15:36:20 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [86] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-09 15:36:20 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [86] - RabbitMQ consumer cancelled. --> amq.ctag-KqJVk4twG4dw6afHEhBKvw
+2024-11-09 15:36:20 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [86] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-09 15:36:24 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [86] - RabbitMQ consumer registered. --> amq.ctag--028UsoC05ntXIM8_WyGTQ
+2024-11-09 15:36:24 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [58] - RabbitMQ consumer registered. --> amq.ctag-KqJVk4twG4dw6afHEhBKvw
+2024-11-09 17:23:36 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [65] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-09 17:23:36 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [65] - Start cleanup.
+2024-11-09 17:23:36 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [65] - Start cleanup host temp objects.
+2024-11-09 17:23:36 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [83] - Lock is released for OssObjectTempCleanupBackgroundWorker
+2024-11-09 19:08:52 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [79] - RabbitMQ consumer cancelled. --> amq.ctag--028UsoC05ntXIM8_WyGTQ
+2024-11-09 19:09:04 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [79] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-09 19:09:05 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [79] - RabbitMQ consumer cancelled. --> amq.ctag-KqJVk4twG4dw6afHEhBKvw
+2024-11-09 23:10:19 [WRN] [DotNetCore.CAP.Processor.MessageDelayedProcessor] [15700] [62] - Get delayed messages from storage failed. Retrying...
+MySqlConnector.MySqlException (0x80004005): Connect Timeout expired.
+ ---> MySqlConnector.MySqlException (0x80004005): The Command Timeout expired before the operation completed.
+   at MySqlConnector.Protocol.Serialization.SocketByteHandler.DoReadBytesAsync(Memory`1 buffer) in /_/src/MySqlConnector/Protocol/Serialization/SocketByteHandler.cs:line 76
+   at MySqlConnector.Protocol.Serialization.BufferedByteReader.ReadBytesAsync(IByteHandler byteHandler, ArraySegment`1 buffer, Int32 totalBytesToRead, IOBehavior ioBehavior) in /_/src/MySqlConnector/Protocol/Serialization/BufferedByteReader.cs:line 34
+   at MySqlConnector.Protocol.Serialization.ProtocolUtility.ReadPayloadAsync(BufferedByteReader bufferedByteReader, IByteHandler byteHandler, Func`1 getNextSequenceNumber, ArraySegmentHolder`1 previousPayloads, ProtocolErrorBehavior protocolErrorBehavior, IOBehavior ioBehavior) in /_/src/MySqlConnector/Protocol/Serialization/ProtocolUtility.cs:line 421
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 882
+   at MySqlConnector.Core.ServerSession.TryResetConnectionAsync(ConnectionSettings cs, MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 597
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 74
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 42
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 919
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 951
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at DotNetCore.CAP.MySql.MySqlDataStorage.ScheduleMessagesOfDelayedAsync(Func`3 scheduleTask, CancellationToken token)
+   at DotNetCore.CAP.MySql.MySqlDataStorage.ScheduleMessagesOfDelayedAsync(Func`3 scheduleTask, CancellationToken token)
+   at DotNetCore.CAP.Processor.MessageDelayedProcessor.ProcessDelayedAsync(IDataStorage connection, ProcessingContext context)
+2024-11-09 23:10:20 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [79] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-11-09 23:10:21 [WRN] [DotNetCore.CAP.Processor.TransportCheckProcessor] [15700] [48] - Transport connection is unhealthy, reconnection...
+2024-11-09 23:10:22 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [79] - RabbitMQ consumer registered. --> amq.ctag-npwrXhN1XjRZYeCq-bmODg
+2024-11-09 23:10:22 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15700] [39] - RabbitMQ consumer registered. --> amq.ctag-Tus4kCchED1ZU6MmQmBSLA
+2024-11-09 23:11:24 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [48] - Lock is acquired for OssObjectTempCleanupBackgroundWorker
+2024-11-09 23:11:24 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [48] - Start cleanup.
+2024-11-09 23:11:24 [INF] [ZQH.Abp.OssManagement.OssObjectTempCleanupService] [15700] [48] - Start cleanup host temp objects.
+2024-11-09 23:11:24 [INF] [ZQH.MicroService.PlatformManagement.BackgroundWorkers.OssObjectTempCleanupBackgroundWorker] [15700] [48] - Lock is released for OssObjectTempCleanupBackgroundWorker

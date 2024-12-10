@@ -1,0 +1,15 @@
+E:\abp-vue\aspnet-core\migrations\ZQH.MicroService.ElsaServer.EntityFrameworkCore\bin\Debug\net8.0\ZQH.MicroService.ElsaServer.EntityFrameworkCore.deps.json
+E:\abp-vue\aspnet-core\migrations\ZQH.MicroService.ElsaServer.EntityFrameworkCore\bin\Debug\net8.0\ZQH.MicroService.ElsaServer.EntityFrameworkCore.runtimeconfig.json
+E:\abp-vue\aspnet-core\migrations\ZQH.MicroService.ElsaServer.EntityFrameworkCore\bin\Debug\net8.0\ZQH.MicroService.ElsaServer.EntityFrameworkCore.dll
+E:\abp-vue\aspnet-core\migrations\ZQH.MicroService.ElsaServer.EntityFrameworkCore\bin\Debug\net8.0\ZQH.MicroService.ElsaServer.EntityFrameworkCore.pdb
+E:\abp-vue\aspnet-core\migrations\ZQH.MicroService.ElsaServer.EntityFrameworkCore\obj\Debug\net8.0\ZQH.MicroService.ElsaServer.EntityFrameworkCore.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\migrations\ZQH.MicroService.ElsaServer.EntityFrameworkCore\obj\Debug\net8.0\ZQH.MicroService.ElsaServer.EntityFrameworkCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\migrations\ZQH.MicroService.ElsaServer.EntityFrameworkCore\obj\Debug\net8.0\ZQH.MicroService.ElsaServer.EntityFrameworkCore.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\migrations\ZQH.MicroService.ElsaServer.EntityFrameworkCore\obj\Debug\net8.0\ZQH.MicroService.ElsaServer.EntityFrameworkCore.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\migrations\ZQH.MicroService.ElsaServer.EntityFrameworkCore\obj\Debug\net8.0\ZQH.MicroService.ElsaServer.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\migrations\ZQH.MicroService.ElsaServer.EntityFrameworkCore\obj\Debug\net8.0\ZQH.MicroService.ElsaServer.EntityFrameworkCore.sourcelink.json
+E:\abp-vue\aspnet-core\migrations\ZQH.MicroService.ElsaServer.EntityFrameworkCore\obj\Debug\net8.0\ZQH.MicroService.ElsaServer.EntityFrameworkCore.dll
+E:\abp-vue\aspnet-core\migrations\ZQH.MicroService.ElsaServer.EntityFrameworkCore\obj\Debug\net8.0\refint\ZQH.MicroService.ElsaServer.EntityFrameworkCore.dll
+E:\abp-vue\aspnet-core\migrations\ZQH.MicroService.ElsaServer.EntityFrameworkCore\obj\Debug\net8.0\ZQH.MicroService.ElsaServer.EntityFrameworkCore.pdb
+E:\abp-vue\aspnet-core\migrations\ZQH.MicroService.ElsaServer.EntityFrameworkCore\obj\Debug\net8.0\ZQH.MicroService.ElsaServer.EntityFrameworkCore.genruntimeconfig.cache
+E:\abp-vue\aspnet-core\migrations\ZQH.MicroService.ElsaServer.EntityFrameworkCore\obj\Debug\net8.0\ref\ZQH.MicroService.ElsaServer.EntityFrameworkCore.dll

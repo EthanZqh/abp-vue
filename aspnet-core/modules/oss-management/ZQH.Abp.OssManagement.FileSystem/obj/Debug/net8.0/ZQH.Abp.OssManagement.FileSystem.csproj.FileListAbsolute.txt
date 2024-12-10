@@ -1,0 +1,16 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.OssManagement.FileSystem.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.OssManagement.FileSystem.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.OssManagement.FileSystem.pdb
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.FileSystem\obj\Debug\net8.0\ZQH.Abp.OssManagement.FileSystem.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.FileSystem\obj\Debug\net8.0\ZQH.Abp.OssManagement.FileSystem.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.FileSystem\obj\Debug\net8.0\ZQH.Abp.OssManagement.FileSystem.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.FileSystem\obj\Debug\net8.0\ZQH.Abp.OssManagement.FileSystem.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.FileSystem\obj\Debug\net8.0\ZQH.Abp.OssManagement.FileSystem.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.FileSystem\obj\Debug\net8.0\ZQH.Abp.OssManagement.FileSystem.sourcelink.json
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.FileSystem\obj\Debug\net8.0\ZQH.Abp.OssManagement.FileSystem.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.FileSystem\obj\Debug\net8.0\ZQH.Abp.OssManagement.FileSystem.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.FileSystem\obj\Debug\net8.0\ZQH.Abp.OssManagement.FileSystem.csproj.CopyComplete
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.FileSystem\obj\Debug\net8.0\ZQH.Abp.OssManagement.FileSystem.dll
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.FileSystem\obj\Debug\net8.0\refint\ZQH.Abp.OssManagement.FileSystem.dll
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.FileSystem\obj\Debug\net8.0\ZQH.Abp.OssManagement.FileSystem.pdb
+E:\abp-vue\aspnet-core\modules\oss-management\ZQH.Abp.OssManagement.FileSystem\obj\Debug\net8.0\ref\ZQH.Abp.OssManagement.FileSystem.dll

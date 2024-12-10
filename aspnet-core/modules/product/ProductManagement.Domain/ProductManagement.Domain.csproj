@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<!--<Import Project="..\..\..\configureawait.props" />
+	<Import Project="..\..\..\common.props" />-->
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace />
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.EntityFrameworkCore" />
+        <ProjectReference Include="..\ProductManagement.Domain.Shared\ProductManagement.Domain.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Include="ProductManagement\Localization\Domain\*.json" />
+        <Content Remove="ProductManagement\Localization\Domain\*.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="ProductManagement\Localization\Domain\zh-Hans.json" />
+    </ItemGroup>
+
+</Project>

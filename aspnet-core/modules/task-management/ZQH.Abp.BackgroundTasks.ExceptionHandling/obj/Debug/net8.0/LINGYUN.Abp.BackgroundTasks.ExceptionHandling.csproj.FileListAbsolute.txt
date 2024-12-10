@@ -1,0 +1,14 @@
+E:\abp-next-admin\aspnet-core\LocalNuget\net8.0\LINGYUN.Abp.BackgroundTasks.ExceptionHandling.deps.json
+E:\abp-next-admin\aspnet-core\LocalNuget\net8.0\LINGYUN.Abp.BackgroundTasks.ExceptionHandling.dll
+E:\abp-next-admin\aspnet-core\LocalNuget\net8.0\LINGYUN.Abp.BackgroundTasks.ExceptionHandling.pdb
+E:\abp-next-admin\aspnet-core\modules\task-management\LINGYUN.Abp.BackgroundTasks.ExceptionHandling\obj\Debug\net8.0\LINGYUN.Abp.BackgroundTasks.ExceptionHandling.csproj.AssemblyReference.cache
+E:\abp-next-admin\aspnet-core\modules\task-management\LINGYUN.Abp.BackgroundTasks.ExceptionHandling\obj\Debug\net8.0\LINGYUN.Abp.BackgroundTasks.ExceptionHandling.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-next-admin\aspnet-core\modules\task-management\LINGYUN.Abp.BackgroundTasks.ExceptionHandling\obj\Debug\net8.0\LINGYUN.Abp.BackgroundTasks.ExceptionHandling.AssemblyInfoInputs.cache
+E:\abp-next-admin\aspnet-core\modules\task-management\LINGYUN.Abp.BackgroundTasks.ExceptionHandling\obj\Debug\net8.0\LINGYUN.Abp.BackgroundTasks.ExceptionHandling.AssemblyInfo.cs
+E:\abp-next-admin\aspnet-core\modules\task-management\LINGYUN.Abp.BackgroundTasks.ExceptionHandling\obj\Debug\net8.0\LINGYUN.Abp.BackgroundTasks.ExceptionHandling.csproj.CoreCompileInputs.cache
+E:\abp-next-admin\aspnet-core\modules\task-management\LINGYUN.Abp.BackgroundTasks.ExceptionHandling\obj\Debug\net8.0\LINGYUN.Abp.BackgroundTasks.ExceptionHandling.sourcelink.json
+E:\abp-next-admin\aspnet-core\modules\task-management\LINGYUN.Abp.BackgroundTasks.ExceptionHandling\obj\Debug\net8.0\LINGYUN.Abp.BackgroundTasks.ExceptionHandling.csproj.CopyComplete
+E:\abp-next-admin\aspnet-core\modules\task-management\LINGYUN.Abp.BackgroundTasks.ExceptionHandling\obj\Debug\net8.0\LINGYUN.Abp.BackgroundTasks.ExceptionHandling.dll
+E:\abp-next-admin\aspnet-core\modules\task-management\LINGYUN.Abp.BackgroundTasks.ExceptionHandling\obj\Debug\net8.0\refint\LINGYUN.Abp.BackgroundTasks.ExceptionHandling.dll
+E:\abp-next-admin\aspnet-core\modules\task-management\LINGYUN.Abp.BackgroundTasks.ExceptionHandling\obj\Debug\net8.0\LINGYUN.Abp.BackgroundTasks.ExceptionHandling.pdb
+E:\abp-next-admin\aspnet-core\modules\task-management\LINGYUN.Abp.BackgroundTasks.ExceptionHandling\obj\Debug\net8.0\ref\LINGYUN.Abp.BackgroundTasks.ExceptionHandling.dll

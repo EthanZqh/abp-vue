@@ -1,0 +1,588 @@
+2024-10-21 07:55:34 [WRN] [ZQH.Abp.BackgroundTasks.Quartz.QuartzJobListener] [23112] [92] - The task BackgroundPollingJob could not be performed, Because it is being scheduled by another job scheduler
+2024-10-21 07:55:38 [WRN] [ZQH.Abp.BackgroundTasks.Quartz.QuartzJobListener] [23112] [94] - The task BackgroundPollingJob could not be performed, Because it is being scheduled by another job scheduler
+2024-10-21 07:55:42 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [94] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 07:55:42 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [97] - Cannot process job change event because job with key Cleaning could not be found!
+2024-10-21 07:55:44 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [94] - Cannot process job change event because job with key Checking could not be found!
+2024-10-21 07:56:00 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [23112] [92] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-21 07:56:06 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [94] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 07:56:23 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [23112] [89] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-21 07:56:26 [WRN] [Volo.Abp.Caching.DistributedCache] [23112] [86] - The operation was canceled.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Volo.Abp.Caching.StackExchangeRedis.AbpRedisCache.GetAndRefreshManyAsync(IEnumerable`1 keys, Boolean getData, CancellationToken token)
+   at Volo.Abp.Caching.StackExchangeRedis.AbpRedisCache.GetManyAsync(IEnumerable`1 keys, CancellationToken token)
+   at Volo.Abp.Caching.DistributedCache`2.GetManyAsync(IEnumerable`1 keys, Nullable`1 hideErrors, Boolean considerUow, CancellationToken token)
+2024-10-21 07:56:26 [ERR] [Microsoft.EntityFrameworkCore.Database.Connection] [23112] [86] - An error occurred using the connection to database 'Platform-V8.2' on server '127.0.0.1'.
+2024-10-21 07:56:27 [ERR] [Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter] [23112] [86] - ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "对不起，在处理您的请求期间产生了一个服务器内部错误！！",
+  "details": null,
+  "data": {},
+  "validationErrors": null
+}
+
+2024-10-21 07:56:27 [ERR] [Volo.Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter] [23112] [86] - The operation was canceled.
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 390
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlRelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Volo.Abp.SettingManagement.EntityFrameworkCore.EfCoreSettingRepository.GetListAsync(String[] names, String providerName, String providerKey, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.SettingManagement.SettingManagementStore.SetCacheItemsAsync(String providerName, String providerKey, List`1 notCacheKeys)
+   at Volo.Abp.SettingManagement.SettingManagementStore.GetCacheItemsAsync(String[] names, String providerName, String providerKey)
+   at Volo.Abp.SettingManagement.SettingManagementStore.GetListAsync(String[] names, String providerName, String providerKey)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.Settings.TenantSettingValueProvider.GetAllAsync(SettingDefinition[] settings)
+   at Volo.Abp.Settings.SettingProvider.GetAllAsync(String[] names)
+   at Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationAppService.GetSettingConfigAsync()
+   at Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationAppService.GetAsync(ApplicationConfigurationRequestOptions options)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.GlobalFeatures.GlobalFeatureInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Validation.ValidationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Auditing.AuditingInterceptor.ProceedByLoggingAsync(IAbpMethodInvocation invocation, AbpAuditingOptions options, IAuditingHelper auditingHelper, IAuditLogScope auditLogScope)
+   at Volo.Abp.Auditing.AuditingInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync(ApplicationConfigurationRequestOptions options)
+   at lambda_method2092(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2024-10-21 07:56:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [86] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 07:57:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [86] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 07:57:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [86] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 07:58:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [77] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 07:58:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [93] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 07:59:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [76] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 07:59:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [93] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 08:00:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [75] - Cannot process job change event because job with key Cleaning could not be found!
+2024-10-21 08:00:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [93] - Cannot process job change event because job with key Checking could not be found!
+2024-10-21 08:00:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [74] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 08:00:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [74] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 08:01:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [93] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 08:01:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [68] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 08:02:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [93] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 08:02:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [66] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 08:03:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [93] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 08:03:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [66] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 08:04:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [64] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 08:04:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [65] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 08:05:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [64] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 08:05:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [23112] [64] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 08:59:46 [WRN] [ZQH.Abp.EventBus.CAP.AbpCAPConsumerServiceSelector] [57696] [4] - We detected that you have duplicate subscribers (abp.multi_tenancy.tenant.connection_string.updated) in same group (TaskManagement.v1), this will cause diversity behavior.
+2024-10-21 08:59:50 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [57696] [6] - Failed to initialize index and audit log may not be retrieved.
+2024-10-21 08:59:50 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [57696] [6] - Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET /
+ ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product.
+ ---> System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9200)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Elasticsearch.Net.HttpConnection.RequestAsync[TResponse](RequestData requestData, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure()
+   at Elasticsearch.Net.RequestPipeline.PingAsync(Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.PingAsync(IRequestPipeline pipeline, Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.RequestAsync[TResponse](HttpMethod method, String path, CancellationToken cancellationToken, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2024-10-21 08:59:54 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [57696] [10] - Failed to initialize index and security log may not be retrieved.
+2024-10-21 08:59:54 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [57696] [10] - Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET /
+ ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product.
+ ---> System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9200)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Elasticsearch.Net.HttpConnection.RequestAsync[TResponse](RequestData requestData, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure()
+   at Elasticsearch.Net.RequestPipeline.PingAsync(Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.PingAsync(IRequestPipeline pipeline, Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.RequestAsync[TResponse](HttpMethod method, String path, CancellationToken cancellationToken, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2024-10-21 09:00:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [57696] [10] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:00:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [57696] [6] - Cannot process job change event because job with key Cleaning could not be found!
+2024-10-21 09:00:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [57696] [10] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:01:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [57696] [6] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:01:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [57696] [42] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:02:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [57696] [10] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:02:12 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [57696] [10] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-21 09:02:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [57696] [31] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:03:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [57696] [31] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:03:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [57696] [46] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:04:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [57696] [46] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:04:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [57696] [46] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:05:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [57696] [48] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:12:48 [WRN] [ZQH.Abp.EventBus.CAP.AbpCAPConsumerServiceSelector] [27932] [7] - We detected that you have duplicate subscribers (abp.multi_tenancy.tenant.connection_string.updated) in same group (TaskManagement.v1), this will cause diversity behavior.
+2024-10-21 09:12:52 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [27932] [7] - Failed to initialize index and audit log may not be retrieved.
+2024-10-21 09:12:52 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [27932] [7] - Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET /
+ ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product.
+ ---> System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9200)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Elasticsearch.Net.HttpConnection.RequestAsync[TResponse](RequestData requestData, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure()
+   at Elasticsearch.Net.RequestPipeline.PingAsync(Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.PingAsync(IRequestPipeline pipeline, Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.RequestAsync[TResponse](HttpMethod method, String path, CancellationToken cancellationToken, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2024-10-21 09:12:56 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [27932] [26] - Failed to initialize index and security log may not be retrieved.
+2024-10-21 09:12:56 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [27932] [26] - Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET /
+ ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product.
+ ---> System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9200)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Elasticsearch.Net.HttpConnection.RequestAsync[TResponse](RequestData requestData, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure()
+   at Elasticsearch.Net.RequestPipeline.PingAsync(Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.PingAsync(IRequestPipeline pipeline, Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.RequestAsync[TResponse](HttpMethod method, String path, CancellationToken cancellationToken, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2024-10-21 09:13:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [27932] [7] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:13:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [27932] [26] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:13:44 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [27932] [41] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-21 09:14:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [27932] [22] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:14:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [27932] [44] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:15:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [27932] [44] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:15:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [27932] [41] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:16:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [27932] [44] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:16:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [27932] [3] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:17:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [27932] [46] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:17:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [27932] [46] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:18:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [27932] [48] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:18:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [27932] [46] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:19:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [27932] [46] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:19:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [27932] [46] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:20:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [27932] [40] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:20:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [27932] [44] - Cannot process job change event because job with key Cleaning could not be found!
+2024-10-21 09:23:04 [WRN] [ZQH.Abp.EventBus.CAP.AbpCAPConsumerServiceSelector] [49228] [6] - We detected that you have duplicate subscribers (abp.multi_tenancy.tenant.connection_string.updated) in same group (TaskManagement.v1), this will cause diversity behavior.
+2024-10-21 09:23:08 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [49228] [37] - Failed to initialize index and audit log may not be retrieved.
+2024-10-21 09:23:08 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [49228] [37] - Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET /
+ ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product.
+ ---> System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9200)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Elasticsearch.Net.HttpConnection.RequestAsync[TResponse](RequestData requestData, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure()
+   at Elasticsearch.Net.RequestPipeline.PingAsync(Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.PingAsync(IRequestPipeline pipeline, Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.RequestAsync[TResponse](HttpMethod method, String path, CancellationToken cancellationToken, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2024-10-21 09:23:12 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [49228] [22] - Failed to initialize index and security log may not be retrieved.
+2024-10-21 09:23:12 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [49228] [22] - Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET /
+ ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product.
+ ---> System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9200)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Elasticsearch.Net.HttpConnection.RequestAsync[TResponse](RequestData requestData, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure()
+   at Elasticsearch.Net.RequestPipeline.PingAsync(Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.PingAsync(IRequestPipeline pipeline, Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.RequestAsync[TResponse](HttpMethod method, String path, CancellationToken cancellationToken, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2024-10-21 09:23:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [22] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:24:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [4] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:24:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [42] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:25:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [43] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:25:26 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [49228] [43] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-21 09:25:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [43] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:26:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [45] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:26:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [42] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:27:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [47] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:27:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [39] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:28:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [38] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:28:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [36] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:29:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [36] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:29:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [37] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:30:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [3] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:30:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [37] - Cannot process job change event because job with key Cleaning could not be found!
+2024-10-21 09:30:36 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [3] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:31:13 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [30] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:31:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [30] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:32:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [26] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:32:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [30] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:33:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [26] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:33:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [25] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:34:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [25] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:34:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [25] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:35:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [44] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:35:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [28] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:36:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [30] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:36:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [42] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:37:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [28] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:37:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [28] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:38:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [23] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:38:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [23] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:39:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [23] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:39:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [4] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:40:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [48] - Cannot process job change event because job with key Cleaning could not be found!
+2024-10-21 09:40:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [6] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:40:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [48] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:41:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [46] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:41:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [48] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:42:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [46] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:42:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [46] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:43:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [54] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:43:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [46] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:44:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [57] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:44:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [58] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:45:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [57] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:45:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [59] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:46:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [58] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 09:46:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [58] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:25:24 [WRN] [ZQH.Abp.BackgroundTasks.Quartz.QuartzJobListener] [49228] [64] - The task BackgroundPollingJob could not be performed, Because it is being scheduled by another job scheduler
+2024-10-21 10:25:25 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [64] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:25:25 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [62] - Cannot process job change event because job with key Cleaning could not be found!
+2024-10-21 10:25:26 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [64] - Cannot process job change event because job with key Checking could not be found!
+2024-10-21 10:25:27 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [49228] [58] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-21 10:25:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [58] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:26:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [58] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:26:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [56] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:27:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [59] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:27:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [59] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:28:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [59] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:28:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [59] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:29:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [76] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:29:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [75] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:30:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [78] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:30:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [79] - Cannot process job change event because job with key Cleaning could not be found!
+2024-10-21 10:30:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [79] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:31:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [59] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:31:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [59] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:32:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [59] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:32:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [79] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:33:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [59] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:33:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [59] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:34:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [79] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:34:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [79] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:35:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [59] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:35:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [59] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:36:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [86] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:36:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [90] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:37:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [89] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:37:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [92] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:38:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [92] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:38:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [86] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:39:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [90] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:39:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [86] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:40:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [94] - Cannot process job change event because job with key Cleaning could not be found!
+2024-10-21 10:40:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [91] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:40:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [97] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:41:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [97] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:41:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [95] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:42:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [95] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:42:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [97] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:43:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [100] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:43:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [100] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:44:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [100] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:44:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [103] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:45:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [100] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:45:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [104] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:46:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [104] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:46:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [102] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:47:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [102] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:47:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [103] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:48:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [103] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:48:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [99] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:49:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [99] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:49:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [94] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:50:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [91] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:50:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [92] - Cannot process job change event because job with key Cleaning could not be found!
+2024-10-21 10:50:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [92] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:51:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [92] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:51:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [88] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:52:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [88] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:52:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [88] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:53:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [88] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:53:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [88] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:54:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [84] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:54:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [68] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:55:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [68] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:55:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [82] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:56:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [82] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:56:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [78] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:57:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [78] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:57:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [78] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:58:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [78] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:58:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [74] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:59:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [74] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 10:59:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [74] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:00:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [75] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:00:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [69] - Cannot process job change event because job with key Cleaning could not be found!
+2024-10-21 11:00:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [69] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:01:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [74] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:01:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [74] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:02:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [65] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:02:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [63] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:03:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [74] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:03:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [62] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:04:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [62] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:04:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [62] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:05:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [4] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:05:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [4] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:06:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [43] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:06:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [4] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:07:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [39] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:07:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [39] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:08:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [105] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:08:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [108] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:09:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [39] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:09:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [111] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:10:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [108] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:10:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [110] - Cannot process job change event because job with key Cleaning could not be found!
+2024-10-21 11:10:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [108] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:11:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [113] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:11:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [116] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:12:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [113] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:12:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [113] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:13:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [113] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:13:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [116] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:14:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [113] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:14:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [116] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:15:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [113] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:15:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [113] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:16:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [122] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:16:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [123] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:17:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [123] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:17:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [123] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:18:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [123] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:18:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [122] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:19:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [126] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:19:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [126] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:20:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [127] - Cannot process job change event because job with key Cleaning could not be found!
+2024-10-21 11:20:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [128] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:20:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [123] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:21:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [123] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:21:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [127] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:22:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [132] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:22:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [128] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:23:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [128] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:23:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [127] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:24:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [128] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:24:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [124] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:25:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [128] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:25:30 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [49228] [121] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-21 11:25:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [122] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:26:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [118] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:26:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [118] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:26:39 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [49228] [120] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-21 11:27:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [115] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:54:10 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [49228] [122] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-21 11:54:20 [WRN] [ZQH.Abp.BackgroundTasks.Quartz.QuartzJobListener] [49228] [113] - The task BackgroundPollingJob could not be performed, Because it is being scheduled by another job scheduler
+2024-10-21 11:54:20 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [115] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:54:20 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [113] - Cannot process job change event because job with key Cleaning could not be found!
+2024-10-21 11:54:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [113] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:55:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [113] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:55:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [120] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:56:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [111] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:56:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [120] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:57:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [120] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:57:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [45] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:58:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [120] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:58:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [4] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:59:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [62] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 11:59:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [105] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:00:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [62] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:00:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [105] - Cannot process job change event because job with key Checking could not be found!
+2024-10-21 12:00:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [75] - Cannot process job change event because job with key Cleaning could not be found!
+2024-10-21 12:00:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [62] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:01:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [62] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:01:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [105] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:02:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [90] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:02:35 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [105] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:03:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [105] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:03:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [78] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:04:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [99] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:04:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [133] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:05:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [135] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:05:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [99] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:06:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [136] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:06:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [136] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:07:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [136] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:07:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [99] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:08:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [145] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:08:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [144] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:09:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [144] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:09:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [147] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:10:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [150] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:10:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [148] - Cannot process job change event because job with key Cleaning could not be found!
+2024-10-21 12:10:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [148] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:11:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [144] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:11:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [144] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:12:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [155] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:12:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [155] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:13:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [150] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:13:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [150] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:14:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [160] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:14:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [159] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:15:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [159] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:15:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [162] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:16:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [155] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:16:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [163] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:17:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [163] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:17:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [161] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:18:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [165] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:18:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [165] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:19:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [158] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:19:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [165] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:20:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [154] - Cannot process job change event because job with key Cleaning could not be found!
+2024-10-21 12:20:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [155] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:20:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [148] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:21:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [147] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:21:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [148] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:22:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [146] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:22:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [146] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:23:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [141] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:23:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [148] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:24:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [139] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:24:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [139] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:25:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [139] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:25:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [102] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:26:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [102] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:26:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [91] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:27:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [102] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:27:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [102] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:28:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [78] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:28:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [90] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:29:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [77] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:29:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [90] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:30:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [90] - Cannot process job change event because job with key Cleaning could not be found!
+2024-10-21 12:30:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [45] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:30:30 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [45] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:31:00 [WRN] [ZQH.Abp.BackgroundTasks.Internal.JobExecutedEvent] [49228] [45] - Cannot process job change event because job with key Polling could not be found!
+2024-10-21 12:41:08 [WRN] [ZQH.Abp.EventBus.CAP.AbpCAPConsumerServiceSelector] [61280] [7] - We detected that you have duplicate subscribers (abp.multi_tenancy.tenant.connection_string.updated) in same group (TaskManagement.v1), this will cause diversity behavior.
+2024-10-21 12:41:12 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [61280] [35] - Failed to initialize index and audit log may not be retrieved.
+2024-10-21 12:41:12 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [61280] [35] - Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET /
+ ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product.
+ ---> System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9200)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Elasticsearch.Net.HttpConnection.RequestAsync[TResponse](RequestData requestData, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure()
+   at Elasticsearch.Net.RequestPipeline.PingAsync(Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.PingAsync(IRequestPipeline pipeline, Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.RequestAsync[TResponse](HttpMethod method, String path, CancellationToken cancellationToken, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---

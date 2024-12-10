@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>ZQH.Abp.Identity.OrganizaztionUnits</AssemblyName>
+		<PackageId>ZQH.Abp.Identity.OrganizaztionUnits</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\framework\authorization\ZQH.Abp.Authorization.OrganizationUnits\ZQH.Abp.Authorization.OrganizationUnits.csproj" />
+		<ProjectReference Include="..\ZQH.Abp.Identity.Domain\ZQH.Abp.Identity.Domain.csproj" />
+	</ItemGroup>
+
+</Project>

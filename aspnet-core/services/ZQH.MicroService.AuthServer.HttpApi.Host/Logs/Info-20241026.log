@@ -1,0 +1,234 @@
+2024-10-25 20:42:25 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [112] - RabbitMQ consumer cancelled. --> amq.ctag-FihDlip4BeALHaKoaXE5qw
+2024-10-26 01:20:37 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [112] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-26 02:04:40 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [13556] [89] - Request starting HTTP/1.1 GET http://127.0.0.1:30015/api/abp/application-configuration?_t=1729879480564 - null 0
+2024-10-26 02:04:40 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [13556] [89] - Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 02:04:40 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [89] - Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2024-10-26 02:04:40 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [89] - Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2024-10-26 02:04:40 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [13556] [89] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-26 02:04:40 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [109] - Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`Enable`
+2024-10-26 02:04:40 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [56] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`DefaultCultureName`, `a`.`Description`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`Name`
+FROM `AbpLocalizationResources` AS `a`
+2024-10-26 02:04:40 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [109] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`Enable`
+2024-10-26 02:04:40 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [109] - Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CultureName`, `a`.`Key`, `a`.`ResourceName`, `a`.`Value`
+FROM `AbpLocalizationTexts` AS `a`
+2024-10-26 02:04:40 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [89] - Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 193.1116ms.
+2024-10-26 02:04:41 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] [13556] [89] - Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2024-10-26 02:04:41 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [89] - Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 301.0589ms
+2024-10-26 02:04:41 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [13556] [89] - Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 02:04:41 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [13556] [89] - Request finished HTTP/1.1 GET http://127.0.0.1:30015/api/abp/application-configuration?_t=1729879480564 - 200 null application/json; charset=utf-8 336.0482ms
+2024-10-26 02:04:48 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [13556] [112] - Request starting HTTP/1.1 GET http://127.0.0.1:30015/api/abp/api-definition?_t=1729879488097 - null 0
+2024-10-26 02:04:48 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [13556] [112] - Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 02:04:48 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [112] - Route matched with {area = "abp", action = "Get", controller = "AbpApiDefinition"}. Executing controller action with signature Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel Get(Volo.Abp.Http.Modeling.ApplicationApiDescriptionModelRequestDto) on controller Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController (Volo.Abp.AspNetCore.Mvc).
+2024-10-26 02:04:48 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [112] - Executing action method Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2024-10-26 02:04:48 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [13556] [112] - Controller 'Account' contains more than one action with name 'RegisterAsyncByInput' for module 'account'. Ignored: System.Threading.Tasks.Task RegisterAsync(ZQH.Abp.Account.PhoneRegisterDto)
+2024-10-26 02:04:48 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [112] - Executed action method Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 530.0191ms.
+2024-10-26 02:04:48 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] [13556] [112] - Executing ObjectResult, writing value of type 'Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel'.
+2024-10-26 02:04:48 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [112] - Executed action Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) in 549.7709ms
+2024-10-26 02:04:48 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [13556] [112] - Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 02:04:48 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [13556] [112] - Request finished HTTP/1.1 GET http://127.0.0.1:30015/api/abp/api-definition?_t=1729879488097 - 200 null application/json; charset=utf-8 578.2543ms
+2024-10-26 02:56:01 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [75] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__Subtract_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `a`
+FROM `AbpSessions` AS `a`
+WHERE (@__ef_filter__p_0 OR (`a`.`TenantId` IS NULL)) AND (`a`.`LastAccessed` IS NULL OR (`a`.`LastAccessed` < @__Subtract_0))
+2024-10-26 02:56:01 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [13556] [75] - Lock is acquired for TokenCleanupBackgroundWorker
+2024-10-26 02:56:01 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [75] - Start cleanup.
+2024-10-26 02:56:01 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [75] - Start cleanup tokens.
+2024-10-26 02:56:01 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [106] - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Status`
+    FROM `OpenIddictAuthorizations` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`AuthorizationId` = `t`.`Id`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` NOT IN ('inactive', 'valid') OR (`o`.`Status` IS NULL)) OR (`t`.`Id` IS NOT NULL AND ((`t`.`Status` <> 'valid') OR `t`.`Status` IS NULL))) OR (`o`.`ExpirationDate` < UTC_TIMESTAMP()))
+2024-10-26 02:56:01 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [106] - Start cleanup authorizations.
+2024-10-26 02:56:01 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [106] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT `o`.`Id`
+FROM `OpenIddictAuthorizations` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`AuthorizationId`
+    FROM `OpenIddictTokens` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`Id` = `t`.`AuthorizationId`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` <> 'valid') OR `o`.`Status` IS NULL) OR ((`o`.`Type` = 'ad-hoc') AND `t`.`Id` IS NULL))
+2024-10-26 02:56:01 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [106] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+WHERE FALSE
+2024-10-26 02:56:01 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [106] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictAuthorizations` AS `o`
+WHERE FALSE
+2024-10-26 02:56:01 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [13556] [106] - Lock is released for TokenCleanupBackgroundWorker
+2024-10-26 03:22:32 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [13556] [49] - Request starting HTTP/1.1 GET http://127.0.0.1:30015/api/abp/application-configuration?_t=1729884151997 - null 0
+2024-10-26 03:22:32 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [13556] [49] - Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:22:32 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [49] - Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2024-10-26 03:22:32 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [49] - Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2024-10-26 03:22:32 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [13556] [49] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-26 03:22:32 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [49] - Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`Enable`
+2024-10-26 03:22:32 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [58] - Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`DefaultCultureName`, `a`.`Description`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`Name`
+FROM `AbpLocalizationResources` AS `a`
+2024-10-26 03:22:32 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [58] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`Enable`
+2024-10-26 03:22:32 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [58] - Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CultureName`, `a`.`Key`, `a`.`ResourceName`, `a`.`Value`
+FROM `AbpLocalizationTexts` AS `a`
+2024-10-26 03:22:32 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [76] - Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 594.4206ms.
+2024-10-26 03:22:33 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] [13556] [76] - Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2024-10-26 03:22:33 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [76] - Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 719.6454ms
+2024-10-26 03:22:33 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [13556] [76] - Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:22:33 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [13556] [76] - Request finished HTTP/1.1 GET http://127.0.0.1:30015/api/abp/application-configuration?_t=1729884151997 - 200 null application/json; charset=utf-8 797.3313ms
+2024-10-26 03:22:40 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [13556] [49] - Request starting HTTP/1.1 GET http://127.0.0.1:30015/api/abp/api-definition?_t=1729884160457 - null 0
+2024-10-26 03:22:40 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [13556] [49] - Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:22:40 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [49] - Route matched with {area = "abp", action = "Get", controller = "AbpApiDefinition"}. Executing controller action with signature Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel Get(Volo.Abp.Http.Modeling.ApplicationApiDescriptionModelRequestDto) on controller Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController (Volo.Abp.AspNetCore.Mvc).
+2024-10-26 03:22:40 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [49] - Executing action method Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2024-10-26 03:22:40 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [13556] [49] - Controller 'Account' contains more than one action with name 'RegisterAsyncByInput' for module 'account'. Ignored: System.Threading.Tasks.Task RegisterAsync(ZQH.Abp.Account.PhoneRegisterDto)
+2024-10-26 03:22:40 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [49] - Executed action method Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 256.5884ms.
+2024-10-26 03:22:40 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] [13556] [49] - Executing ObjectResult, writing value of type 'Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel'.
+2024-10-26 03:22:40 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [49] - Executed action Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) in 265.5204ms
+2024-10-26 03:22:40 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [13556] [49] - Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:22:40 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [13556] [49] - Request finished HTTP/1.1 GET http://127.0.0.1:30015/api/abp/api-definition?_t=1729884160457 - 200 null application/json; charset=utf-8 278.2473ms
+2024-10-26 03:22:50 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [13556] [92] - Request starting HTTP/1.1 GET http://127.0.0.1:30015/api/abp/application-configuration?_t=1729884170584 - null 0
+2024-10-26 03:22:51 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [13556] [92] - Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:22:51 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [92] - Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2024-10-26 03:22:51 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [92] - Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2024-10-26 03:22:51 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [13556] [92] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-26 03:22:51 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [92] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`Enable`
+2024-10-26 03:22:51 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [92] - Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 174.7341ms.
+2024-10-26 03:22:51 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] [13556] [92] - Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2024-10-26 03:22:51 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [92] - Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 199.9636ms
+2024-10-26 03:22:51 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [13556] [92] - Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:22:51 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [13556] [92] - Request finished HTTP/1.1 GET http://127.0.0.1:30015/api/abp/application-configuration?_t=1729884170584 - 200 null application/json; charset=utf-8 1004.3917ms
+2024-10-26 03:24:26 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [13556] [58] - Request starting HTTP/1.1 DELETE http://127.0.0.1:30015/api/account/my-profile/sessions/846c282e4eb04f7dac7f554dd484732e/revoke - null 0
+2024-10-26 03:24:26 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] [13556] [58] - CORS policy execution failed.
+2024-10-26 03:24:26 [INF] [Microsoft.AspNetCore.Cors.Infrastructure.CorsService] [13556] [58] - Request origin http://localhost:3100 does not have permission to access the resource.
+2024-10-26 03:24:26 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [13556] [58] - Executing endpoint 'ZQH.Abp.Account.MyProfileController.RevokeSessionAsync (ZQH.Abp.Account.HttpApi)'
+2024-10-26 03:24:26 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [58] - Route matched with {area = "account", controller = "Profile", action = "RevokeSession"}. Executing controller action with signature System.Threading.Tasks.Task RevokeSessionAsync(System.String) on controller ZQH.Abp.Account.MyProfileController (ZQH.Abp.Account.HttpApi).
+2024-10-26 03:24:26 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [58] - Executing action method ZQH.Abp.Account.MyProfileController.RevokeSessionAsync (ZQH.Abp.Account.HttpApi) - Validation state: "Valid"
+2024-10-26 03:24:26 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [91] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__sessionId_0='?' (Size = 128)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`ClientId`, `a`.`Device`, `a`.`DeviceInfo`, `a`.`IpAddresses`, `a`.`LastAccessed`, `a`.`SessionId`, `a`.`SignedIn`, `a`.`TenantId`, `a`.`UserId`
+FROM `AbpSessions` AS `a`
+WHERE (@__ef_filter__p_0 OR (`a`.`TenantId` IS NULL)) AND (`a`.`SessionId` = @__sessionId_0)
+2024-10-26 03:24:26 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [91] - Executed action method ZQH.Abp.Account.MyProfileController.RevokeSessionAsync (ZQH.Abp.Account.HttpApi), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 53.4257ms.
+2024-10-26 03:24:26 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [91] - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+DELETE FROM `AbpSessions`
+WHERE `Id` = @p0;
+SELECT ROW_COUNT();
+2024-10-26 03:24:26 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] [13556] [110] - Executing ObjectResult, writing value of type 'ZQH.Abp.Wrapper.WrapResult'.
+2024-10-26 03:24:26 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [110] - Executed action ZQH.Abp.Account.MyProfileController.RevokeSessionAsync (ZQH.Abp.Account.HttpApi) in 182.7064ms
+2024-10-26 03:24:26 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [13556] [110] - Executed endpoint 'ZQH.Abp.Account.MyProfileController.RevokeSessionAsync (ZQH.Abp.Account.HttpApi)'
+2024-10-26 03:24:28 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [13556] [58] - Request finished HTTP/1.1 DELETE http://127.0.0.1:30015/api/account/my-profile/sessions/846c282e4eb04f7dac7f554dd484732e/revoke - 200 null application/json; charset=utf-8 2325.4468ms
+2024-10-26 03:24:32 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [13556] [58] - Request starting HTTP/1.1 GET http://127.0.0.1:30015/api/abp/application-configuration?_t=1729884271793 - null 0
+2024-10-26 03:24:32 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [13556] [58] - Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:24:32 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [58] - Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2024-10-26 03:24:32 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [58] - Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2024-10-26 03:24:32 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [13556] [58] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-26 03:24:32 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [91] - Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`Enable`
+2024-10-26 03:24:32 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [118] - Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 298.8144ms.
+2024-10-26 03:24:32 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] [13556] [118] - Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2024-10-26 03:24:32 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [118] - Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 345.4881ms
+2024-10-26 03:24:32 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [13556] [118] - Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:24:32 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [13556] [118] - Request finished HTTP/1.1 GET http://127.0.0.1:30015/api/abp/application-configuration?_t=1729884271793 - 200 null application/json; charset=utf-8 410.2008ms
+2024-10-26 03:24:34 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [13556] [61] - Request starting HTTP/1.1 GET http://127.0.0.1:30015/api/abp/api-definition?_t=1729884274359 - null 0
+2024-10-26 03:24:34 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [13556] [61] - Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:24:34 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [61] - Route matched with {area = "abp", action = "Get", controller = "AbpApiDefinition"}. Executing controller action with signature Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel Get(Volo.Abp.Http.Modeling.ApplicationApiDescriptionModelRequestDto) on controller Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController (Volo.Abp.AspNetCore.Mvc).
+2024-10-26 03:24:34 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [61] - Executing action method Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2024-10-26 03:24:34 [WRN] [Volo.Abp.AspNetCore.Mvc.AspNetCoreApiDescriptionModelProvider] [13556] [61] - Controller 'Account' contains more than one action with name 'RegisterAsyncByInput' for module 'account'. Ignored: System.Threading.Tasks.Task RegisterAsync(ZQH.Abp.Account.PhoneRegisterDto)
+2024-10-26 03:24:34 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [61] - Executed action method Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 206.2122ms.
+2024-10-26 03:24:34 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] [13556] [61] - Executing ObjectResult, writing value of type 'Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel'.
+2024-10-26 03:24:34 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [61] - Executed action Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) in 216.7036ms
+2024-10-26 03:24:34 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [13556] [61] - Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:24:34 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [13556] [61] - Request finished HTTP/1.1 GET http://127.0.0.1:30015/api/abp/api-definition?_t=1729884274359 - 200 null application/json; charset=utf-8 261.9905ms
+2024-10-26 03:24:44 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [13556] [61] - Request starting HTTP/1.1 GET http://127.0.0.1:30015/api/abp/application-configuration?_t=1729884284400 - null 0
+2024-10-26 03:24:44 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [13556] [42] - Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:24:44 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [42] - Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2024-10-26 03:24:44 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [42] - Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2024-10-26 03:24:44 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [13556] [42] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-26 03:24:44 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [65] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`CreationTime`, `a`.`CreatorId`, `a`.`CultureName`, `a`.`DisplayName`, `a`.`Enable`, `a`.`LastModificationTime`, `a`.`LastModifierId`, `a`.`TwoLetterISOLanguageName`, `a`.`UiCultureName`
+FROM `AbpLocalizationLanguages` AS `a`
+WHERE `a`.`Enable`
+2024-10-26 03:24:44 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [119] - Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 158.0881ms.
+2024-10-26 03:24:44 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] [13556] [119] - Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2024-10-26 03:24:44 [INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [13556] [119] - Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 172.5168ms
+2024-10-26 03:24:44 [INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [13556] [119] - Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2024-10-26 03:24:44 [INF] [Microsoft.AspNetCore.Hosting.Diagnostics] [13556] [119] - Request finished HTTP/1.1 GET http://127.0.0.1:30015/api/abp/application-configuration?_t=1729884284400 - 200 null application/json; charset=utf-8 208.7697ms
+2024-10-26 03:56:01 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [61] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__Subtract_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `a`
+FROM `AbpSessions` AS `a`
+WHERE (@__ef_filter__p_0 OR (`a`.`TenantId` IS NULL)) AND (`a`.`LastAccessed` IS NULL OR (`a`.`LastAccessed` < @__Subtract_0))
+2024-10-26 03:56:01 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [13556] [61] - Lock is acquired for TokenCleanupBackgroundWorker
+2024-10-26 03:56:01 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [61] - Start cleanup.
+2024-10-26 03:56:01 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [61] - Start cleanup tokens.
+2024-10-26 03:56:01 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [61] - Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`Status`
+    FROM `OpenIddictAuthorizations` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`AuthorizationId` = `t`.`Id`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` NOT IN ('inactive', 'valid') OR (`o`.`Status` IS NULL)) OR (`t`.`Id` IS NOT NULL AND ((`t`.`Status` <> 'valid') OR `t`.`Status` IS NULL))) OR (`o`.`ExpirationDate` < UTC_TIMESTAMP()))
+2024-10-26 03:56:01 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupService] [13556] [61] - Start cleanup authorizations.
+2024-10-26 03:56:01 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [42] - Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__date_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT `o`.`Id`
+FROM `OpenIddictAuthorizations` AS `o`
+LEFT JOIN (
+    SELECT `o0`.`Id`, `o0`.`AuthorizationId`
+    FROM `OpenIddictTokens` AS `o0`
+    WHERE @__ef_filter__p_0 OR NOT (`o0`.`IsDeleted`)
+) AS `t` ON `o`.`Id` = `t`.`AuthorizationId`
+WHERE ((@__ef_filter__p_0 OR NOT (`o`.`IsDeleted`)) AND (`o`.`CreationDate` < @__date_0)) AND (((`o`.`Status` <> 'valid') OR `o`.`Status` IS NULL) OR ((`o`.`Type` = 'ad-hoc') AND `t`.`Id` IS NULL))
+2024-10-26 03:56:01 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [42] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictTokens` AS `o`
+WHERE FALSE
+2024-10-26 03:56:01 [INF] [Microsoft.EntityFrameworkCore.Database.Command] [13556] [42] - Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE `o`
+FROM `OpenIddictAuthorizations` AS `o`
+WHERE FALSE
+2024-10-26 03:56:01 [INF] [Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker] [13556] [42] - Lock is released for TokenCleanupBackgroundWorker
+2024-10-26 06:06:04 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [50] - RabbitMQ consumer cancelled. --> amq.ctag-FihDlip4BeALHaKoaXE5qw
+2024-10-26 09:47:48 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [50] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+2024-10-26 09:47:49 [WRN] [DotNetCore.CAP.Processor.MessageNeedToRetryProcessor] [13556] [49] - Get messages from storage failed. Retrying...
+MySqlConnector.MySqlException (0x80004005): Connect Timeout expired.
+ ---> MySqlConnector.MySqlException (0x80004005): The Command Timeout expired before the operation completed.
+   at MySqlConnector.Protocol.Serialization.SocketByteHandler.DoReadBytesAsync(Memory`1 buffer) in /_/src/MySqlConnector/Protocol/Serialization/SocketByteHandler.cs:line 76
+   at MySqlConnector.Protocol.Serialization.BufferedByteReader.ReadBytesAsync(IByteHandler byteHandler, ArraySegment`1 buffer, Int32 totalBytesToRead, IOBehavior ioBehavior) in /_/src/MySqlConnector/Protocol/Serialization/BufferedByteReader.cs:line 34
+   at MySqlConnector.Protocol.Serialization.ProtocolUtility.ReadPayloadAsync(BufferedByteReader bufferedByteReader, IByteHandler byteHandler, Func`1 getNextSequenceNumber, ArraySegmentHolder`1 previousPayloads, ProtocolErrorBehavior protocolErrorBehavior, IOBehavior ioBehavior) in /_/src/MySqlConnector/Protocol/Serialization/ProtocolUtility.cs:line 421
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 882
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 548
+   at MySqlConnector.Core.ConnectionPool.ConnectSessionAsync(MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 428
+   at MySqlConnector.Core.ConnectionPool.ConnectSessionAsync(MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 433
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 111
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 42
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 919
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 951
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at DotNetCore.CAP.MySql.DbConnectionExtensions.ExecuteReaderAsync[T](DbConnection connection, String sql, Func`2 readerFunc, DbTransaction transaction, Object[] sqlParams)
+   at DotNetCore.CAP.MySql.MySqlDataStorage.GetMessagesOfNeedRetryAsync(String tableName, TimeSpan lookbackSeconds)
+   at DotNetCore.CAP.MySql.MySqlDataStorage.GetMessagesOfNeedRetryAsync(String tableName, TimeSpan lookbackSeconds)
+   at DotNetCore.CAP.Processor.MessageNeedToRetryProcessor.GetSafelyAsync[T](Func`2 getMessagesAsync, TimeSpan lookbackSeconds)
+2024-10-26 09:47:51 [WRN] [DotNetCore.CAP.Processor.TransportCheckProcessor] [13556] [35] - Transport connection is unhealthy, reconnection...

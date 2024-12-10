@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;netstandard2.1;net8.0</TargetFrameworks>
+		<AssemblyName>ZQH.Abp.Notifications.Common</AssemblyName>
+		<PackageId>ZQH.Abp.Notifications.Common</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="ZQH.**" />
+	  <EmbeddedResource Remove="ZQH.**" />
+	  <None Remove="ZQH.**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="ZQH\Abp\Notifications\Templates\ExceptionNotifier\en.tpl" />
+	  <None Remove="ZQH\Abp\Notifications\Templates\ExceptionNotifier\zh-Hans.tpl" />
+	  <None Remove="ZQH\Abp\Notifications\Templates\layout.tpl" />
+	  <None Remove="ZQH\Abp\Notifications\Templates\NewTenantRegisterd\en.tpl" />
+	  <None Remove="ZQH\Abp\Notifications\Templates\NewTenantRegisterd\zh-Hans.tpl" />
+	  <None Remove="ZQH\Abp\Notifications\Templates\WelcomeToApplication\en.tpl" />
+	  <None Remove="ZQH\Abp\Notifications\Templates\WelcomeToApplication\zh-Hans.tpl" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="ZQH\Abp\Notifications\Templates\ExceptionNotifier\en.tpl" />
+	  <EmbeddedResource Include="ZQH\Abp\Notifications\Templates\ExceptionNotifier\zh-Hans.tpl" />
+	  <EmbeddedResource Include="ZQH\Abp\Notifications\Templates\layout.tpl" />
+	  <EmbeddedResource Include="ZQH\Abp\Notifications\Templates\NewTenantRegisterd\en.tpl" />
+	  <EmbeddedResource Include="ZQH\Abp\Notifications\Templates\NewTenantRegisterd\zh-Hans.tpl" />
+	  <EmbeddedResource Include="ZQH\Abp\Notifications\Templates\WelcomeToApplication\en.tpl" />
+	  <EmbeddedResource Include="ZQH\Abp\Notifications\Templates\WelcomeToApplication\zh-Hans.tpl" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\ZQH.Abp.Notifications\ZQH.Abp.Notifications.csproj" />
+	</ItemGroup>
+
+</Project>

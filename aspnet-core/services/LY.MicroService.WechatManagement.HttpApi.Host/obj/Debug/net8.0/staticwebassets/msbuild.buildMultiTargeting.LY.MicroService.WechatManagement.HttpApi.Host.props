@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LY.MicroService.WechatManagement.HttpApi.Host.props" />
+</Project>

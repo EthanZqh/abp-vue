@@ -1,0 +1,18 @@
+2024-10-22 11:15:02 [ERR] [Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule] [16268] [7] - Could not create an instance of type Volo.Abp.Validation.StringValues.IStringValueType. Type is an interface or abstract class and cannot be instantiated. Path 'name', line 1, position 8.
+Newtonsoft.Json.JsonSerializationException: Could not create an instance of type Volo.Abp.Validation.StringValues.IStringValueType. Type is an interface or abstract class and cannot be instantiated. Path 'name', line 1, position 8.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateNewObject(JsonReader reader, JsonObjectContract objectContract, JsonProperty containerMember, JsonProperty containerProperty, String id, Boolean& createdFromNonDefaultCreator)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Volo.Abp.Json.Newtonsoft.AbpNewtonsoftJsonSerializer.Deserialize[T](String jsonString, Boolean camelCase)
+   at Volo.Abp.FeatureManagement.StringValueTypeSerializer.Deserialize(String value)
+   at Volo.Abp.FeatureManagement.DynamicFeatureDefinitionStoreInMemoryCache.AddFeatureRecursively(ICanCreateChildFeature featureContainer, FeatureDefinitionRecord featureRecord, List`1 allFeatureRecords)
+   at Volo.Abp.FeatureManagement.DynamicFeatureDefinitionStoreInMemoryCache.FillAsync(List`1 featureGroupRecords, List`1 featureRecords)
+   at Volo.Abp.FeatureManagement.DynamicFeatureDefinitionStore.UpdateInMemoryStoreCache()
+   at Volo.Abp.FeatureManagement.DynamicFeatureDefinitionStore.EnsureCacheIsUptoDateAsync()
+   at Volo.Abp.FeatureManagement.DynamicFeatureDefinitionStore.GetGroupsAsync()
+   at Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule.PreCacheDynamicFeaturesAsync(FeatureManagementOptions options, IServiceScope scope)

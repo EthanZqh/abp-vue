@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;netstandard2.1;net8.0</TargetFrameworks>
+		<AssemblyName>ZQH.Abp.Account.Templates</AssemblyName>
+		<PackageId>ZQH.Abp.Account.Templates</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="ZQH.Abp\Account\Emailing\Templates\*.tpl" />
+		<None Remove="ZQH.Abp\Account\Templates\Localization\Resources\*.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="ZQH.Abp\Account\Emailing\Templates\*.tpl" />
+		<EmbeddedResource Include="ZQH.Abp\Account\Templates\Localization\Resources\*.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="ZQH\Abp\Account\Emailing\Templates\MailConfirm.tpl" />
+	  <None Remove="ZQH\Abp\Account\Emailing\Templates\MailSecurityVerify.tpl" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="ZQH\Abp\Account\Emailing\Templates\MailConfirm.tpl" />
+	  <EmbeddedResource Include="ZQH\Abp\Account\Emailing\Templates\MailSecurityVerify.tpl" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Volo.Abp.Emailing" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\ZQH.Abp.Account.Application.Contracts\ZQH.Abp.Account.Application.Contracts.csproj" />
+	</ItemGroup>
+
+</Project>

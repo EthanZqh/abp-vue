@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>ZQH.Abp.Aliyun.SettingManagement</AssemblyName>
+		<PackageId>ZQH.Abp.Aliyun.SettingManagement</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="ZQH.Abp\Aliyun\SettingManagement\Localization\Resources\*.json" />
+		<EmbeddedResource Include="ZQH.Abp\Aliyun\SettingManagement\Localization\Resources\*.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Volo.Abp.AspNetCore.Mvc" />
+		<PackageReference Include="Volo.Abp.SettingManagement.Domain" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\common\ZQH.Abp.Sms.Aliyun\ZQH.Abp.Sms.Aliyun.csproj" />
+		<ProjectReference Include="..\..\settings\ZQH.Abp.SettingManagement.Application.Contracts\ZQH.Abp.SettingManagement.Application.Contracts.csproj" />
+	</ItemGroup>
+
+</Project>

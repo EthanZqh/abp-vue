@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>ZQH.Abp.Account.Application</AssemblyName>
+		<PackageId>ZQH.Abp.Account.Application</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Volo.Abp.Account.Application" />
+		<PackageReference Include="Volo.Abp.Sms" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\framework\settings\ZQH.Abp.Settings\ZQH.Abp.Settings.csproj" />
+		<ProjectReference Include="..\..\..\framework\wechat\ZQH.Abp.WeChat.MiniProgram\ZQH.Abp.WeChat.MiniProgram.csproj" />
+		<ProjectReference Include="..\..\identity\ZQH.Abp.Identity.Domain\ZQH.Abp.Identity.Domain.csproj" />
+		<ProjectReference Include="..\ZQH.Abp.Account.Application.Contracts\ZQH.Abp.Account.Application.Contracts.csproj" />
+		<ProjectReference Include="..\ZQH.Abp.Account.Templates\ZQH.Abp.Account.Templates.csproj" />
+	</ItemGroup>
+
+</Project>

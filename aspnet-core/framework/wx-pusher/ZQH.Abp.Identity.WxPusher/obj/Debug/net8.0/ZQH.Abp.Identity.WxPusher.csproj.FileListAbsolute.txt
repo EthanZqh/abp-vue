@@ -1,0 +1,16 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Identity.WxPusher.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Identity.WxPusher.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Identity.WxPusher.pdb
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.Identity.WxPusher\obj\Debug\net8.0\ZQH.Abp.Identity.WxPusher.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.Identity.WxPusher\obj\Debug\net8.0\ZQH.Abp.Identity.WxPusher.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.Identity.WxPusher\obj\Debug\net8.0\ZQH.Abp.Identity.WxPusher.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.Identity.WxPusher\obj\Debug\net8.0\ZQH.Abp.Identity.WxPusher.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.Identity.WxPusher\obj\Debug\net8.0\ZQH.Abp.Identity.WxPusher.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.Identity.WxPusher\obj\Debug\net8.0\ZQH.Abp.Identity.WxPusher.sourcelink.json
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.Identity.WxPusher\obj\Debug\net8.0\ZQH.Abp.Identity.WxPusher.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.Identity.WxPusher\obj\Debug\net8.0\ZQH.Abp.Identity.WxPusher.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.Identity.WxPusher\obj\Debug\net8.0\ZQH.Abp.Identity.WxPusher.csproj.CopyComplete
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.Identity.WxPusher\obj\Debug\net8.0\ZQH.Abp.Identity.WxPusher.dll
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.Identity.WxPusher\obj\Debug\net8.0\refint\ZQH.Abp.Identity.WxPusher.dll
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.Identity.WxPusher\obj\Debug\net8.0\ZQH.Abp.Identity.WxPusher.pdb
+E:\abp-vue\aspnet-core\framework\wx-pusher\ZQH.Abp.Identity.WxPusher\obj\Debug\net8.0\ref\ZQH.Abp.Identity.WxPusher.dll

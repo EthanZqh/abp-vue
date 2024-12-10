@@ -1,0 +1,12 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Volo.Abp.Localization;
+
+namespace ProductManagement.Localization;
+[LocalizationResourceName("ProductApi")]
+public class ProductApiResource
+{
+}

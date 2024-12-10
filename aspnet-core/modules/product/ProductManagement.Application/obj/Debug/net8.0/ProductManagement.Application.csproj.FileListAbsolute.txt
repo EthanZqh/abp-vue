@@ -1,0 +1,16 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ProductManagement.Application.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ProductManagement.Application.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ProductManagement.Application.pdb
+E:\abp-vue\aspnet-core\modules\product\ProductManagement.Application\obj\Debug\net8.0\ProductManagement.Application.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\product\ProductManagement.Application\obj\Debug\net8.0\ProductManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\product\ProductManagement.Application\obj\Debug\net8.0\ProductManagement.Application.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\product\ProductManagement.Application\obj\Debug\net8.0\ProductManagement.Application.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\product\ProductManagement.Application\obj\Debug\net8.0\ProductManagement.Application.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\product\ProductManagement.Application\obj\Debug\net8.0\ProductManagement.Application.sourcelink.json
+E:\abp-vue\aspnet-core\modules\product\ProductManagement.Application\obj\Debug\net8.0\ProductManagement.Application.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\product\ProductManagement.Application\obj\Debug\net8.0\ProductManagement.Application.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\product\ProductManagement.Application\obj\Debug\net8.0\ProductManagement.Application.csproj.CopyComplete
+E:\abp-vue\aspnet-core\modules\product\ProductManagement.Application\obj\Debug\net8.0\ProductManagement.Application.dll
+E:\abp-vue\aspnet-core\modules\product\ProductManagement.Application\obj\Debug\net8.0\refint\ProductManagement.Application.dll
+E:\abp-vue\aspnet-core\modules\product\ProductManagement.Application\obj\Debug\net8.0\ProductManagement.Application.pdb
+E:\abp-vue\aspnet-core\modules\product\ProductManagement.Application\obj\Debug\net8.0\ref\ProductManagement.Application.dll

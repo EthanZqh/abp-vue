@@ -1,0 +1,14 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.ExceptionHandling.Emailing.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.ExceptionHandling.Emailing.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.ExceptionHandling.Emailing.pdb
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.ExceptionHandling.Emailing\obj\Debug\netstandard2.1\ZQH.Abp.ExceptionHandling.Emailing.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.ExceptionHandling.Emailing\obj\Debug\netstandard2.1\ZQH.Abp.ExceptionHandling.Emailing.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.ExceptionHandling.Emailing\obj\Debug\netstandard2.1\ZQH.Abp.ExceptionHandling.Emailing.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.ExceptionHandling.Emailing\obj\Debug\netstandard2.1\ZQH.Abp.ExceptionHandling.Emailing.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.ExceptionHandling.Emailing\obj\Debug\netstandard2.1\ZQH.Abp.ExceptionHandling.Emailing.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.ExceptionHandling.Emailing\obj\Debug\netstandard2.1\ZQH.Abp.ExceptionHandling.Emailing.sourcelink.json
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.ExceptionHandling.Emailing\obj\Debug\netstandard2.1\ZQH.Abp.ExceptionHandling.Emailing.csproj.CopyComplete
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.ExceptionHandling.Emailing\obj\Debug\netstandard2.1\ZQH.Abp.ExceptionHandling.Emailing.dll
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.ExceptionHandling.Emailing\obj\Debug\netstandard2.1\ZQH.Abp.ExceptionHandling.Emailing.pdb
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.ExceptionHandling.Emailing\obj\Debug\netstandard2.1\ZQH.Abp.ExceptionHandling.Emailing.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.ExceptionHandling.Emailing\obj\Debug\netstandard2.1\ZQH.Abp.ExceptionHandling.Emailing.csproj.Fody.RuntimeCopyLocal.cache

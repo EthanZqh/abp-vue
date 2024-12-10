@@ -1,0 +1,14 @@
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.TaskManagement.Application.Contracts.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.TaskManagement.Application.Contracts.dll
+E:\abp-vue\aspnet-core\LocalNuget\netstandard2.1\ZQH.Abp.TaskManagement.Application.Contracts.pdb
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.TaskManagement.Application.Contracts\obj\Debug\netstandard2.1\ZQH.Abp.TaskManagement.Application.Contracts.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.TaskManagement.Application.Contracts\obj\Debug\netstandard2.1\ZQH.Abp.TaskManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.TaskManagement.Application.Contracts\obj\Debug\netstandard2.1\ZQH.Abp.TaskManagement.Application.Contracts.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.TaskManagement.Application.Contracts\obj\Debug\netstandard2.1\ZQH.Abp.TaskManagement.Application.Contracts.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.TaskManagement.Application.Contracts\obj\Debug\netstandard2.1\ZQH.Abp.TaskManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.TaskManagement.Application.Contracts\obj\Debug\netstandard2.1\ZQH.Abp.TaskManagement.Application.Contracts.sourcelink.json
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.TaskManagement.Application.Contracts\obj\Debug\netstandard2.1\ZQH.Abp.TaskManagement.Application.Contracts.csproj.CopyComplete
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.TaskManagement.Application.Contracts\obj\Debug\netstandard2.1\ZQH.Abp.TaskManagement.Application.Contracts.dll
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.TaskManagement.Application.Contracts\obj\Debug\netstandard2.1\ZQH.Abp.TaskManagement.Application.Contracts.pdb
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.TaskManagement.Application.Contracts\obj\Debug\netstandard2.1\ZQH.Abp.TaskManagement.Application.Contracts.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\task-management\ZQH.Abp.TaskManagement.Application.Contracts\obj\Debug\netstandard2.1\ZQH.Abp.TaskManagement.Application.Contracts.csproj.Fody.RuntimeCopyLocal.cache

@@ -1,0 +1,45 @@
+2024-10-05 18:17:27 [ERR] [DotNetCore.CAP.Internal.SubscribeExecutor] [46256] [79] - An exception occurred while executing the subscription method. Topic:abp.identity.session.change_accessed, Id:4000995686066266124, Instance: zqhT16
+DotNetCore.CAP.Internal.SubscriberExecutionFailedException: The database operation was expected to affect 1 row(s), but actually affected 0 row(s); data may have been modified or deleted since entities were loaded. See https://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+ ---> Volo.Abp.Data.AbpDbConcurrencyException: The database operation was expected to affect 1 row(s), but actually affected 0 row(s); data may have been modified or deleted since entities were loaded. See https://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+ ---> Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException: The database operation was expected to affect 1 row(s), but actually affected 0 row(s); data may have been modified or deleted since entities were loaded. See https://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ThrowAggregateUpdateConcurrencyExceptionAsync(RelationalDataReader reader, Int32 commandIndex, Int32 expectedRowsAffected, Int32 rowsAffected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Volo.Abp.EntityFrameworkCore.AbpDbContext`1.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Volo.Abp.EntityFrameworkCore.AbpDbContext`1.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Volo.Abp.Uow.UnitOfWork.SaveChangesAsync(CancellationToken cancellationToken)
+   at Volo.Abp.Uow.UnitOfWork.CompleteAsync(CancellationToken cancellationToken)
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at ZQH.Abp.Identity.Session.IdentitySessionStore.UpdateAsync(IdentitySession session, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Domain\ZQH\Abp\Identity\Session\IdentitySessionStore.cs:line 66
+   at ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.HandleEventAsync(IdentitySessionChangeAccessedEvent eventData) in E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Domain\ZQH\Abp\Identity\Session\IdentitySessionCacheItemSynchronizer.cs:line 58
+   at lambda_method2561(Closure, Object)
+   at ZQH.Abp.EventBus.CAP.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult() in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\Internal\ObjectMethodExecutorAwaitable.cs:line 87
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.ExecuteWithParameterAsync(ObjectMethodExecutor executor, Object class, Object[] parameter) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 259
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 156
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 183
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Volo.Abp.EntityFrameworkCore.AbpDbContext`1.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Volo.Abp.Uow.UnitOfWork.SaveChangesAsync(CancellationToken cancellationToken)
+   at Volo.Abp.Uow.UnitOfWork.CompleteAsync(CancellationToken cancellationToken)
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at ZQH.Abp.Identity.Session.IdentitySessionStore.UpdateAsync(IdentitySession session, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Domain\ZQH\Abp\Identity\Session\IdentitySessionStore.cs:line 66
+   at ZQH.Abp.Identity.Session.IdentitySessionCacheItemSynchronizer.HandleEventAsync(IdentitySessionChangeAccessedEvent eventData) in E:\abp-vue\aspnet-core\modules\identity\ZQH.Abp.Identity.Domain\ZQH\Abp\Identity\Session\IdentitySessionCacheItemSynchronizer.cs:line 58
+   at lambda_method2561(Closure, Object)
+   at ZQH.Abp.EventBus.CAP.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult() in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\Internal\ObjectMethodExecutorAwaitable.cs:line 87
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.ExecuteWithParameterAsync(ObjectMethodExecutor executor, Object class, Object[] parameter) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 259
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 156
+   at ZQH.Abp.EventBus.CAP.AbpCAPSubscribeInvoker.InvokeAsync(ConsumerContext context, CancellationToken cancellationToken) in E:\abp-vue\aspnet-core\framework\common\ZQH.Abp.EventBus.CAP\ZQH\Abp\EventBus\CAP\AbpCAPSubscribeInvoker.cs:line 183
+   at DotNetCore.CAP.Internal.SubscribeExecutor.InvokeConsumerMethodAsync(MediumMessage message, ConsumerExecutorDescriptor descriptor, CancellationToken cancellationToken)

@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\..\configureawait.props" />
+	<Import Project="..\..\..\..\common.props" />
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>ZQH.Abp.BackgroundTasks.ExceptionHandling</AssemblyName>
+		<PackageId>ZQH.Abp.BackgroundTasks.ExceptionHandling</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<RootNamespace />
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="ZQH.Abp.BackgroundTasks\ExceptionHandling\Localization\Resources\*.json" />
+		<None Remove="ZQH.Abp.BackgroundTasks\ExceptionHandling\Templates\*.tpl" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="ZQH.Abp.BackgroundTasks\ExceptionHandling\Localization\Resources\*.json" />
+		<EmbeddedResource Include="ZQH.Abp.BackgroundTasks\ExceptionHandling\Templates\*.tpl" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="ZQH\Abp\BackgroundTasks\ExceptionHandling\Templates\JobExceptionNotifier.tpl" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="ZQH\Abp\BackgroundTasks\ExceptionHandling\Templates\JobExceptionNotifier.tpl" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Volo.Abp.Timing" />
+		<PackageReference Include="Volo.Abp.Emailing" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ZQH.Abp.BackgroundTasks.Activities\ZQH.Abp.BackgroundTasks.Activities.csproj" />
+	</ItemGroup>
+
+</Project>

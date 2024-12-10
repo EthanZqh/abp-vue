@@ -1,0 +1,184 @@
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] - Loaded ABP modules:
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] - - ZQH.MicroService.LocalizationManagement.LocalizationManagementHttpApiHostModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - ZQH.Abp.Serilog.Enrichers.Application.AbpSerilogEnrichersApplicationModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - ZQH.Abp.Serilog.Enrichers.UniqueId.AbpSerilogEnrichersUniqueIdModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -     - ZQH.Abp.IdGenerator.AbpIdGeneratorModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -     - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - Volo.Abp.Data.AbpDataModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -         - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -           - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -           - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -         - Volo.Abp.Uow.AbpUnitOfWorkModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -         - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - Volo.Abp.Security.AbpSecurityModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - Volo.Abp.Settings.AbpSettingsModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -         - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -         - Volo.Abp.Localization.AbpLocalizationModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -           - Volo.Abp.Threading.AbpThreadingModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -     - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - Volo.Abp.Auditing.AbpAuditingModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -         - Volo.Abp.Json.AbpJsonModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -           - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -             - Volo.Abp.Json.AbpJsonAbstractionsModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -             - Volo.Abp.Timing.AbpTimingModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -         - Volo.Abp.Auditing.AbpAuditingContractsModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - Volo.Abp.Http.AbpHttpModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -         - Volo.Abp.Http.AbpHttpAbstractionsModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -         - Volo.Abp.Minify.AbpMinifyModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - Volo.Abp.Authorization.AbpAuthorizationModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -         - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - Volo.Abp.Validation.AbpValidationModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - Volo.Abp.AspNetCore.AbpAspNetCoreAbstractionsModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - ZQH.Abp.AuditLogging.Elasticsearch.AbpAuditLoggingElasticsearchModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -     - ZQH.Abp.AuditLogging.AbpAuditLoggingModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - Volo.Abp.Guids.AbpGuidsModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -     - ZQH.Abp.Elasticsearch.AbpElasticsearchModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - ZQH.Abp.LocalizationManagement.AbpLocalizationManagementApplicationModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -     - Volo.Abp.Application.AbpDddApplicationModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - Volo.Abp.Domain.AbpDddDomainModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -         - Volo.Abp.EventBus.AbpEventBusModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -           - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -           - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -         - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -         - Volo.Abp.Specifications.AbpSpecificationsModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -         - Volo.Abp.Caching.AbpCachingModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -           - Volo.Abp.Serialization.AbpSerializationModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -         - Volo.Abp.Domain.AbpDddDomainSharedModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - Volo.Abp.Features.AbpFeaturesModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -     - ZQH.Abp.LocalizationManagement.AbpLocalizationManagementDomainModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - ZQH.Abp.Localization.Persistence.AbpLocalizationPersistenceModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - ZQH.Abp.LocalizationManagement.AbpLocalizationManagementDomainSharedModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -     - ZQH.Abp.LocalizationManagement.AbpLocalizationManagementApplicationContractsModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - ZQH.Abp.LocalizationManagement.AbpLocalizationManagementHttpApiModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -     - ZQH.Abp.AspNetCore.Mvc.Localization.AbpAspNetCoreMvcLocalizationModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -         - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -         - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -           - Volo.Abp.UI.AbpUiModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - ZQH.Abp.LocalizationManagement.EntityFrameworkCore.AbpLocalizationManagementEntityFrameworkCoreModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - ZQH.Abp.Saas.EntityFrameworkCore.AbpSaasEntityFrameworkCoreModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -     - ZQH.Abp.Saas.AbpSaasDomainModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - ZQH.Abp.Saas.AbpSaasDomainSharedModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - ZQH.Abp.MultiTenancy.Editions.AbpMultiTenancyEditionsModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -     - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -     - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -     - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - ZQH.MicroService.LocalizationManagement.EntityFrameworkCore.LocalizationManagementMigrationsEntityFrameworkCoreModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -     - ZQH.Abp.Data.DbMigrator.AbpDataDbMigratorModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - Volo.Abp.AspNetCore.Authentication.JwtBearer.AbpAspNetCoreAuthenticationJwtBearerModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - ZQH.Abp.Authorization.OrganizationUnits.AbpAuthorizationOrganizationUnitsModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - ZQH.Abp.ExceptionHandling.Emailing.AbpEmailingExceptionHandlingModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -     - ZQH.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -     - Volo.Abp.Emailing.AbpEmailingModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -       - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -         - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -           - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - ZQH.Abp.EventBus.CAP.AbpCAPEventBusModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - ZQH.Abp.Localization.CultureMap.AbpLocalizationCultureMapModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - ZQH.Abp.Identity.Session.AspNetCore.AbpIdentitySessionAspNetCoreModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -     - ZQH.Abp.Identity.Session.AbpIdentitySessionModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - Volo.Abp.Http.Client.AbpHttpClientModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -     - Volo.Abp.Castle.AbpCastleCoreModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -     - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - ZQH.Abp.AspNetCore.Mvc.Wrapper.AbpAspNetCoreMvcWrapperModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -     - ZQH.Abp.Wrapper.AbpWrapperModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -     - ZQH.Abp.AspNetCore.Wrapper.AbpAspNetCoreWrapperModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - ZQH.Abp.AspNetCore.HttpOverrides.AbpAspNetCoreHttpOverridesModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.AbpApplicationBase] [15112] [1] -   - Volo.Abp.Autofac.AbpAutofacModule
+2024-10-25 06:36:45 [INF] [Volo.Abp.Modularity.ModuleManager] [15112] [1] - Initialized all ABP modules.
+2024-10-25 06:36:46 [INF] [DotNetCore.CAP.Processor.Dispatcher] [15112] [6] - Starting default Dispatcher
+2024-10-25 06:36:46 [WRN] [ZQH.Abp.EventBus.CAP.AbpCAPConsumerServiceSelector] [15112] [6] - We detected that you have duplicate subscribers (abp.multi_tenancy.tenant.connection_string.updated) in same group (Localization-Management.v1), this will cause diversity behavior.
+2024-10-25 06:36:46 [INF] [DotNetCore.CAP.Processor.CapProcessingServer] [15112] [6] - Starting the processing server.
+2024-10-25 06:36:46 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [4] - RabbitMQ consumer registered. --> amq.ctag-szMxfq8dlZ1u4DaF4o7ccg
+2024-10-25 06:36:46 [INF] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [25] - RabbitMQ consumer registered. --> amq.ctag-jF0AWf-_LkC3IJJk55fb0w
+2024-10-25 06:36:46 [INF] [DotNetCore.CAP.Internal.Bootstrapper] [15112] [6] - ### CAP started!
+2024-10-25 06:36:50 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [15112] [22] - Failed to initialize index and audit log may not be retrieved.
+2024-10-25 06:36:50 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [15112] [22] - Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET /
+ ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product.
+ ---> System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9200)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Elasticsearch.Net.HttpConnection.RequestAsync[TResponse](RequestData requestData, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure()
+   at Elasticsearch.Net.RequestPipeline.PingAsync(Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.PingAsync(IRequestPipeline pipeline, Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.RequestAsync[TResponse](HttpMethod method, String path, CancellationToken cancellationToken, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2024-10-25 06:36:54 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [15112] [31] - Failed to initialize index and security log may not be retrieved.
+2024-10-25 06:36:54 [WRN] [ZQH.Abp.AuditLogging.Elasticsearch.IndexInitializer] [15112] [31] - Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET /
+ ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product.
+ ---> System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 (127.0.0.1:9200)
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Elasticsearch.Net.HttpConnection.RequestAsync[TResponse](RequestData requestData, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure()
+   at Elasticsearch.Net.RequestPipeline.PingAsync(Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.PingAsync(IRequestPipeline pipeline, Node node, CancellationToken cancellationToken)
+   at Elasticsearch.Net.Transport`1.RequestAsync[TResponse](HttpMethod method, String path, CancellationToken cancellationToken, PostData data, IRequestParameters requestParameters)
+   --- End of inner exception stack trace ---
+2024-10-25 07:08:32 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [15112] [56] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 07:09:00 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [15112] [57] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 07:09:04 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [15112] [53] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 07:11:23 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [15112] [57] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 07:12:04 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [15112] [60] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 10:17:35 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [15112] [96] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 10:25:08 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [15112] [82] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 10:27:44 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [15112] [76] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 10:28:04 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [15112] [76] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 10:30:44 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [15112] [63] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 10:51:17 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [15112] [51] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 11:46:59 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [15112] [43] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 11:47:15 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [15112] [74] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 11:51:09 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [15112] [82] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 11:54:34 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [15112] [80] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 13:44:08 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [15112] [76] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 14:28:55 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [15112] [143] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 14:30:17 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [15112] [150] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 14:31:28 [WRN] [Microsoft.AspNetCore.Http.ResponseCookies] [15112] [138] - The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2024-10-25 20:42:25 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [15112] [25] - RabbitMQ consumer cancelled. --> amq.ctag-jF0AWf-_LkC3IJJk55fb0w

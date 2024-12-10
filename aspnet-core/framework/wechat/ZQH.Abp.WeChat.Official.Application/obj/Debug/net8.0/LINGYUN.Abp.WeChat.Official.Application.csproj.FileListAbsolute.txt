@@ -1,0 +1,16 @@
+E:\abp-next-admin\aspnet-core\LocalNuget\net8.0\LINGYUN.Abp.WeChat.Official.Application.deps.json
+E:\abp-next-admin\aspnet-core\LocalNuget\net8.0\LINGYUN.Abp.WeChat.Official.Application.dll
+E:\abp-next-admin\aspnet-core\LocalNuget\net8.0\LINGYUN.Abp.WeChat.Official.Application.pdb
+E:\abp-next-admin\aspnet-core\framework\wechat\LINGYUN.Abp.WeChat.Official.Application\obj\Debug\net8.0\LINGYUN.Abp.WeChat.Official.Application.csproj.AssemblyReference.cache
+E:\abp-next-admin\aspnet-core\framework\wechat\LINGYUN.Abp.WeChat.Official.Application\obj\Debug\net8.0\LINGYUN.Abp.WeChat.Official.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-next-admin\aspnet-core\framework\wechat\LINGYUN.Abp.WeChat.Official.Application\obj\Debug\net8.0\LINGYUN.Abp.WeChat.Official.Application.AssemblyInfoInputs.cache
+E:\abp-next-admin\aspnet-core\framework\wechat\LINGYUN.Abp.WeChat.Official.Application\obj\Debug\net8.0\LINGYUN.Abp.WeChat.Official.Application.AssemblyInfo.cs
+E:\abp-next-admin\aspnet-core\framework\wechat\LINGYUN.Abp.WeChat.Official.Application\obj\Debug\net8.0\LINGYUN.Abp.WeChat.Official.Application.csproj.CoreCompileInputs.cache
+E:\abp-next-admin\aspnet-core\framework\wechat\LINGYUN.Abp.WeChat.Official.Application\obj\Debug\net8.0\LINGYUN.Abp.WeChat.Official.Application.sourcelink.json
+E:\abp-next-admin\aspnet-core\framework\wechat\LINGYUN.Abp.WeChat.Official.Application\obj\Debug\net8.0\LINGYUN.Abp.WeChat.Official.Application.csproj.Fody.CopyLocal.cache
+E:\abp-next-admin\aspnet-core\framework\wechat\LINGYUN.Abp.WeChat.Official.Application\obj\Debug\net8.0\LINGYUN.Abp.WeChat.Official.Application.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-next-admin\aspnet-core\framework\wechat\LINGYUN.Abp.WeChat.Official.Application\obj\Debug\net8.0\LINGYUN.Abp.WeChat.Official.Application.csproj.CopyComplete
+E:\abp-next-admin\aspnet-core\framework\wechat\LINGYUN.Abp.WeChat.Official.Application\obj\Debug\net8.0\LINGYUN.Abp.WeChat.Official.Application.dll
+E:\abp-next-admin\aspnet-core\framework\wechat\LINGYUN.Abp.WeChat.Official.Application\obj\Debug\net8.0\refint\LINGYUN.Abp.WeChat.Official.Application.dll
+E:\abp-next-admin\aspnet-core\framework\wechat\LINGYUN.Abp.WeChat.Official.Application\obj\Debug\net8.0\LINGYUN.Abp.WeChat.Official.Application.pdb
+E:\abp-next-admin\aspnet-core\framework\wechat\LINGYUN.Abp.WeChat.Official.Application\obj\Debug\net8.0\ref\LINGYUN.Abp.WeChat.Official.Application.dll

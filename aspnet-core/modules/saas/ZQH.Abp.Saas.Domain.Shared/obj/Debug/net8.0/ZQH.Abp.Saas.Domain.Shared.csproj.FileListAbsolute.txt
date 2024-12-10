@@ -1,0 +1,15 @@
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Saas.Domain.Shared.deps.json
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Saas.Domain.Shared.dll
+E:\abp-vue\aspnet-core\LocalNuget\net8.0\ZQH.Abp.Saas.Domain.Shared.pdb
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.Saas.Domain.Shared\obj\Debug\net8.0\ZQH.Abp.Saas.Domain.Shared.csproj.AssemblyReference.cache
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.Saas.Domain.Shared\obj\Debug\net8.0\ZQH.Abp.Saas.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.Saas.Domain.Shared\obj\Debug\net8.0\ZQH.Abp.Saas.Domain.Shared.AssemblyInfoInputs.cache
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.Saas.Domain.Shared\obj\Debug\net8.0\ZQH.Abp.Saas.Domain.Shared.AssemblyInfo.cs
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.Saas.Domain.Shared\obj\Debug\net8.0\ZQH.Abp.Saas.Domain.Shared.csproj.CoreCompileInputs.cache
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.Saas.Domain.Shared\obj\Debug\net8.0\ZQH.Abp.Saas.Domain.Shared.sourcelink.json
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.Saas.Domain.Shared\obj\Debug\net8.0\ZQH.Abp.Saas.Domain.Shared.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.Saas.Domain.Shared\obj\Debug\net8.0\ZQH.Abp.Saas.Domain.Shared.csproj.Fody.RuntimeCopyLocal.cache
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.Saas.Domain.Shared\obj\Debug\net8.0\ZQH.Abp.Saas.Domain.Shared.dll
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.Saas.Domain.Shared\obj\Debug\net8.0\refint\ZQH.Abp.Saas.Domain.Shared.dll
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.Saas.Domain.Shared\obj\Debug\net8.0\ZQH.Abp.Saas.Domain.Shared.pdb
+E:\abp-vue\aspnet-core\modules\saas\ZQH.Abp.Saas.Domain.Shared\obj\Debug\net8.0\ref\ZQH.Abp.Saas.Domain.Shared.dll

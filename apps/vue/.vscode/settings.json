@@ -1,0 +1,12 @@
+{
+    "i18n-ally.localesPaths": [
+        "src/locales",
+        "src/api/messages",
+        "src/locales/lang",
+        "src/views/messages",
+        "public/resource/tinymce/langs",
+        "src/api/localization/languages",
+        "src/api/messages/messages",
+        "src/views/localization/languages"
+    ]
+}

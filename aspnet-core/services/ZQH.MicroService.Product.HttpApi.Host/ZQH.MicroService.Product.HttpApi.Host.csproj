@@ -1,0 +1,130 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
+    <RootNamespace />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Localization\Resources\en.json" />
+    <Content Remove="Localization\Resources\zh-Hans.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Localization\Resources\en.json" />
+    <EmbeddedResource Include="Localization\Resources\zh-Hans.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AgileConfig.Client" />
+	<PackageReference Include="DotNetCore.CAP.Dashboard" />
+	<PackageReference Include="DotNetCore.CAP.MySql" />
+	<PackageReference Include="DotNetCore.CAP.RabbitMQ" />
+	<PackageReference Include="DistributedLock.Redis" />
+	<PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" />
+	<PackageReference Include="Microsoft.AspNetCore.SignalR.StackExchangeRedis" />
+	<PackageReference Include="Quartz.Serialization.Json" />
+	<PackageReference Include="Quartz.Serialization.Json" />
+	<PackageReference Include="Serilog.AspNetCore" />
+	<PackageReference Include="Serilog.Enrichers.Environment" />
+	<PackageReference Include="Serilog.Enrichers.Assembly" />
+	<PackageReference Include="Serilog.Enrichers.Process" />
+	<PackageReference Include="Serilog.Enrichers.Thread" />
+	<PackageReference Include="Serilog.Settings.Configuration" />
+	<PackageReference Include="Serilog.Sinks.Elasticsearch" />
+	<PackageReference Include="Serilog.Sinks.File" />
+	<PackageReference Include="Swashbuckle.AspNetCore" />
+	<PackageReference Include="Volo.Abp.AspNetCore.Serilog" />
+	<PackageReference Include="Volo.Abp.Caching.StackExchangeRedis" />
+	<PackageReference Include="Volo.Abp.AspNetCore.MultiTenancy" />
+	<PackageReference Include="Volo.Abp.AspNetCore.Authentication.JwtBearer" />
+	<PackageReference Include="Volo.Abp.Autofac" />
+	<PackageReference Include="Volo.Abp.EntityFrameworkCore.MySQL" />
+	<PackageReference Include="Volo.Abp.Identity.EntityFrameworkCore" />
+	<PackageReference Include="Volo.Abp.FeatureManagement.EntityFrameworkCore" />
+	<PackageReference Include="Volo.Abp.PermissionManagement.EntityFrameworkCore" />
+  </ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\framework\auditing\ZQH.Abp.AuditLogging.Elasticsearch\ZQH.Abp.AuditLogging.Elasticsearch.csproj" />
+	  <ProjectReference Include="..\..\framework\authorization\ZQH.Abp.Authorization.OrganizationUnits\ZQH.Abp.Authorization.OrganizationUnits.csproj" />
+	  <ProjectReference Include="..\..\framework\common\ZQH.Abp.AspNetCore.HttpOverrides\ZQH.Abp.AspNetCore.HttpOverrides.csproj" />
+	  <ProjectReference Include="..\..\framework\common\ZQH.Abp.Data.DbMigrator\ZQH.Abp.Data.DbMigrator.csproj" />
+	  <ProjectReference Include="..\..\framework\common\ZQH.Abp.ExceptionHandling.Emailing\ZQH.Abp.ExceptionHandling.Emailing.csproj" />
+	  <ProjectReference Include="..\..\framework\common\ZQH.Abp.Http.Client.Wrapper\ZQH.Abp.Http.Client.Wrapper.csproj" />
+	  <ProjectReference Include="..\..\framework\localization\ZQH.Abp.AspNetCore.Mvc.Localization\ZQH.Abp.AspNetCore.Mvc.Localization.csproj" />
+	  <ProjectReference Include="..\..\framework\localization\ZQH.Abp.Localization.CultureMap\ZQH.Abp.Localization.CultureMap.csproj" />
+	  <ProjectReference Include="..\..\framework\logging\ZQH.Abp.Serilog.Enrichers.Application\ZQH.Abp.Serilog.Enrichers.Application.csproj" />
+	  <ProjectReference Include="..\..\framework\logging\ZQH.Abp.Serilog.Enrichers.UniqueId\ZQH.Abp.Serilog.Enrichers.UniqueId.csproj" />
+	  <ProjectReference Include="..\..\framework\mvc\ZQH.Abp.AspNetCore.Mvc.Wrapper\ZQH.Abp.AspNetCore.Mvc.Wrapper.csproj" />
+	  <ProjectReference Include="..\..\modules\identity\ZQH.Abp.Identity.EntityFrameworkCore\ZQH.Abp.Identity.EntityFrameworkCore.csproj" />
+	  <ProjectReference Include="..\..\modules\localization-management\ZQH.Abp.LocalizationManagement.EntityFrameworkCore\ZQH.Abp.LocalizationManagement.EntityFrameworkCore.csproj" />
+	  <ProjectReference Include="..\..\modules\product\ProductManagement.Application\ProductManagement.Application.csproj" />
+	  <ProjectReference Include="..\..\modules\product\ProductManagement.EntityFrameworkCore\ProductManagement.EntityFrameworkCore.csproj" />
+	  <ProjectReference Include="..\..\modules\product\ProductManagement.HttpApi\ProductManagement.HttpApi.csproj" />
+	  <ProjectReference Include="..\..\modules\saas\ZQH.Abp.Saas.EntityFrameworkCore\ZQH.Abp.Saas.EntityFrameworkCore.csproj" />
+	</ItemGroup>
+
+
+
+
+	<!--<ItemGroup>
+		<PackageReference Include="AgileConfig.Client" Version="$(AgileConfigClientPackageVersion)" />
+		<PackageReference Include="DotNetCore.CAP.Dashboard" Version="$(DotNetCoreCAPPackageVersion)" />
+		<PackageReference Include="DotNetCore.CAP.MySql" Version="$(DotNetCoreCAPPackageVersion)" />
+		<PackageReference Include="DotNetCore.CAP.RabbitMQ" Version="$(DotNetCoreCAPPackageVersion)" />
+		<PackageReference Include="DistributedLock.Redis" Version="$(DistributedLockRedisPackageVersion)" />
+		<PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="$(MicrosoftPackageVersion)" />
+		<PackageReference Include="Microsoft.AspNetCore.SignalR.StackExchangeRedis" Version="$(MicrosoftPackageVersion)" />
+		<PackageReference Include="Quartz.Serialization.Json" Version="$(QuartzNETPackageVersion)" />
+		<PackageReference Include="Serilog.AspNetCore" Version="$(SerilogAspNetCorePackageVersion)" />
+		<PackageReference Include="Serilog.Enrichers.Environment" Version="$(SerilogEnrichersEnvironmentPackageVersion)" />
+		<PackageReference Include="Serilog.Enrichers.Assembly" Version="$(SerilogEnrichersAssemblyPackageVersion)" />
+		<PackageReference Include="Serilog.Enrichers.Process" Version="$(SerilogEnrichersProcessPackageVersion)" />
+		<PackageReference Include="Serilog.Enrichers.Thread" Version="$(SerilogEnrichersThreadPackageVersion)" />
+		<PackageReference Include="Serilog.Settings.Configuration" Version="$(SerilogSettingsConfigurationPackageVersion)" />
+		<PackageReference Include="Serilog.Sinks.Elasticsearch" Version="$(SerilogSinksElasticsearchPackageVersion)" />
+		<PackageReference Include="Serilog.Sinks.File" Version="$(SerilogSinksFilePackageVersion)" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="$(SwashbuckleAspNetCorePackageVersion)" />
+		<PackageReference Include="Volo.Abp.AspNetCore.Serilog" Version="$(VoloAbpPackageVersion)" />
+		<PackageReference Include="Volo.Abp.Caching.StackExchangeRedis" Version="$(VoloAbpPackageVersion)" />
+		<PackageReference Include="Volo.Abp.AspNetCore.MultiTenancy" Version="$(VoloAbpPackageVersion)" />
+		<PackageReference Include="Volo.Abp.AspNetCore.Authentication.JwtBearer" Version="$(VoloAbpPackageVersion)" />
+		<PackageReference Include="Volo.Abp.Autofac" Version="$(VoloAbpPackageVersion)" />
+		<PackageReference Include="Volo.Abp.EntityFrameworkCore.MySQL" Version="$(VoloAbpPackageVersion)" />
+		<PackageReference Include="Volo.Abp.Identity.EntityFrameworkCore" Version="$(VoloAbpPackageVersion)" />
+		<PackageReference Include="Volo.Abp.FeatureManagement.EntityFrameworkCore" Version="$(VoloAbpPackageVersion)" />
+		<PackageReference Include="Volo.Abp.SettingManagement.EntityFrameworkCore" Version="$(VoloAbpPackageVersion)" />
+		<PackageReference Include="Volo.Abp.PermissionManagement.EntityFrameworkCore" Version="$(VoloAbpPackageVersion)" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\migrations\ZQH.Microservices.Product.EntityFrameworkCore\ZQH.Microservices.Product.EntityFrameworkCore.csproj" />
+		<ProjectReference Include="..\..\modules\auditing\ZQH.Abp.AuditLogging.Elasticsearch\ZQH.Abp.AuditLogging.Elasticsearch.csproj" />
+		<ProjectReference Include="..\..\modules\authorization\ZQH.Abp.Authorization.OrganizationUnits\ZQH.Abp.Authorization.OrganizationUnits.csproj" />
+		<ProjectReference Include="..\..\modules\common\ZQH.Abp.AspNetCore.HttpOverrides\ZQH.Abp.AspNetCore.HttpOverrides.csproj" />
+		<ProjectReference Include="..\..\modules\common\ZQH.Abp.Data.DbMigrator\ZQH.Abp.Data.DbMigrator.csproj" />
+		<ProjectReference Include="..\..\modules\common\ZQH.Abp.ExceptionHandling.Notifications\ZQH.Abp.ExceptionHandling.Notifications.csproj" />
+		<ProjectReference Include="..\..\modules\common\ZQH.Abp.EventBus.CAP\ZQH.Abp.EventBus.CAP.csproj" />
+		<ProjectReference Include="..\..\modules\common\ZQH.Abp.Http.Client.Wrapper\ZQH.Abp.Http.Client.Wrapper.csproj" />
+		<ProjectReference Include="..\..\modules\identity\ZQH.Abp.Identity.EntityFrameworkCore\ZQH.Abp.Identity.EntityFrameworkCore.csproj" />
+		<ProjectReference Include="..\..\modules\localization\ZQH.Abp.AspNetCore.Mvc.Localization\ZQH.Abp.AspNetCore.Mvc.Localization.csproj" />
+		<ProjectReference Include="..\..\modules\mvc\ZQH.Abp.AspNetCore.Mvc.Wrapper\ZQH.Abp.AspNetCore.Mvc.Wrapper.csproj" />
+		<ProjectReference Include="..\..\modules\product\ProductManagement.Application\ProductManagement.Application.csproj" />
+		<ProjectReference Include="..\..\modules\product\ProductManagement.EntityFrameworkCore\ProductManagement.EntityFrameworkCore.csproj" />
+		<ProjectReference Include="..\..\modules\product\ProductManagement.HttpApi\ProductManagement.HttpApi.csproj" />
+		<ProjectReference Include="..\..\modules\task-management\ZQH.Abp.BackgroundTasks.Quartz\ZQH.Abp.BackgroundTasks.Quartz.csproj" />
+		<ProjectReference Include="..\..\modules\task-management\ZQH.Abp.BackgroundTasks.DistributedLocking\ZQH.Abp.BackgroundTasks.DistributedLocking.csproj" />
+		<ProjectReference Include="..\..\modules\task-management\ZQH.Abp.BackgroundTasks.ExceptionHandling\ZQH.Abp.BackgroundTasks.ExceptionHandling.csproj" />
+		<ProjectReference Include="..\..\modules\localization\ZQH.Abp.Localization.CultureMap\ZQH.Abp.Localization.CultureMap.csproj" />
+		<ProjectReference Include="..\..\modules\logging\ZQH.Abp.Serilog.Enrichers.Application\ZQH.Abp.Serilog.Enrichers.Application.csproj" />
+		<ProjectReference Include="..\..\modules\logging\ZQH.Abp.Serilog.Enrichers.UniqueId\ZQH.Abp.Serilog.Enrichers.UniqueId.csproj" />
+		<ProjectReference Include="..\..\modules\lt\ZQH.Abp.LocalizationManagement.EntityFrameworkCore\ZQH.Abp.LocalizationManagement.EntityFrameworkCore.csproj" />
+		<ProjectReference Include="..\..\modules\saas\ZQH.Abp.Saas.EntityFrameworkCore\ZQH.Abp.Saas.EntityFrameworkCore.csproj" />
+		<ProjectReference Include="..\..\modules\tenants\ZQH.Abp.MultiTenancy\ZQH.Abp.MultiTenancy.csproj" />
+		<ProjectReference Include="..\..\modules\wechat\ZQH.Abp.Identity.WeChat\ZQH.Abp.Identity.WeChat.csproj" />
+	</ItemGroup>-->
+
+</Project>
