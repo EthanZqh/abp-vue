@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "985lctVQn9ptT8PMBZ5aQ0mwf2+gVK+sjZumqzs1ZzI=",
+  "Source": "ZQH.MicroService.AuthServer.HttpApi.Host",
+  "BasePath": "_content/ZQH.MicroService.AuthServer.HttpApi.Host",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
