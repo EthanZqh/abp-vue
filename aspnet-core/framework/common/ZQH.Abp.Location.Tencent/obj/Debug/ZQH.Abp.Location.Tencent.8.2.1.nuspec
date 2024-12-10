@@ -8,7 +8,7 @@
     <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
     <projectUrl>https://github.com/colinin/abp-next-admin</projectUrl>
     <description>腾讯位置服务</description>
-    <repository type="git" url="https://github.com/colinin/abp-next-admin" commit="32a19464904e09915874478849ff8358f71ac937" />
+    <repository type="git" url="https://github.com/colinin/abp-next-admin" commit="bcccc5ab13a84e2c0c23a49c7193fc69eb75e477" />
     <dependencies>
       <group targetFramework="net8.0">
         <dependency id="ZQH.Abp.Location" version="8.2.1" exclude="Build,Analyzers" />

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("colin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("8.2.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.2.1+32a19464904e09915874478849ff8358f71ac937")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.2.1+bcccc5ab13a84e2c0c23a49c7193fc69eb75e477")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProductManagement.HttpApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProductManagement.HttpApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("8.2.1.0")]
