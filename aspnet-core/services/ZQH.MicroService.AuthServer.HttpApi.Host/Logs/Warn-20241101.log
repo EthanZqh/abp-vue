@@ -1,5 +1,0 @@
-2024-11-01 15:33:55 [WRN] [Microsoft.AspNetCore.Server.Kestrel] [13556] [23] - As of ""2024-11-01T07:33:55.1469571+00:00"", the heartbeat has been running for ""00:00:03.9647030"" which is longer than ""00:00:01"". This could be caused by thread pool starvation.
-2024-11-01 16:54:14 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [70] - RabbitMQ consumer cancelled. --> amq.ctag-VokG_kehCQQ7i1CyxmFzvQ
-2024-11-01 16:54:24 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [70] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
-2024-11-01 21:50:51 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [24] - RabbitMQ consumer cancelled. --> amq.ctag-VokG_kehCQQ7i1CyxmFzvQ
-2024-11-01 21:50:52 [WRN] [DotNetCore.CAP.Internal.ConsumerRegister] [13556] [24] - RabbitMQ consumer shutdown. --> Unexpected Exception: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
