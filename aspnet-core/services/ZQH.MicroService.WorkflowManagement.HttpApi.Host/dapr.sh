@@ -1,1 +1,0 @@
-﻿dapr run --app-id workflow --app-port 30035 -H 36550 -- dotnet run --no-build

@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\ZQH.MicroService.Product.HttpApi.Host.props" />
-</Project>
