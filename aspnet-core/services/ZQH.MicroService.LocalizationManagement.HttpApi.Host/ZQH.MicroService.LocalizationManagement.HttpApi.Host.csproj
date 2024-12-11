@@ -70,4 +70,8 @@
 		<ProjectReference Include="..\..\modules\saas\ZQH.Abp.Saas.EntityFrameworkCore\ZQH.Abp.Saas.EntityFrameworkCore.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="Logs\" />
+	</ItemGroup>
+
 </Project>
