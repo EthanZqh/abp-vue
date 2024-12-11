@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("colin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("8.2.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.2.1+bcccc5ab13a84e2c0c23a49c7193fc69eb75e477")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.2.1+a46dd5746b1e2243f29d029a0d4570b61155d613")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZQH.MicroService.BackendAdmin.EntityFrameworkCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZQH.MicroService.BackendAdmin.EntityFrameworkCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("8.2.1.0")]
