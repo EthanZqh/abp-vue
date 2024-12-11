@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZQH.MicroService.Product.HttpApi.Host")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bcccc5ab13a84e2c0c23a49c7193fc69eb75e477")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea53dcdf31a0ab64deaa50ef07506c33a264c4ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZQH.MicroService.Product.HttpApi.Host")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZQH.MicroService.Product.HttpApi.Host")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

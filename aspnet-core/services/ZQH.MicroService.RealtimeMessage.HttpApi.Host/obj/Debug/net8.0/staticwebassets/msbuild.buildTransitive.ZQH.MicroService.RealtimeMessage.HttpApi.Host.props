@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\ZQH.MicroService.RealtimeMessage.HttpApi.Host.props" />
-</Project>
