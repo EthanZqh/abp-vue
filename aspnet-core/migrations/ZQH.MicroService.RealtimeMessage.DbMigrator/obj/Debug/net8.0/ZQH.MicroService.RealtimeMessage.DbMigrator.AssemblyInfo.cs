@@ -11,11 +11,10 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("d20383d5-03fe-43f9-9439-6866559f763a")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZQH.MicroService.RealtimeMessage.DbMigrator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bcccc5ab13a84e2c0c23a49c7193fc69eb75e477")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e9c3b862213da18b8f3d10d2fe7eed402cded20")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZQH.MicroService.RealtimeMessage.DbMigrator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZQH.MicroService.RealtimeMessage.DbMigrator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
