@@ -18,6 +18,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<ProjectReference Include="..\..\platform\ZQH.Platform.EntityFrameworkCore\ZQH.Platform.EntityFrameworkCore.csproj" />
+		<ProjectReference Include="..\..\saas\ZQH.Abp.Saas.EntityFrameworkCore\ZQH.Abp.Saas.EntityFrameworkCore.csproj" />
 		<ProjectReference Include="..\ZQH.Abp.Identity.Application.Contracts\ZQH.Abp.Identity.Application.Contracts.csproj" />
 		<ProjectReference Include="..\ZQH.Abp.Identity.Domain\ZQH.Abp.Identity.Domain.csproj" />
 	</ItemGroup>

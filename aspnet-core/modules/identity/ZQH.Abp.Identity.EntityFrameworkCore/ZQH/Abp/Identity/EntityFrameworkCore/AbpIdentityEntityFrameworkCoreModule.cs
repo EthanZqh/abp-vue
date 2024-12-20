@@ -2,11 +2,18 @@
 using Volo.Abp.Identity;
 using Volo.Abp.Identity.EntityFrameworkCore;
 using Volo.Abp.Modularity;
+using ZQH.Abp.Employees;
+using ZQH.Abp.Identity.EntityFrameworkCore.Employees;
+using ZQH.Platform.DataItems;
+using ZQH.Platform.Datas;
+using ZQH.Platform.EntityFrameworkCore;
 
 namespace ZQH.Abp.Identity.EntityFrameworkCore;
 
 [DependsOn(typeof(ZQH.Abp.Identity.AbpIdentityDomainModule))]
 [DependsOn(typeof(Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule))]
+//新增
+[DependsOn(typeof(ZQH.Platform.EntityFrameworkCore.PlatformEntityFrameworkCoreModule))]
 public class AbpIdentityEntityFrameworkCoreModule : AbpModule
 {
     // private static readonly OneTimeRunner OneTimeRunner = new OneTimeRunner();
@@ -19,6 +26,12 @@ public class AbpIdentityEntityFrameworkCoreModule : AbpModule
             options.AddRepository<IdentityUser, EfCoreIdentityUserRepository>();
             options.AddRepository<IdentitySession, EfCoreIdentitySessionRepository>();
             options.AddRepository<OrganizationUnit, EfCoreOrganizationUnitRepository>();
+        });
+        //新增
+        context.Services.AddAbpDbContext<EmployeeDbContext>(options =>
+        {
+
+            options.AddRepository<Employee, EfCoreEmployeeRepository>();
         });
     }
 

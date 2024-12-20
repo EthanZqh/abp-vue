@@ -98,6 +98,23 @@
     "CurrentSession": "当前会话",
     "RevokeSession": "撤销会话",
     "SessionWillBeRevokedMessage": "选择的会话将被撤销,此操作使目标登录失效!",
-    "SuccessfullyRevoked": "撤销会话成功"
+    "SuccessfullyRevoked": "撤销会话成功",
+
+
+    "IdentityEmployee:Employee": "员工",
+    "IdentityEmployee:NewEmployee": "新员工",
+    "IdentityEmployee:DisplayName:AvatarUrl": "头像",
+    "IdentityEmployee:DisplayName:EmployeeNames": "姓名",
+    "IdentityEmployee:DisplayName:Sex": "性别",
+    "IdentityEmployee:DisplayName:Birthday": "出生日期",
+    "IdentityEmployee:DisplayName:Nation": "名族",
+    "IdentityEmployee:DisplayName:NativePlace": "籍贯",
+    "IdentityEmployee:DisplayName:PhoneNumber": "电话号码",
+    "IdentityEmployee:DisplayName:Position": "职位",
+    "IdentityEmployee:DisplayName:OrganizationUnitName": "所属部门",
+    "IdentityEmployee:DisplayName:Address": "地址",
+    "IdentityEmployee:SetEmployeeAvatarUrl": "设置头像",
+    "IdentityEmployee:Informations": "基本信息",
+    "IdentityEmployee:AssignedUser": "分配用户"
   }
 }

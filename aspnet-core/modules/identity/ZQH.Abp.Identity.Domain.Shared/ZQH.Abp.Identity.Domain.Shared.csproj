@@ -20,6 +20,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="ZQH\Abp\Identity\Localization\en.json" />
+	  <None Remove="ZQH\Abp\Identity\Localization\zh-Hans.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="ZQH\Abp\Identity\Localization\en.json" />
+	  <EmbeddedResource Include="ZQH\Abp\Identity\Localization\zh-Hans.json" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Volo.Abp.Identity.Domain.Shared" />
 	</ItemGroup>
 

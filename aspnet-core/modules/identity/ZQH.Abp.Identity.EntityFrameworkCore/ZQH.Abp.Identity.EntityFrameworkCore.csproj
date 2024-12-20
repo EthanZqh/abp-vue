@@ -18,6 +18,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<ProjectReference Include="..\..\platform\ZQH.Platform.EntityFrameworkCore\ZQH.Platform.EntityFrameworkCore.csproj" />
 		<ProjectReference Include="..\ZQH.Abp.Identity.Domain\ZQH.Abp.Identity.Domain.csproj" />
 	</ItemGroup>
 

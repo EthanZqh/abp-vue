@@ -19,7 +19,7 @@ public class AbpIdentityDomainSharedModule : AbpModule
         {
             options.Resources
                 .Get<IdentityResource>()
-                .AddVirtualJson("/ZQH.Abp/Identity/Localization");
+                .AddVirtualJson("/ZQH/Abp/Identity/Localization");
         });
     }
 }
