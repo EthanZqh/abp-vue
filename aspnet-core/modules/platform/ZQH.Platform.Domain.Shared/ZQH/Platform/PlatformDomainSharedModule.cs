@@ -25,7 +25,7 @@ public class PlatformDomainSharedModule : AbpModule
             options.Resources
                 .Add<PlatformResource>("en")
                 .AddBaseTypes(typeof(AbpValidationResource))
-                .AddVirtualJson("/ZQH.Platform/Localization/Resources");
+                .AddVirtualJson("/ZQH/Platform/Localization/Resources");
         });
 
         Configure<AbpExceptionLocalizationOptions>(options =>

@@ -19,7 +19,7 @@ public class PlatformApplicationContractModule : AbpModule
         {
             options.Resources
                 .Get<PlatformResource>()
-                .AddVirtualJson("/ZQH.Platform/Localization/ApplicationContracts");
+                .AddVirtualJson("/ZQH/Platform/Localization/ApplicationContracts");
         });
     }
 }

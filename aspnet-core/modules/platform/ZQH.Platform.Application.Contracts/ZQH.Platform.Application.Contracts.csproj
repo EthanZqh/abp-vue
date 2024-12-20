@@ -22,6 +22,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="ZQH\Platform\Localization\ApplicationContracts\en.json" />
+	  <None Remove="ZQH\Platform\Localization\ApplicationContracts\zh-Hans.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="ZQH\Platform\Localization\ApplicationContracts\en.json" />
+	  <EmbeddedResource Include="ZQH\Platform\Localization\ApplicationContracts\zh-Hans.json" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Volo.Abp.Ddd.Application" />
 	</ItemGroup>
 

@@ -1,6 +1,7 @@
 ﻿{
   "culture": "zh-Hans",
   "texts": {
+    "test": "testssss",
     "Permission:Platform": "平台服务",
     "Permission:AppVersion": "版本管理",
     "Permission:FileSystem": "文件系统",

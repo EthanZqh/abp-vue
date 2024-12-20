@@ -6,6 +6,7 @@ using ZQH.Platform.Portal;
 using Microsoft.Extensions.DependencyInjection;
 using Volo.Abp.EntityFrameworkCore;
 using Volo.Abp.Modularity;
+using ZQH.Platform.DataItems;
 
 namespace ZQH.Platform.EntityFrameworkCore;
 
@@ -26,6 +27,10 @@ public class PlatformEntityFrameworkCoreModule : AbpModule
             options.AddRepository<Layout, EfCoreLayoutRepository>();
             options.AddRepository<Package, EfCorePackageRepository>();
             options.AddRepository<Enterprise, EfCoreEnterpriseRepository>();
+
+
+            //新增
+            options.AddRepository<DataItem, EfCoreDataItemRepository>();
 
             options.AddDefaultRepositories(includeAllEntities: true);
         });
