@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("colin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("8.2.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.2.1+bcccc5ab13a84e2c0c23a49c7193fc69eb75e477")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.2.1+c7b36c0e7ae144fad601181afba54b8db62072bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProductManagement.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProductManagement.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("8.2.1.0")]
