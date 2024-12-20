@@ -22,7 +22,7 @@ public class AbpAccountTemplatesModule : AbpModule
         {
             options.Resources
                 .Get<AccountResource>()
-                .AddVirtualJson("/ZQH.Abp/Account/Templates/Localization/Resources");
+                .AddVirtualJson("/ZQH/Abp/Account/Templates/Localization/Resources");
         });
     }
 }

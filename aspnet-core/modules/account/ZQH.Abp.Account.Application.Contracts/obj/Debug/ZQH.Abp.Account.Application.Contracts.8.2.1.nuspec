@@ -8,7 +8,7 @@
     <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
     <projectUrl>https://github.com/colinin/abp-next-admin</projectUrl>
     <description>Package Description</description>
-    <repository type="git" url="https://github.com/colinin/abp-next-admin" commit="bcccc5ab13a84e2c0c23a49c7193fc69eb75e477" />
+    <repository type="git" url="https://github.com/colinin/abp-next-admin" commit="409bdf6b5119b92b2ff1ad199a5f7329ea7e8958" />
     <dependencies>
       <group targetFramework="net8.0">
         <dependency id="Volo.Abp.Account.Application.Contracts" version="8.2.1" exclude="Build,Analyzers" />

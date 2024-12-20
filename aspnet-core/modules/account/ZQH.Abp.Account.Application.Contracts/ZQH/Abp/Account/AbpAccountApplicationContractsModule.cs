@@ -20,7 +20,7 @@ public class AbpAccountApplicationContractsModule : AbpModule
         {
             options.Resources
                 .Get<AccountResource>()
-                .AddVirtualJson("/ZQH.Abp/Account/Localization/Resources");
+                .AddVirtualJson("/ZQH/Abp/Account/Localization/Resources");
         });
     }
 }

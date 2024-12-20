@@ -15,13 +15,13 @@ public class AccountTemplateDefinitionProvider : TemplateDefinitionProvider
                 displayName: L($"TextTemplate:{AccountEmailTemplates.MailSecurityVerifyLink}"),
                 layout: StandardEmailTemplates.Layout,
                 localizationResource: typeof(AccountResource)
-            ).WithVirtualFilePath("/ZQH.Abp/Account/Emailing/Templates/MailSecurityVerify.tpl", true),
+            ).WithVirtualFilePath("/ZQH/Abp/Account/Emailing/Templates/MailSecurityVerify.tpl", true),
             new TemplateDefinition(
                 AccountEmailTemplates.MailConfirmLink,
                 displayName: L($"TextTemplate:{AccountEmailTemplates.MailConfirmLink}"),
                 layout: StandardEmailTemplates.Layout,
                 localizationResource: typeof(AccountResource)
-            ).WithVirtualFilePath("/ZQH.Abp/Account/Emailing/Templates/MailConfirm.tpl", true)
+            ).WithVirtualFilePath("/ZQH/Abp/Account/Emailing/Templates/MailConfirm.tpl", true)
         );
     }
 
