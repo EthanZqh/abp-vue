@@ -23,7 +23,7 @@ public class AbpOpenIddictApplicationContractsModule : AbpModule
         {
             options.Resources
                 .Get<AbpOpenIddictResource>()
-                .AddVirtualJson("/ZQH.Abp/OpenIddict/Localization/Resources");
+                .AddVirtualJson("/ZQH/Abp/OpenIddict/Localization/Resources");
         });
     }
 }

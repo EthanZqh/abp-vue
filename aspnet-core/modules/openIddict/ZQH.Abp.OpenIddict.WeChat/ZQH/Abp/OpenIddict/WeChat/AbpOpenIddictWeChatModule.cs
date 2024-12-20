@@ -51,7 +51,7 @@ public class AbpOpenIddictWeChatModule : AbpModule
         {
             options.Resources
                 .Get<AbpOpenIddictResource>()
-                .AddVirtualJson("/ZQH.Abp/OpenIddict/WeChat/Localization/Resources");
+                .AddVirtualJson("/ZQH/Abp/OpenIddict/WeChat/Localization/Resources");
         });
     }
 }
