@@ -10,9 +10,9 @@ E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging\obj\Debug\net8.0\
 E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging\obj\Debug\net8.0\ZQH.Abp.AuditLogging.AssemblyInfo.cs
 E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging\obj\Debug\net8.0\ZQH.Abp.AuditLogging.csproj.CoreCompileInputs.cache
 E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging\obj\Debug\net8.0\ZQH.Abp.AuditLogging.sourcelink.json
-E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging\obj\Debug\net8.0\ZQH.Abp.AuditLogging.csproj.Fody.CopyLocal.cache
-E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging\obj\Debug\net8.0\ZQH.Abp.AuditLogging.csproj.Fody.RuntimeCopyLocal.cache
 E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging\obj\Debug\net8.0\ZQH.Abp.AuditLogging.dll
 E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging\obj\Debug\net8.0\refint\ZQH.Abp.AuditLogging.dll
 E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging\obj\Debug\net8.0\ZQH.Abp.AuditLogging.pdb
 E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging\obj\Debug\net8.0\ref\ZQH.Abp.AuditLogging.dll
+E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging\obj\Debug\net8.0\ZQH.Abp.AuditLogging.csproj.Fody.CopyLocal.cache
+E:\abp-vue\aspnet-core\framework\auditing\ZQH.Abp.AuditLogging\obj\Debug\net8.0\ZQH.Abp.AuditLogging.csproj.Fody.RuntimeCopyLocal.cache
