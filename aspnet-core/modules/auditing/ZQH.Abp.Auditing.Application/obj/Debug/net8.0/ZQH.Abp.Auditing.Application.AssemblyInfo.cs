@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyFileVersionAttribute("8.2.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.2.1+da11bd6c8525d974623596cc2588596a6a887c25")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.2.1+521ca709c0213989d1f24980390e77476cf85c61")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZQH.Abp.Auditing.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("8.2.1.0")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/colinin/abp-next-admin")]
