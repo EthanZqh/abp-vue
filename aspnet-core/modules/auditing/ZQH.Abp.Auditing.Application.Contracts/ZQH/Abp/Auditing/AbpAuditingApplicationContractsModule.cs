@@ -27,7 +27,7 @@ public class AbpAuditingApplicationContractsModule : AbpModule
         {
             options.Resources
                 .Get<AuditLoggingResource>()
-                .AddVirtualJson("/ZQH.Abp/Auditing/Localization/Resources");
+                .AddVirtualJson("/ZQH/Abp/Auditing/Localization/Resources");
         });
     }
 }
