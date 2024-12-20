@@ -22,7 +22,7 @@ public class AbpFeatureManagementApplicationContractsModule : AbpModule
         {
             options.Resources
                 .Get<AbpFeatureManagementResource>()
-                .AddVirtualJson("/ZQH.Abp/FeatureManagement/Localization/Application/Contracts");
+                .AddVirtualJson("/ZQH/Abp/FeatureManagement/Localization/Application/Contracts");
         });
 
         Configure<AbpExceptionLocalizationOptions>(options =>
