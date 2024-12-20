@@ -46,7 +46,7 @@ public class AbpBackgroundTasksJobsModule : AbpModule
         {
             options.Resources
                 .Get<BackgroundTasksResource>()
-                .AddVirtualJson("/ZQH.Abp/BackgroundTasks/Jobs/Localization/Resources");
+                .AddVirtualJson("/ZQH/Abp/BackgroundTasks/Jobs/Localization/Resources");
         });
 
         Configure<AbpDaprClientProxyOptions>(options =>

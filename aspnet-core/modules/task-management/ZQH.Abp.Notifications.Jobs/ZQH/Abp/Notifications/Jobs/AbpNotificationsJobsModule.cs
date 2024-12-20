@@ -21,7 +21,7 @@ public class AbpNotificationsJobsModule : AbpModule
         {
             options.Resources
                 .Get<NotificationsResource>()
-                .AddVirtualJson("/ZQH.Abp/Notifications/Jobs/Localization/Resources");
+                .AddVirtualJson("/ZQH/Abp/Notifications/Jobs/Localization/Resources");
         });
     }
 }
