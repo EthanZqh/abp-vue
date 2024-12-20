@@ -23,7 +23,7 @@ public class AbpCachingManagementApplicationContractsModule : AbpModule
         {
             options.Resources
                 .Add<CacheResource>()
-                .AddVirtualJson("/ZQH.Abp/CachingManagement/Localization/Resources");
+                .AddVirtualJson("/ZQH/Abp/CachingManagement/Localization/Resources");
         });
     }
 }
