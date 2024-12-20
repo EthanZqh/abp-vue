@@ -28,7 +28,7 @@ public class AbpIMSignalRModule : AbpModule
         {
             options.Resources
                 .Get<AbpIMResource>()
-                .AddVirtualJson("/ZQH.Abp/IM/SignalR/Localization/Resources");
+                .AddVirtualJson("/ZQH/Abp/IM/SignalR/Localization/Resources");
         });
     }
 }

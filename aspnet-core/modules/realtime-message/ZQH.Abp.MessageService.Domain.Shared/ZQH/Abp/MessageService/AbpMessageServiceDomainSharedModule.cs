@@ -20,7 +20,7 @@ public class AbpMessageServiceDomainSharedModule : AbpModule
         {
             options.Resources
                    .Add<MessageServiceResource>("en")
-                   .AddVirtualJson("/ZQH.Abp/MessageService/Localization/Resources");
+                   .AddVirtualJson("/ZQH/Abp/MessageService/Localization/Resources");
         });
 
         Configure<AbpExceptionLocalizationOptions>(options =>

@@ -26,7 +26,7 @@ public class AbpIMModule : AbpModule
         {
             options.Resources
                 .Add<AbpIMResource>()
-                .AddVirtualJson("/ZQH.Abp/IM/Localization/Resources");
+                .AddVirtualJson("/ZQH/Abp/IM/Localization/Resources");
         });
     }
 }

@@ -19,7 +19,7 @@ public class AbpMessageServiceApplicationContractsModule : AbpModule
         {
             options.Resources
                    .Get<MessageServiceResource>()
-                   .AddVirtualJson("/ZQH.Abp/MessageService/Localization/ApplicationContracts");
+                   .AddVirtualJson("/ZQH/Abp/MessageService/Localization/ApplicationContracts");
         });
     }
 }
