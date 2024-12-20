@@ -23,7 +23,7 @@ public class AbpLocalizationManagementDomainSharedModule : AbpModule
         {
             options.Resources
                 .Add<LocalizationManagementResource>("en")
-                .AddVirtualJson("/ZQH.Abp/LocalizationManagement/Localization/Resources");
+                .AddVirtualJson("/ZQH/Abp/LocalizationManagement/Localization/Resources");
         });
         Configure<AbpExceptionLocalizationOptions>(options =>
         {

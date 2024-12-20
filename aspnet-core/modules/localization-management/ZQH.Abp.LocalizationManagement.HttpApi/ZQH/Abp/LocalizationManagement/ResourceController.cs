@@ -22,6 +22,7 @@ public class ResourceController : AbpControllerBase, IResourceAppService
 
     [HttpGet]
     [Route("{name}")]
+    [Authorize(LocalizationManagementPermissions.Resource.Update)]
     public virtual Task<ResourceDto> GetByNameAsync(string name)
     {
         return _service.GetByNameAsync(name);
