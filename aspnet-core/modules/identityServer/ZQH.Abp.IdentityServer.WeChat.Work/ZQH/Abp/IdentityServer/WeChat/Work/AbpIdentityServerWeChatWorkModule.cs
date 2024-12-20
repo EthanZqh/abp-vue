@@ -34,7 +34,7 @@ public class AbpIdentityServerWeChatWorkModule : AbpModule
             options.Resources
                 .Get<WeChatWorkResource>()
                 .AddBaseTypes(typeof(IdentityResource))
-                .AddVirtualJson("/ZQH.Abp/IdentityServer/WeChat/Work/Localization/Resources");
+                .AddVirtualJson("/ZQH/Abp/IdentityServer/WeChat/Work/Localization/Resources");
         });
     }
 }

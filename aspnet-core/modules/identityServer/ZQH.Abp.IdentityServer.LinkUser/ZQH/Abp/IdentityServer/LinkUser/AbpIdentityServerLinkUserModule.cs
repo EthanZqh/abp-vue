@@ -31,7 +31,7 @@ public class AbpIdentityServerLinkUserModule : AbpModule
         {
             options.Resources
                 .Get<AbpIdentityServerResource>()
-                .AddVirtualJson("/ZQH.Abp/IdentityServer/LinkUser/Localization");
+                .AddVirtualJson("/ZQH/Abp/IdentityServer/LinkUser/Localization");
         });
     }
 }

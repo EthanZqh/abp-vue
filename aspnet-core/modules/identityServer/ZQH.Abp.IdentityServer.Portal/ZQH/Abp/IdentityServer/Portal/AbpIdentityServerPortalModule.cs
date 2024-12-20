@@ -36,7 +36,7 @@ public class AbpIdentityServerPortalModule : AbpModule
         {
             options.Resources
                 .Get<AbpIdentityServerResource>()
-                .AddVirtualJson("/ZQH.Abp/IdentityServer/Portal/Localization");
+                .AddVirtualJson("/ZQH/Abp/IdentityServer/Portal/Localization");
         });
     }
 }

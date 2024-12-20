@@ -30,7 +30,7 @@ public class AbpIdentityServerSmsValidatorModule : AbpModule
         {
             options.Resources
                 .Get<AbpIdentityServerResource>()
-                .AddVirtualJson("/ZQH.Abp/IdentityServer/Localization/SmsValidator");
+                .AddVirtualJson("/ZQH/Abp/IdentityServer/Localization/SmsValidator");
         });
     }
 }
