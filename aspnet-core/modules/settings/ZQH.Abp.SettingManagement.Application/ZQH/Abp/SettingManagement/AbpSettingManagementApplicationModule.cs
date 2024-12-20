@@ -29,7 +29,7 @@ public class AbpSettingManagementApplicationModule : AbpModule
         Configure<AbpLocalizationOptions>(options =>
         {
             options.Resources.Get<AbpSettingManagementResource>()
-                .AddVirtualJson("/ZQH.Abp/SettingManagement/Localization/Resources");
+                .AddVirtualJson("/ZQH/Abp/SettingManagement/Localization/Resources");
         });
     }
 }
