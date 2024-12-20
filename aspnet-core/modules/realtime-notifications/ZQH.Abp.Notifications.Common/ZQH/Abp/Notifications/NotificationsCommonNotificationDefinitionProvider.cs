@@ -28,7 +28,7 @@ public class NotificationsCommonNotificationDefinitionProvider : NotificationDef
             .WithTemplate(typeof(NotificationsResource), layout: "EmailNotifierLayout")
             .WithTemplate(template =>
             {
-                template.WithVirtualFilePath("/ZQH.Abp/Notifications/Templates/ExceptionNotifier", isInlineLocalized: false);
+                template.WithVirtualFilePath("/ZQH/Abp/Notifications/Templates/ExceptionNotifier", isInlineLocalized: false);
             });
 
         var tenantsGroup = context.AddGroup(
@@ -51,7 +51,7 @@ public class NotificationsCommonNotificationDefinitionProvider : NotificationDef
             .WithTemplate(typeof(NotificationsResource))
             .WithTemplate(template =>
             {
-                template.WithVirtualFilePath("/ZQH.Abp/Notifications/Templates/NewTenantRegisterd", isInlineLocalized: false);
+                template.WithVirtualFilePath("/ZQH/Abp/Notifications/Templates/NewTenantRegisterd", isInlineLocalized: false);
             });
 
         var usersGroup = context.AddGroup(
@@ -72,7 +72,7 @@ public class NotificationsCommonNotificationDefinitionProvider : NotificationDef
             .WithTemplate(typeof(NotificationsResource))
             .WithTemplate(template =>
             {
-                template.WithVirtualFilePath("/ZQH.Abp/Notifications/Templates/WelcomeToApplication", isInlineLocalized: false);
+                template.WithVirtualFilePath("/ZQH/Abp/Notifications/Templates/WelcomeToApplication", isInlineLocalized: false);
             });
     }
 

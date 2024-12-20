@@ -22,7 +22,7 @@ public class AbpNotificationsDomainSharedModule : AbpModule
         {
             options.Resources
                 .Get<NotificationsResource>()
-                .AddVirtualJson("/ZQH.Abp/Notifications/Localization/DomainShared");
+                .AddVirtualJson("/ZQH/Abp/Notifications/Localization/DomainShared");
         });
     }
 }

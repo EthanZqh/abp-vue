@@ -20,7 +20,7 @@ public class NotificationsCommonTemplateProvider : TemplateDefinitionProvider
                 displayName: L("EmailNotifierLayout"),
                 defaultCultureName: "en",
                 isLayout: true)
-                .WithVirtualFilePath( "/ZQH.Abp/Notifications/Templates/layout.tpl", isInlineLocalized: true)
+                .WithVirtualFilePath( "/ZQH/Abp/Notifications/Templates/layout.tpl", isInlineLocalized: true)
         };
     }
 

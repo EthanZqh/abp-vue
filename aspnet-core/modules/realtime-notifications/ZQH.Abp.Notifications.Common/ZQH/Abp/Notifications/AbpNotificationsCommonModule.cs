@@ -20,7 +20,7 @@ public class AbpNotificationsCommonModule : AbpModule
         {
             options.Resources
                 .Get<NotificationsResource>()
-                .AddVirtualJson("/ZQH.Abp/Notifications/Localization/Common");
+                .AddVirtualJson("/ZQH/Abp/Notifications/Localization/Common");
         });
     }
 }
