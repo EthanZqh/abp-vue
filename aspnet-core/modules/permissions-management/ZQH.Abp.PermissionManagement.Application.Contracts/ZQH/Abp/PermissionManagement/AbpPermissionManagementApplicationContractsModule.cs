@@ -22,7 +22,7 @@ public class AbpPermissionManagementApplicationContractsModule : AbpModule
         {
             options.Resources
                 .Get<AbpPermissionManagementResource>()
-                .AddVirtualJson("/ZQH.Abp/PermissionManagement/Localization/Application/Contracts");
+                .AddVirtualJson("/ZQH/Abp/PermissionManagement/Localization/Application/Contracts");
         });
 
         Configure<AbpExceptionLocalizationOptions>(options =>
