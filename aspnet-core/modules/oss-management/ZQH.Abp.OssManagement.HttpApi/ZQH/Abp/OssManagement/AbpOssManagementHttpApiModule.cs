@@ -31,16 +31,16 @@ public class AbpOssManagementHttpApiModule : AbpModule
         });
     }
 
-    //public override void ConfigureServices(ServiceConfigurationContext context)
-    //{
-    //    Configure<AbpLocalizationOptions>(options =>
-    //    {
-    //        options.Resources
-    //            .Get<AbpOssManagementResource>()
-    //            .AddBaseTypes(
-    //                typeof(AbpAuthorizationResource),
-    //                typeof(AbpValidationResource)
-    //            );
-    //    });
-    //}
+    public override void ConfigureServices(ServiceConfigurationContext context)
+    {
+        Configure<AbpLocalizationOptions>(options =>
+        {
+            options.Resources
+                .Get<AbpOssManagementResource>();
+                //.AddBaseTypes(
+                //    typeof(AbpAuthorizationResource),
+                //    typeof(AbpValidationResource)
+                //);
+        });
+    }
 }

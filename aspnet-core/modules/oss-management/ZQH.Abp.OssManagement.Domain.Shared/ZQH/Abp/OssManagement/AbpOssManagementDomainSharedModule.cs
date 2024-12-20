@@ -24,7 +24,7 @@ public class AbpOssManagementDomainSharedModule : AbpModule
         {
             options.Resources
                 .Add<AbpOssManagementResource>("en")
-                .AddVirtualJson("/ZQH.Abp/OssManagement/Localization/Resources");
+                .AddVirtualJson("/ZQH/Abp/OssManagement/Localization/Resources");
         });
 
         Configure<AbpExceptionLocalizationOptions>(options =>
